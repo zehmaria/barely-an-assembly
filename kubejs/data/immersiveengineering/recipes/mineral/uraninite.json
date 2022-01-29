@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":0.1,"output":{"tag":"create:crushed_ores/uranium"}},{"chance":0.9,"output":{"tag":"create:crushed_ores/lead"}}],"dimensions":["minecraft:overworld"],"weight":10,"fail_chance":0.15}

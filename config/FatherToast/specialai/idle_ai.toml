@@ -1,0 +1,357 @@
+# specialai:idle_ai.toml
+# This config contains options for idle behaviors - actions taken by mobs when they are bored.
+
+	# Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+	#   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+	#   Entity types are defined by their key in the entity registry, usually following the pattern 'namespace:entity_name'.
+	#   'default' can be used instead of an entity type registry key to provide default values for all entities.
+	#   An asterisk '*' can be used to match multiple entity types. For example, 'minecraft:*' will match all vanilla entities.
+	#   List entries by default match any entity type derived from (i.e. based on) their entity type. For example, '~minecraft:zombie'.
+	#     There is no steadfast rule about extending, even in vanilla, but the hope is that mod-added mobs will extend their base mob.
+
+	# Block List fields: General format = [ "namespace:block_name[property1=value1,...]", ... ]
+	#   Block lists are arrays of blocks and partial block states.
+	#   Blocks are defined by their key in the block registry, usually following the pattern 'namespace:block_name'.
+	#   An asterisk '*' can be used to match multiple blocks. For example, 'minecraft:*' will match all vanilla blocks.
+	#   List entries by default match any block state. The block states to match can be narrowed down by specifying properties.
+	#     The syntax for block state properties is the same as for commands. Any properties not specified will match any value.
+	#     For example, 'minecraft:beehive[honey_level=5]' will match any full beehives, regardless of the direction they face.
+
+
+# Category: idle_general
+# Options that affect all idle behaviors for monsters (griefing and fiddling).
+
+	# Mobs' reach (from eye height) when targeting blocks. Player reach is about 4.5.
+	# <Number> Range: ≥ 0.0, Default: 3.5
+	idle_general.reach = 3.0
+
+	# The range at which mobs will search for blocks to target horizontally (xz-plane) and vertically (y-axis).
+	# <Integer> Range: ≥ 1, Default: 12
+	idle_general.scan_range.horizontal = 16
+	# <Integer> Range: ≥ 1, Default: 6
+	idle_general.scan_range.vertical = 8
+
+	# The number of ticks between each block scan.
+	# <Integer> Range: ≥ 1, Default: 2
+	idle_general.scan_delay = 2
+	# The number of blocks each mob randomly searches to grief/fiddle with every "scan_delay" ticks.
+	# <Integer> Range: ≥ 1, Default: 32
+	idle_general.scan_count = 32
+	# The maximum number of blocks that can be searched in any given tick by all mobs. 0 is no limit.
+	# <Integer> Range: ≥ 0, Default: 3000
+	idle_general.global_scan_count = 3000
+
+
+# Category: idle_griefing
+# Options to customize monsters' idle block breaking behavior.
+
+	# List of mobs that can gain passive griefing AI (note that the entity must have task-based AI enabled).
+	# Additional value after the entity type is the chance (0.0 to 1.0) for entities of that type to spawn with the AI.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 1.0", "minecraft:creeper 1.0" ]
+	#    Range for Values: 0.0 ~ 1.0
+	idle_griefing.entities.whitelist = [
+		"minecraft:zombie 1.0",
+		"minecraft:creeper 1.0"
+	]
+	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: []
+	idle_griefing.entities.blacklist = []
+
+	# If true, mobs will only grief blocks they have the tools to harvest.
+	# For example, they will only break furnaces if they have a pickaxe.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_griefing.requires_tools = false
+
+	# If true, blocks griefed by mobs will leave item drops.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_griefing.leaves_drops = true
+	# If true, a loud snapping sound (the vanilla door break sound) will be played when a block
+	# is broken, which is audible regardless of distance.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	idle_griefing.break_sound = true
+
+	# The block breaking speed multiplier for mobs griefing blocks, relative to the player's block breaking speed.
+	# <Number> Range: ≥ 0.0, Default: 0.5
+	idle_griefing.break_speed = 4.0
+	# If true, creepers will be upset about not having arms to grief blocks with and resort to what they know best.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_griefing.mad_creepers = true
+
+	# If true, idle griefing AI will automatically target all light sources (light value > 1).
+	# This will do its best to avoid natural sources such as fire and redstone ore.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_griefing.targets.auto_target_lights = true
+	# If true, idle griefing AI will automatically target all blocks that derive from the vanilla beds.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_griefing.targets.auto_target_beds = true
+	# List of blocks that can be broken by the idle griefing AI.
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:farmland, minecraft:beehive, minecraft:crafting_table, minecraft:furnace, minecraft:ladder, minecraft:enchanting_table, minecraft:brewing_stand, minecraft:anvil, minecraft:chipped_anvil, minecraft:damaged_anvil, minecraft:scaffolding, minecraft:loom, minecraft:smoker, minecraft:blast_furnace, minecraft:cartography_table, minecraft:fletching_table, minecraft:grindstone, minecraft:smithing_table, minecraft:stonecutter, immersiveengineering:metal_ladder_none, immersiveengineering:metal_ladder_alu, immersiveengineering:metal_ladder_steel, createaddition:furnace_burner, createaddition:crude_burner ]
+	idle_griefing.targets.whitelist = [
+		"minecraft:farmland",
+		"minecraft:beehive",
+		"minecraft:crafting_table",
+		"minecraft:furnace",
+		"minecraft:ladder",
+		"minecraft:enchanting_table",
+		"minecraft:brewing_stand",
+		"minecraft:anvil",
+		"minecraft:chipped_anvil",
+		"minecraft:damaged_anvil",
+		"minecraft:scaffolding",
+		"minecraft:loom",
+		"minecraft:smoker",
+		"minecraft:blast_furnace",
+		"minecraft:cartography_table",
+		"minecraft:fletching_table",
+		"minecraft:grindstone",
+		"minecraft:smithing_table",
+		"minecraft:stonecutter",
+		"immersiveengineering:metal_ladder_none",
+		"immersiveengineering:metal_ladder_alu",
+		"immersiveengineering:metal_ladder_steel",
+		"minecraft:cauldron",
+		"minecraft:campfire",
+		"myrtrees:wooden_bucket",
+		"compressedcreativity:rotational_compressor",
+		"pneumaticcraft:charging_station",
+		"pneumaticcraft:kerosene_lamp",
+		"extendedcrafting:compressor",
+		"extendedcrafting:basic_auto_table",
+		"factoriores:mechanical_miner",
+		"factoriores:electrical_miner",
+		"factoriores:burner_miner",
+		"diregoo:goodetector",
+		"diregoo:antigoofieldgen",
+		"diregoo:zapperturretblock",
+		"diregoo:turretblock",
+		"diregoo:gntblockt4",
+		"diregoo:gntblockt3",
+		"diregoo:gntblockt2",
+		"diregoo:gntblockt1",
+		"mekanism:elite_chemical_tank",
+		"mekanism:ultimate_chemical_tank",
+		"mekanismgenerators:solar_generator",
+		"mekanismgenerators:advanced_solar_generator",
+		"mekanismgenerators:fusion_reactor_frame",
+		"mekanismgenerators:fission_reactor_casing",
+		"mekanismgenerators:turbine_casing",
+		"mekanismgenerators:reactor_glass",
+		"mekanismgenerators:laser_focus_matrix",
+		"mekanismgenerators:fusion_reactor_port",
+		"mekanismgenerators:fission_reactor_port",
+		"mekanismgenerators:turbine_valve",
+		"mekanism:rotary_condensentrator",
+		"mekanism:chemical_oxidizer",
+		"mekanism:chemical_infuser",
+		"mekanism:chemical_injection_chamber",
+		"mekanism:electrolytic_separator",
+		"mekanism:precision_sawmill",
+		"mekanism:chemical_dissolution_chamber",
+		"mekanism:chemical_washer",
+		"mekanism:chemical_crystallizer",
+		"mekanism:pressurized_reaction_chamber",
+		"mekanism:isotopic_centrifuge",
+		"mekanism:nutritional_liquifier",
+		"mekanism:laser",
+		"mekanism:solar_neutron_activator",
+		"mekanism:laser_amplifier",
+		"mekanism:fuelwood_heater",
+		"mekanism:resistive_heater",
+		"mekanism:pigment_extractor",
+		"mekanism:pigment_mixer",
+		"mekanism:painting_machine",
+		"mekanism:sps_casing",
+		"mekanism:basic_chemical_tank",
+		"mekanism:advanced_chemical_tank",
+		"mekanism:boiler_casing",
+		"mekanism:enrichment_chamber",
+		"mekanism:combiner",
+		"mekanism:crusher",
+		"mekanism:metallurgic_infuser",
+		"mekanism:chargepad",
+		"mekanism:teleporter",
+		"mekanism:energized_smelter",
+		"mekanism:purification_chamber",
+		"mekanism:dynamic_tank",
+		"mekanism:structural_glass",
+		"mekanism:thermal_evaporation_block",
+		"mekanism:thermal_evaporation_controller",
+		"mekanism:induction_casing",
+		"mekanism:basic_induction_cell",
+		"mekanism:advanced_induction_cell",
+		"mekanism:elite_induction_cell",
+		"mekanism:ultimate_induction_cell",
+		"mekanism:superheating_element",
+		"mekanism:sps_port",
+		"mekanism:induction_port",
+		"mekanism:thermal_evaporation_valve",
+		"mekanism:dynamic_valve",
+		"mekanism:basic_smelting_factory",
+		"mekanism:basic_enriching_factory",
+		"mekanism:basic_crushing_factory",
+		"mekanism:basic_combining_factory",
+		"mekanism:basic_purifying_factory",
+		"mekanism:basic_injecting_factory",
+		"mekanism:basic_infusing_factory",
+		"mekanism:basic_sawing_factory",
+		"mekanism:advanced_sawing_factory",
+		"mekanism:advanced_infusing_factory",
+		"mekanism:advanced_injecting_factory",
+		"mekanism:advanced_purifying_factory",
+		"mekanism:advanced_combining_factory",
+		"mekanism:advanced_crushing_factory",
+		"mekanism:advanced_enriching_factory",
+		"mekanism:advanced_smelting_factory",
+		"mekanism:elite_enriching_factory",
+		"mekanism:elite_smelting_factory",
+		"mekanism:elite_crushing_factory",
+		"mekanism:elite_combining_factory",
+		"mekanism:elite_purifying_factory",
+		"mekanism:elite_injecting_factory",
+		"mekanism:elite_infusing_factory",
+		"mekanism:elite_sawing_factory",
+		"mekanism:ultimate_smelting_factory",
+		"mekanism:ultimate_enriching_factory",
+		"mekanism:ultimate_crushing_factory",
+		"mekanism:ultimate_combining_factory",
+		"mekanism:ultimate_purifying_factory",
+		"mekanism:ultimate_injecting_factory",
+		"mekanism:ultimate_infusing_factory",
+		"mekanism:ultimate_sawing_factory",
+		"immersiveengineering:floodlight",
+		"immersiveengineering:tesla_coil",
+		"immersiveengineering:blastfurnace_preheater",
+		"immersiveengineering:capacitor_hv",
+		"immersiveengineering:capacitor_mv",
+		"immersiveengineering:capacitor_lv",
+		"immersiveengineering:dynamo",
+		"immersiveengineering:radiator",
+		"immersiveengineering:generator",
+		"immersiveengineering:heavy_engineering",
+		"immersiveengineering:light_engineering",
+		"immersiveengineering:rs_engineering",
+		"immersiveengineering:workbench",
+		"immersivepetroleum:gas_generator",
+		"immersiveengineering:turret_chem",
+		"immersiveengineering:turret_gun",
+		"immersiveengineering:cloche",
+		"immersiveengineering:windmill",
+		"immersiveengineering:electric_lantern",
+		"immersiveengineering:alloybrick",
+		"immersiveengineering:blastbrick_reinforced",
+		"immersiveengineering:blastbrick",
+		"immersiveengineering:cokebrick",
+		"immersiveengineering:alloy_smelter",
+		"immersiveengineering:arc_furnace",
+		"immersiveengineering:assembler",
+		"immersiveengineering:auto_workbench",
+		"immersiveengineering:coke_oven",
+		"immersiveengineering:blast_furnace",
+		"immersiveengineering:crusher",
+		"immersiveengineering:diesel_generator",
+		"immersiveengineering:excavator",
+		"immersiveengineering:advanced_blast_furnace",
+		"immersiveengineering:lightning_rod",
+		"immersiveengineering:metal_press",
+		"immersiveengineering:mixer",
+		"immersiveengineering:sawmill",
+		"immersiveengineering:silo",
+		"immersiveengineering:squeezer",
+		"immersiveengineering:tank",
+		"immersivepetroleum:pumpjack",
+		"immersivepetroleum:hydrotreater",
+		"immersivepetroleum:distillationtower",
+		"immersivepetroleum:cokerunit",
+		"appliedenergistics2:quantum_ring",
+		"appliedenergistics2:controller",
+		"appliedenergistics2:drive",
+		"appliedenergistics2:chest",
+		"appliedenergistics2:condenser",
+		"appliedenergistics2:quartz_growth_accelerator",
+		"appliedenergistics2:crafting_unit",
+		"appliedenergistics2:crafting_accelerator",
+		"appliedenergistics2:1k_crafting_storage",
+		"appliedenergistics2:4k_crafting_storage",
+		"appliedenergistics2:16k_crafting_storage",
+		"appliedenergistics2:64k_crafting_storage",
+		"createaddition:rolling_mill",
+		"createaddition:alternator",
+		"createaddition:electric_motor",
+		"steampowered:cast_iron_burner",
+		"steampowered:steel_flywheel",
+		"steampowered:cast_iron_flywheel",
+		"steampowered:bronze_flywheel",
+		"steampowered:steel_steam_engine",
+		"steampowered:cast_iron_steam_engine",
+		"steampowered:bronze_steam_engine",
+		"steampowered:cast_iron_boiler",
+		"create:hand_crank",
+		"create:millstone",
+		"create:sticky_mechanical_piston",
+		"create:gantry_shaft",
+		"create:rope_pulley",
+		"create:spout",
+		"create:hose_pulley",
+		"create:fluid_tank",
+		"create:mechanical_pump",
+		"create:mechanical_press",
+		"create:crushing_wheel",
+		"create:copper_valve_handle",
+		"create:mechanical_arm",
+		"create:mechanical_crafter",
+		"create:rotation_speed_controller",
+		"create:mechanical_piston",
+		"create:mechanical_bearing",
+		"create:clockwork_bearing",
+		"create:cart_assembler",
+		"create:encased_fan",
+		"create:water_wheel",
+		"create:schematicannon"
+	]
+	# Like "grief_targets.whitelist", but these blocks will not be targeted if they have a loot table tag.
+	# For example, unopened dungeon chests will not be targeted.
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:chest, minecraft:ender_chest, minecraft:trapped_chest, minecraft:barrel ]
+	idle_griefing.targets.lootable_list = [
+		"minecraft:chest",
+		"minecraft:ender_chest",
+		"minecraft:trapped_chest",
+		"minecraft:barrel"
+	]
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
+	idle_griefing.targets.blacklist = []
+
+
+# Category: idle_fiddling
+# Options to customize monsters' idle fiddling behavior (block interaction).
+
+	# List of mobs that can gain passive fiddling AI (note that the entity must have task-based AI enabled).
+	# Additional value after the entity type is the chance (0.0 to 1.0) for entities of that type to spawn with the AI.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:skeleton 1.0", "minecraft:stray 1.0", "minecraft:wither_skeleton 1.0", "minecraft:zombified_piglin 1.0", "minecraft:piglin 1.0" ]
+	#    Range for Values: 0.0 ~ 1.0
+	idle_fiddling.entities.whitelist = [
+		"minecraft:skeleton 1.0",
+		"minecraft:stray 1.0",
+		"minecraft:wither_skeleton 1.0",
+		"minecraft:zombified_piglin 1.0",
+		"minecraft:piglin 1.0"
+	]
+	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: []
+	idle_fiddling.entities.blacklist = []
+
+	# If true, idle fiddling AI will automatically target all blocks that derive from
+	# the vanilla levers and buttons.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_fiddling.targets.auto_target_switches = true
+	# If true, idle fiddling AI will automatically target all non-metal blocks that derive
+	# from the vanilla doors, fence gates, and trapdoors.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	idle_fiddling.targets.auto_target_doors = true
+	# List of blocks that can be interacted with by the idle fiddling AI.
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:repeater, minecraft:comparator, minecraft:tnt, minecraft:cake ]
+	idle_fiddling.targets.whitelist = [
+		"minecraft:repeater",
+		"minecraft:comparator",
+		"minecraft:tnt",
+		"minecraft:cake"
+	]
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
+	idle_fiddling.targets.blacklist = []

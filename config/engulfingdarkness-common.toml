@@ -1,0 +1,16 @@
+#The light level that the darkness should trigger at.
+#Range: 0 ~ 15
+darkness_level = 4
+#Range: 0.0 ~ 100.0
+darkness_damage = 4.0
+#How fast does the darkness engulf when in low light level.
+#Range: 0.001 ~ 1.0
+darkness_increment = 0.01
+#Once in full darkness, how fast until the damage starts to trigger.
+#Range: 0.001 ~ 1.0
+danger_increment = 0.03
+
+[dimension]
+	whitelisted_dimensions = ["minecraft:overworld"]
+	treat_dims_as_blacklist = false
+

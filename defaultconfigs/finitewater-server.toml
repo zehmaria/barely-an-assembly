@@ -1,0 +1,15 @@
+
+[general]
+
+	[general.lava]
+		#Is the list below a whitelist, changing to false will make it a blacklist instead
+		whitelist = true
+		#Biomes that lava is infinite in
+		"infinite lava biomes" = []
+
+	[general.water]
+		#Is the list below a whitelist, changing to false will make it a blacklist instead
+		whitelist = true
+		#Biomes that water is infinite in
+		"infinite water biomes" = ["otg:default.river", "otg:default.frozen_river", "otg:default.deep_ocean", "otg:default.frozen_ocean", "otg:default.ocean", "otg:default.warm_ocean"]
+

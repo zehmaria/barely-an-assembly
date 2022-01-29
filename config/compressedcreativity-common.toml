@@ -1,0 +1,28 @@
+
+#Machines Configuration
+[machines]
+
+	#Rotational Compressor
+	[machines.rotational_compressor]
+		#Max stress Impact of the machine (at 256 rpm)
+		#Default value: 2048
+		#Range: > 0
+		stress = 2048
+		#Air Volume of the machine
+		#Default value: 5000
+		#Range: > 0
+		volume = 10000
+		#Danger Pressure of the machine
+		#Default value: 5.0
+		#Range: 0.0 ~ 20.0
+		danger_pressure = 20.0
+		#Additional Critical Pressure of the machine.
+		#Actual Critical Pressure is the sum of this value and Danger Pressure
+		#Default value: 2.0
+		#Range: 0.0 ~ 20.0
+		critical_pressure = 5.0
+		#How much air this machine produces per tick if it is running at 128 rpm?
+		#Default value: 10.0
+		#Range: 0.0 ~ 999999.0
+		base_production = 20.0
+

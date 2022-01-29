@@ -1,0 +1,19 @@
+
+[rendering]
+	#Set this to true if you are using lots of miners and are experiencing rendering lag. Will disable animations and render them statically.
+	staticDrills = false
+
+[particles]
+	#The frequency in which block-breaking particles spawn while miners are active
+	#Range: 0.0 ~ 1.7976931348623157E308
+	minerFrequency = 0.75
+	#The frequency in which flame particles spawn while burner miners are active
+	#Range: 0.0 ~ 1.7976931348623157E308
+	burnerFrequency = 0.75
+
+[pondering]
+	#Set this to false to disable this ponder scene, for if your pack doesn't use fluid deposits
+	enableFluidMiningPonder = false
+	#Set this to false to disable this ponder scene, for if your pack doesn't use the lixiviant mechanics
+	enableLixiviantPonder = true
+

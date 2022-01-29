@@ -1,0 +1,93 @@
+#Set this to false to disable Sulfur and Sulfuric Acid
+sulfurEnabled = false
+
+[miners]
+	#The maximum depth below a miner which it will check for mineable ores
+	#Range: 1 ~ 255
+	minerMaxDepth = 10
+	#The range that this type of miner will have when checking for mineable ores. (0 = 1x1, 1 = 3x3, 2 = 5x5, etc.)
+	#Range: 0 ~ 3
+	minerRangeCreative = 0
+	#The range that this type of miner will have when checking for mineable ores. (0 = 1x1, 1 = 3x3, 2 = 5x5, etc.)
+	#Range: 0 ~ 3
+	minerRangeBurner = 1
+	#The range that this type of miner will have when checking for mineable ores. (0 = 1x1, 1 = 3x3, 2 = 5x5, etc.)
+	#Range: 0 ~ 3
+	minerRangeElectrical = 2
+	#The range that this type of miner will have when checking for mineable ores. (0 = 1x1, 1 = 3x3, 2 = 5x5, etc.)
+	#Range: 0 ~ 3
+	minerRangeMechanical = 1
+	#The time this miner will take to complete one mining action. (20 = 1 second)
+	#Range: > 1
+	minerSpeedCreative = 200
+	#The time this miner will take to complete one mining action. (20 = 1 second)
+	#Range: > 1
+	minerSpeedBurner = 300
+	#The time this miner will take to complete one mining action. (20 = 1 second)
+	#Range: > 1
+	minerSpeedElectrical = 100
+	#The time this miner will take to complete one mining action. (20 = 1 second, at a speed of 16)
+	#Range: > 1
+	minerSpeedMechanical = 200
+	#A modifier to the rate at which fuel lasts in the burner miner. (e.g. 2 = fuel lasts 2x as long)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	burnerFuelRate = 2.0
+	#The amount in mb of fluid that is extracted in one mining action
+	#Range: > 1
+	fluidDepositAmount = 1000
+	#Set this to true to disable the burner miner furnace sound
+	silent = false
+	#Set this to true to allow miners to be placed within the 3x3 range of another miner (results in legs clipping)
+	canPlaceAdjacent = false
+
+[worldgen]
+	#Set this to true to disable vanilla ore worldgen.
+	worldgenDefault = true
+	#Set this to false to disable ore worldgen. More fine-tuned customization should be done with datapacks.
+	worldgen = false
+	#The distance from spawn beyond which ore deposits in the NEAR category will start to spawn
+	#Range: > 0
+	genDistanceNear = 320
+	#The distance from spawn beyond which ore deposits in the MID category will start to spawn
+	#Range: > 0
+	genDistanceMid = 640
+	#The distance from spawn beyond which ore deposits in the FAR category will start to spawn
+	#Range: > 0
+	genDistanceFar = 1024
+	#This boosts the generation rate of patches below the NEAR distance. e.g. set to 2 to make it twice as likely.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	genChanceModAll = 1.0
+	#This boosts the generation rate of patches within the range [NEAR, MID]. e.g. set to 2 to make it twice as likely.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	genChanceModNear = 1.0
+	#This boosts the generation rate of patches within the range [MID, FAR]. e.g. set to 2 to make it twice as likely.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	genChanceModMid = 1.0
+	#This boosts the generation rate of patches above the FAR distance. e.g. set to 2 to make it twice as likely.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	genChanceModFar = 1.0
+
+[ores]
+	#The hardness value of ore deposit blocks, which determines how fast it is to mine by hand. 0 = instant, 50 = obsidian, -1 = bedrock
+	#Range: -1.0 ~ 100.0
+	oreHardness = 20.0
+	#The minimum amount that an ore deposit block will generate with. Set to -1 for infinite.
+	#Range: > -1
+	oreAmountMin = 100
+	#The maximum amount that an ore deposit block will generate with. Set to -1 for infinite.
+	#Range: > -1
+	oreAmountMax = 500
+	#The minimum amount (number of fluidDepositAmounts) that a fluid deposit block will generate with. Set to -1 for infinite.
+	#Range: > -1
+	fluidAmountMin = 10
+	#The maximum amount (number of fluidDepositAmounts) that a fluid deposit block will generate with. Set to -1 for infinite.
+	#Range: > -1
+	fluidAmountMax = 50
+
+[lixiviant]
+	#List of ore deposit registry names that will require a Lixiviant liquid to be mined.
+	oresWhichRequireLiquidMining = ["factoriores:uranium_ore"]
+	#The amount in mb of lixiviant drained per unit of progress made while mining (out of 200 per mining action)
+	#Range: 1 ~ 10
+	lixiviantDrainedPerUnitProgress = 1
+

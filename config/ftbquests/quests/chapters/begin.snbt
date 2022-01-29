@@ -1,0 +1,30 @@
+{
+	id: "0446500BFFCB9AEC"
+	group: ""
+	order_index: 0
+	filename: "begin"
+	title: "Basic necessities"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Sorry!"
+		x: -5.0d
+		y: -2.5d
+		description: ["Sorry, that is the best I can do for now. Stay in contact."]
+		id: "2E096FA588CA5D70"
+		tasks: [{
+			id: "63A64D25243F5E38"
+			type: "item"
+			item: {
+				id: "immersiveengineering:revolver"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 21
+						Items: [ ]
+					}
+				}
+			}
+		}]
+	}]
+}

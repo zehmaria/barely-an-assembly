@@ -1,0 +1,293 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Biome Identity                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+TemplateForBiome: false
+
+BiomeDictTags: HOT, SAVANNA, PLAINS, SPARSE, OVERWORLD
+
+BiomeCategory: savanna
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 4
+
+BiomeRarity: 10
+
+BiomeColor: #5B8015
+
+
+#######################################################################
+# |                           Isle biomes                           | #
+#######################################################################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 6
+
+BiomeRarityWhenIsle: 97
+
+#################
+# Border biomes #
+#################
+
+BiomeIsBorder: 
+
+OnlyBorderNear: 
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 8
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 0.3625
+
+BiomeVolatility: 1.225
+
+SmoothRadius: 2
+
+CustomHeightControlSmoothRadius: 2
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: 0.0
+
+Volatility2: 0.0
+
+VolatilityWeight1: 0.5
+
+VolatilityWeight2: 0.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RiverBiome: River
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: minecraft:stone
+
+SurfaceBlock: minecraft:grass_block
+
+GroundBlock: minecraft:dirt
+
+UnderWaterSurfaceBlock: minecraft:dirt
+
+SurfaceAndGroundControl: minecraft:grass_block, minecraft:dirt, minecraft:dirt, -0.5, minecraft:coarse_dirt, minecraft:dirt, minecraft:dirt, 1.75, minecraft:stone, minecraft:stone, minecraft:stone, 10.0 
+
+ReplacedBlocks: (otg:stone,minecraft:obsidian,0,36)
+
+
+#######################################################################
+# |                   Water / Lava & Frozen States                  | #
+#######################################################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: minecraft:water
+
+IceBlock: minecraft:ice
+
+PackedIceBlock: minecraft:packed_ice
+
+SnowBlock: minecraft:snow_block
+
+CooledLavaBlock: minecraft:lava
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 1.1
+
+UseFrozenOceanTemperature: false
+
+BiomeWetness: 0.0
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+WaterColorControl: 
+
+GrassColor: #FFFFFF
+
+GrassColorControl: 
+
+GrassColorModifier: None
+
+FoliageColor: #FFFFFF
+
+FoliageColorControl: 
+
+FogColor: #000000
+
+FogDensity: 0.0
+
+WaterFogColor: #000000
+
+ParticleType: 
+
+ParticleProbability: 0.118093334
+
+Music: 
+
+MusicMinDelay: 0
+
+MusicMaxDelay: 0
+
+ReplaceCurrentMusic: false
+
+AmbientSound: 
+
+MoodSound: minecraft:ambient.cave
+
+MoodSoundDelay: 6000
+
+MoodSearchRange: 8
+
+MoodOffset: 2.0
+
+AdditionsSound: 
+
+AdditionsTickChance: 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Ore(factoriores:uranium_ore,35,4,100.0,40,120,minecraft:grass_block,minecraft:dirt)
+Ore(minecraft:gravel,33,8,100.0,0,255,minecraft:stone)
+Liquid(minecraft:water,20,100.0,8,128,minecraft:stone)
+Liquid(minecraft:lava,10,100.0,8,128,minecraft:stone)
+UnderWaterOre(minecraft:sand,7,3,100.0,minecraft:dirt,minecraft:grass_block)
+UnderWaterOre(minecraft:clay,4,1,100.0,minecraft:dirt,minecraft:clay)
+UnderWaterOre(minecraft:gravel,6,1,100.0,minecraft:dirt,minecraft:grass_block)
+UnderWaterOre(factoriores:uranium_ore,6,1,100.0,minecraft:dirt,minecraft:grass_block)
+Boulder(factoriores:uranium_ore,2,50.0,65,120,minecraft:coarse_dirt)
+Boulder(factoriores:uranium_ore,4,100.0,65,120,minecraft:stone)
+Boulder(diregoo:gooblock,1,10.0,65,120,minecraft:stone)
+Tree(1,Acacia,80,Tree,100)
+Grass(Tallgrass,NotGrouped,60,100.0,minecraft:grass_block,minecraft:dirt)
+Plant(Dandelion,4,100.0,0,128,minecraft:grass_block,minecraft:dirt)
+Plant(minecraft:pumpkin,1,3.0,0,128,minecraft:grass_block)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Saplings                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Vanilla structures                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodlandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: false
+
+VillageType: savanna
+
+VillageSize: 6
+
+MineshaftType: normal
+
+MineshaftProbability: 0.004
+
+RareBuildingType: disabled
+
+BuriedTreasureEnabled: false
+
+BuriedTreasureProbability: 0.01
+
+ShipWreckEnabled: false
+
+ShipWreckBeachedEnabled: false
+
+PillagerOutpostEnabled: true
+
+PillagerOutpostSize: 7
+
+BastionRemnantEnabled: false
+
+BastionRemnantSize: 6
+
+NetherFossilEnabled: false
+
+EndCityEnabled: false
+
+RuinedPortalType: normal
+
+OceanRuinsType: disabled
+
+OceanRuinsLargeProbability: 0.3
+
+OceanRuinsClusterProbability: 0.9
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+SpawnWaterAmbientCreatures: []
+
+SpawnMiscCreatures: []
+
+InheritMobsBiomeName: minecraft:shattered_savanna
+

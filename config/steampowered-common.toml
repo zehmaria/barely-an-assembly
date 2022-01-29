@@ -1,0 +1,88 @@
+
+[steam]
+	#HU generation for each fuel burning tick. 10HU=1mb of steam. THIS AFFECT ALL BURNERS AND BOILERS!
+	#Range: 0 ~ 655360
+	HuPerFuelTick = 32
+	#This defines how many mbs of steam does a mb of water can turn into.
+	#Range: 0.0 ~ 100000.0
+	steamPerWater = 16.0
+
+[boiler]
+	#Range: 0 ~ 1000000
+	castIronBoilerHu = 160
+	#Maximum HU the boiler intakes. 10HU=1mb of steam. 
+	#Range: 0 ~ 1000000
+	bronzeBoilerHu = 160
+	#Range: 0 ~ 1000000
+	steelBoilerHu = 160
+
+[burner]
+	#Range: 0 ~ 1000000
+	castIronBurnerHu = 160
+	#Maximum HU the boiler emits. Note that this does not affect steam per fuel tick. 10HU=1mb of steam. 
+	#Range: 0 ~ 1000000
+	bronzeBurnerHu = 160
+	#Range: 0 ~ 1000000
+	steelBurnerHu = 160
+
+[flywheel]
+
+	[flywheel.cast_iron_flywheel]
+		#Range: 0 ~ 8192
+		castIronFlywheelCapacity = 256
+		#Range: 0 ~ 8192
+		castIronFlywheelSteamConsumptionPerTick = 8
+		#Range: 0 ~ 1048576
+		castIronFlywheelSteamStorage = 16000
+		#Range: 0 ~ 8192
+		castIronFlywheelSpeed = 16
+
+	[flywheel.bronze_flywheel]
+		#Range: 0 ~ 8192
+		bronzeFlywheelCapacity = 256
+		#Range: 0 ~ 8192
+		bronzeFlywheelSteamConsumptionPerTick = 16
+		#Range: 0 ~ 1048576
+		bronzeFlywheelSteamStorage = 32000
+		#Range: 0 ~ 8192
+		bronzeFlywheelSpeed = 32
+
+	[flywheel.steel_flywheel]
+		#Range: 0 ~ 8192
+		steelFlywheelCapacity = 256
+		#Range: 0 ~ 1048576
+		steelFlywheelSteamConsumptionPerTick = 128
+		#Range: 0 ~ 1048576
+		steelFlywheelSteamStorage = 64000
+		#Range: 0 ~ 8192
+		steelFlywheelSpeed = 256
+
+[dynamo]
+	#Range: 0 ~ 8192
+	dynamoFeCapacity = 2048
+	#Range: 0 ~ 8192
+	dynamoImpact = 256
+	#Range: 0.0 ~ 1.0
+	dynamoEfficiency = 0.5
+	#If dynamo is disabled in the server config, the following will be ignored!
+	#Range: 0 ~ 8192
+	dynamoFeMaxOut = 256
+
+[cogwheel]
+	#Range: 0.0 ~ 1.0
+	castIronCogwheelImpact = 0.0
+	#For those who want to make the game more challenging, you can add stress impact to cogwheels!
+	#Range: 0.0 ~ 1.0
+	bronzeCogwheelImpact = 0.0
+	#Range: 0.0 ~ 1.0
+	steelCogwheelImpact = 0.0
+
+[burnerEfficiency]
+	#Fuel Tick to HU Convertion Percentage. 10HU=1mb of steam. 
+	#Range: 0.0 ~ 1.0
+	bronzeBurnerEfficiency = 0.8
+	#Range: 0.0 ~ 1.0
+	castIronBurnerEfficiency = 0.9
+	#Range: 0.0 ~ 1.0
+	steelBurnerEfficiency = 1.0
+

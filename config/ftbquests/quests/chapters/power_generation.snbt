@@ -1,0 +1,89 @@
+{
+	id: "2C8F3995E79CE54D"
+	group: ""
+	order_index: 1
+	filename: "power_generation"
+	title: "Power Generation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["By the riverbank begins a revolution"]
+			id: "548A3764F9D9012B"
+			tasks: [{
+				id: "07CAF19FC15C2559"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "7E0DC0014A4106C9"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["Power hungry"]
+			dependencies: ["6657D1D70824B3F3"]
+			id: "30C47197B2DD51F6"
+			tasks: [{
+				id: "6038D06C33D91817"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "15D3264D9F510EA6"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			id: "07E12FAE92A7D8E7"
+			tasks: [{
+				id: "08836394DC4A937B"
+				type: "item"
+				item: "steampowered:bronze_steam_engine"
+				count: 11L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			description: ["Handy"]
+			dependencies: ["548A3764F9D9012B"]
+			id: "60BE4A7C0201924F"
+			tasks: [{
+				id: "269542E0E015CE34"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "6A38EA8C759223AC"
+				type: "item"
+				item: "create:copper_valve_handle"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			description: ["Finger traps"]
+			dependencies: ["548A3764F9D9012B"]
+			id: "6657D1D70824B3F3"
+			tasks: [{
+				id: "295ABF9DEED1CA94"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [{
+				id: "387C0595BF414A0D"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+	]
+}
