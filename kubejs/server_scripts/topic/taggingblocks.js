@@ -1,6 +1,7 @@
 onEvent('block.tags', event => {
     event.add('barely:pollution_passable', ['immersiveengineering:connector_lv', 'immersiveengineering:connector_mv', 'factoriores:burner_miner', 'factoriores:electrical_miner', 'factoriores:mechanical_miner', 'immersiveengineering:connector_hv']);
 
+
     event.add("barely:idle_griefing", [
         "minecraft:cauldron", "minecraft:campfire", "myrtrees:wooden_bucket",
         "compressedcreativity:rotational_compressor", "pneumaticcraft:charging_station", "pneumaticcraft:kerosene_lamp",
