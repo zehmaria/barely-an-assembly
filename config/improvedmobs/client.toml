@@ -9,5 +9,5 @@
 	#Scaling of the difficulty text
 	"Text Scale" = 1.0
 	#Show the the difficulty text
-	"Show Difficulty" = true
+	"Show Difficulty" = false
 

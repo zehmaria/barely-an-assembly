@@ -1,7 +1,4 @@
 onEvent('block.tags', event => {
-    event.add('barely:pollution_passable', ['immersiveengineering:connector_lv', 'immersiveengineering:connector_mv', 'factoriores:burner_miner', 'factoriores:electrical_miner', 'factoriores:mechanical_miner', 'immersiveengineering:connector_hv']);
-
-
     event.add("barely:idle_griefing", [
         "minecraft:cauldron", "minecraft:campfire", "myrtrees:wooden_bucket",
         "compressedcreativity:rotational_compressor", "pneumaticcraft:charging_station", "pneumaticcraft:kerosene_lamp",
@@ -26,4 +23,16 @@ onEvent('block.tags', event => {
 
         "createaddition:rolling_mill", "createaddition:alternator", "createaddition:electric_motor", "steampowered:cast_iron_burner", "steampowered:steel_flywheel", "steampowered:cast_iron_flywheel", "steampowered:bronze_flywheel", "steampowered:steel_steam_engine", "steampowered:cast_iron_steam_engine", "steampowered:bronze_steam_engine", "steampowered:cast_iron_boiler","create:hand_crank", "create:millstone", "create:sticky_mechanical_piston", "create:gantry_shaft", "create:rope_pulley", "create:spout", "create:hose_pulley", "create:fluid_tank", "create:mechanical_pump", "create:mechanical_press", "create:crushing_wheel", "create:copper_valve_handle", "create:mechanical_arm", "create:mechanical_crafter", "create:rotation_speed_controller", "create:mechanical_piston", "create:mechanical_bearing", "create:clockwork_bearing", "create:cart_assembler", "create:encased_fan", "create:water_wheel", "create:schematicannon"
     ]);
+
+    event.add('barely:pollution_passable', [
+        '#barely:idle_griefing',
+
+        '#minecraft:doors', '#minecraft:rails', '#minecraft:wooden_pressure_plates', '#minecraft:carpets', '#minecraft:trapdoors',
+
+        'factoriores:burner_miner', 'factoriores:electrical_miner', 'factoriores:mechanical_miner',
+
+        'immersiveengineering:turret_chem', 'immersiveengineering:turret_chem', 'immersiveengineering:tesla_coil', 'immersiveengineering:cloche',
+
+        'appliedenergistics2:quartz_growth_accelerator', 'extendedcrafting:basic_auto_table', 'minecraft:furnace', 'minecraft:crafting_table', 'minecraft:composter', 'minecraft:daylight_detector', 'minecraft:stone_pressure_plate', 'minecraft:cauldron', 'minecraft:observer', 'minecraft:slime_block', 'minecraft:scaffolding', 'minecraft:campfire', 'minecraft:grindstone', 'minecraft:smoker', 'create:schematicannon', 'create:schematic_table', 'create:mechanical_pump',  'create:gantry_carriage']);
+
 });

@@ -1,0 +1,224 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+MaxSpawn: 0
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 256
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: minecraft:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-4,0,0,minecraft:grass)
+B(-4,0,2,minecraft:grass)
+B(-3,0,-1,minecraft:grass)
+B(-3,0,1,minecraft:grass)
+B(-2,0,-4,minecraft:grass)
+B(-2,0,-1,minecraft:grass)
+B(-2,0,0,minecraft:grass)
+B(-2,4,1,create:shadow_steel_casing)
+B(-2,5,1,create:shadow_steel_casing)
+B(-2,6,1,create:shadow_steel_casing)
+B(-2,0,2,minecraft:grass)
+B(-2,0,4,minecraft:grass)
+B(-1,0,-4,minecraft:grass)
+B(-1,0,-2,minecraft:grass)
+B(-1,0,-1,minecraft:grass)
+B(-1,4,0,create:shadow_steel_casing)
+B(-1,5,0,create:shadow_steel_casing)
+B(-1,6,0,create:shadow_steel_casing)
+B(-1,3,1,create:shadow_steel_casing)
+B(-1,4,1,create:shadow_steel_casing)
+B(-1,5,1,create:shadow_steel_casing)
+B(-1,6,1,create:shadow_steel_casing)
+B(-1,4,2,create:shadow_steel_casing)
+B(-1,5,2,create:shadow_steel_casing)
+B(-1,6,2,create:shadow_steel_casing)
+B(-1,0,3,minecraft:orange_tulip)
+B(-1,0,4,minecraft:grass)
+B(0,4,-1,create:shadow_steel_casing)
+B(0,5,-1,create:shadow_steel_casing)
+B(0,6,-1,create:shadow_steel_casing)
+B(0,3,0,create:shadow_steel_casing)
+B(0,4,0,create:shadow_steel_casing)
+B(0,5,0,create:shadow_steel_casing)
+B(0,6,0,create:shadow_steel_casing)
+B(0,2,1,create:shadow_steel_casing)
+B(0,3,1,create:shadow_steel_casing)
+B(0,4,1,create:shadow_steel_casing)
+B(0,5,1,create:shadow_steel_casing)
+B(0,6,1,create:shadow_steel_casing)
+B(0,3,2,create:shadow_steel_casing)
+B(0,4,2,create:shadow_steel_casing)
+B(0,5,2,create:shadow_steel_casing)
+B(0,6,2,create:shadow_steel_casing)
+B(0,4,3,create:shadow_steel_casing)
+B(0,5,3,create:shadow_steel_casing)
+B(0,6,3,create:shadow_steel_casing)
+B(1,4,-2,create:shadow_steel_casing)
+B(1,5,-2,create:shadow_steel_casing)
+B(1,6,-2,create:shadow_steel_casing)
+B(1,3,-1,create:shadow_steel_casing)
+B(1,4,-1,create:shadow_steel_casing)
+B(1,5,-1,create:shadow_steel_casing)
+B(1,6,-1,create:shadow_steel_casing)
+B(1,2,0,create:shadow_steel_casing)
+B(1,3,0,create:shadow_steel_casing)
+B(1,4,0,create:shadow_steel_casing)
+B(1,5,0,create:shadow_steel_casing)
+B(1,6,0,create:shadow_steel_casing)
+B(1,7,0,appliedenergistics2:smooth_sky_stone_chest,worldspawn3/appliedenergistics2_sky_chest_1_7_0.nbt)
+B(1,1,1,create:shadow_steel_casing)
+B(1,2,1,create:shadow_steel_casing)
+B(1,3,1,create:shadow_steel_casing)
+B(1,4,1,custommachinery:custom_machine_block[facing=east],worldspawn3/custommachinery_custom_machine_tile_1_4_1.nbt)
+B(1,5,1,appliedenergistics2:dense_energy_cell,worldspawn3/appliedenergistics2_dense_energy_cell_1_5_1.nbt)
+B(1,6,1,appliedenergistics2:controller,worldspawn3/appliedenergistics2_controller_1_6_1.nbt)
+B(1,7,1,extendedcrafting:the_ultimate_block)
+B(1,8,1,extendedcrafting:the_ultimate_block)
+B(1,9,1,extendedcrafting:the_ultimate_block)
+B(1,10,1,extendedcrafting:the_ultimate_block)
+B(1,2,2,create:shadow_steel_casing)
+B(1,3,2,create:shadow_steel_casing)
+B(1,4,2,create:shadow_steel_casing)
+B(1,5,2,create:shadow_steel_casing)
+B(1,6,2,create:shadow_steel_casing)
+B(1,3,3,create:shadow_steel_casing)
+B(1,4,3,create:shadow_steel_casing)
+B(1,5,3,create:shadow_steel_casing)
+B(1,6,3,create:shadow_steel_casing)
+B(1,4,4,create:shadow_steel_casing)
+B(1,5,4,create:shadow_steel_casing)
+B(1,6,4,create:shadow_steel_casing)
+B(2,0,-4,minecraft:grass)
+B(2,0,-2,minecraft:grass)
+B(2,4,-1,create:shadow_steel_casing)
+B(2,5,-1,create:shadow_steel_casing)
+B(2,6,-1,create:shadow_steel_casing)
+B(2,3,0,create:shadow_steel_casing)
+B(2,4,0,create:shadow_steel_casing)
+B(2,5,0,create:shadow_steel_casing)
+B(2,6,0,create:shadow_steel_casing)
+B(2,2,1,create:shadow_steel_casing)
+B(2,3,1,create:shadow_steel_casing)
+B(2,4,1,create:shadow_steel_casing)
+B(2,5,1,create:shadow_steel_casing)
+B(2,6,1,create:shadow_steel_casing)
+B(2,3,2,create:shadow_steel_casing)
+B(2,4,2,create:shadow_steel_casing)
+B(2,5,2,create:shadow_steel_casing)
+B(2,6,2,create:shadow_steel_casing)
+B(2,4,3,create:shadow_steel_casing)
+B(2,5,3,create:shadow_steel_casing)
+B(2,6,3,create:shadow_steel_casing)
+B(2,0,4,minecraft:grass)
+B(3,0,-4,minecraft:grass)
+B(3,0,-3,minecraft:grass)
+B(3,0,-1,minecraft:grass)
+B(3,4,0,create:shadow_steel_casing)
+B(3,5,0,create:shadow_steel_casing)
+B(3,6,0,create:shadow_steel_casing)
+B(3,3,1,create:shadow_steel_casing)
+B(3,4,1,create:shadow_steel_casing)
+B(3,5,1,create:shadow_steel_casing)
+B(3,6,1,create:shadow_steel_casing)
+B(3,4,2,create:shadow_steel_casing)
+B(3,5,2,create:shadow_steel_casing)
+B(3,6,2,create:shadow_steel_casing)
+B(4,0,-3,minecraft:grass)
+B(4,0,-1,minecraft:grass)
+B(4,4,1,create:shadow_steel_casing)
+B(4,5,1,create:shadow_steel_casing)
+B(4,6,1,create:shadow_steel_casing)
+B(4,0,3,minecraft:grass)
+B(4,0,4,minecraft:grass)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
