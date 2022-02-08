@@ -316,7 +316,9 @@
 		"minecraft:barrel"
 	]
 	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
-	idle_griefing.targets.blacklist = []
+	idle_griefing.targets.blacklist = [
+		"appliedenergistics2:smooth_sky_stone_chest"
+	]
 
 
 # Category: idle_fiddling

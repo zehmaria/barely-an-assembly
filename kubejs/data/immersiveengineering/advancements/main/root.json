@@ -1,0 +1,1 @@
+{"criteria":{"manual":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"immersiveengineering:manual"}]}}},"requirements":[["manual"]]}

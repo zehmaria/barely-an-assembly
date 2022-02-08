@@ -1,0 +1,14 @@
+{
+    "display": {
+        "icon": { "item": "minecraft:oak_log" },
+        "title": "Log In",
+        "description": "Log out"
+    },
+    "parent": "barely:2.fragile",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "tag": "minecraft:logs" }] }
+        }
+    }
+}

@@ -23,12 +23,44 @@ onEvent('player.logged_in', event => {
 
 //PLACING
 onEvent('block.right_click', event => {
-    if (event.item.equals('appliedenergistics2:purified_fluix_crystal') && (event.item.getCount() === 8)) {
-        event.block.offset(event.getFacing()).set('appliedenergistics2:fluix_block');
-        event.item.setCount(0);
-    }
     if (event.item.equals('appliedenergistics2:purified_certus_quartz_crystal') && (event.item.getCount() === 8)) {
         event.block.offset(event.getFacing()).set('appliedenergistics2:quartz_block');
         event.item.setCount(0);
+    }
+    if (event.block.hasTag('minecraft:beds')) {
+        event.cancel();
+        event.entity.playSound('minecraft:block.wood.hit');
+    }
+    if (event.block.equals('immersiveengineering:reinforced_crate')) {
+        //event.cancel();
+        event.entity.playSound('minecraft:block.wood.hit');
+    }
+});
+
+//CHANGING
+onEvent('block.right_click', event => {
+    if (event.block.equals('mekanism:qio_drive_array')) {
+        if (event.item.equals('appliedenergistics2:crafting_terminal')) {
+            event.item.setCount(0); event.player.give('mekanism:qio_dashboard'); event.player.sendInventoryUpdate();
+        }
+        if (event.item.equals('appliedenergistics2:import_bus')) {
+            event.item.setCount(0); event.player.give('mekanism:qio_importer'); event.player.sendInventoryUpdate();
+        }
+        if (event.item.equals('appliedenergistics2:export_bus')) {
+            event.item.setCount(0); event.player.give('mekanism:qio_exporter'); event.player.sendInventoryUpdate();
+        }
+        if (event.item.equals('appliedenergistics2:level_emitter')) {
+            event.item.setCount(0); event.player.give('mekanism:qio_redstone_adapter'); event.player.sendInventoryUpdate();
+        }
+        if (event.item.equals('appliedenergistics2:64k_storage_cell')) {
+            event.item.setCount(0); event.player.give('mekanism:qio_drive_base'); event.player.sendInventoryUpdate();
+        }
+        if (event.item.equals('diregoo:antigoofieldgen')) {
+            if (event.block.getUp().equals('minecraft:air')){
+                event.block.getUp().set('diregoo:gooliminationfieldgen');
+                event.item.setCount(0);
+                event.cancel();
+            }
+        }
     }
 });

@@ -2,11 +2,11 @@
 
 // GENERAL
 //'kubejs:dummy_fluid_item',
-hide1(['diregoo:antigoobeacon', 'diregoo:gooliminationfieldgen', 'diregoo:goonade', 'diregoo:corefreeze', 'diregoo:coremelt']);
+hide1(['diregoo:antigoobeacon', 'diregoo:goonade', 'diregoo:corefreeze', 'diregoo:coremelt', 'diregoo:antigoopaste']);
 
 hide1(['itemfilters:always_true', 'itemfilters:always_false', 'itemfilters:or', 'itemfilters:and', 'itemfilters:not', 'itemfilters:xor', 'itemfilters:tag', 'itemfilters:mod', 'itemfilters:item_group', 'itemfilters:id_regex', 'itemfilters:id_regex', 'itemfilters:damage', 'itemfilters:block', 'itemfilters:max_count', 'itemfilters:strong_nbt', 'itemfilters:weak_nbt', 'itemfilters:custom', 'ftbquests:detector', 'ftbquests:missing_item', 'itemfilters:item_group', 'ftbquests:barrier', 'ftbquests:stage_barrier', 'ftbquests:custom_icon']);
 
-hide1(['adpother:polluted_water_bucket', 'adpother:iron_filter_frame', 'adpother:iron_respirator', 'adpother:gold_respirator', 'adpother:diamond_respirator', 'adpother:gold_filter_frame', 'adpother:iron_vacuum_tube', 'adpother:gold_vacuum_tube', 'adpother:diamond_vacuum_tube', 'adpother:diamond_filter_frame', 'adpother:iron_vacuum_bag', 'adpother:gold_vacuum_bag', 'adpother:diamond_vacuum_bag', 'adpother:aerometer', 'adpother:dust']);
+hide1(['adpother:polluted_water_bucket', 'adpother:iron_filter_frame', 'adpother:iron_respirator', 'adpother:gold_respirator', 'adpother:diamond_respirator', 'adpother:gold_filter_frame', 'adpother:iron_vacuum_tube', 'adpother:gold_vacuum_tube', 'adpother:diamond_vacuum_tube', 'adpother:diamond_filter_frame', 'adpother:iron_vacuum_bag', 'adpother:gold_vacuum_bag', 'adpother:diamond_vacuum_bag', 'adpother:dust']);
 
 hide2('theoneprobe:', ['gold_helmet_probe', 'diamond_helmet_probe', 'iron_helmet_probe', 'probe', 'creativeprobe']);
 
@@ -18,7 +18,7 @@ hide1(['minecraft:barrel']);
 hide3('create:', colors, '_toolbox');
 hide3('create:', colors, '_seat');
 hide3('create:', colors, '_valve_handle');
-hide2('create:', ['basin', 'mechanical_mixer', 'empty_blaze_burner', 'blaze_burner', 'item_drain', 'blaze_cake_base', 'blaze_cake', 'creative_blaze_cake', 'bar_of_chocolate', 'sweet_roll', 'chocolate_glazed_berries', 'honeyed_apple', 'builders_tea', 'dough', 'honey_bucket', 'chocolate_bucket', 'shadow_steel_casing', 'refined_radiance_casing', 'chromatic_compound', 'shadow_steel', 'refined_radiance', 'wand_of_symmetry', 'handheld_worldshaper', 'polished_rose_quartz', 'rose_quartz', 'cinder_flour', 'natural_scoria', 'copper_ore', 'adjustable_crate', 'powdered_obsidian', 'flywheel', 'furnace_engine', 'crafting_blueprint', 'sand_paper', 'red_sand_paper', 'crimson_window', 'warped_window', 'crimson_window_pane', 'warped_window_pane', 'windmill_bearing', 'sail_frame', 'white_sail', 'creative_motor', 'creative_fluid_tank', 'creative_crate', 'copper_shingles', 'copper_tiles', 'limesand']);
+hide2('create:', ['basin', 'mechanical_mixer', 'empty_blaze_burner', 'blaze_burner', 'item_drain', 'blaze_cake_base', 'blaze_cake', 'creative_blaze_cake', 'bar_of_chocolate', 'sweet_roll', 'chocolate_glazed_berries', 'honeyed_apple', 'builders_tea', 'dough', 'honey_bucket', 'chocolate_bucket', 'shadow_steel_casing', 'refined_radiance_casing', 'chromatic_compound', 'shadow_steel', 'refined_radiance', 'wand_of_symmetry', 'handheld_worldshaper', 'polished_rose_quartz', 'rose_quartz', 'cinder_flour', 'natural_scoria', 'copper_ore', 'adjustable_crate', 'powdered_obsidian', 'flywheel', 'furnace_engine', 'crafting_blueprint', 'sand_paper', 'red_sand_paper', 'crimson_window', 'warped_window', 'crimson_window_pane', 'warped_window_pane', 'windmill_bearing', 'sail_frame', 'white_sail','creative_fluid_tank', 'creative_crate', 'copper_shingles', 'copper_tiles', 'limesand', 'cart_assembler']);
 
 hide4('create:', ['tiled', 'framed', 'horizontal_framed', 'vertical_framed'], '_glass', ['', '_pane']);
 hide1(['create:oak_window_pane', 'create:spruce_window_pane', 'create:birch_window_pane', 'create:jungle_window_pane', 'create:acacia_window_pane', 'create:dark_oak_window_pane', 'create:ornate_iron_window_pane']);
@@ -38,13 +38,19 @@ hide1(['steampowered:steel_cogwheel', 'steampowered:steel_large_cogwheel', 'stea
 
 // IMMERSIVE ENGINEERING
 
-hide1(['immersiveengineering:concrete_three_quarter', 'immersiveengineering:concrete_quarter', 'immersiveengineering:concrete_sheet', 'immersiveengineering:slab_cokebrick', 'immersiveengineering:slab_blastbrick', 'immersiveengineering:slab_blastbrick_reinforced', 'immersiveengineering:slab_hempcrete', 'immersiveengineering:slab_concrete', 'immersiveengineering:slab_concrete_tile', 'immersivepetroleum:asphalt_slab', 'immersiveengineering:slab_alloybrick', 'immersiveengineering:slab_insulating_glass', 'immersiveengineering:slab_concrete_leaded', 'immersiveengineering:wirecoil_structure_steel', 'immersiveengineering:treated_wood_vertical', 'immersiveengineering:slab_treated_wood_vertical', 'immersiveengineering:stairs_treated_wood_vertical', 'immersiveengineering:treated_wood_packaged', 'immersiveengineering:slab_treated_wood_packaged', 'immersiveengineering:stairs_treated_wood_packaged', 'immersiveengineering:fluorescent_tube', 'immersiveengineering:concrete_tile', 'immersiveengineering:stairs_concrete_tile', 'immersiveengineering:cushion', 'immersiveengineering:sawdust', 'immersiveengineering:treated_post', 'immersiveengineering:steel_post', 'immersiveengineering:steel_slope', 'immersiveengineering:turntable', 'immersiveengineering:firework', 'immersiveengineering:steel_scaffolding_standard', 'immersiveengineering:stairs_steel_scaffolding_standard', 'immersiveengineering:slab_steel_scaffolding_standard', 'immersiveengineering:steel_scaffolding_grate_top', 'immersiveengineering:stairs_steel_scaffolding_grate_top', 'immersiveengineering:slab_steel_scaffolding_grate_top', 'immersiveengineering:stairs_steel_scaffolding_wooden_top', 'immersiveengineering:slab_steel_scaffolding_wooden_top']);
+hide1(['immersiveengineering:concrete_three_quarter', 'immersiveengineering:concrete_quarter', 'immersiveengineering:concrete_sheet', 'immersiveengineering:slab_cokebrick', 'immersiveengineering:slab_blastbrick', 'immersiveengineering:slab_blastbrick_reinforced', 'immersiveengineering:slab_hempcrete', 'immersiveengineering:slab_concrete', 'immersiveengineering:slab_concrete_tile', 'immersivepetroleum:asphalt_slab', 'immersiveengineering:slab_alloybrick', 'immersiveengineering:slab_insulating_glass', 'immersiveengineering:slab_concrete_leaded', 'immersiveengineering:wirecoil_structure_steel', 'immersiveengineering:treated_wood_vertical', 'immersiveengineering:slab_treated_wood_vertical', 'immersiveengineering:stairs_treated_wood_vertical', 'immersiveengineering:treated_wood_packaged', 'immersiveengineering:slab_treated_wood_packaged', 'immersiveengineering:stairs_treated_wood_packaged', 'immersiveengineering:fluorescent_tube', 'immersiveengineering:concrete_tile', 'immersiveengineering:stairs_concrete_tile', 'immersiveengineering:cushion', 'immersiveengineering:sawdust', 'immersiveengineering:treated_post', 'immersiveengineering:steel_post', 'immersiveengineering:steel_slope', 'immersiveengineering:turntable', 'immersiveengineering:firework', 'immersiveengineering:steel_scaffolding_standard', 'immersiveengineering:stairs_steel_scaffolding_standard', 'immersiveengineering:slab_steel_scaffolding_standard', 'immersiveengineering:steel_scaffolding_grate_top', 'immersiveengineering:stairs_steel_scaffolding_grate_top', 'immersiveengineering:slab_steel_scaffolding_grate_top', 'immersiveengineering:stairs_steel_scaffolding_wooden_top', 'immersiveengineering:slab_steel_scaffolding_wooden_top',
+
+       // REDSTONE WIRING KIT
+       'immersiveengineering:circuit_table', 'immersiveengineering:logic_unit', 'immersiveengineering:connector_bundled', 'immersiveengineering:connector_redstone', 'immersiveengineering:connector_probe', 'immersiveengineering:circuit_board', 'immersiveengineering:wirecoil_redstone', 'immersiveengineering:logic_circuit',
+
+       // WEIRD METAL THINGS
+       'immersiveengineering:sheetmetal_electrum', 'immersiveengineering:slab_sheetmetal_electrum', 'immersiveengineering:sheetmetal_uranium', 'immersiveengineering:slab_sheetmetal_uranium', 'immersiveengineering:sheetmetal_lead', 'immersiveengineering:slab_sheetmetal_lead', 'immersiveengineering:sheetmetal_gold', 'immersiveengineering:slab_sheetmetal_gold', 'immersiveposts:fence_electrum', 'immersiveposts:fence_uranium', 'immersiveposts:fence_lead', 'immersiveposts:fence_gold', 'immersiveengineering:wire_lead']);
 
 hide1(['immersiveengineering:shader_bag_common', 'immersiveengineering:shader_bag_ie_masterwork', 'immersiveengineering:shader_bag_rare', 'immersiveengineering:shader_bag_uncommon', 'immersiveengineering:shader_bag_epic', 'immersiveengineering:bannerpattern_hammer', 'immersiveengineering:bannerpattern_bevels', 'immersiveengineering:bannerpattern_treated_wood', 'immersiveengineering:bannerpattern_windmill', 'immersiveengineering:bannerpattern_wolf_r', 'immersiveengineering:bannerpattern_wolf_l', 'immersiveengineering:bannerpattern_wolf']);
 
 hide2('immersiveengineering:conveyor_', ['basic', 'redstone', 'dropper', 'vertical', 'splitter', 'extract', 'covered', 'droppercovered', 'verticalcovered', 'extractcovered', 'splittercovered']);
 
-hide2('immersiveengineering:', ['crate', 'reinforced_crate', 'minecart_woodencrate', 'minecart_reinforcedcrate', 'thermoelectric_generator', 'metal_ladder_none', 'craftingtable', 'metal_ladder_alu', 'metal_ladder_steel', 'toolbox', 'sorter', 'fluid_pump', 'fluid_sorter', 'fluid_pipe', 'silver', 'dust_wood', 'balloon', 'lantern', 'electron_tube', 'potion', 'bannerpattern_ornate', 'coke', 'slab_coke', 'item_batcher', 'fluid_placer', 'wooden_barrel', 'metal_barrel', 'minecart_woodenbarrel', 'minecart_metalbarrel', 'gunpowder_barrel', 'furnace_heater', 'toolupgrade_drill_lube', 'toolupgrade_revolver_bayonet', 'jerrycan', 'mold_packing_9', 'mold_packing_4', 'mold_bullet_casing', 'coresample', 'concrete_sprayed', 'strip_curtain', 'watermill', 'waterwheel_segment', 'capacitor_creative']);
+hide2('immersiveengineering:', ['crate', 'reinforced_crate', 'minecart_woodencrate', 'minecart_reinforcedcrate', 'thermoelectric_generator', 'metal_ladder_none', 'craftingtable', 'metal_ladder_alu', 'metal_ladder_steel', 'toolbox', 'sorter', 'fluid_pump', 'fluid_sorter', 'fluid_pipe', 'silver', 'dust_wood', 'balloon', 'lantern', 'electron_tube', 'potion', 'bannerpattern_ornate', 'coke', 'slab_coke', 'item_batcher', 'fluid_placer', 'wooden_barrel', 'metal_barrel', 'minecart_woodenbarrel', 'minecart_metalbarrel', 'gunpowder_barrel', 'furnace_heater', 'toolupgrade_drill_lube', 'toolupgrade_revolver_bayonet', 'jerrycan', 'mold_packing_9', 'mold_packing_4', 'mold_bullet_casing', 'coresample', 'concrete_sprayed', 'strip_curtain', 'watermill', 'waterwheel_segment']);
 
 hide4('immersiveengineering:', ['', 'slab_'], 'sheetmetal_colored_', colors);
 
@@ -58,12 +64,14 @@ hide2('immersivepetroleum:', ['petcoke_block']);
 
 hide2('mekanismgenerators:', ['module_geothermal_generator_unit', 'wind_generator', 'gas_burning_generator', 'bio_generator', 'heat_generator']);
 
-hide4('mekanism:', ['basic', 'advanced', 'elite', 'ultimate'], '_', ['fluid_tank', 'energy_cube', 'universal_cable', 'bin', 'mechanical_pipe', 'logistical_transporter']);
+hide4('mekanism:', ['basic', 'advanced', 'elite', 'ultimate'], '_', ['fluid_tank', 'energy_cube', 'universal_cable', 'mechanical_pipe', 'logistical_transporter']);
 
 hide2('mekanism:mekasuit_', ['helmet', 'bodyarmor', 'pants', 'boots']);
 hide3('mekanism:module_', ['nutritional_injection', 'jetpack', 'vision_enhancement', 'solar_recharging', 'attack_amplification', 'hydraulic_propulsion', 'locomotive_boosting', 'dosimeter', 'excavation_escalation', 'electrolytic_breathing', 'gravitational_modulating', 'vein_mining', 'farming', 'teleportation', 'charge_distribution', 'energy', 'silk_touch', 'radiation_shielding', 'inhalation_purification', 'magnetic_attraction', 'laser_dissipation', 'shearing', 'geiger', 'elytra', 'frost_walker'], '_unit');
 
-hide2('mekanism:', ['cardboard_box', 'electric_bow', 'atomic_disassembler', 'creative_bin', 'restrictive_transporter', 'diversion_transporter', 'logistical_sorter', 'creative_fluid_tank', 'creative_energy_cube', 'enriched_iron', 'meka_tool', 'antiprotonic_nucleosynthesizer', 'personal_chest', 'electric_pump', 'fluidic_plenisher', 'qio_drive_base', 'qio_drive_hyper_dense', 'qio_drive_time_dilating', 'qio_drive_supermassive', 'qio_drive_array', 'qio_dashboard', 'qio_importer', 'qio_exporter', 'qio_redstone_adapter', 'portable_qio_dashboard', 'osmium_compressor', 'robit', 'dust_sulfur', 'digital_miner', 'formulaic_assemblicator', 'crafting_formula', 'module_base', 'modification_station', 'hdpe_elytra', 'upgrade_stone_generator', 'laser_tractor_beam', 'basic_compressing_factory', 'advanced_compressing_factory', 'elite_compressing_factory', 'ultimate_compressing_factory', 'quantum_entangloporter']);
+hide2('mekanism:', ['cardboard_box', 'electric_bow', 'atomic_disassembler', 'creative_bin', 'restrictive_transporter', 'diversion_transporter', 'logistical_sorter', 'creative_fluid_tank', 'creative_energy_cube', 'enriched_iron', 'meka_tool', 'antiprotonic_nucleosynthesizer', 'personal_chest', 'electric_pump', 'fluidic_plenisher', 'osmium_compressor', 'robit', 'dust_sulfur', 'digital_miner', 'formulaic_assemblicator', 'crafting_formula', 'module_base', 'modification_station', 'hdpe_elytra', 'upgrade_stone_generator', 'laser_tractor_beam', 'basic_compressing_factory', 'advanced_compressing_factory', 'elite_compressing_factory', 'ultimate_compressing_factory', 'quantum_entangloporter']);
+
+hide1(['mekanism:basic_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer', 'mekanism:elite_induction_cell', 'mekanism:elite_induction_provider', 'mekanism:elite_pressurized_tube', 'mekanism:elite_thermodynamic_conductor', 'mekanism:elite_chemical_tank', 'mekanism:portable_teleporter', 'mekanism:teleporter_frame', 'mekanism:teleporter', 'mekanism:elite_bin']);
 
 // INGOTS
 
@@ -98,16 +106,20 @@ hide1(['minecraft:gold_nugget', 'minecraft:iron_nugget', 'mekanism:nugget_refine
 //hide1(['#boss_tools:flags']);
 
 // EXTENDED CRAFTING
-hide2('extendedcrafting:', ['handheld_table', 'recipe_maker', 'nether_star_block', 'frame', 'luminessence', 'luminessence_block', 'redstone_ingot_block', 'redstone_ingot', 'redstone_nugget', 'black_iron_slate', 'pedestal', 'crafting_core', 'recipe_maker', 'ultimate_singularity', 'advanced_auto_table', 'elite_auto_table', 'ultimate_auto_table']);
+hide2('extendedcrafting:', ['handheld_table', 'recipe_maker', 'nether_star_block', 'frame', 'luminessence', 'luminessence_block', 'redstone_ingot_block', 'redstone_ingot', 'redstone_nugget', 'black_iron_slate', 'pedestal', 'crafting_core', 'recipe_maker', 'ultimate_singularity', 'advanced_auto_table', 'elite_auto_table', 'ultimate_auto_table', 'the_ultimate_ingot', 'the_ultimate_nugget']);
 hide2('extendedcrafting:ender_', ['star', 'alternator', 'crafter', 'star_block']);
 hide3('extendedcrafting:', ['basic', 'advanced', 'elite', 'ultimate'], '_table');
 hide4('extendedcrafting:', ['', 'enhanced_'], 'ender_', ['ingot_block', 'ingot', 'nugget', 'catalyst', 'component']);
-hide4('extendedcrafting:', ['black_iron', 'crystaltine', 'the_ultimate'], '_', ['block', 'ingot', 'nugget']);
+hide4('extendedcrafting:', ['black_iron', 'crystaltine'], '_', ['block', 'ingot', 'nugget']);
 hide4('extendedcrafting:', ['basic', 'advanced', 'elite', 'ultimate', 'redstone', 'crystaltine', 'the_ultimate'], '_', ['catalyst', 'component']);
 
 // FACTORIORES
 hide3('factoriores:', ['diamond', 'emerald', 'redstone', 'lapis', 'quartz', 'stone', 'sulfur', 'zinc', 'aluminum', 'nickel', 'silver'], '_ore');
 hide2('factoriores:', ['creative_miner', 'sulfur_block', 'drill_head', 'sulfur_dust', 'coal_nugget', 'sulfuric_acid_bucket', 'water_deposit', 'lava_deposit', 'oil_deposit']);
+
+// MORE MINECARTS AND RAILS
+
+hide1(['moreminecarts:silica_steel_block', 'moreminecarts:corrugated_silica_steel', 'moreminecarts:silica_steel_pillar', 'moreminecarts:organic_glass', 'moreminecarts:organic_glass_pane', 'moreminecarts:chiseled_organic_glass', 'moreminecarts:chiseled_organic_glass_pane', 'moreminecarts:holo_scaffold_generator', 'moreminecarts:holo_remote', 'moreminecarts:backwards_holo_remote', 'moreminecarts:simple_holo_remote', 'moreminecarts:glass_cactus', 'moreminecarts:maglev_projector_rail', 'moreminecarts:wooden_projector_rail', 'moreminecarts:projector_rail', 'moreminecarts:glass_spines', 'moreminecarts:hard_light_lens', 'moreminecarts:broken_holo_remote', 'moreminecarts:pearl_stasis_chamber', 'moreminecarts:pearl_stasis_minecart', 'moreminecarts:minecart_with_net', 'moreminecarts:bioluminescent_rail', 'moreminecarts:soulfire_cart', 'moreminecarts:silica_steel_mix', 'moreminecarts:silica_steel']);
 
 /*
 // AUTOMATED

@@ -1,0 +1,398 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+MaxSpawn: 0
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+SpawnHeightOffset: 4
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 256
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: minecraft:air
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-4,-7,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-4_-7_-2.nbt)
+B(-4,-6,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-4_-6_-2.nbt)
+B(-4,-5,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-4_-5_-2.nbt)
+B(-4,-4,-2,minecraft:air)
+B(-4,-3,-2,minecraft:air)
+B(-4,-2,-2,minecraft:air)
+B(-4,-1,-2,minecraft:air)
+B(-4,-5,-1,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-4_-5_-1.nbt)
+B(-4,-4,-1,minecraft:air)
+B(-4,-3,-1,minecraft:air)
+B(-4,-2,-1,minecraft:air)
+B(-4,-1,-1,minecraft:air)
+B(-3,-6,-3,factoriores:gangue)
+B(-3,-5,-3,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-5_-3.nbt)
+B(-3,-4,-3,minecraft:air)
+B(-3,-3,-3,minecraft:air)
+B(-3,-2,-3,minecraft:air)
+B(-3,-1,-3,minecraft:air)
+B(-3,-9,-2,factoriores:gangue)
+B(-3,-8,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-8_-2.nbt)
+B(-3,-7,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-7_-2.nbt)
+B(-3,-6,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-6_-2.nbt)
+B(-3,-5,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-5_-2.nbt)
+B(-3,-4,-2,minecraft:air)
+B(-3,-3,-2,minecraft:air)
+B(-3,-2,-2,minecraft:air)
+B(-3,-1,-2,minecraft:air)
+B(-3,-7,-1,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-7_-1.nbt)
+B(-3,-6,-1,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-6_-1.nbt)
+B(-3,-5,-1,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-3_-5_-1.nbt)
+B(-3,-4,-1,minecraft:air)
+B(-3,-3,-1,minecraft:air)
+B(-3,-2,-1,minecraft:air)
+B(-3,-1,-1,minecraft:air)
+B(-3,-7,0,create:shadow_steel_casing)
+B(-3,-6,0,create:shadow_steel_casing)
+B(-3,-5,0,create:shadow_steel_casing)
+B(-3,-4,0,minecraft:air)
+B(-3,-3,0,minecraft:air)
+B(-3,-2,0,minecraft:air)
+B(-3,-1,0,minecraft:air)
+B(-3,-5,1,factoriores:gangue)
+B(-2,-6,-3,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-2_-6_-3.nbt)
+B(-2,-5,-3,factoriores:gangue)
+B(-2,-6,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-2_-6_-2.nbt)
+B(-2,-5,-2,factoriores:lead_ore,worldspawn6/factoriores_ore_deposit_tile_-2_-5_-2.nbt)
+B(-2,-4,-2,minecraft:air)
+B(-2,-3,-2,minecraft:air)
+B(-2,-2,-2,minecraft:air)
+B(-2,-1,-2,minecraft:air)
+B(-2,-7,-1,create:shadow_steel_casing)
+B(-2,-6,-1,create:shadow_steel_casing)
+B(-2,-5,-1,create:shadow_steel_casing)
+B(-2,-4,-1,minecraft:air)
+B(-2,-3,-1,minecraft:air)
+B(-2,-2,-1,minecraft:air)
+B(-2,-1,-1,minecraft:air)
+B(-2,-8,0,create:shadow_steel_casing)
+B(-2,-7,0,create:shadow_steel_casing)
+B(-2,-6,0,create:shadow_steel_casing)
+B(-2,-5,0,create:shadow_steel_casing)
+B(-2,-4,0,minecraft:air)
+B(-2,-3,0,minecraft:air)
+B(-2,-2,0,minecraft:air)
+B(-2,-1,0,minecraft:air)
+B(-2,-7,1,create:shadow_steel_casing)
+B(-2,-6,1,create:shadow_steel_casing)
+B(-2,-5,1,create:shadow_steel_casing)
+B(-2,-4,1,minecraft:air)
+B(-2,-3,1,minecraft:air)
+B(-2,-2,1,minecraft:air)
+B(-2,-1,1,minecraft:air)
+B(-2,-6,2,factoriores:copper_ore,worldspawn6/factoriores_ore_deposit_tile_-2_-6_2.nbt)
+B(-2,-5,2,factoriores:gangue)
+B(-2,-7,3,factoriores:gangue)
+B(-2,-6,3,factoriores:copper_ore,worldspawn6/factoriores_ore_deposit_tile_-2_-6_3.nbt)
+B(-2,-5,3,factoriores:copper_ore,worldspawn6/factoriores_ore_deposit_tile_-2_-5_3.nbt)
+B(-2,-4,3,minecraft:air)
+B(-2,-3,3,minecraft:air)
+B(-2,-2,3,minecraft:air)
+B(-2,-1,3,minecraft:air)
+B(-1,-5,-3,factoriores:gangue)
+B(-1,-7,-2,create:shadow_steel_casing)
+B(-1,-6,-2,create:shadow_steel_casing)
+B(-1,-5,-2,create:shadow_steel_casing)
+B(-1,-4,-2,minecraft:air)
+B(-1,-3,-2,minecraft:air)
+B(-1,-2,-2,minecraft:air)
+B(-1,-1,-2,minecraft:air)
+B(-1,-8,-1,create:shadow_steel_casing)
+B(-1,-7,-1,create:shadow_steel_casing)
+B(-1,-6,-1,create:shadow_steel_casing)
+B(-1,-5,-1,create:shadow_steel_casing)
+B(-1,-4,-1,minecraft:air)
+B(-1,-3,-1,minecraft:air)
+B(-1,-2,-1,minecraft:air)
+B(-1,-1,-1,minecraft:air)
+B(-1,-9,0,create:shadow_steel_casing)
+B(-1,-8,0,create:shadow_steel_casing)
+B(-1,-7,0,custommachinery:custom_machine_block[facing=west],worldspawn6/custommachinery_custom_machine_tile_-1_-7_0.nbt)
+B(-1,-6,0,create:shadow_steel_casing)
+B(-1,-5,0,create:shadow_steel_casing)
+B(-1,-4,0,minecraft:air)
+B(-1,-3,0,minecraft:air)
+B(-1,-2,0,minecraft:air)
+B(-1,-1,0,minecraft:air)
+B(-1,-8,1,create:shadow_steel_casing)
+B(-1,-7,1,create:shadow_steel_casing)
+B(-1,-6,1,create:shadow_steel_casing)
+B(-1,-5,1,create:shadow_steel_casing)
+B(-1,-4,1,minecraft:air)
+B(-1,-3,1,minecraft:air)
+B(-1,-2,1,minecraft:air)
+B(-1,-1,1,minecraft:air)
+B(-1,-7,2,create:shadow_steel_casing)
+B(-1,-6,2,create:shadow_steel_casing)
+B(-1,-5,2,create:shadow_steel_casing)
+B(-1,-4,2,minecraft:air)
+B(-1,-3,2,minecraft:air)
+B(-1,-2,2,minecraft:air)
+B(-1,-1,2,minecraft:air)
+B(-1,-5,3,factoriores:gangue)
+B(0,-7,-3,create:shadow_steel_casing)
+B(0,-6,-3,create:shadow_steel_casing)
+B(0,-5,-3,create:shadow_steel_casing)
+B(0,-4,-3,minecraft:air)
+B(0,-3,-3,minecraft:air)
+B(0,-2,-3,minecraft:air)
+B(0,-1,-3,minecraft:air)
+B(0,-8,-2,create:shadow_steel_casing)
+B(0,-7,-2,create:shadow_steel_casing)
+B(0,-6,-2,create:shadow_steel_casing)
+B(0,-5,-2,create:shadow_steel_casing)
+B(0,-4,-2,minecraft:air)
+B(0,-3,-2,minecraft:air)
+B(0,-2,-2,minecraft:air)
+B(0,-1,-2,minecraft:air)
+B(0,-9,-1,create:shadow_steel_casing)
+B(0,-8,-1,create:shadow_steel_casing)
+B(0,-7,-1,custommachinery:custom_machine_block,worldspawn6/custommachinery_custom_machine_tile_0_-7_-1.nbt)
+B(0,-6,-1,create:shadow_steel_casing)
+B(0,-5,-1,create:shadow_steel_casing)
+B(0,-4,-1,appliedenergistics2:smooth_sky_stone_chest,worldspawn6/appliedenergistics2_sky_chest_0_-4_-1.nbt)
+B(0,-3,-1,minecraft:air)
+B(0,-2,-1,minecraft:air)
+B(0,-1,-1,minecraft:air)
+B(0,-10,0,create:shadow_steel_casing)
+B(0,-9,0,create:shadow_steel_casing)
+B(0,-8,0,create:shadow_steel_casing)
+B(0,-7,0,custommachinery:custom_machine_block[facing=south],worldspawn6/custommachinery_custom_machine_tile_0_-7_0.nbt)
+B(0,-6,0,appliedenergistics2:dense_energy_cell,worldspawn6/appliedenergistics2_dense_energy_cell_0_-6_0.nbt)
+B(0,-5,0,appliedenergistics2:controller,worldspawn6/appliedenergistics2_controller_0_-5_0.nbt)
+B(0,-4,0,extendedcrafting:the_ultimate_block)
+B(0,-3,0,extendedcrafting:the_ultimate_block)
+B(0,-2,0,extendedcrafting:the_ultimate_block)
+B(0,-1,0,extendedcrafting:the_ultimate_block)
+B(0,-9,1,create:shadow_steel_casing)
+B(0,-8,1,create:shadow_steel_casing)
+B(0,-7,1,custommachinery:custom_machine_block[facing=south],worldspawn6/custommachinery_custom_machine_tile_0_-7_1.nbt)
+B(0,-6,1,create:shadow_steel_casing)
+B(0,-5,1,create:shadow_steel_casing)
+B(0,-4,1,minecraft:air)
+B(0,-3,1,minecraft:air)
+B(0,-2,1,minecraft:air)
+B(0,-1,1,minecraft:air)
+B(0,-8,2,create:shadow_steel_casing)
+B(0,-7,2,create:shadow_steel_casing)
+B(0,-6,2,create:shadow_steel_casing)
+B(0,-5,2,create:shadow_steel_casing)
+B(0,-4,2,minecraft:air)
+B(0,-3,2,minecraft:air)
+B(0,-2,2,minecraft:air)
+B(0,-1,2,minecraft:air)
+B(0,-7,3,create:shadow_steel_casing)
+B(0,-6,3,create:shadow_steel_casing)
+B(0,-5,3,create:shadow_steel_casing)
+B(0,-4,3,minecraft:air)
+B(0,-3,3,minecraft:air)
+B(0,-2,3,minecraft:air)
+B(0,-1,3,minecraft:air)
+B(1,-7,-2,create:shadow_steel_casing)
+B(1,-6,-2,create:shadow_steel_casing)
+B(1,-5,-2,create:shadow_steel_casing)
+B(1,-4,-2,minecraft:air)
+B(1,-3,-2,minecraft:air)
+B(1,-2,-2,minecraft:air)
+B(1,-1,-2,minecraft:air)
+B(1,-8,-1,create:shadow_steel_casing)
+B(1,-7,-1,create:shadow_steel_casing)
+B(1,-6,-1,create:shadow_steel_casing)
+B(1,-5,-1,create:shadow_steel_casing)
+B(1,-4,-1,minecraft:air)
+B(1,-3,-1,minecraft:air)
+B(1,-2,-1,minecraft:air)
+B(1,-1,-1,minecraft:air)
+B(1,-9,0,create:shadow_steel_casing)
+B(1,-8,0,create:shadow_steel_casing)
+B(1,-7,0,custommachinery:custom_machine_block[facing=east],worldspawn6/custommachinery_custom_machine_tile_1_-7_0.nbt)
+B(1,-6,0,create:shadow_steel_casing)
+B(1,-5,0,create:shadow_steel_casing)
+B(1,-4,0,minecraft:air)
+B(1,-3,0,minecraft:air)
+B(1,-2,0,minecraft:air)
+B(1,-1,0,minecraft:air)
+B(1,-8,1,create:shadow_steel_casing)
+B(1,-7,1,create:shadow_steel_casing)
+B(1,-6,1,create:shadow_steel_casing)
+B(1,-5,1,create:shadow_steel_casing)
+B(1,-4,1,minecraft:air)
+B(1,-3,1,minecraft:air)
+B(1,-2,1,minecraft:air)
+B(1,-1,1,minecraft:air)
+B(1,-7,2,create:shadow_steel_casing)
+B(1,-6,2,create:shadow_steel_casing)
+B(1,-5,2,create:shadow_steel_casing)
+B(1,-4,2,minecraft:air)
+B(1,-3,2,minecraft:air)
+B(1,-2,2,minecraft:air)
+B(1,-1,2,minecraft:air)
+B(1,-5,3,factoriores:gangue)
+B(2,-6,-2,factoriores:gangue)
+B(2,-5,-2,factoriores:gangue)
+B(2,-7,-1,create:shadow_steel_casing)
+B(2,-6,-1,create:shadow_steel_casing)
+B(2,-5,-1,create:shadow_steel_casing)
+B(2,-4,-1,minecraft:air)
+B(2,-3,-1,minecraft:air)
+B(2,-2,-1,minecraft:air)
+B(2,-1,-1,minecraft:air)
+B(2,-8,0,create:shadow_steel_casing)
+B(2,-7,0,create:shadow_steel_casing)
+B(2,-6,0,create:shadow_steel_casing)
+B(2,-5,0,create:shadow_steel_casing)
+B(2,-4,0,minecraft:air)
+B(2,-3,0,minecraft:air)
+B(2,-2,0,minecraft:air)
+B(2,-1,0,minecraft:air)
+B(2,-7,1,create:shadow_steel_casing)
+B(2,-6,1,create:shadow_steel_casing)
+B(2,-5,1,create:shadow_steel_casing)
+B(2,-4,1,minecraft:air)
+B(2,-3,1,minecraft:air)
+B(2,-2,1,minecraft:air)
+B(2,-1,1,minecraft:air)
+B(2,-6,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_2_-6_2.nbt)
+B(2,-5,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_2_-5_2.nbt)
+B(2,-4,2,minecraft:air)
+B(2,-3,2,minecraft:air)
+B(2,-2,2,minecraft:air)
+B(2,-1,2,minecraft:air)
+B(3,-5,-1,factoriores:gangue)
+B(3,-7,0,create:shadow_steel_casing)
+B(3,-6,0,create:shadow_steel_casing)
+B(3,-5,0,create:shadow_steel_casing)
+B(3,-4,0,minecraft:air)
+B(3,-3,0,minecraft:air)
+B(3,-2,0,minecraft:air)
+B(3,-1,0,minecraft:air)
+B(3,-6,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_3_-6_1.nbt)
+B(3,-5,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_3_-5_1.nbt)
+B(3,-4,1,minecraft:air)
+B(3,-3,1,minecraft:air)
+B(3,-2,1,minecraft:air)
+B(3,-1,1,minecraft:air)
+B(3,-9,2,factoriores:gangue)
+B(3,-8,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_3_-8_2.nbt)
+B(3,-7,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_3_-7_2.nbt)
+B(3,-6,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_3_-6_2.nbt)
+B(3,-5,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_3_-5_2.nbt)
+B(3,-4,2,minecraft:air)
+B(3,-3,2,minecraft:air)
+B(3,-2,2,minecraft:air)
+B(3,-1,2,minecraft:air)
+B(4,-7,0,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-7_0.nbt)
+B(4,-6,0,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-6_0.nbt)
+B(4,-5,0,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-5_0.nbt)
+B(4,-4,0,minecraft:air)
+B(4,-3,0,minecraft:air)
+B(4,-2,0,minecraft:air)
+B(4,-1,0,minecraft:air)
+B(4,-8,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-8_1.nbt)
+B(4,-7,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-7_1.nbt)
+B(4,-6,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-6_1.nbt)
+B(4,-5,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-5_1.nbt)
+B(4,-4,1,minecraft:air)
+B(4,-3,1,minecraft:air)
+B(4,-2,1,minecraft:air)
+B(4,-1,1,minecraft:air)
+B(4,-7,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-7_2.nbt)
+B(4,-6,2,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_4_-6_2.nbt)
+B(4,-5,2,factoriores:gangue)
+B(5,-6,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_5_-6_1.nbt)
+B(5,-5,1,factoriores:iron_ore,worldspawn6/factoriores_ore_deposit_tile_5_-5_1.nbt)
+B(5,-4,1,minecraft:air)
+B(5,-3,1,minecraft:air)
+B(5,-2,1,minecraft:air)
+B(5,-1,1,minecraft:air)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

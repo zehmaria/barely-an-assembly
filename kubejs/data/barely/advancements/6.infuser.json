@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {  "item": "mekanism:metallurgic_infuser" },
+        "title": "Mekanism",
+        "description": ""
+    },
+    "parent": "barely:5.furnace",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "mekanism:metallurgic_infuser" }] }
+        }
+    }
+}
+

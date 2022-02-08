@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {  "item": "minecraft:furnace" },
+        "title": "Mine",
+        "description": "Burn"
+    },
+    "parent": "barely:4.table",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "minecraft:furnace" }] }
+        }
+    }
+}
+

@@ -78,7 +78,7 @@ onEvent('item.tooltip', tooltip => {
 
     ['minecraft:rabbit_stew', 'minecraft:mutton', 'minecraft:cooked_mutton', 'minecraft:beetroot', 'minecraft:beetroot_soup', 'minecraft:sweet_berries', 'minecraft:apple', 'minecraft:mushroom_stew', 'minecraft:bread', 'minecraft:porkchop', 'minecraft:cooked_porkchop', 'minecraft:cod', 'minecraft:salmon', 'minecraft:tropical_fish', 'minecraft:pufferfish', 'minecraft:cooked_cod', 'minecraft:cooked_salmon', 'minecraft:cookie', 'minecraft:melon_slice', 'minecraft:dried_kelp', 'minecraft:beef', 'minecraft:cooked_beef', 'minecraft:chicken', 'minecraft:cooked_chicken', 'minecraft:rotten_flesh', 'minecraft:spider_eye', 'minecraft:carrot', 'minecraft:potato', 'minecraft:baked_potato', 'minecraft:poisonous_potato', 'minecraft:pumpkin_pie', 'minecraft:rabbit', 'minecraft:cooked_rabbit'].forEach(X => tooltip.add(X, '§3Heals.'));
 
-    ['appliedenergistics2:purified_certus_quartz_crystal', 'appliedenergistics2:purified_fluix_crystal'].forEach(X => tooltip.add(X, '§3Can be placed down.'));
+    ['appliedenergistics2:purified_certus_quartz_crystal'].forEach(X => tooltip.add(X, '§3Maybe if I drop it, there will be a new reaction?.'));
 
     //.forEach(X => tooltip.add(X, '§3'));
     //tooltip.add(, '§3');

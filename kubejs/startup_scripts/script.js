@@ -27,6 +27,9 @@ const hIT = ['diregoo:gooblockterrain', 'diregoo:gooblock'];
 const eIT = ['factoriores:coal_ore', 'factoriores:iron_ore', 'factoriores:gold_ore', 'factoriores:copper_ore', 'factoriores:lead_ore', 'factoriores:uranium_ore'];
 onEvent('block.modification', event => {
     cIT.forEach(X => event.modify(X, block => { block.destroySpeed = 1000000; block.explosionResistance = 1000000; }));
-    hIT.forEach(X => event.modify(X, block => { block.destroySpeed = 100; block.explosionResistance = 16; }));
+    hIT.forEach(X => event.modify(X, block => { block.destroySpeed = 1000000; block.explosionResistance = 15; }));
     eIT.forEach(X => event.modify(X, block => { block.explosionResistance = 1000000; }));
+
+    ['minecraft:sandstone', 'minecraft:stone'].forEach(X => event.modify(X, block => { block.destroySpeed = 15; }));
+    event.modify('extendedcrafting:the_ultimate_block', block => { block.lightEmission = 15; });
 });

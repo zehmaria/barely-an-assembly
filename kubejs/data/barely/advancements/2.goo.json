@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "diregoo:gooscanner" },
+        "title": "What would I goo?",
+        "description": "Can I even do anything by knowing this? Did the union still found no way out of that? How worthless can we all be?",
+        "hidden": true
+    },
+    "parent": "barely:1.help",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "diregoo:gooscanner" }] }
+        }
+    }
+}

@@ -146,6 +146,8 @@ const Caa = 'create:andesite_alloy';
 const Cc1 = 'create:andesite_casing';
 const Cc2 = 'create:brass_casing';
 const Cc3 = 'create:copper_casing';
+const Crc = 'compressedcreativity:rotational_compressor';
+const Cem = 'createaddition:electric_motor';
 
 const Kse = 'mekanism:superheating_element';
 const Ktt = 'mekanismgenerators:turbine_casing';
@@ -156,6 +158,7 @@ const Kte = 'mekanism:thermal_evaporation_block';
 const Kam = 'mekanism:pellet_antimatter';
 const Kdt = 'mekanism:dynamic_tank';
 const Kct = 'mekanism:basic_chemical_tank';
+const Kut = 'mekanism:ultimate_chemical_tank';
 const Ktb = 'mekanism:energy_tablet';
 const Kca = 'mekanism:steel_casing';
 const Ktc = 'mekanism:teleportation_core';
@@ -173,7 +176,6 @@ const mm2 = 'mekanism:alloy_reinforced';
 const mm3 = 'mekanism:alloy_atomic';
 
 const Dbp = 'diregoo:gooblockpoison';
-const Dag = 'diregoo:antigoopaste';
 const Dad = 'diregoo:antigoodust';
 const Df1 = 'diregoo:focust1';
 const Df4 = 'diregoo:focust4';
@@ -191,8 +193,11 @@ const Ic1 = 'immersiveengineering:capacitor_lv';
 const Ic2 = 'immersiveengineering:capacitor_mv';
 const Ic3 = 'immersiveengineering:capacitor_hv';
 const Ik1 = 'immersiveengineering:connector_lv';
+const Ik2 = 'immersiveengineering:connector_mv';
+const Ik3 = 'immersiveengineering:connector_hv';
 const Ir1 = 'immersiveengineering:connector_lv_relay';
 const Iw1 = 'immersiveengineering:wirecoil_copper';
+const Icm= 'immersiveengineering:coil_mv';
 const Ihm = 'immersiveengineering:hammer';
 const Iwc = 'immersiveengineering:wirecutter';
 const Itw = '#forge:treated_wood';
@@ -210,9 +215,10 @@ const Csh = 'create:shaft';
 const Ccw = 'create:cogwheel';
 const Cgl = Item.of('create:super_glue', '{Damage:0}');
 
-const ltx = 'myrtrees:latex';
+const ltx = '#forge:slimeballs';
 
 const Apq = 'appliedenergistics2:purified_certus_quartz_crystal';
+const Apf = 'appliedenergistics2:purified_fluix_crystal';
 
 const Ppt = 'pneumaticcraft:pressure_tube';
 const Pac = Item.of('pneumaticcraft:air_canister', '{"pneumaticcraft:air":30000}');
@@ -243,4 +249,3 @@ const _I5 = 'immersiveengineering:circuit_board';
 const _I6 = 'immersiveengineering:stick_steel';
 
 const _AA = 'minecraft:clay_ball';
-const _RR = 'minecraft:obsidian';

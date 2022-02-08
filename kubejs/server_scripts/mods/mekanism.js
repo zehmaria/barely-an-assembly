@@ -23,6 +23,7 @@ onEvent('recipes', event => {
     const __c = 'diregoo:focust4';
     const __p = 'diregoo:powerampt4';
     const __m = 'create:millstone';
+    const __l = 'mekanism:crystal_lead';
 
     addShaped(event, [
         ['2x mekanismgenerators:turbine_casing',           [[air, Khd, air], [tPs, Ktt, tPs], [air, HOP, air]]],
@@ -33,19 +34,13 @@ onEvent('recipes', event => {
         ['mekanismgenerators:laser_focus_matrix',    [[air, _rg, air], [_rg, Df4, _rg], [air, _rg, air]]],
 
         ['mekanism:industrial_alarm',                [[rst, _I4, rst], [_K1, Iel, _K1], [tPl, Cpm, tPl]]],
-        ['mekanism:teleportation_core',              [[HOP, Cpm, HOP], [__p, __c, Kam], [HOP, 'appliedenergistics2:singularity', HOP]]],
+        ['mekanism:teleportation_core',              [[HOP, Cpm, HOP], [__p, __c, Kam], [HOP, 'mekanism:crystal_uranium', HOP]]],
         ['mekanism:configurator',                    [[air, Cpm, air], [mm1, Ktb, mm1], [Mlt, stk, Mlt]]],
         ['mekanism:energy_tablet',                   [[Iw1, Ic1, Iw1], [mm1, Ir1, mm1]]],
 
-        ['mekanism:basic_induction_cell',            [[KDl, Ktb, KDl], [Ktb, ti1, Ktb], [KDl, Ktb, KDl]]],
-        ['mekanism:advanced_induction_cell',         [[Ktb, ic1, Ktb], [ic1, ti2, ic1], [Ktb, ic1, Ktb]]],
-        ['mekanism:elite_induction_cell',            [[Ktb, ic2, Ktb], [ic2, ti3, ic2], [Ktb, ic2, Ktb]]],
-        ['mekanism:ultimate_induction_cell',         [[Ktb, ic3, Ktb], [ic3, ti4, ic3], [Ktb, ic3, Ktb]]],
+        ['mekanism:basic_induction_cell',            [[KDl, mm3, KDl], [KDl, Ic3, KDl], [KDl, mm3, KDl]]],
 
-        ['mekanism:basic_induction_provider',        [[KDl, _K1, KDl], [_K1, ti1, _K1], [KDl, _K1, KDl]]],
-        ['mekanism:advanced_induction_provider',     [[_K2, ip1, _K2], [ip1, ti2, ip1], [_K2, ip1, _K2]]],
-        ['mekanism:elite_induction_provider',        [[_K3, ip2, _K3], [ip2, ti3, ip2], [_K3, ip2, _K3]]],
-        ['mekanism:ultimate_induction_provider',     [[_K4, ip3, _K4], [ip3, ti4, ip3], [_K4, ip3, _K4]]],
+        ['mekanism:basic_induction_provider',        [[KDl, mm3, KDl], [KDl, Ik3, KDl], [KDl, mm3, KDl]]],
 
         ['mekanism:chemical_washer',                 [[_x1, Kdt, _x1], [_K3, Kca, _K3], [_x1, Kct, _x1]]],
         ['mekanism:rotary_condensentrator',          [[gla, _K1, gla], [Kct, Ktb, Kdt], [gla, _K1, gla]]],
@@ -56,7 +51,8 @@ onEvent('recipes', event => {
         ['mekanism:chemical_oxidizer',               [[mm1, _K1, mm1], [Mcw, Kdt, Kct], [mm1, _K1, mm1]]],
         ['mekanism:laser_amplifier',                 [[tPs, tPs, tPs], [tPs, Ic1, __c], [tPs, tPs, tPs]]],
 
-        ['mekanism:basic_pressurized_tube',          [[tPi, 'pneumaticcraft:pressure_tube', tPi]]],
+        ['mekanism:basic_pressurized_tube',          [[mm1, 'pneumaticcraft:pressure_tube', mm1]]],
+        ['mekanism:qio_drive_base',                  [[__l, Kpp, __l], [Kpp, Ktc, Kpp], [__l, _K4, __l]]],
     ]);
 
     event.replaceInput({}, 'minecraft:netherite_helmet',     'immersiveengineering:armor_steel_head');
@@ -88,15 +84,7 @@ onEvent('recipes', event => {
         event.remove({ output: X });
         event.custom({ type: 'mekanism:mek_data', result: Item.of(X), pattern: Y, key: Z });
     }
-    mdr('mekanism:advanced_chemical_tank', ['AOA','OPO','AOA'],{
-        P: { item: 'mekanism:basic_chemical_tank' }, O: { tag: 'forge:ingots/lead' }, A: { tag: 'mekanism:alloys/infused' }
-    });
-    mdr('mekanism:elite_chemical_tank', ['AOA','OPO','AOA'],{
-        P: { item: 'mekanism:advanced_chemical_tank' }, O: { tag: 'forge:ingots/lead' }, A: { tag: 'mekanism:alloys/reinforced' }
-    });
-    mdr('mekanism:ultimate_chemical_tank', ['AOA','OPO','AOA'],{
-        P: { item: 'mekanism:elite_chemical_tank' }, O: { tag: 'forge:ingots/lead' }, A: { tag: 'mekanism:alloys/atomic' }
-    });
+    mdr('mekanism:basic_chemical_tank', ['AOA','O O','AOA'],{ O: { tag: 'forge:ingots/lead' }, A: { tag: 'mekanism:alloys/reinforced' } });
     mdr('mekanism:purification_chamber', ['OCO','OPO','OCO'], {
         P: { item: 'mekanism:enrichment_chamber' }, O: { tag: 'forge:ingots/lead' }, C: { tag: 'forge:circuits/advanced' },
     });
@@ -113,6 +101,19 @@ onEvent('recipes', event => {
     });
     mdr('mekanism:seismic_reader', ['SHS','SES','SSS'], {
         H:{ item: HOP }, S: { tag: 'forge:ingots/steel' }, E: { item: 'mekanism:energy_tablet' }
+    });
+
+    mdr('mekanism:qio_drive_hyper_dense', [' A ','ACA',' A '], {
+        A:{ item: 'mekanism:qio_drive_base' }, C: { item: Ktc }
+    });
+    mdr('mekanism:qio_drive_time_dilating', [' A ','ACA',' A '], {
+        A:{ item: 'mekanism:qio_drive_hyper_dense' }, C: { item: Ktc }
+    });
+    mdr('mekanism:qio_drive_supermassive', [' A ','ACA',' A '], {
+        A:{ item: 'mekanism:qio_drive_time_dilating' }, C: { item: Ktc }
+    });
+    ['drive_array', 'dashboard', 'importer', 'exporter', 'redstone_adapter'].forEach(X => {
+        event.remove({ output: 'mekanism:qio_' + X });
     });
 
     // CIRCUITS

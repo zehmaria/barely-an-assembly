@@ -40,7 +40,7 @@
 		itemViewerSlotsX = 8
 		#Number of slots to view vertically on a QIO Item Viewer.
 		#Range: 2 ~ 48
-		itemViewerSlotsY = 4
+		itemViewerSlotsY = 7
 
 	#Particle Config
 	[client.particle]
@@ -94,8 +94,8 @@
 				y = -23
 
 			[client.gui.window.crafting0]
-				x = 2147483647
-				y = 2147483647
+				x = 11
+				y = 15
 
 			[client.gui.window.rename]
 				x = 2147483647

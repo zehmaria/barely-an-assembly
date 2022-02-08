@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "adpother:aerometer" },
+        "title": "It is goonna be goo!",
+        "description": "Sure, that may speed up my demise, but what else am I gonna do? Just wait for the goo to take over while being a sadist towards those monsters? Look what happend last time by being careful! THEY ARE ALL DEAD AND THE GOO IS STILL HERE, EVERYWHERE! But now, I can't even die! Ever since the moment I opened my eyes again, it's only a question of time before it's only me, the goo, and the  monsters... WHY? No wonder Joe nuked everything.",
+        "hidden": true
+    },
+    "parent": "barely:1.help",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "adpother:aerometer" }] }
+        }
+    }
+}

@@ -172,24 +172,24 @@
 	[machines.teslacoil]
 		#The Flux per tick the Tesla Coil will consume, simply by being active
 		#Range: > 1
-		consumption = 256
+		consumption = 16
 		#The amount of Flux the Tesla Coil will consume when shocking an entity
 		#Range: > 1
-		consumption_active = 512
+		consumption_active = 128
 		#The amount of damage the Tesla Coil will do when shocking an entity
 		#Range: 0.0 ~ 2.147483647E9
-		damage = 72.0
+		damage = 128.0
 
 	[machines.turret]
 		#The Flux per tick any turret consumes to monitor the area
 		#Range: > 1
-		consumption = 64
+		consumption = 1
 		#The Flux per tick the chemthrower turret consumes to shoot
 		#Range: > 1
-		chem_consumption = 32
+		chem_consumption = 8
 		#The Flux per tick the gun turret consumes to shoot
 		#Range: > 1
-		gun_consumption = 32
+		gun_consumption = 4
 
 	[machines.garden_cloche]
 		#The Flux per tick the cloche consumes to grow plants
@@ -213,7 +213,7 @@
 
 	[machines.lantern]
 		#Set this to false to disable the mob-spawn prevention of the Powered Lantern
-		spawnPrevent = false
+		spawnPrevent = true
 		#How much Flux the powered lantern draws per tick
 		#Range: > 1
 		energyDraw = 1
@@ -223,7 +223,7 @@
 
 	[machines.floodlight]
 		#Set this to false to disable the mob-spawn prevention of the Floodlight
-		spawnPrevent = false
+		spawnPrevent = true
 		#How much Flux the floodlight draws per tick
 		#Range: > 1
 		energyDraw = 5
@@ -463,25 +463,25 @@
 	[tools.bullet_damage]
 		#The amount of base damage a Casull Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		casull = 30.0
+		casull = 25.0
 		#The amount of base damage a armor piercing Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		ap = 30.0
+		ap = 35.0
 		#The amount of base damage a single part of buckshot inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		buck = 6.0
+		buck = 8.0
 		#The amount of base damage a dragon breath cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		dragon = 9.0
+		dragon = 15.0
 		#The amount of base damage a homing cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		homing = 30.0
+		homing = 50.0
 		#The amount of base damage a wolfpack cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		wolfpack = 12.0
+		wolfpack = 20.0
 		#The amount of base damage the sub-projectiles of a  wolfpack cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		wolfpack_part = 24.0
+		wolfpack_part = 40.0
 		#The amount of damage a silver bullet inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
 		silver = 30.0
@@ -499,10 +499,10 @@
 	[tools.railgun]
 		#The base amount of Flux consumed per shot by the Railgun
 		#Range: > 1
-		consumption = 800
+		consumption = 250
 		#A modifier for the damage of all projectiles fired by the Railgun
 		#Range: 0.0 ~ 1.7976931348623157E308
-		damage_modifier = 3.0
+		damage_modifier = 5.0
 
 	[tools.powerpack]
 		#A whitelist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]

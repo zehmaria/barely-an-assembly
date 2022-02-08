@@ -14,6 +14,8 @@ onEvent('recipes', event => {
     event.remove({ id: 'mekanism:infusion_conversion/tin/from_dust' });
     event.remove({ id: 'mekanism:infusion_conversion/diamond/from_dust' });
 
+    event.remove({ id: 'mekanism:infusion_conversion/obsidian_to_obsidian_dust' });
+
     // REDSTONE INFUSING BYE BYE
     //event.remove({ id: 'mekanism:infusion_conversion/redstone/from_enriched' });
     event.remove({ id: 'mekanism:infusion_conversion/redstone/from_block' });

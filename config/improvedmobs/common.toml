@@ -2,7 +2,7 @@
 #With default value every difficulty perk maxes out at difficulty 250
 [general]
 	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
-	"Enable difficulty scaling" = true
+	"Enable difficulty scaling" = false
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
 	"Difficulty Delay" = 0
 	#Handles increase in difficulty regarding current difficulty.
@@ -79,7 +79,7 @@
 [ai]
 	#Whitelist for blocks, which can be actively broken. Usage: <registry name;classname;tag> put "!" infront to exclude blocks
 	#If you includery common blocks (like grass blocks) the pathfinding will be a bit strange
-	"Block Whitelist" = ["minecraft:dirt", "minecraft:grass_block", "minecraft:sand", "minecraft:podzol", "minecraft:stone", "minecraft:obsidian", "minecraft:sandstone"]
+	"Block Whitelist" = ["minecraft:dirt", "minecraft:grass_block", "minecraft:sand", "minecraft:podzol", "minecraft:stone", "minecraft:obsidian", "minecraft:sandstone", "extendedcrafting:the_ultimate_block", "appliedenergistics2:smooth_sky_stone_chest", "create:shadow_steel_casing", "appliedenergistics2:controller", "kubejs:monolith_node"]
 	#Treat Block Whitelist as Blocklist
 	"Block as Blacklist" = true
 	#Use the block breaking sound instead of a knocking sound
@@ -93,7 +93,7 @@
 	"Breaker Cooldown" = 20
 	#Chance for a mob to be able to steal items
 	#Range: 0.0 ~ 1.0
-	"Stealer Chance" = 0.3
+	"Stealer Chance" = 0.0
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
 	"Breaking items" = ["minecraft:diamond_pickaxe;1"]
 	#Should mobs be able to break tile entities? Evaluated before the break list

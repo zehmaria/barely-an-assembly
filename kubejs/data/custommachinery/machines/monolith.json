@@ -1,10 +1,6 @@
 {
     "name": "Monolith",
-    "appearance": {
-        "idle": { "block": "kubejs:machine/monolith" }
-    },
-    "gui": [
-    ],
-    "components": [
-  	]
+    "appearance": { "block": "kubejs:machine/monolith"  },
+    "gui": [],
+    "components": []
 }

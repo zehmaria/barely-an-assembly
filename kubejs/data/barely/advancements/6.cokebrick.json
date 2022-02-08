@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "immersiveengineering:cokebrick" },
+        "title": "Immersive Engineering",
+        "description": ""
+    },
+    "parent": "barely:5.furnace",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "immersiveengineering:cokebrick" }] }
+        }
+    }
+}
+

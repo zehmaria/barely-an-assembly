@@ -30,7 +30,7 @@ onEvent('recipes', event => {
         ['create:mechanical_press',     [[air, Csh, air], [Csh, Cc1, Caa], [Caa, Caa, Caa]]],
         ['create:hand_crank',           [[air, Csh, air], [log, log, log], [air, air, Caa]]],
 
-        ['createchunkloading:chunk_loader', [[Khd, tPu, Khd], [tPu, 'immersiveengineering:coil_mv', tPu], [Khd, tPu, Khd]]],
+        //['createchunkloading:chunk_loader', [[Khd, tPu, Khd], [tPu, 'immersiveengineering:coil_mv', tPu], [Khd, tPu, Khd]]],
 
         ['create:peculiar_bell',        [[tPe], ['immersiveengineering:chute_copper'], [tRe]]],
 

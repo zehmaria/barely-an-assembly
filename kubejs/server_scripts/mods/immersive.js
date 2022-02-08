@@ -8,12 +8,16 @@ onEvent('recipes', event => {
     const _gd = 'mekanism:gauge_dropper';
     const __i = 'immersiveengineering:sheetmetal_iron';
     const _ts = 'immersiveengineering:treated_scaffold';
+    const _wg = 'immersiveengineering:wooden_grip';
 
     addShaped(event, [
         ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPs, tPs]]],
 
-        ['4x immersiveengineering:wirecoil_steel',      [[air, _ws, air], [_wl, stk, _wl], [air, _ws, air]]],
-        ['4x immersiveengineering:wirecoil_redstone',   [[air, _wl, air], [rst, stk, rst], [air, _wl, air]]],
+        ['4x immersiveengineering:casull',              [[Iec, Iec, Iec], [Iec, tDl, tPi]]],
+        ['immersiveengineering:railgun',                [[air, Ic2, _wg], [tPs, Icm, _K2], [Icm, tPs, air]]],
+
+        //['4x immersiveengineering:wirecoil_steel',      [[air, _ws, air], [_wl, stk, _wl], [air, _ws, air]]],
+        //['4x immersiveengineering:wirecoil_redstone',   [[air, _wl, air], [rst, stk, rst], [air, _wl, air]]],
         ['immersiveengineering:survey_tools',           [[Mbk, _gd, Ihm], [Ihf, Ihf, Ihf]]],
 
         ['immersiveengineering:drillhead_iron',         [[tPi, Ccw, tPi], [tPi, tPi, tPi], [air, tPi, air]]],

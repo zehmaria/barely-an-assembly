@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "create:mechanical_saw" },
+        "title": "Would a woodchuck chuck?",
+        "description": "If only anything was strong enough to hold against the monters... But they just find my body too delicious. Although, it's ironic that they lose all intent to have dinner once the curse activates. Ha, I could at least build a party of myselves!",
+        "hidden": true
+    },
+    "parent": "barely:1.help",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "create:mechanical_saw" }] }
+        }
+    }
+}

@@ -4,12 +4,13 @@ onEvent('recipes', event => {
     const __a = Item.of('create:copper_backtank', '{Air:900}');
     const __b = Item.of('create:potato_cannon', '{Damage:0}');
     addShaped(event, [
+        ['pneumaticcraft:vortex_cannon',          [[HOP, HOP, HOP], [Pac, __b, air], [HOP, _K2, HOP]]],
         ['pneumaticcraft:jumping_upgrade_1',      [[HOP, __a, HOP], [__b, Ppt, __b], [HOP, pis, HOP]]],
         ['pneumaticcraft:range_upgrade',          [[HOP, tGf, HOP], [tGf, __l, tGf], [HOP, tGf, HOP]]],
         ['pneumaticcraft:speed_upgrade',          [[HOP, tGf, HOP], [tGf, 'mekanism:upgrade_speed', tGf], [HOP, tGf, HOP]]],
         ['pneumaticcraft:logistics_core',         [[br, br, br], [br, _K1, br], [br, br, br]]],
         ['pneumaticcraft:transfer_gadget',        [[_K1], ['create:andesite_funnel'], [_I3]]],
-        ['pneumaticcraft:advanced_pressure_tube', [[air, Apq, air], [Cgl, Ppt, Df1], [air, tPl, air]]],
+        ['pneumaticcraft:advanced_pressure_tube', [[air, Apf, air], [Cgl, Ppt, Cgl], [air, Apf, air]]],
         ['pneumaticcraft:charging_station',       [[Ppt], ['immersiveengineering:charging_station'], ['pneumaticcraft:logistics_core']]],
         ['pneumaticcraft:kerosene_lamp',          [[air, tPs, air], [tPs, gla, tPs]]],
         ['pneumaticcraft:tag_workbench',          [['minecraft:writable_book'], ['create:schematic_table']]],

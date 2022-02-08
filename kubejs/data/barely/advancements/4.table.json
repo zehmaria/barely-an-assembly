@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "minecraft:crafting_table" },
+        "title": "Mine",
+        "description": "Craft"
+    },
+    "parent": "barely:3.wood",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "minecraft:crafting_table" }] }
+        }
+    }
+}
+

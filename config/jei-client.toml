@@ -14,7 +14,7 @@
 	LowMemorySlowSearchEnabled = false
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 12
+	MaxColumns = 10
 	#Enable cheating items into the hotbar by using the shift+number keys.
 	CheatToHotbarUsingHotkeysEnabled = true
 

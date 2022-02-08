@@ -211,4 +211,6 @@
 	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
 	door_breaking.targets.whitelist = []
 	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
-	door_breaking.targets.blacklist = []
+	door_breaking.targets.blacklist = [
+		"appliedenergistics2:smooth_sky_stone_chest"
+	]

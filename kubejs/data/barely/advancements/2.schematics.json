@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "create:schematic_table" },
+        "title": "Knowledge!",
+        "description": "My superiors would be so angry! I should really be careful to not lose this!",
+        "hidden": true
+    },
+    "parent": "barely:1.help",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "create:schematic_table" }] }
+        }
+    }
+}

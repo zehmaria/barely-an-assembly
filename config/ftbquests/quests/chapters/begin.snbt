@@ -6,25 +6,38 @@
 	title: "Basic necessities"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Sorry!"
-		x: -5.0d
-		y: -2.5d
-		description: ["Sorry, that is the best I can do for now. Stay in contact."]
-		id: "2E096FA588CA5D70"
-		tasks: [{
-			id: "63A64D25243F5E38"
-			type: "item"
-			item: {
-				id: "immersiveengineering:revolver"
-				Count: 1b
-				ForgeCaps: {
-					Parent: {
-						Size: 21
-						Items: [ ]
+	quests: [
+		{
+			title: "Sorry!"
+			x: -5.0d
+			y: -2.5d
+			description: ["Sorry, that is the best I can do for now. Stay in contact."]
+			id: "2E096FA588CA5D70"
+			tasks: [{
+				id: "63A64D25243F5E38"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
 					}
 				}
-			}
-		}]
-	}]
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			description: ["I don't know how you are still alive, or if this is just me losing my mind, but I have confirmed your biometry accordingly.  Things changed, the union is falling apart,  so it's ill-advised trying to contact any of your former institutions. So much time failing at dealing with the goo, just took a toll on all of us. I am sending you as much as I can, and if this is a prank, them they won by digging such an old scar from our family. I have sent a personal device for us to stay in touch and confirm your status and legitimacy. Keep in mind, the drones have gone rogue since over 5 centuries ago. Using them anonymously for basic exchange  is what most have been doing, but even that is a questionable practice. I hope this get to you, and you are well.  We never forgot you."]
+			id: "7E1EB2A3E9A1678A"
+			tasks: [{
+				id: "252151E5F753DF29"
+				type: "checkmark"
+				title: "SOS"
+			}]
+		}
+	]
 }

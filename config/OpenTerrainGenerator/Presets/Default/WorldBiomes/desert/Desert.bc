@@ -205,6 +205,7 @@ Well(minecraft:sandstone,minecraft:sandstone_slab,minecraft:water,1,0.1,2,128,mi
 UnderWaterOre(minecraft:sand,7,3,100.0,minecraft:dirt,minecraft:grass_block)
 UnderWaterOre(minecraft:clay,4,1,100.0,minecraft:dirt,minecraft:clay)
 UnderWaterOre(minecraft:gravel,6,1,100.0,minecraft:dirt,minecraft:grass_block)
+Boulder(diregoo:gooblockterrain,1,2.0,60,80,minecraft:sand)
 Boulder(factoriores:lead_ore,1,8.0,60,80,minecraft:sand)
 Fossil(3,40,68)
 Grass(minecraft:dead_bush,NotGrouped,4,100.0,minecraft:sand,minecraft:terracotta,minecraft:white_terracotta,minecraft:dirt)

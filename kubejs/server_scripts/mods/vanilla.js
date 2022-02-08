@@ -19,10 +19,10 @@ onEvent('recipes', event => {
         ['minecraft:iron_bars',         [[tRi, tRi, tRi], [tRi, tRi, tRi]]],
         ['minecraft:minecart',          [[tPi, air, tPi], [_I2, tPi, _I2]]],
 
-        ['6x minecraft:activator_rail', [[_I6, stk, _I6], [_I6, _K2, _I6], [_I6, stk, _I6]]],
-        ['6x minecraft:detector_rail',  [[_I6, Msp, _I6], [_I6, stk, _I6], [_I6, _K2, _I6]]],
-        ['6x minecraft:powered_rail',   [[_I6, air, _I6], [tRe, stk, tRe], [_I6, _K2, _I6]]],
-        ['16x minecraft:rail',          [[_I6, air, _I6], [_I6, stk, _I6], [_I6, air, _I6]]],
+        ['6x minecraft:activator_rail', [[_I6, air, _I6], [_I6, 'moreminecarts:wooden_rail', _I6], [_I6, _K2, _I6]]],
+        ['6x minecraft:detector_rail',  [[_I6, Msp, _I6], [_I6, 'moreminecarts:wooden_rail', _I6], [_I6, _K2, _I6]]],
+        ['6x minecraft:powered_rail',   [[_I6, air, _I6], [tRe, 'moreminecarts:wooden_rail', tRe], [_I6, _K2, _I6]]],
+        ['16x minecraft:rail',          [[_I6, air, _I6], [_I6, 'moreminecarts:wooden_rail', _I6], [_I6, air, _I6]]],
 
         ['minecraft:saddle',            [[Mlt, Mlt, Mlt], [Mlt, _rp, Mlt], [_rp, air, _rp]]],
 

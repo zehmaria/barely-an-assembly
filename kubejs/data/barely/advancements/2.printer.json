@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": { "item": "extendedcrafting:compressor" },
+        "title": "WOW!",
+        "description": "This makes things so much easier! I can just brute force things and see how far I can take our newest tech. It's not like there is someone around to regulate me!",
+        "hidden": true
+    },
+    "parent": "barely:1.help",
+    "criteria": {
+        "c_01": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { "items": [{ "item": "extendedcrafting:compressor" }] }
+        }
+    }
+}
