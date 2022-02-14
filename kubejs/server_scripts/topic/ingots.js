@@ -147,7 +147,7 @@ onEvent('recipes', event => {
     event.custom({
         type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 400, energy:204800,
         input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 4 },
-        additives: [{ base_ingredient: { tag: 'forge:dusts/coal_coke' }, count: 4 }],
+        additives: [{ base_ingredient: { tag: 'forge:dusts/coal_coke' }, count: 2 }],
         results: [{ tag: 'forge:ingots/steel' }]
     });
 

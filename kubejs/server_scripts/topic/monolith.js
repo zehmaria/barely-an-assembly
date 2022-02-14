@@ -93,8 +93,9 @@ onEvent('recipes', event => {
     s1(__f, _qb);
     s1(Dbp, 'diregoo:gooblockterrain');
     s1(Dbp, 'diregoo:gooblock');
+    s1('diregoo:gntblockt2', 'diregoo:gntblockt1');
+    sf1('diregoo:gntblockt3', 'diregoo:gntblockt2');
     s1(Dt4, Dt3);
-    s1('diregoo:antigoofieldgen', 'diregoo:turretblock');
     s1('immersiveengineering:coil_hv', 'immersiveengineering:coil_mv');
     s1('immersiveengineering:capacitor_hv', 'immersiveengineering:capacitor_mv');
     s1D('immersiveengineering:connector_hv', 'immersiveengineering:connector_mv');
@@ -120,7 +121,7 @@ onEvent('recipes', event => {
     ]);
     mono(1, [
         rstc([['m'], [' '], ['o'], ['o'], ['o'], ['o']],                      { o: _co }),
-        rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], true, [Kse], 'pneumaticcraft:creative_compressed_iron_block', 1),
+        rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], true, [Krh], 'pneumaticcraft:creative_compressed_iron_block', 1),
         rblo('input', 'destroy', [-1,  3, -1,  1,  3,  1], true, [_ub], _mn, 8)
     ]);
     mono(1, [
@@ -140,6 +141,13 @@ onEvent('recipes', event => {
         rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], true, [__c], 'mekanism:qio_drive_array', 1),
         rblo('input', 'destroy', [-1,  3, -1,  1,  4,  1], true, [_ub], _mn, 16)
     ]);
+
+    mono(1, [
+        rblo('input', 'check', [ 0,  0,  0,  0, -8,  0], true,
+             ['mekanismgenerators:fusion_reactor_controller{cache:{burning:true}}'], _mn, 1),
+        rblo('output', 'place', [0, 3, 0, 0, 3, 0], true, [], _mn, 1)
+    ]);
+    //['mekanismgenerators:fusion_reactor_controller{cache:{EnergyContainers:[{Container:0,stored:1000000000}],burning:true}}'], _mn, 1),
 
     // RESET/PROTECT
     const _ML = [
@@ -163,6 +171,12 @@ onEvent('recipes', event => {
         rblo('output', 'replace_destroy', [0, 4, 0, 0, 4, 0], true, [__c], _ub, 1),
         rblo('output', 'replace_destroy', [0, 5, 0, 0, 5, 0], false, [], _ub, 1),
         rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], false, [], _ub, 1),
-        { type: 'custommachinery:entity', mode: 'input', amount: 10, radius: 16, action: 'kill', filter: _ML, whitelist: true }
+        { type: 'custommachinery:entity', mode: 'input', amount: 5, radius: 16, action: 'kill', filter: _ML, whitelist: true }
+    ]);
+
+    mono(1, [
+        rstc([['m'], [' '], ['c']],                      { c: __c }),
+        rblo('input', 'replace_destroy', [-16, -16, -16, 16, 16, 16], true, ['diregoo:gooblock', 'diregoo:gooblockterrain'],
+             'diregoo:gooblockpoison[generation=2]', 5)
     ]);
 });

@@ -1,0 +1,19 @@
+{
+	id: "2F6DE9D550071EA0"
+	group: ""
+	order_index: 7
+	filename: "monolith"
+	title: "Monolith"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.0d
+		y: -0.5d
+		id: "3ED297BC55F4811C"
+		tasks: [{
+			id: "525BD1F33BF40C3C"
+			type: "item"
+			item: "appliedenergistics2:purified_certus_quartz_crystal"
+		}]
+	}]
+}

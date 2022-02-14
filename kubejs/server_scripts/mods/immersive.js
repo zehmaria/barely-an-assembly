@@ -13,6 +13,8 @@ onEvent('recipes', event => {
     addShaped(event, [
         ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPs, tPs]]],
 
+        ['immersiveengineering:electric_lantern',       [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
+
         ['4x immersiveengineering:casull',              [[Iec, Iec, Iec], [Iec, tDl, tPi]]],
         ['immersiveengineering:railgun',                [[air, Ic2, _wg], [tPs, Icm, _K2], [Icm, tPs, air]]],
 
@@ -30,13 +32,14 @@ onEvent('recipes', event => {
 
         ['immersivepetroleum:projector',                [[Khd, air, air], [tPs, ltx, air], [air, tPs, Itw]]],
 
-        ['immersiveengineering:blastfurnace_preheater', [[__i, __i, __i], [__i, air, __i], [__i, Kse, __i]]],
+        ['immersiveengineering:blastfurnace_preheater', [[__i, __i, __i], [__i, air, __i], [__i, Krh, __i]]],
 
         ['16x immersiveengineering:empty_casing',       [[tPc, air, tPc], [tPc, air, tPc], [air, tPc, air]]],
 
         [Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),        [[Mpp, Mpp], [Iec, Iec]]],
         [Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'), [[Mpp, Mpp], [Ic3, Ic3]]],
         ['immersiveengineering:steel_scaffolding_wooden_top',                      [[tPs, _ts, tPs], [air, tRs, air], [tRs, air, tRs]]],
+        ['immersiveengineering:toolupgrade_revolver_magazine',                     [[air, tPc, mm1], [tPc, Caa, tPc], [_I2, tPc, air]]]
     ]);
 
     event.replaceInput({}, 'immersiveengineering:craftingtable', 'minecraft:crafting_table');

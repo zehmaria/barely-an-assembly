@@ -27,7 +27,7 @@ onEvent('recipes', event => {
 
         ['create:controller_rail',      [[tRg, air, tRg], [tRg, stk, tRg], [tRg, Cet, tRg]]],
 
-        ['create:mechanical_press',     [[air, Csh, air], [Csh, Cc1, Caa], [Caa, Caa, Caa]]],
+        ['create:mechanical_press',     [[air, Csh, air], [Csh, Cc1, tIi], [Caa, Caa, Caa]]],
         ['create:hand_crank',           [[air, Csh, air], [log, log, log], [air, air, Caa]]],
 
         //['createchunkloading:chunk_loader', [[Khd, tPu, Khd], [tPu, 'immersiveengineering:coil_mv', tPu], [Khd, tPu, Khd]]],
@@ -47,11 +47,12 @@ onEvent('recipes', event => {
 
     var __t = {
         A: { item: 'create:andesite_alloy' }, B: { tag: 'forge:plates/electrum' }, C: { item: 'immersiveengineering:wirecoil_copper' },
-        D: { tag: 'forge:rods/iron' }, E: { item: 'createaddition:capacitor' }
+        D: { item: 'mekanism:steel_casing' }, E: { item: 'createaddition:capacitor' }
     };
     addCMC('createaddition:electric_motor', ['  A  ', ' BCB ', 'BCDCB', ' BCB ', '  E  '], __t);
 
     __t.B.tag = 'forge:plates/iron';
+    __t.D.item = 'create:brass_casing';
     addCMC('createaddition:alternator', ['  A  ', 'BCCCB', 'BCDCB', 'BCECB'], __t);
 
     addCMC('create:crushing_wheel', [' AAA ', 'AABAA', 'ABCBA', 'AABAA', ' AAA '], {

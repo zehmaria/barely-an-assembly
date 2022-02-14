@@ -1,5 +1,5 @@
 onEvent('block.tags', event => {
-    event.add('diregoo:gooresistant', ['custommachinery:custom_machine_block', 'appliedenergistics2:creative_energy_cell', 'appliedenergistics2:controller', 'kubejs:monolith_node', 'create:shadow_steel_casing', 'pneumaticcraft:reinforced_chest', 'appliedenergistics2:smooth_sky_stone_chest', 'minecraft:sandstone', 'extendedcrafting:the_ultimate_block']);
+    event.add('diregoo:gooresistant', ['custommachinery:custom_machine_block', 'appliedenergistics2:creative_energy_cell', 'appliedenergistics2:controller', 'kubejs:monolith_node', 'create:shadow_steel_casing', 'pneumaticcraft:reinforced_chest', 'appliedenergistics2:smooth_sky_stone_chest', 'extendedcrafting:the_ultimate_block']);
     event.add('appliedenergistics2:blacklisted/annihilation_plane', ['#diregoo:gooresistant', 'diregoo:gooblock', 'diregoo:gooblockterrain']);
 });
 

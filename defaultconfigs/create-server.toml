@@ -214,7 +214,7 @@
 				clutch = 0.0
 				encased_fan = 2.0
 				adjustable_chain_gearshift = 0.0
-				mechanical_pump = 4.0
+				mechanical_pump = 2.0
 				crushing_wheel = 8.0
 				mechanical_mixer = 4.0
 				rope_pulley = 4.0
@@ -236,7 +236,7 @@
 				cogwheel = 0.0
 				belt = 1.0
 				gearbox = 0.0
-				hose_pulley = 4.0
+				hose_pulley = 2.0
 				mechanical_crafter = 2.0
 				gantry_shaft = 0.0
 
@@ -258,12 +258,12 @@
 			#[in Revolutions per Minute]
 			#Minimum speed of rotation to be considered 'medium'
 			#Range: 0.0 ~ 4096.0
-			mediumSpeed = 30.0
+			mediumSpeed = 32.0
 			# 
 			#[in Revolutions per Minute]
 			#Minimum speed of rotation to be considered 'fast'
 			#Range: 0.0 ~ 65535.0
-			fastSpeed = 100.0
+			fastSpeed = 128.0
 			# 
 			#[in Stress Units]
 			#Minimum stress impact to be considered 'medium'
@@ -292,7 +292,7 @@
 	#[in Buckets]
 	#The amount of liquid a tank can hold per block.
 	#Range: > 1
-	fluidTankCapacity = 8
+	fluidTankCapacity = 16
 	# 
 	#[in Blocks]
 	#The maximum height a fluid tank can reach.
@@ -308,7 +308,7 @@
 	#[-1 to disable this behaviour]
 	#The minimum amount of fluid blocks the hose pulley needs to find before deeming it an infinite source.
 	#Range: > -1
-	hosePulleyBlockThreshold = 10000
+	hosePulleyBlockThreshold = 8000
 	# 
 	#[in Blocks]
 	#The maximum distance a hose pulley can draw fluid blocks from.

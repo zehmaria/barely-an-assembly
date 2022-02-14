@@ -1,0 +1,556 @@
+{
+	id: "7249A463856700DB"
+	group: ""
+	order_index: 2
+	filename: "resources"
+	title: "Resources"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["036DDA56E3ED9580"]
+			id: "52952FF8CB055ADE"
+			tasks: [{
+				id: "23A3BA88F85E38A6"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["52952FF8CB055ADE"]
+			id: "2C0021C2BAF2621E"
+			tasks: [{
+				id: "6FCF5077653CFB9F"
+				type: "item"
+				item: "immersiveengineering:dust_iron"
+				count: 8L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["423593C4A602E531"]
+			id: "1CC4C4A51E3A4A45"
+			tasks: [{
+				id: "42EBE1E7D8D906E7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["1CC4C4A51E3A4A45"]
+			id: "298888390D790983"
+			tasks: [{
+				id: "5276948520074C4E"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["792F83A626167E68"]
+			id: "62DCBEE5C19CBEF0"
+			tasks: [{
+				id: "73A26412ACD54A31"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["298888390D790983"]
+			id: "792F83A626167E68"
+			tasks: [{
+				id: "00325A0BB6BA4019"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+				count: 8L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["62DCBEE5C19CBEF0"]
+			id: "20F1A1B93282D4AB"
+			tasks: [{
+				id: "30725D34EE664B5A"
+				type: "item"
+				item: "immersiveengineering:stick_iron"
+				count: 8L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			dependencies: ["66F7FCEDB5811076"]
+			id: "3C30FC09BED41EF1"
+			tasks: [{
+				id: "088F66E4E25CC594"
+				type: "item"
+				item: "create:crushed_iron_ore"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.5d
+			dependencies: ["66F7FCEDB5811076"]
+			id: "7F7334E5E540AB95"
+			tasks: [{
+				id: "6C7203CA69AA65EE"
+				type: "item"
+				item: "create:crushed_lead_ore"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			dependencies: ["66F7FCEDB5811076"]
+			id: "4DF8C277F65894EC"
+			tasks: [{
+				id: "49801DFCBC120B8A"
+				type: "item"
+				item: "create:crushed_gold_ore"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			dependencies: ["66F7FCEDB5811076"]
+			id: "0D83C2B445879D5B"
+			tasks: [{
+				id: "1E3697A82067C35A"
+				type: "item"
+				item: "create:crushed_uranium_ore"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			dependencies: ["66F7FCEDB5811076"]
+			id: "49D2F1ACEF26B91C"
+			tasks: [{
+				id: "57A11B31D5D560D6"
+				type: "item"
+				item: "create:crushed_copper_ore"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["52952FF8CB055ADE"]
+			id: "7AA0EB06CBCB27BC"
+			tasks: [{
+				id: "4C882C85A714F046"
+				type: "item"
+				item: "immersiveengineering:dust_copper"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["52952FF8CB055ADE"]
+			id: "1A64BC4B82C24AB4"
+			tasks: [{
+				id: "03FFBD42871EABD8"
+				type: "item"
+				item: "immersiveengineering:dust_lead"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["52952FF8CB055ADE"]
+			id: "0360927D6B772C1B"
+			tasks: [{
+				id: "34C7324FAD99ED98"
+				type: "item"
+				item: "immersiveengineering:dust_gold"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["52952FF8CB055ADE"]
+			id: "2714288B7BA98FB2"
+			tasks: [{
+				id: "5486E1764588E090"
+				type: "item"
+				item: "immersiveengineering:dust_uranium"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["32C79EB18EFF1E9D"]
+			id: "6A415554971AAB4A"
+			tasks: [{
+				id: "72D084FB544052E9"
+				type: "item"
+				item: "mekanism:clump_iron"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			dependencies: ["32C79EB18EFF1E9D"]
+			id: "01FC0FA5CFDC0DAA"
+			tasks: [{
+				id: "4256264ACE7F8A91"
+				type: "item"
+				item: "mekanism:clump_copper"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["32C79EB18EFF1E9D"]
+			id: "52DDC29F61947049"
+			tasks: [{
+				id: "5B09EF3B77EDC2A2"
+				type: "item"
+				item: "mekanism:clump_lead"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["32C79EB18EFF1E9D"]
+			id: "3BDB3E04D7C54C32"
+			tasks: [{
+				id: "0D5B087B74235221"
+				type: "item"
+				item: "mekanism:clump_gold"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["32C79EB18EFF1E9D"]
+			id: "49AE80280C421774"
+			tasks: [{
+				id: "6B5D3A948371A716"
+				type: "item"
+				item: "mekanism:clump_uranium"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			dependencies: ["74EB1E74ADB20708"]
+			id: "09B2BD278BD824CF"
+			tasks: [{
+				id: "15C22D2E173D0809"
+				type: "item"
+				item: "mekanism:shard_iron"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			dependencies: ["74EB1E74ADB20708"]
+			id: "230BC1644F8A24B8"
+			tasks: [{
+				id: "7B4B6F6052035560"
+				type: "item"
+				item: "mekanism:shard_copper"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			dependencies: ["74EB1E74ADB20708"]
+			id: "6A2B3304046D1F4B"
+			tasks: [{
+				id: "7CE1E6B2E11D0CA9"
+				type: "item"
+				item: "mekanism:shard_lead"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			dependencies: ["74EB1E74ADB20708"]
+			id: "751E258385DE1E5D"
+			tasks: [{
+				id: "0500CF45EB0E9344"
+				type: "item"
+				item: "mekanism:shard_gold"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["74EB1E74ADB20708"]
+			id: "52CD8B368ED3C678"
+			tasks: [{
+				id: "20AE90FB98E32AF3"
+				type: "item"
+				item: "mekanism:shard_uranium"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			dependencies: ["2A0B3E05491DF03C"]
+			id: "5BB3CBD542929FA0"
+			tasks: [{
+				id: "7894056C9E294779"
+				type: "item"
+				item: "mekanism:crystal_iron"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.0d
+			dependencies: ["2A0B3E05491DF03C"]
+			id: "2FAC269DE831BA79"
+			tasks: [{
+				id: "3AFA964FF1593DBF"
+				type: "item"
+				item: "mekanism:crystal_copper"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			dependencies: ["2A0B3E05491DF03C"]
+			id: "14137550A9EFC39B"
+			tasks: [{
+				id: "6A4E27C0B41F49AA"
+				type: "item"
+				item: "mekanism:crystal_lead"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			dependencies: ["2A0B3E05491DF03C"]
+			id: "452E1D5878ED10F1"
+			tasks: [{
+				id: "3FF402562A7E1DD6"
+				type: "item"
+				item: "mekanism:crystal_gold"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			dependencies: ["2A0B3E05491DF03C"]
+			id: "48C75E9A83AB8A31"
+			tasks: [{
+				id: "5F0A094C902DF6D6"
+				type: "item"
+				item: "mekanism:crystal_uranium"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			id: "66F7FCEDB5811076"
+			tasks: [{
+				id: "7444E3F18AACAA81"
+				type: "item"
+				item: "factoriores:electrical_miner"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			id: "423593C4A602E531"
+			tasks: [{
+				id: "5E8EC8F5CCD0BA91"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["423593C4A602E531"]
+			id: "13E03948241046E0"
+			tasks: [{
+				id: "2B1E90FFA72D251C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["423593C4A602E531"]
+			id: "5D55ADFBAC50C3DD"
+			tasks: [{
+				id: "559FB6A387582DA8"
+				type: "item"
+				item: "immersiveengineering:ingot_copper"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["423593C4A602E531"]
+			id: "2F3D653786EA09FE"
+			tasks: [{
+				id: "0F3A12242C93D7E4"
+				type: "item"
+				item: "immersiveengineering:ingot_lead"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["423593C4A602E531"]
+			id: "2BC8E048F00407F0"
+			tasks: [{
+				id: "3E738C0D1A66059C"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			dependencies: ["7AA0EB06CBCB27BC"]
+			id: "32C79EB18EFF1E9D"
+			tasks: [{
+				id: "7F663265707C8049"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			dependencies: ["01FC0FA5CFDC0DAA"]
+			id: "74EB1E74ADB20708"
+			tasks: [{
+				id: "5F1A7B203045DB48"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			dependencies: ["230BC1644F8A24B8"]
+			id: "2A0B3E05491DF03C"
+			tasks: [{
+				id: "385F552565174824"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["298888390D790983"]
+			id: "3C73F341A6E7561E"
+			tasks: [{
+				id: "6FE1630F73679F6D"
+				type: "item"
+				item: "immersiveengineering:plate_gold"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["298888390D790983"]
+			id: "0BE5CBE3F7256958"
+			tasks: [{
+				id: "5209666807B4E4CD"
+				type: "item"
+				item: "immersiveengineering:plate_lead"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["298888390D790983"]
+			id: "16BE304EF68D1D24"
+			tasks: [{
+				id: "4D600E457033D29D"
+				type: "item"
+				item: "immersiveengineering:plate_copper"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["298888390D790983"]
+			id: "31F116E9B83863C3"
+			tasks: [{
+				id: "69500368A1C5FFE6"
+				type: "item"
+				item: "immersiveengineering:plate_uranium"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: [
+				"423593C4A602E531"
+				"3C30FC09BED41EF1"
+				"62DCBEE5C19CBEF0"
+			]
+			id: "036DDA56E3ED9580"
+			tasks: [{
+				id: "59A02CEADBE47238"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["62DCBEE5C19CBEF0"]
+			id: "6A67C3BAA35F2A83"
+			tasks: [{
+				id: "313B1B1733C0F8BA"
+				type: "item"
+				item: "immersiveposts:stick_copper"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["62DCBEE5C19CBEF0"]
+			id: "1865B4B479469C82"
+			tasks: [{
+				id: "62B8436DDA465B7E"
+				type: "item"
+				item: "immersiveposts:stick_lead"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["62DCBEE5C19CBEF0"]
+			id: "2B12AF6ADBB46889"
+			tasks: [{
+				id: "24CA3E402DE50DDA"
+				type: "item"
+				item: "immersiveposts:stick_uranium"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["62DCBEE5C19CBEF0"]
+			id: "01F667532F25BE05"
+			tasks: [{
+				id: "39A2526904E27893"
+				type: "item"
+				item: "immersiveposts:stick_gold"
+			}]
+		}
+	]
+}

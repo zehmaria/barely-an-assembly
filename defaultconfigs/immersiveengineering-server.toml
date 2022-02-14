@@ -492,7 +492,7 @@
 	[tools.chemthrower]
 		#The mb of fluid the Chemical Thrower will consume per tick of usage
 		#Range: > 1
-		consumption = 10
+		consumption = 5
 		#Set this to false to disable the use of Sneak+Scroll to switch Chemthrower tanks.
 		scroll = true
 

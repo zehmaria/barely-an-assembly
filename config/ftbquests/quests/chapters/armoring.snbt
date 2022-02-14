@@ -1,0 +1,25 @@
+{
+	id: "4E791B2ECAF7422D"
+	group: ""
+	order_index: 9
+	filename: "armoring"
+	title: "Armoring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: -0.5d
+		id: "4FBF1772F6CA4C40"
+		tasks: [{
+			id: "3BD60016575351A2"
+			type: "item"
+			item: {
+				id: "minecraft:leather_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}]
+	}]
+}

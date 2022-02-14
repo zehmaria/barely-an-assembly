@@ -19,7 +19,7 @@ onEvent('recipes', event => {
         ['8x moreminecarts:lightspeed_rail',         [[__g, Apf, __g], [cld, _mR, cld], [__g, HOP, __g]]],
         ['8x moreminecarts:lightspeed_powered_rail', [[__g, Apf, __g], [cld, _mP, cld], [__g, HOP, __g]]],
 
-        ['8x moreminecarts:locking_rail',            [[_I3], [__R]]],
+        ['8x moreminecarts:locking_rail',            [[_I3], ['create:controller_rail']]],
         ['8x moreminecarts:powered_locking_rail',    [[_I3], [__P]]],
 
         ['moreminecarts:minecart_loader',            [[tPs, __f, tPs], [tPs, Mcw, tPs], [tPs, _K1, tPs]]],

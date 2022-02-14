@@ -52,7 +52,7 @@
 		casingHeatCapacity = 1000.0
 		#The default burn rate of the fission reactor.
 		#Range: 0.001 ~ 1.0
-		defaultBurnRate = 0.1
+		defaultBurnRate = 0.01
 		#Damage to reset the reactor to after a meltdown.
 		#Range: 0.0 ~ 100.0
 		postMeltdownDamage = 75.0
@@ -60,7 +60,7 @@
 		#Range: 0.0 ~ 1.0
 		meltdownChance = 0.001
 		#Whether catastrophic meltdowns can occur from Fission Reactors. If disabled instead of melting down the reactor will turn off and not be able to be turned back on until the damage level decreases.
-		meltdownsEnabled = true
+		meltdownsEnabled = false
 		#How much radioactivity of fuel/waste contents are multiplied during a meltdown.
 		meltdownRadiationMultiplier = 50.0
 		#The burn rate increase each fuel assembly provides. Max Burn Rate = fuelAssemblies * burnPerAssembly

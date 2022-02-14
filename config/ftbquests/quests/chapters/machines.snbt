@@ -1,0 +1,66 @@
+{
+	id: "413F3FFEC83FE6F5"
+	group: ""
+	order_index: 5
+	filename: "machines"
+	title: "Machines"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["792F83A626167E68"]
+			id: "66ED59CD57CD6ED8"
+			tasks: [{
+				id: "24440D976B897AEE"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["66ED59CD57CD6ED8"]
+			id: "0A412F81033C8C44"
+			tasks: [{
+				id: "39D5610334BFAB08"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["0A412F81033C8C44"]
+			id: "6E55A90C5EFFAC4B"
+			tasks: [{
+				id: "3093688E4B225012"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["6E55A90C5EFFAC4B"]
+			id: "58BCE9C93AC8A91E"
+			tasks: [{
+				id: "29D2D41855F2D4D2"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["58BCE9C93AC8A91E"]
+			id: "7021791695347310"
+			tasks: [{
+				id: "54842ED4D053CB63"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+	]
+}

@@ -1,6 +1,6 @@
 /*
-  - Cancel event for reinforced crate
-  - Disabled OTG dev mode
+  - Cancel event for reinforced crate [comment for easier access]
+  - Disabled OTG dev mode [reloading makes it easier]
 
   Circuit
   - 1: copper wire and iron plate
@@ -14,6 +14,12 @@
 
   - Change creative item to after qio
   - makes spawn structure make air above
+
+
+  Quests:
+  - CASING LINE
+
+  - Remove compact storage
 
 */
 

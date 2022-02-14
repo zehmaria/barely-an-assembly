@@ -30,7 +30,7 @@ onEvent('recipes', event => {
         ['2x mekanismgenerators:fission_reactor_casing',   [[air, Khd, air], [tPl, Kfc, tPl], [air, HOP, air]]],
         ['2x mekanismgenerators:fusion_reactor_frame',     [[mm3, Kpp, mm3], [Kpp, Kff, Kpp], [mm3, Kpp, mm3]]],
 
-        ['mekanismgenerators:solar_panel',           [[Khd, Khd, Khd], [_K1, mm1, Cpm], [tPe, tPe, tPe]]],
+        ['mekanismgenerators:solar_panel',           [[Apq, Apq, Apq], [_K1, mm1, Cpm], [tPe, tPe, tPe]]],
         ['mekanismgenerators:laser_focus_matrix',    [[air, _rg, air], [_rg, Df4, _rg], [air, _rg, air]]],
 
         ['mekanism:industrial_alarm',                [[rst, _I4, rst], [_K1, Iel, _K1], [tPl, Cpm, tPl]]],

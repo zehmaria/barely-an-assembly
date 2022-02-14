@@ -15,7 +15,7 @@ onEvent('recipes', event => {
     addShaped(event, [
         ['factoriores:burner_miner',     [[tPi, Cc1, tPi], [tPi, __f, tPi], [air, __d, air]]],
         ['factoriores:mechanical_miner', [[tPc, Cc3, tPc], [tPc, __m, tPc], [air, __d, air]]],
-        ['factoriores:electrical_miner', [[tPs, Kca, tPs], [tPs, __e, tPs], [air, _sd, air]]]
+        ['factoriores:electrical_miner', [[tPs, Kca, tPs], [tPs, Ic2, tPs], [air, _sd, air]]]
     ]);
 
     /*

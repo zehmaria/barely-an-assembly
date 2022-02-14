@@ -1,0 +1,122 @@
+{
+	id: "7FAA2FD2A9BA37D2"
+	group: ""
+	order_index: 4
+	filename: "drones"
+	title: "Drones"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["39B6B48084D9D404"]
+			id: "5176BB79BB08F83F"
+			tasks: [{
+				id: "7D5A7D0EF0883A4C"
+				type: "item"
+				item: "compressedcreativity:rotational_compressor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["5176BB79BB08F83F"]
+			id: "64920EE0E6806961"
+			tasks: [
+				{
+					id: "134CA6784FD226C4"
+					type: "item"
+					item: "pneumaticcraft:logistics_core"
+				}
+				{
+					id: "524275E8229AF763"
+					type: "item"
+					item: "pneumaticcraft:charging_station"
+				}
+				{
+					id: "101152747E7CA3D8"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["64920EE0E6806961"]
+			id: "55E1702F888F8092"
+			tasks: [{
+				id: "444A20D5C4A6BFAF"
+				type: "item"
+				item: "pneumaticcraft:logistics_drone"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["64920EE0E6806961"]
+			id: "507D770E74164805"
+			tasks: [{
+				id: "78A8EA6E218DF6A5"
+				type: "item"
+				item: "pneumaticcraft:collector_drone"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["64920EE0E6806961"]
+			id: "2CC3D77E397E652F"
+			tasks: [{
+				id: "6848CD2F75FBFF8F"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_requester"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["64920EE0E6806961"]
+			id: "6D8D908DF2F67A14"
+			tasks: [{
+				id: "51570DD30A1D90FE"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_storage"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["64920EE0E6806961"]
+			id: "36D0C8CF2ED7E258"
+			tasks: [{
+				id: "1ED8879318D8DDA7"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_default_storage"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["64920EE0E6806961"]
+			id: "359717681537AC2B"
+			tasks: [{
+				id: "4A7886A4C15E5413"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_passive_provider"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["64920EE0E6806961"]
+			id: "27C929FDBA52A652"
+			tasks: [{
+				id: "7BB3D74A76382991"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_active_provider"
+			}]
+		}
+	]
+}

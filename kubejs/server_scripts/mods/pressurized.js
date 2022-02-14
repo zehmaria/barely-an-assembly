@@ -4,7 +4,7 @@ onEvent('recipes', event => {
     const __a = Item.of('create:copper_backtank', '{Air:900}');
     const __b = Item.of('create:potato_cannon', '{Damage:0}');
     addShaped(event, [
-        ['pneumaticcraft:vortex_cannon',          [[HOP, HOP, HOP], [Pac, __b, air], [HOP, _K2, HOP]]],
+        ['pneumaticcraft:vortex_cannon',          [[tIe, tIe, tIe], [Pac, __b, air], [tIe, _K2, tIe]]],
         ['pneumaticcraft:jumping_upgrade_1',      [[HOP, __a, HOP], [__b, Ppt, __b], [HOP, pis, HOP]]],
         ['pneumaticcraft:range_upgrade',          [[HOP, tGf, HOP], [tGf, __l, tGf], [HOP, tGf, HOP]]],
         ['pneumaticcraft:speed_upgrade',          [[HOP, tGf, HOP], [tGf, 'mekanism:upgrade_speed', tGf], [HOP, tGf, HOP]]],

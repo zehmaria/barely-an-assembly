@@ -1,0 +1,19 @@
+{
+	id: "165E54EB7275EDD2"
+	group: ""
+	order_index: 8
+	filename: "contraptions"
+	title: "Contraptions"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: -0.5d
+		id: "061F72B6DF1C73E6"
+		tasks: [{
+			id: "40D761BD28873AAF"
+			type: "item"
+			item: "create:andesite_casing"
+		}]
+	}]
+}

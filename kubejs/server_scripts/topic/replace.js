@@ -2,6 +2,7 @@ onEvent('recipes', event => {
     //event.remove({ type: 'create:splashing' });
 
     event.replaceInput({}, 'minecraft:piston', 'create:mechanical_piston');
+    event.replaceInput({}, 'minecraft:ice', 'minecraft:packed_ice');
     event.replaceInput({}, 'minecraft:bucket', 'create:fluid_tank');
     event.replaceInput({}, 'minecraft:water_bucket', 'create:fluid_tank');
     event.replaceInput({}, 'minecraft:hopper', 'create:chute');

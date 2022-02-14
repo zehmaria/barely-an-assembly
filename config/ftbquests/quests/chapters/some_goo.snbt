@@ -1,0 +1,19 @@
+{
+	id: "5299F22566871E20"
+	group: ""
+	order_index: 6
+	filename: "some_goo"
+	title: "Some goo"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: -0.5d
+		id: "7982C0345C7F4ED5"
+		tasks: [{
+			id: "4CB2B8AC52C9664F"
+			type: "item"
+			item: "diregoo:gooresidue"
+		}]
+	}]
+}

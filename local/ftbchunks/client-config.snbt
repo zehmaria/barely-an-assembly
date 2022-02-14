@@ -32,7 +32,7 @@
 	
 	# Show waypoints in world
 	# Default: true
-	in_world_waypoints: true
+	in_world_waypoints: false
 	
 	# Different ways to render map
 	# Default: "none"
@@ -103,7 +103,7 @@
 	minimap: {
 		# Show biome under minimap
 		# Default: true
-		biome: true
+		biome: false
 		
 		# Blurs minimap
 		# Default: "auto"
@@ -136,7 +136,7 @@
 		
 		# Show player heads on minimap
 		# Default: true
-		player_heads: true
+		player_heads: false
 		
 		# Enables minimap to show up in corner
 		# Default: "top_right"
@@ -159,11 +159,11 @@
 		
 		# Show XYZ under minimap
 		# Default: true
-		xyz: true
+		xyz: false
 		
 		# Show zone (claimed chunk or wilderness) under minimap
 		# Default: true
-		zone: true
+		zone: false
 		
 		# Zoom distance of the minimap
 		# Default: 1.0

@@ -1,17 +1,15 @@
 // priority: 100
 
 // GENERAL
-//'kubejs:dummy_fluid_item',
-hide1(['diregoo:antigoobeacon', 'diregoo:goonade', 'diregoo:corefreeze', 'diregoo:coremelt', 'diregoo:antigoopaste']);
+hide1(['diregoo:antigoobeacon', 'diregoo:goonade', 'diregoo:antigoopaste', 'diregoo:zapperturretblock', 'compressedcreativity:air_blower']);
 
 hide1(['itemfilters:always_true', 'itemfilters:always_false', 'itemfilters:or', 'itemfilters:and', 'itemfilters:not', 'itemfilters:xor', 'itemfilters:tag', 'itemfilters:mod', 'itemfilters:item_group', 'itemfilters:id_regex', 'itemfilters:id_regex', 'itemfilters:damage', 'itemfilters:block', 'itemfilters:max_count', 'itemfilters:strong_nbt', 'itemfilters:weak_nbt', 'itemfilters:custom', 'ftbquests:detector', 'ftbquests:missing_item', 'itemfilters:item_group', 'ftbquests:barrier', 'ftbquests:stage_barrier', 'ftbquests:custom_icon']);
 
-hide1(['adpother:polluted_water_bucket', 'adpother:iron_filter_frame', 'adpother:iron_respirator', 'adpother:gold_respirator', 'adpother:diamond_respirator', 'adpother:gold_filter_frame', 'adpother:iron_vacuum_tube', 'adpother:gold_vacuum_tube', 'adpother:diamond_vacuum_tube', 'adpother:diamond_filter_frame', 'adpother:iron_vacuum_bag', 'adpother:gold_vacuum_bag', 'adpother:diamond_vacuum_bag', 'adpother:dust']);
+//hide1(['adpother:polluted_water_bucket', 'adpother:iron_filter_frame', 'adpother:iron_respirator', 'adpother:gold_respirator', 'adpother:diamond_respirator', 'adpother:gold_filter_frame', 'adpother:iron_vacuum_tube', 'adpother:gold_vacuum_tube', 'adpother:diamond_vacuum_tube', 'adpother:diamond_filter_frame', 'adpother:iron_vacuum_bag', 'adpother:gold_vacuum_bag', 'adpother:diamond_vacuum_bag', 'adpother:dust']);
 
 hide2('theoneprobe:', ['gold_helmet_probe', 'diamond_helmet_probe', 'iron_helmet_probe', 'probe', 'creativeprobe']);
 
 // STORAGE
-//hide2('krate:', ['collect_upgrade', 'krate_basic', 'krate_large', 'small_to_basic', 'basic_to_big', 'big_to_large', 'compacting_upgrade']);
 hide1(['minecraft:barrel']);
 
 // CREATE
@@ -71,7 +69,9 @@ hide3('mekanism:module_', ['nutritional_injection', 'jetpack', 'vision_enhanceme
 
 hide2('mekanism:', ['cardboard_box', 'electric_bow', 'atomic_disassembler', 'creative_bin', 'restrictive_transporter', 'diversion_transporter', 'logistical_sorter', 'creative_fluid_tank', 'creative_energy_cube', 'enriched_iron', 'meka_tool', 'antiprotonic_nucleosynthesizer', 'personal_chest', 'electric_pump', 'fluidic_plenisher', 'osmium_compressor', 'robit', 'dust_sulfur', 'digital_miner', 'formulaic_assemblicator', 'crafting_formula', 'module_base', 'modification_station', 'hdpe_elytra', 'upgrade_stone_generator', 'laser_tractor_beam', 'basic_compressing_factory', 'advanced_compressing_factory', 'elite_compressing_factory', 'ultimate_compressing_factory', 'quantum_entangloporter']);
 
-hide1(['mekanism:basic_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer', 'mekanism:elite_induction_cell', 'mekanism:elite_induction_provider', 'mekanism:elite_pressurized_tube', 'mekanism:elite_thermodynamic_conductor', 'mekanism:elite_chemical_tank', 'mekanism:portable_teleporter', 'mekanism:teleporter_frame', 'mekanism:teleporter', 'mekanism:elite_bin']);
+hide1(['mekanism:basic_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer', 'mekanism:elite_induction_cell', 'mekanism:elite_induction_provider', 'mekanism:elite_pressurized_tube', 'mekanism:elite_thermodynamic_conductor', 'mekanism:elite_chemical_tank', 'mekanism:portable_teleporter', 'mekanism:teleporter_frame', 'mekanism:teleporter', 'mekanism:elite_bin',
+
+       'mekanism:boiler_casing', 'mekanism:boiler_valve', 'mekanism:resistive_heater']);
 
 // INGOTS
 

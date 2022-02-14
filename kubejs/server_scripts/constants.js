@@ -10,6 +10,7 @@ const air = 'minecraft:air';
 const grv = '#forge:gravel';
 const flt = 'minecraft:flint';
 const cls = '#minecraft:coals';
+const Mcl = 'minecraft:coal';
 const cbl = 'minecraft:cobblestone';
 const drt = 'minecraft:dirt';
 const cly = '#forge:clay';
@@ -144,12 +145,12 @@ const Mwg = 'minecraft:gray_wool';
 
 const Caa = 'create:andesite_alloy';
 const Cc1 = 'create:andesite_casing';
-const Cc2 = 'create:brass_casing';
-const Cc3 = 'create:copper_casing';
+const Cc2 = 'create:copper_casing';
+const Cc3 = 'create:brass_casing';
 const Crc = 'compressedcreativity:rotational_compressor';
 const Cem = 'createaddition:electric_motor';
 
-const Kse = 'mekanism:superheating_element';
+const Krh = 'mekanism:resistive_heater';
 const Ktt = 'mekanismgenerators:turbine_casing';
 const Kfc = 'mekanismgenerators:fission_reactor_casing';
 const Kff = 'mekanismgenerators:fusion_reactor_frame';
@@ -202,6 +203,7 @@ const Ihm = 'immersiveengineering:hammer';
 const Iwc = 'immersiveengineering:wirecutter';
 const Itw = '#forge:treated_wood';
 const Its = 'immersiveengineering:stick_treated';
+const Icc = 'immersiveengineering:coal_coke';
 const HOP = 'immersiveengineering:ingot_hop_graphite';
 const btm = 'immersivepetroleum:bitumen';
 
@@ -238,7 +240,7 @@ const _y5 = 'mekanism:pellet_polonium';
 
 const _x1 = '#forge:plates/electrum';
 const _x2 = 'mekanism:hdpe_sheet';
-const _x3 = 'minecraft:diamond';
+const _x3 = HOP;
 const _x4 = 'mekanism:pellet_polonium';
 
 const _I1 = 'immersiveengineering:hemp_fiber';

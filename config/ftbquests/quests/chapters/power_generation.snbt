@@ -3,20 +3,38 @@
 	group: ""
 	order_index: 1
 	filename: "power_generation"
-	title: "Power Generation"
+	title: "Power!"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.0d
+			x: -5.0d
 			y: -2.0d
 			description: ["By the riverbank begins a revolution"]
+			dependencies: ["2540498BF732FFF6"]
 			id: "548A3764F9D9012B"
-			tasks: [{
-				id: "07CAF19FC15C2559"
-				type: "item"
-				item: "create:water_wheel"
-			}]
+			tasks: [
+				{
+					id: "07CAF19FC15C2559"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "6A823E9C03ABB652"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "5FB76BC340D9A87F"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "0CFEDC0045FE469F"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
 			rewards: [{
 				id: "7E0DC0014A4106C9"
 				type: "item"
@@ -24,16 +42,29 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -4.0d
 			y: -4.0d
 			description: ["Power hungry"]
-			dependencies: ["6657D1D70824B3F3"]
+			dependencies: ["27BEB31C630AE852"]
 			id: "30C47197B2DD51F6"
-			tasks: [{
-				id: "6038D06C33D91817"
-				type: "item"
-				item: "immersiveengineering:dynamo"
-			}]
+			tasks: [
+				{
+					id: "6038D06C33D91817"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+				{
+					id: "133CBB22038A607F"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+				{
+					id: "38D777CB80E89B90"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+					count: 8L
+				}
+			]
 			rewards: [{
 				id: "15D3264D9F510EA6"
 				type: "item"
@@ -41,21 +72,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
-			id: "07E12FAE92A7D8E7"
-			tasks: [{
-				id: "08836394DC4A937B"
-				type: "item"
-				item: "steampowered:bronze_steam_engine"
-				count: 11L
-			}]
-		}
-		{
-			x: -3.0d
+			x: -5.0d
 			y: -4.0d
 			description: ["Handy"]
-			dependencies: ["548A3764F9D9012B"]
+			dependencies: ["2540498BF732FFF6"]
 			id: "60BE4A7C0201924F"
 			tasks: [{
 				id: "269542E0E015CE34"
@@ -69,20 +89,390 @@
 			}]
 		}
 		{
+			x: -5.0d
+			y: -3.0d
+			id: "2540498BF732FFF6"
+			tasks: [{
+				id: "04E006666F02CEE4"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["2540498BF732FFF6"]
+			id: "27BEB31C630AE852"
+			tasks: [{
+				id: "1D36EBC92B99ACD5"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["27BEB31C630AE852"]
+			id: "25EE3AEACB47B2A0"
+			tasks: [
+				{
+					id: "73A10B3BB4D7CB22"
+					type: "item"
+					item: "steampowered:cast_iron_steam_engine"
+				}
+				{
+					id: "438F2803F118FC69"
+					type: "item"
+					item: "steampowered:cast_iron_flywheel"
+				}
+				{
+					id: "76295838E22BC4BB"
+					type: "item"
+					item: "steampowered:cast_iron_boiler"
+				}
+				{
+					id: "07465EFD5733CFD0"
+					type: "item"
+					item: "steampowered:cast_iron_burner"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["27BEB31C630AE852"]
+			id: "516BDABFFE7355AC"
+			tasks: [{
+				id: "3F14BED3D7DA3FAA"
+				type: "item"
+				item: "create:copper_valve_handle"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["27BEB31C630AE852"]
+			id: "68AFE4BCBC9D3672"
+			tasks: [
+				{
+					id: "650858F191C2B695"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "6E0DA3979666F8AF"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "6EC3ACE08D1A240D"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["27BEB31C630AE852"]
+			id: "2DA898B2F5708366"
+			tasks: [{
+				id: "515B82CC56E4A782"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["2DA898B2F5708366"]
+			id: "2336D6EF98B0639A"
+			tasks: [
+				{
+					id: "3284C23389157402"
+					type: "item"
+					item: "create:hose_pulley"
+				}
+				{
+					id: "26B815030201E95E"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "6E1C22D0D59BEA3F"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["2DA898B2F5708366"]
+			id: "2ACF5F7DAD65CB3A"
+			tasks: [{
+				id: "2D418230ABDC7B47"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["2DA898B2F5708366"]
+			id: "63227F64717F894C"
+			tasks: [{
+				id: "64FDE269A62C158B"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["63227F64717F894C"]
+			id: "08BDF759C7FB851B"
+			tasks: [{
+				id: "25F77EFE3EC2ABC2"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
 			x: -1.0d
 			y: -2.0d
-			description: ["Finger traps"]
-			dependencies: ["548A3764F9D9012B"]
-			id: "6657D1D70824B3F3"
+			dependencies: ["63227F64717F894C"]
+			id: "79060768EB3F77B7"
+			tasks: [
+				{
+					id: "2DD1681337A37C1C"
+					type: "item"
+					item: "immersiveengineering:capacitor_mv"
+				}
+				{
+					id: "03540CFD1812E629"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "67EB4C7959AA123B"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "0833E8CB807CE4AF"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["63227F64717F894C"]
+			id: "31764CFD7E0D8260"
 			tasks: [{
-				id: "295ABF9DEED1CA94"
+				id: "0780156AA9D9DF24"
 				type: "item"
-				item: "immersiveengineering:windmill"
+				item: "create:brass_casing"
 			}]
-			rewards: [{
-				id: "387C0595BF414A0D"
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["31764CFD7E0D8260"]
+			id: "2DFFC70F4121DC74"
+			tasks: [
+				{
+					id: "63730BAD683DFC2D"
+					type: "item"
+					item: "steampowered:bronze_steam_engine"
+				}
+				{
+					id: "482F609AB722CD9E"
+					type: "item"
+					item: "steampowered:bronze_flywheel"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["31764CFD7E0D8260"]
+			id: "3322EF406DA4F8D7"
+			tasks: [{
+				id: "64BE669480820AEB"
 				type: "item"
-				item: "immersiveengineering:windmill"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["31764CFD7E0D8260"]
+			id: "11BE02FBEE386D37"
+			tasks: [{
+				id: "68614D4E2F2C693D"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["11BE02FBEE386D37"]
+			id: "332C456DCDB49F26"
+			tasks: [
+				{
+					id: "22BF4F29A7A23179"
+					type: "item"
+					item: "steampowered:cast_iron_steam_engine"
+				}
+				{
+					id: "14C3C3303A7F7519"
+					type: "item"
+					item: "steampowered:steel_flywheel"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["11BE02FBEE386D37"]
+			id: "7CC1BA176FE5A969"
+			tasks: [{
+				id: "0E52C08D0DAE08A6"
+				type: "item"
+				item: "compressedcreativity:rotational_compressor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["11BE02FBEE386D37"]
+			id: "53CAE74C90A72A94"
+			tasks: [{
+				id: "159166552C42C351"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["53CAE74C90A72A94"]
+			id: "581FB85DFB412EFC"
+			tasks: [{
+				id: "089A7E2A5D963DE8"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["53CAE74C90A72A94"]
+			id: "64EBBEFC0F6EE7CE"
+			tasks: [{
+				id: "5730376334DBDD40"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["64EBBEFC0F6EE7CE"]
+			id: "23644912FFE98D4C"
+			tasks: [{
+				id: "7AEAC9789CB92DFA"
+				type: "item"
+				item: "immersiveengineering:generator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["64EBBEFC0F6EE7CE"]
+			id: "05956D5CADECBE84"
+			tasks: [{
+				id: "2C05A086B27BC943"
+				type: "item"
+				item: "immersivepetroleum:gas_generator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["64EBBEFC0F6EE7CE"]
+			id: "015E46A254020E6E"
+			tasks: [
+				{
+					id: "5ABC1DBF42B199B0"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "6C1ACE050317621E"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["64EBBEFC0F6EE7CE"]
+			id: "67B290AAE83BF9BF"
+			tasks: [{
+				id: "55031F8219AA51F5"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["67B290AAE83BF9BF"]
+			id: "400DFC68B9600A65"
+			tasks: [{
+				id: "2A19643A8B08A01F"
+				type: "item"
+				item: "mekanismgenerators:turbine_casing"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["67B290AAE83BF9BF"]
+			id: "7120D6F2080342A9"
+			tasks: [{
+				id: "19D9E2605FA71F08"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_frame"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["64EBBEFC0F6EE7CE"]
+			id: "2CE6C3186FC207EE"
+			tasks: [{
+				id: "0B029B1DE07E79E4"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_dieselgen"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["53CAE74C90A72A94"]
+			id: "6AE3FB154A05A194"
+			tasks: [{
+				id: "4E3B792803E0CABF"
+				type: "item"
+				item: "createaddition:electric_motor"
 			}]
 		}
 	]

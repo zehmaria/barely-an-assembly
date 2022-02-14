@@ -24,7 +24,6 @@ onEvent('recipes', event => {
     addShaped(event, [
         ['2x appliedenergistics2:certus_crystal_seed',     [[tDe, snd]]],
         ['3x appliedenergistics2:quartz_glass',            [[Apq, Khd, Apq], [Khd, Apq, Khd], [Apq, Khd, Apq]]],
-        ['appliedenergistics2:quantum_link',               [[Aqg, Ktc, Aqg], [Ktc, air, Ktc], [Aqg, Ktc, Aqg]]],
         ['appliedenergistics2:annihilation_core',          [[air, _K1, air], [Khd, 'diregoo:gooresidue', Khd], [air, Cpm, air]]],
         ['appliedenergistics2:formation_core',             [[air, _K1, air], [Khd, Ked, Khd], [air, Cpm, air]]],
         ['appliedenergistics2:quartz_growth_accelerator',  [[tPi, tPe, tPi], [Aqg, _hv, Aqg], [tPi, tPe, tPi]]],
