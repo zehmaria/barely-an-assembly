@@ -20,6 +20,8 @@ onEvent('item.tooltip', tooltip => {
 
     ['mekanismgenerators:turbine_blade', 'mekanismgenerators:turbine_rotor', 'mekanismgenerators:turbine_vent', 'mekanismgenerators:turbine_valve', 'mekanism:pressure_disperser', 'mekanismgenerators:saturating_condenser', 'mekanismgenerators:rotational_complex', 'mekanismgenerators:electromagnetic_coil', 'mekanismgenerators:turbine_casing', 'mekanism:structural_glass'].forEach(X => tooltip.add(X, '§3Industrial Turbine Piece.'));
 
+    ['mekanism:dynamic_tank', 'mekanism:structural_glass', 'mekanism:dynamic_valve'].forEach(X => tooltip.add(X, '§3Dynamic Tank Piece.'));
+
     // STORAGE
     ['immersiveengineering:capacitor_lv', 'immersiveengineering:capacitor_mv', 'immersiveengineering:capacitor_hv', 'mekanism:energy_tablet', 'immersiveengineering:powerpack', 'mekanism:basic_induction_cell', 'mekanism:advanced_induction_cell', 'mekanism:elite_induction_cell', 'mekanism:ultimate_induction_cell'].forEach(X => tooltip.add(X, '§3Energy storage.'));
     ['mekanism:basic_induction_cell', 'mekanism:advanced_induction_cell', 'mekanism:elite_induction_cell', 'mekanism:ultimate_induction_cell'].forEach(X => tooltip.add(X, '§3Requires multiblock.'));

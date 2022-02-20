@@ -2,7 +2,7 @@ onEvent('block.tags', event => {
     event.add("barely:idle_griefing", [
         "minecraft:cauldron", "minecraft:campfire", "myrtrees:wooden_bucket",
         "compressedcreativity:rotational_compressor", "pneumaticcraft:charging_station", "pneumaticcraft:kerosene_lamp",
-        "extendedcrafting:compressor", "extendedcrafting:basic_auto_table",
+        "mekanism:formulaic_assemblicator",
         "factoriores:mechanical_miner", "factoriores:electrical_miner", "factoriores:burner_miner",
 
         "diregoo:goodetector", "diregoo:antigoofieldgen", "diregoo:zapperturretblock", "diregoo:turretblock", "diregoo:gntblockt4", "diregoo:gntblockt3", "diregoo:gntblockt2", "diregoo:gntblockt1",
@@ -33,6 +33,6 @@ onEvent('block.tags', event => {
 
         'immersiveengineering:turret_chem', 'immersiveengineering:turret_chem', 'immersiveengineering:tesla_coil', 'immersiveengineering:cloche',
 
-        'appliedenergistics2:quartz_growth_accelerator', 'extendedcrafting:basic_auto_table', 'minecraft:furnace', 'minecraft:crafting_table', 'minecraft:composter', 'minecraft:daylight_detector', 'minecraft:stone_pressure_plate', 'minecraft:cauldron', 'minecraft:observer', 'minecraft:slime_block', 'minecraft:scaffolding', 'minecraft:campfire', 'minecraft:grindstone', 'minecraft:smoker', 'create:schematicannon', 'create:schematic_table', 'create:mechanical_pump',  'create:gantry_carriage']);
+        'appliedenergistics2:quartz_growth_accelerator', 'mekanism:formulaic_assemblicator', 'minecraft:furnace', 'minecraft:crafting_table', 'minecraft:composter', 'minecraft:daylight_detector', 'minecraft:stone_pressure_plate', 'minecraft:cauldron', 'minecraft:observer', 'minecraft:slime_block', 'minecraft:scaffolding', 'minecraft:campfire', 'minecraft:grindstone', 'minecraft:smoker', 'create:schematicannon', 'create:schematic_table', 'create:mechanical_pump',  'create:gantry_carriage']);
 
 });

@@ -1,9 +1,9 @@
 {
 	id: "2C8F3995E79CE54D"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "power_generation"
-	title: "Power!"
+	title: "Energy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -93,9 +93,16 @@
 			y: -3.0d
 			id: "2540498BF732FFF6"
 			tasks: [{
-				id: "04E006666F02CEE4"
+				id: "1C25548E0056AB11"
 				type: "item"
-				item: "create:andesite_alloy"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
 			}]
 		}
 		{
@@ -225,6 +232,7 @@
 				id: "64FDE269A62C158B"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
+				count: 8L
 			}]
 		}
 		{
@@ -315,6 +323,7 @@
 				id: "68614D4E2F2C693D"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
+				count: 27L
 			}]
 		}
 		{
@@ -416,6 +425,16 @@
 					id: "6C1ACE050317621E"
 					type: "item"
 					item: "mekanism:basic_induction_provider"
+				}
+				{
+					id: "4FA307E5A679CC4D"
+					type: "item"
+					item: "mekanism:induction_port"
+				}
+				{
+					id: "791D96AA8715A915"
+					type: "item"
+					item: "mekanism:induction_casing"
 				}
 			]
 		}

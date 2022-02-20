@@ -15,6 +15,10 @@ onEvent('recipes', event => {
 
         ['immersiveengineering:electric_lantern',       [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
 
+        ['immersiveengineering:gunpart_hammer',         [[tPi, air, air], [tPi, tPi, air], [air, tPi, tPi]]],
+        ['immersiveengineering:gunpart_drum',           [[air, tPi, air], [tPi, _I2, tPi], [air, tPi, air]]],
+        ['immersiveengineering:gunpart_barrel',         [[tRi, tRi]]],
+        ['immersiveengineering:wooden_grip',            [[stk, stk], [tIc, stk], [stk, stk]]],
         ['4x immersiveengineering:casull',              [[Iec, Iec, Iec], [Iec, tDl, tPi]]],
         ['immersiveengineering:railgun',                [[air, Ic2, _wg], [tPs, Icm, _K2], [Icm, tPs, air]]],
 

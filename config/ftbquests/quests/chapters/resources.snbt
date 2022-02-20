@@ -1,7 +1,7 @@
 {
 	id: "7249A463856700DB"
 	group: ""
-	order_index: 2
+	order_index: 1
 	filename: "resources"
 	title: "Resources"
 	default_quest_shape: ""
@@ -10,7 +10,11 @@
 		{
 			x: -6.5d
 			y: 1.0d
-			dependencies: ["036DDA56E3ED9580"]
+			dependencies: [
+				"036DDA56E3ED9580"
+				"784A6E7028FA75E0"
+			]
+			hide: true
 			id: "52952FF8CB055ADE"
 			tasks: [{
 				id: "23A3BA88F85E38A6"
@@ -144,8 +148,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.0d
+			x: -5.5d
+			y: 1.5d
 			dependencies: ["52952FF8CB055ADE"]
 			id: "7AA0EB06CBCB27BC"
 			tasks: [{
@@ -166,8 +170,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 1.5d
+			x: -6.5d
+			y: 2.0d
 			dependencies: ["52952FF8CB055ADE"]
 			id: "0360927D6B772C1B"
 			tasks: [{
@@ -199,8 +203,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 4.0d
+			x: -5.5d
+			y: 3.5d
 			dependencies: ["32C79EB18EFF1E9D"]
 			id: "01FC0FA5CFDC0DAA"
 			tasks: [{
@@ -221,8 +225,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.5d
+			x: -6.5d
+			y: 4.0d
 			dependencies: ["32C79EB18EFF1E9D"]
 			id: "3BDB3E04D7C54C32"
 			tasks: [{
@@ -254,8 +258,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 6.0d
+			x: -5.5d
+			y: 5.5d
 			dependencies: ["74EB1E74ADB20708"]
 			id: "230BC1644F8A24B8"
 			tasks: [{
@@ -276,8 +280,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 5.5d
+			x: -6.5d
+			y: 6.0d
 			dependencies: ["74EB1E74ADB20708"]
 			id: "751E258385DE1E5D"
 			tasks: [{
@@ -309,8 +313,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 8.0d
+			x: -5.5d
+			y: 7.5d
 			dependencies: ["2A0B3E05491DF03C"]
 			id: "2FAC269DE831BA79"
 			tasks: [{
@@ -331,8 +335,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 7.5d
+			x: -6.5d
+			y: 8.0d
 			dependencies: ["2A0B3E05491DF03C"]
 			id: "452E1D5878ED10F1"
 			tasks: [{
@@ -365,6 +369,8 @@
 		{
 			x: -4.0d
 			y: -1.5d
+			dependencies: ["4A6B68B1CF8374A2"]
+			hide: true
 			id: "423593C4A602E531"
 			tasks: [{
 				id: "5E8EC8F5CCD0BA91"
@@ -419,7 +425,7 @@
 		{
 			x: -6.5d
 			y: 3.0d
-			dependencies: ["7AA0EB06CBCB27BC"]
+			dependencies: ["0360927D6B772C1B"]
 			id: "32C79EB18EFF1E9D"
 			tasks: [{
 				id: "7F663265707C8049"
@@ -430,7 +436,7 @@
 		{
 			x: -6.5d
 			y: 5.0d
-			dependencies: ["01FC0FA5CFDC0DAA"]
+			dependencies: ["3BDB3E04D7C54C32"]
 			id: "74EB1E74ADB20708"
 			tasks: [{
 				id: "5F1A7B203045DB48"
@@ -441,7 +447,7 @@
 		{
 			x: -6.5d
 			y: 7.0d
-			dependencies: ["230BC1644F8A24B8"]
+			dependencies: ["751E258385DE1E5D"]
 			id: "2A0B3E05491DF03C"
 			tasks: [{
 				id: "385F552565174824"

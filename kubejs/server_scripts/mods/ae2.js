@@ -24,8 +24,8 @@ onEvent('recipes', event => {
     addShaped(event, [
         ['2x appliedenergistics2:certus_crystal_seed',     [[tDe, snd]]],
         ['3x appliedenergistics2:quartz_glass',            [[Apq, Khd, Apq], [Khd, Apq, Khd], [Apq, Khd, Apq]]],
-        ['appliedenergistics2:annihilation_core',          [[air, _K1, air], [Khd, 'diregoo:gooresidue', Khd], [air, Cpm, air]]],
-        ['appliedenergistics2:formation_core',             [[air, _K1, air], [Khd, Ked, Khd], [air, Cpm, air]]],
+        ['appliedenergistics2:annihilation_core',          [[air, _K1, air], [Apf, 'diregoo:gooresidue', Apf], [air, Cpm, air]]],
+        ['appliedenergistics2:formation_core',             [[air, _K1, air], [Apf, Ked, Apf], [air, Cpm, air]]],
         ['appliedenergistics2:quartz_growth_accelerator',  [[tPi, tPe, tPi], [Aqg, _hv, Aqg], [tPi, tPe, tPi]]],
         //['appliedenergistics2:1k_crafting_storage',        [[Acu, 'appliedenergistics2:1k_storage_cell']]],
         //['appliedenergistics2:4k_crafting_storage',        [[Acu, 'appliedenergistics2:4k_storage_cell']]],
@@ -54,7 +54,7 @@ onEvent('recipes', event => {
         //['appliedenergistics2:annihilation_plane',         [[Apf, Apf, Apf], [_K4, _si, _K4], [tPi, Aac, tPi]]],
         //['appliedenergistics2:formation_plane',            [[Apf, Apf, Apf], [_K4, _si, _K4], [tPi, Afc, tPi]]],
         ['appliedenergistics2:level_emitter',              [[Mrt, _si], [_K2, air]]],
-        ['appliedenergistics2:terminal',                   [[Aac, _si], [_K1, Afc]]],
+        ['appliedenergistics2:crafting_terminal',                   [[Aac, _si], [_K1, Afc]]],
 
         //['appliedenergistics2:interface_terminal',         [['appliedenergistics2:terminal', 'appliedenergistics2:cable_interface']]],
     ]);

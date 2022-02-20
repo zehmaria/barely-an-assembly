@@ -1,25 +1,1124 @@
 {
 	id: "4E791B2ECAF7422D"
 	group: ""
-	order_index: 9
+	order_index: 5
 	filename: "armoring"
-	title: "Armoring"
+	title: "Utility"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: -0.5d
-		id: "4FBF1772F6CA4C40"
-		tasks: [{
-			id: "3BD60016575351A2"
-			type: "item"
-			item: {
-				id: "minecraft:leather_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["25A7E19D6A11D39F"]
+			id: "4FBF1772F6CA4C40"
+			tasks: [
+				{
+					id: "42766233B36AD566"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
-			}
-		}]
-	}]
+				{
+					id: "0EBD131D87C010E1"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7646619FD2015584"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F2CA82768FCF7B9"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "5BFF5C46B95F70F2"
+			tasks: [
+				{
+					id: "74DE7F0D906DF01D"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "460F1EA85669875C"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FD9C6976FD1CCE7"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CFD81DA587CEEB6"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["5BFF5C46B95F70F2"]
+			id: "589890A8FDC9CE40"
+			tasks: [
+				{
+					id: "3CDF56BFBDC2AFCF"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "307A13CC0122D8D4"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "763C888A838913BF"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B7783998FBF4620"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			hide_dependency_lines: false
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "4697A8B1E6A93723"
+			tasks: [{
+				id: "59763D51E2AD4A9B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["4697A8B1E6A93723"]
+			id: "705E6A060412060D"
+			tasks: [
+				{
+					id: "56FD114736DABA8B"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_shield_magnet"
+				}
+				{
+					id: "0848B8E5FEC5F786"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_shield_flash"
+				}
+				{
+					id: "2F9F85EB07DB56B3"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_shield_shock"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "0D07201CF21742D6"
+			tasks: [
+				{
+					id: "6066A8264D216E57"
+					type: "item"
+					item: {
+						id: "mekanism:jetpack"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "2D560C8FB569C8E2"
+					type: "item"
+					item: {
+						id: "mekanism:free_runners"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["0D07201CF21742D6"]
+			id: "637C4DA0D5FC68BB"
+			tasks: [{
+				id: "1B62B01253733F6C"
+				type: "item"
+				item: {
+					id: "mekanism:jetpack_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "62F8B297AC8E6DC1"
+			tasks: [
+				{
+					id: "6FB29C88128AA092"
+					type: "item"
+					item: {
+						id: "create:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CCFFE5D2BC2AA9E"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+				{
+					id: "731C2CBD260DD806"
+					type: "item"
+					item: {
+						id: "create:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "44C27C0614BE440E"
+			tasks: [
+				{
+					id: "64478B5B85489D5B"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "76AA144588AE2DCE"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "752ECF98CC57B7FE"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "78CEE1ABF92D1DF8"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["25A7E19D6A11D39F"]
+			id: "3745B4F6AE56DE83"
+			tasks: [{
+				id: "225EE6F86E1284D6"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["70D2E9D105DA6E0A"]
+			id: "6A802490DBF9C1AD"
+			tasks: [{
+				id: "5C7DB26BD6B5256F"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["1C600A3D53FB38D3"]
+			id: "21C55F3CDE5DE98E"
+			tasks: [{
+				id: "34412E6C7713952E"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "344E5E52EC35D19C"
+			tasks: [{
+				id: "0E97C7B8ABDB4B06"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["344E5E52EC35D19C"]
+			id: "1668512EC5A9715D"
+			tasks: [{
+				id: "4F543A26BDDB6A8C"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "66E470000F1D97FE"
+			tasks: [{
+				id: "5A05F631E4B2D40B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["66E470000F1D97FE"]
+			id: "4E5085E1064731A0"
+			tasks: [{
+				id: "09FFC2927B8A67C2"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			dependencies: ["66E470000F1D97FE"]
+			id: "2B64A42CE5DEA389"
+			tasks: [
+				{
+					id: "6117FECB9F4CC29D"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_railgun_scope"
+				}
+				{
+					id: "047A28841481B900"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_railgun_capacitors"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["344E5E52EC35D19C"]
+			id: "03B1B4289A934269"
+			tasks: [
+				{
+					id: "426EE9A1A5B232B9"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_revolver_magazine"
+				}
+				{
+					id: "5935EAD1DAA3A094"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_revolver_electro"
+				}
+				{
+					id: "5C9328656D1637B0"
+					type: "item"
+					item: {
+						id: "immersiveengineering:speedloader"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 8
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "554742CD3C1DEDAE"
+			tasks: [{
+				id: "01493140251664D0"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "3B56145E4A91A5C1"
+			tasks: [{
+				id: "23B0AEBDB62E18EE"
+				type: "item"
+				item: "pneumaticcraft:vortex_cannon"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "49C0F240F25238D4"
+			tasks: [{
+				id: "073D8204C53A9F6D"
+				type: "item"
+				item: "mekanism:flamethrower"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			dependencies: ["21C55F3CDE5DE98E"]
+			id: "0007F6DE551D72A5"
+			tasks: [{
+				id: "719C2FE212C2E487"
+				type: "item"
+				item: {
+					id: "immersiveengineering:chemthrower"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: ["0007F6DE551D72A5"]
+			id: "46C0D151FB184250"
+			tasks: [{
+				id: "79C8E2206BD2B522"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["0007F6DE551D72A5"]
+			id: "0B2FD5DD3E5F3777"
+			tasks: [
+				{
+					id: "6E12D416276501AE"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_capacity"
+				}
+				{
+					id: "30C9751EA5551F2C"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_chemthrower_focus"
+				}
+				{
+					id: "09A4658B8FE38F95"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_chemthrower_multitank"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["21C55F3CDE5DE98E"]
+			id: "73D2607FC73EA389"
+			tasks: [{
+				id: "5272F92B810CE9B1"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["73D2607FC73EA389"]
+			id: "1FA20C05893897C4"
+			tasks: [
+				{
+					id: "0B009E45A8285359"
+					type: "item"
+					item: "immersiveengineering:drillhead_iron"
+				}
+				{
+					id: "18A12F5CB436FD13"
+					type: "item"
+					item: "immersiveengineering:drillhead_steel"
+				}
+				{
+					id: "32EACFB821D72F15"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_waterproof"
+				}
+				{
+					id: "26D7B44B252C27F4"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_damage"
+				}
+				{
+					id: "4419B431A2114DDC"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_capacity"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["21C55F3CDE5DE98E"]
+			id: "44FC1AEACA0A5D55"
+			tasks: [{
+				id: "39E43B243C008E87"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["44FC1AEACA0A5D55"]
+			id: "588B76E5D0B53528"
+			tasks: [
+				{
+					id: "48565BBD14E064E1"
+					type: "item"
+					item: {
+						id: "immersiveengineering:sawblade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7126B69FC06EB3E4"
+					type: "item"
+					item: {
+						id: "immersiveengineering:rockcutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59D0233386E82752"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_capacity"
+				}
+				{
+					id: "68B027E42673FEBF"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			dependencies: ["344E5E52EC35D19C"]
+			id: "4A322AA4891E94A3"
+			tasks: [{
+				id: "419827494AC0CEEA"
+				type: "item"
+				item: "immersiveengineering:casull"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.5d
+			dependencies: ["4A322AA4891E94A3"]
+			id: "7615CE601AB8E7A9"
+			tasks: [
+				{
+					id: "7EB71706A908EA08"
+					type: "item"
+					item: "immersiveengineering:armor_piercing"
+				}
+				{
+					id: "142C2AF0BB831EE9"
+					type: "item"
+					item: "immersiveengineering:buckshot"
+				}
+				{
+					id: "2975F7295482E9D6"
+					type: "item"
+					item: "immersiveengineering:he"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			dependencies: ["7615CE601AB8E7A9"]
+			id: "45ED570C77C8821A"
+			tasks: [
+				{
+					id: "18DA1ADB12C35FB5"
+					type: "item"
+					item: "immersiveengineering:dragons_breath"
+				}
+				{
+					id: "161CD02EF90D8C4C"
+					type: "item"
+					item: "immersiveengineering:homing"
+				}
+				{
+					id: "54E378885BAE2DCF"
+					type: "item"
+					item: "immersiveengineering:wolfpack"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["25A7E19D6A11D39F"]
+			id: "6069CB3CE11EA2F0"
+			tasks: [
+				{
+					id: "78338A147559A207"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1CAA1406D34D82FD"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12846A553C8F1010"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23AE00EF6756DEC3"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "2390F72B8A7644ED"
+			tasks: [
+				{
+					id: "5EC06F48DF41237F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:pickaxe_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FEB447286C342B2"
+					type: "item"
+					item: {
+						id: "immersiveengineering:axe_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D0ABF222A198850"
+					type: "item"
+					item: {
+						id: "immersiveengineering:shovel_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33B543CACBDEA665"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hoe_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "4B8E1A669B427F29"
+			tasks: [
+				{
+					id: "7BA26AD1C5503C83"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "652E08CDCE0384E8"
+					type: "item"
+					item: "minecraft:rail"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "70D2E9D105DA6E0A"
+			tasks: [{
+				id: "088A2209D042A159"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["70D2E9D105DA6E0A"]
+			id: "5683BA9F414DFADF"
+			tasks: [{
+				id: "71C465CD26945852"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "7388122451786029"
+			tasks: [{
+				id: "66A48CCEA298A786"
+				type: "item"
+				item: {
+					id: "immersiveengineering:skyhook"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			dependency_requirement: "one_completed"
+			id: "1C600A3D53FB38D3"
+			tasks: [{
+				id: "4B78CB268BFC2299"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["1C600A3D53FB38D3"]
+			id: "5B9BF12D4A49C047"
+			tasks: [{
+				id: "6C148B8A370BC88D"
+				type: "item"
+				item: {
+					id: "immersivepetroleum:speedboat"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			id: "25A7E19D6A11D39F"
+			tasks: [{
+				id: "714324157A469495"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "26A4CCA5E5C87C68"
+			tasks: [{
+				id: "673F2239E67F4EC4"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "31D736D693E14603"
+			tasks: [
+				{
+					id: "4FB06B8B3689DDD6"
+					type: "item"
+					item: "mekanism:nutritional_liquifier"
+				}
+				{
+					id: "02704C384B5BA704"
+					type: "item"
+					item: "mekanism:canteen"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			dependencies: ["25A7E19D6A11D39F"]
+			id: "10E8C3A105C19994"
+			tasks: [{
+				id: "137DC979F143CF27"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			dependencies: ["25A7E19D6A11D39F"]
+			id: "1ACF484FAD9FFD0C"
+			tasks: [{
+				id: "0C3E65319F8252E8"
+				type: "item"
+				item: "backpacked:backpack"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "431BBED1E899FF4F"
+			tasks: [{
+				id: "642934002C057E10"
+				type: "item"
+				item: "immersiveengineering:powerpack"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["70D2E9D105DA6E0A"]
+			id: "57B6581E987E9F80"
+			tasks: [{
+				id: "0078339F58E8AED4"
+				type: "item"
+				item: "appliedenergistics2:purified_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["57B6581E987E9F80"]
+			id: "2917CD53DF8D0F90"
+			tasks: [{
+				id: "56C67F09D8E8B42B"
+				type: "item"
+				item: "appliedenergistics2:quartz_glass"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["2917CD53DF8D0F90"]
+			id: "16C250AA5964F467"
+			tasks: [{
+				id: "7EAE7C2518E4D02D"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["2917CD53DF8D0F90"]
+			id: "315DA43271721C21"
+			tasks: [{
+				id: "178DEFE24F62504F"
+				type: "item"
+				item: "appliedenergistics2:semi_dark_monitor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["57B6581E987E9F80"]
+			id: "22D10BDF728F79EA"
+			tasks: [{
+				id: "18E4EA3B7467A74A"
+				type: "item"
+				item: "immersiveengineering:electric_lantern"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			dependencies: ["25A7E19D6A11D39F"]
+			id: "56E24A9F3632C0F0"
+			tasks: [{
+				id: "03FC6ED1770DB736"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["21C55F3CDE5DE98E"]
+			id: "57AE4FF0EECBB813"
+			tasks: [{
+				id: "45D3E8EE836399D5"
+				type: "item"
+				item: "pneumaticcraft:kerosene_lamp"
+			}]
+		}
+	]
 }

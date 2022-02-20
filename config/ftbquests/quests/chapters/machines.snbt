@@ -1,65 +1,263 @@
 {
 	id: "413F3FFEC83FE6F5"
 	group: ""
-	order_index: 5
+	order_index: 3
 	filename: "machines"
-	title: "Machines"
+	title: "Processing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -0.5d
-			y: -1.5d
-			dependencies: ["792F83A626167E68"]
-			id: "66ED59CD57CD6ED8"
+			y: 0.0d
+			id: "6280763BD577DC56"
 			tasks: [{
-				id: "24440D976B897AEE"
+				id: "0682B372DF98E3E7"
 				type: "item"
-				item: "mekanism:metallurgic_infuser"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
-			dependencies: ["66ED59CD57CD6ED8"]
-			id: "0A412F81033C8C44"
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["6280763BD577DC56"]
+			id: "799CF4A7DDF2D3D1"
 			tasks: [{
-				id: "39D5610334BFAB08"
+				id: "2ACECE6B41695FBD"
 				type: "item"
-				item: "mekanism:basic_control_circuit"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["6280763BD577DC56"]
+			id: "7B2869645251F8FE"
+			tasks: [{
+				id: "585A2A07590C2B06"
+				type: "item"
+				item: "myrtrees:rubberwood_sapling"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["7B2869645251F8FE"]
+			id: "1E98817399CED2BC"
+			tasks: [
+				{
+					id: "26DC6C462F8AAC12"
+					type: "item"
+					item: "myrtrees:tree_tap"
+				}
+				{
+					id: "75E2A12824EAC6ED"
+					type: "item"
+					item: "myrtrees:wooden_bucket"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["1E98817399CED2BC"]
+			id: "6B3B9D19B634054F"
+			tasks: [{
+				id: "10BFD214303A5B92"
+				type: "item"
+				item: "myrtrees:latex"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["6B3B9D19B634054F"]
+			id: "392079692AEACEB1"
+			tasks: [{
+				id: "66893CC287AD4FE2"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["799CF4A7DDF2D3D1"]
+			id: "26B53DC1D7E549DD"
+			tasks: [{
+				id: "342337FDBE0B343A"
+				type: "item"
+				item: "create:copper_casing"
 			}]
 		}
 		{
 			x: 2.5d
-			y: -1.5d
-			dependencies: ["0A412F81033C8C44"]
-			id: "6E55A90C5EFFAC4B"
+			y: 0.0d
+			dependencies: ["26B53DC1D7E549DD"]
+			id: "74509D9C5452ECB2"
 			tasks: [{
-				id: "3093688E4B225012"
+				id: "2EF3884CA28D0D51"
 				type: "item"
-				item: "mekanism:advanced_control_circuit"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
-			dependencies: ["6E55A90C5EFFAC4B"]
-			id: "58BCE9C93AC8A91E"
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["74509D9C5452ECB2"]
+			id: "1F4534FF4828783A"
 			tasks: [{
-				id: "29D2D41855F2D4D2"
+				id: "70826C42B36E8951"
 				type: "item"
-				item: "mekanism:elite_control_circuit"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["1F4534FF4828783A"]
+			id: "191829065B29575D"
+			tasks: [{
+				id: "3EA78DE2934BF85F"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
 			}]
 		}
 		{
 			x: 5.5d
-			y: -1.5d
-			dependencies: ["58BCE9C93AC8A91E"]
-			id: "7021791695347310"
+			y: 0.0d
+			dependencies: ["191829065B29575D"]
+			id: "3EA8FF6A3B4ED2B0"
 			tasks: [{
-				id: "54842ED4D053CB63"
+				id: "10A81FDE87D87C1D"
 				type: "item"
-				item: "mekanism:ultimate_control_circuit"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["3EA8FF6A3B4ED2B0"]
+			id: "38F0CD6149FEB7A2"
+			tasks: [{
+				id: "3CB5ADD95660B399"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["38F0CD6149FEB7A2"]
+			id: "53176BADF13576D5"
+			tasks: [{
+				id: "560F4943FF2F91C7"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["53176BADF13576D5"]
+			id: "5D23022F215BB9D0"
+			tasks: [{
+				id: "24D4DF4266C5E687"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["5D23022F215BB9D0"]
+			id: "5CA9FFD068CE3C67"
+			tasks: [{
+				id: "51DFE466B749340C"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["5CA9FFD068CE3C67"]
+			id: "74EDE0E1DC1D77C8"
+			tasks: [{
+				id: "2C3BE8D12AA7A6D6"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["74EDE0E1DC1D77C8"]
+			id: "3DE208B25EB44ED4"
+			tasks: [{
+				id: "4CE80DBAB416CA27"
+				type: "item"
+				item: "mekanismgenerators:turbine_casing"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["3DE208B25EB44ED4"]
+			id: "5BBF03A59867A84A"
+			tasks: [{
+				id: "7A08A98D671FA575"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_frame"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["6280763BD577DC56"]
+			id: "5147BA8209ACE673"
+			tasks: [{
+				id: "184E8817F1612372"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: [
+				"5147BA8209ACE673"
+				"78338A147559A207"
+			]
+			id: "4A6B68B1CF8374A2"
+			tasks: [{
+				id: "4F2848309059613D"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: [
+				"4A6B68B1CF8374A2"
+				"036DDA56E3ED9580"
+			]
+			id: "784A6E7028FA75E0"
+			tasks: [{
+				id: "27E0B656E0569B81"
+				type: "item"
+				item: "create:millstone"
 			}]
 		}
 	]

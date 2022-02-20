@@ -1,11 +1,11 @@
 // priority: 100
 
 // GENERAL
-hide1(['diregoo:antigoobeacon', 'diregoo:goonade', 'diregoo:antigoopaste', 'diregoo:zapperturretblock', 'compressedcreativity:air_blower']);
+hide1(['diregoo:antigoobeacon', 'diregoo:goonade', 'diregoo:antigoopaste', 'diregoo:zapperturretblock', 'diregoo:gooblockpoison', 'compressedcreativity:air_blower']);
+
+hide1(['cold_sweat:waterskin', 'cold_sweat:filled_waterskin', 'cold_sweat:minecart_insulation', 'cold_sweat:thermometer', 'cold_sweat:hellspring_lamp', 'cold_sweat:boiler', 'cold_sweat:icebox', 'cold_sweat:sewing_table', 'cold_sweat:hearth']);
 
 hide1(['itemfilters:always_true', 'itemfilters:always_false', 'itemfilters:or', 'itemfilters:and', 'itemfilters:not', 'itemfilters:xor', 'itemfilters:tag', 'itemfilters:mod', 'itemfilters:item_group', 'itemfilters:id_regex', 'itemfilters:id_regex', 'itemfilters:damage', 'itemfilters:block', 'itemfilters:max_count', 'itemfilters:strong_nbt', 'itemfilters:weak_nbt', 'itemfilters:custom', 'ftbquests:detector', 'ftbquests:missing_item', 'itemfilters:item_group', 'ftbquests:barrier', 'ftbquests:stage_barrier', 'ftbquests:custom_icon']);
-
-//hide1(['adpother:polluted_water_bucket', 'adpother:iron_filter_frame', 'adpother:iron_respirator', 'adpother:gold_respirator', 'adpother:diamond_respirator', 'adpother:gold_filter_frame', 'adpother:iron_vacuum_tube', 'adpother:gold_vacuum_tube', 'adpother:diamond_vacuum_tube', 'adpother:diamond_filter_frame', 'adpother:iron_vacuum_bag', 'adpother:gold_vacuum_bag', 'adpother:diamond_vacuum_bag', 'adpother:dust']);
 
 hide2('theoneprobe:', ['gold_helmet_probe', 'diamond_helmet_probe', 'iron_helmet_probe', 'probe', 'creativeprobe']);
 
@@ -67,11 +67,11 @@ hide4('mekanism:', ['basic', 'advanced', 'elite', 'ultimate'], '_', ['fluid_tank
 hide2('mekanism:mekasuit_', ['helmet', 'bodyarmor', 'pants', 'boots']);
 hide3('mekanism:module_', ['nutritional_injection', 'jetpack', 'vision_enhancement', 'solar_recharging', 'attack_amplification', 'hydraulic_propulsion', 'locomotive_boosting', 'dosimeter', 'excavation_escalation', 'electrolytic_breathing', 'gravitational_modulating', 'vein_mining', 'farming', 'teleportation', 'charge_distribution', 'energy', 'silk_touch', 'radiation_shielding', 'inhalation_purification', 'magnetic_attraction', 'laser_dissipation', 'shearing', 'geiger', 'elytra', 'frost_walker'], '_unit');
 
-hide2('mekanism:', ['cardboard_box', 'electric_bow', 'atomic_disassembler', 'creative_bin', 'restrictive_transporter', 'diversion_transporter', 'logistical_sorter', 'creative_fluid_tank', 'creative_energy_cube', 'enriched_iron', 'meka_tool', 'antiprotonic_nucleosynthesizer', 'personal_chest', 'electric_pump', 'fluidic_plenisher', 'osmium_compressor', 'robit', 'dust_sulfur', 'digital_miner', 'formulaic_assemblicator', 'crafting_formula', 'module_base', 'modification_station', 'hdpe_elytra', 'upgrade_stone_generator', 'laser_tractor_beam', 'basic_compressing_factory', 'advanced_compressing_factory', 'elite_compressing_factory', 'ultimate_compressing_factory', 'quantum_entangloporter']);
+hide2('mekanism:', ['cardboard_box', 'electric_bow', 'atomic_disassembler', 'creative_bin', 'restrictive_transporter', 'diversion_transporter', 'logistical_sorter', 'creative_fluid_tank', 'creative_energy_cube', 'enriched_iron', 'meka_tool', 'antiprotonic_nucleosynthesizer', 'personal_chest', 'electric_pump', 'fluidic_plenisher', 'osmium_compressor', 'robit', 'dust_sulfur', 'digital_miner', 'module_base', 'modification_station', 'hdpe_elytra', 'upgrade_stone_generator', 'laser_tractor_beam', 'basic_compressing_factory', 'advanced_compressing_factory', 'elite_compressing_factory', 'ultimate_compressing_factory', 'quantum_entangloporter', 'scuba_mask', 'scuba_tank']);
 
 hide1(['mekanism:basic_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer', 'mekanism:elite_induction_cell', 'mekanism:elite_induction_provider', 'mekanism:elite_pressurized_tube', 'mekanism:elite_thermodynamic_conductor', 'mekanism:elite_chemical_tank', 'mekanism:portable_teleporter', 'mekanism:teleporter_frame', 'mekanism:teleporter', 'mekanism:elite_bin',
 
-       'mekanism:boiler_casing', 'mekanism:boiler_valve', 'mekanism:resistive_heater']);
+       'mekanism:boiler_casing', 'mekanism:boiler_valve', 'mekanism:superheating_element']);
 
 // INGOTS
 
@@ -99,20 +99,6 @@ hide4('immersiveposts:', ['fence', 'stick'], '_', ['constantan', 'nickel', 'silv
 hide1(['minecraft:coal_block', 'minecraft:diamond_block', 'minecraft:lapis_block', 'minecraft:gold_block', 'minecraft:iron_block', 'minecraft:emerald_block', 'minecraft:quartz_block', 'minecraft:redstone_block', 'mekanism:block_refined_obsidian', 'mekanism:block_charcoal', 'mekanism:block_fluorite', 'pneumaticcraft:compressed_iron_block', 'minecraft:diamond_block', 'create:brass_block', 'create:copper_block']);
 hide1(['minecraft:gold_nugget', 'minecraft:iron_nugget', 'mekanism:nugget_refined_obsidian']);
 
-// SPACE-BOSS-TOOLS
-//hide2('boss_tools:', ['iron_plate', 'iron_stick', 'steel_ingot', 'steel_sword', 'solar_panel', 'blue_iron_plating_block', 'chesse', 'nasa_workbench']);
-//hide1(['boss_tools_giselle_addon:oxygen_can', 'boss_tools_giselle_addon:electric_blast_furnace', 'boss_tools_giselle_addon:advanced_compressor', 'boss_tools_giselle_addon:gravity_normalizer', 'boss_tools_giselle_addon:module_space_breathing_unit', 'boss_tools_giselle_addon:module_gravity_normalizing_unit', 'boss_tools_giselle_addon:module_space_fire_proof_unit', 'boss_tools_giselle_addon:module_venus_acid_proof_unit']);
-//hide2('boss_tools:', ['coal_torch', 'coal_lantern', 'netherite_oxygen_mask', 'netherite_space_suit', 'netherite_space_pants', 'netherite_space_boots', 'coal_generator', 'blast_furnace', 'compressor', 'fuel_refinery', 'oxygen_loader', 'water_pump', 'fuel_bucket', 'oil_bucket', 'hammer', 'steel_nugget', 'steel_block', 'iron_plating_block', 'rusted_iron_pillar_block', 'rusted_iron_plating_block', 'iron_mark_block', 'rover', 'oxygen_gear', 'oxygen_tank', 'wheel', 'engine_frame', 'engine_fan', 'iron_tank', 'golden_tank', 'diamond_tank', 'desh_plate', 'ice_shard']);
-//hide1(['#boss_tools:flags']);
-
-// EXTENDED CRAFTING
-hide2('extendedcrafting:', ['handheld_table', 'recipe_maker', 'nether_star_block', 'frame', 'luminessence', 'luminessence_block', 'redstone_ingot_block', 'redstone_ingot', 'redstone_nugget', 'black_iron_slate', 'pedestal', 'crafting_core', 'recipe_maker', 'ultimate_singularity', 'advanced_auto_table', 'elite_auto_table', 'ultimate_auto_table', 'the_ultimate_ingot', 'the_ultimate_nugget']);
-hide2('extendedcrafting:ender_', ['star', 'alternator', 'crafter', 'star_block']);
-hide3('extendedcrafting:', ['basic', 'advanced', 'elite', 'ultimate'], '_table');
-hide4('extendedcrafting:', ['', 'enhanced_'], 'ender_', ['ingot_block', 'ingot', 'nugget', 'catalyst', 'component']);
-hide4('extendedcrafting:', ['black_iron', 'crystaltine'], '_', ['block', 'ingot', 'nugget']);
-hide4('extendedcrafting:', ['basic', 'advanced', 'elite', 'ultimate', 'redstone', 'crystaltine', 'the_ultimate'], '_', ['catalyst', 'component']);
-
 // FACTORIORES
 hide3('factoriores:', ['diamond', 'emerald', 'redstone', 'lapis', 'quartz', 'stone', 'sulfur', 'zinc', 'aluminum', 'nickel', 'silver'], '_ore');
 hide2('factoriores:', ['creative_miner', 'sulfur_block', 'drill_head', 'sulfur_dust', 'coal_nugget', 'sulfuric_acid_bucket', 'water_deposit', 'lava_deposit', 'oil_deposit']);
@@ -120,15 +106,3 @@ hide2('factoriores:', ['creative_miner', 'sulfur_block', 'drill_head', 'sulfur_d
 // MORE MINECARTS AND RAILS
 
 hide1(['moreminecarts:silica_steel_block', 'moreminecarts:corrugated_silica_steel', 'moreminecarts:silica_steel_pillar', 'moreminecarts:organic_glass', 'moreminecarts:organic_glass_pane', 'moreminecarts:chiseled_organic_glass', 'moreminecarts:chiseled_organic_glass_pane', 'moreminecarts:holo_scaffold_generator', 'moreminecarts:holo_remote', 'moreminecarts:backwards_holo_remote', 'moreminecarts:simple_holo_remote', 'moreminecarts:glass_cactus', 'moreminecarts:maglev_projector_rail', 'moreminecarts:wooden_projector_rail', 'moreminecarts:projector_rail', 'moreminecarts:glass_spines', 'moreminecarts:hard_light_lens', 'moreminecarts:broken_holo_remote', 'moreminecarts:pearl_stasis_chamber', 'moreminecarts:pearl_stasis_minecart', 'moreminecarts:minecart_with_net', 'moreminecarts:bioluminescent_rail', 'moreminecarts:soulfire_cart', 'moreminecarts:silica_steel_mix', 'moreminecarts:silica_steel']);
-
-/*
-// AUTOMATED
-hide1(['createautomated:picker', 'createautomated:wet_sponge_sail', 'createautomated:lava_sponge_sail', 'createautomated:sponge_sail', 'createautomated:lapis_ore_piece', 'createautomated:lapis_node', 'createautomated:iron_ore_piece', 'createautomated:iron_node', 'createautomated:zinc_ore_piece', 'createautomated:diamond_bit', 'createautomated:crushed_prismarine', 'createautomated:cinder_flour_node', 'createautomated:cinder_flour_ore_piece', 'createautomated:copper_node', 'createautomated:copper_ore_piece', 'createautomated:gold_node', 'createautomated:gold_ore_piece', 'createautomated:zinc_node', 'createautomated:molten_emerald_bucket', 'createautomated:emerald_bit', 'createautomated:molten_diamond_bucket']);
-
-/*
-// GEOLOSYS
-hide2('geolosys:', ['peat', 'rhododendron', 'peat_coal', 'lignite_coal', 'bituminous_coal', 'anthracite_coal', 'lignite_coal_coke', 'bituminous_coal_coke', 'prospectors_pick']);
-hide3('geolosys:', ['iron', 'gold', 'uranium', 'yellorium', 'osmium', 'ancient_debris', 'nether_gold'], '_cluster');
-hide4('geolosys:', ['copper', 'tin', 'silver', 'lead', 'aluminum', 'nickel', 'platinum', 'zinc'], '_', ['cluster', 'ingot', 'nugget']);
-hide4('geolosys:', ['lignite', 'bituminous_coal', 'anthracite_coal', 'coal', 'cinnabar', 'gold', 'lapis', 'quartz', 'kimberlite', 'beryl', 'nether_gold', 'ancient_debris', 'hematite', 'limonite', 'malachite', 'azurite', 'cassiterite', 'teallite', 'galena', 'bauxite', 'platinum', 'autunite', 'sphalerite'], '_ore', ['', '_sample']);
-*/

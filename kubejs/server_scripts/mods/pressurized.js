@@ -8,7 +8,7 @@ onEvent('recipes', event => {
         ['pneumaticcraft:jumping_upgrade_1',      [[HOP, __a, HOP], [__b, Ppt, __b], [HOP, pis, HOP]]],
         ['pneumaticcraft:range_upgrade',          [[HOP, tGf, HOP], [tGf, __l, tGf], [HOP, tGf, HOP]]],
         ['pneumaticcraft:speed_upgrade',          [[HOP, tGf, HOP], [tGf, 'mekanism:upgrade_speed', tGf], [HOP, tGf, HOP]]],
-        ['pneumaticcraft:logistics_core',         [[br, br, br], [br, _K1, br], [br, br, br]]],
+        ['pneumaticcraft:logistics_core',         [[br, br, br], [br, _K2, br], [br, br, br]]],
         ['pneumaticcraft:transfer_gadget',        [[_K1], ['create:andesite_funnel'], [_I3]]],
         ['pneumaticcraft:advanced_pressure_tube', [[air, Apf, air], [Cgl, Ppt, Cgl], [air, Apf, air]]],
         ['pneumaticcraft:charging_station',       [[Ppt], ['immersiveengineering:charging_station'], ['pneumaticcraft:logistics_core']]],
@@ -34,5 +34,4 @@ onEvent('recipes', event => {
     event.remove({ id: 'pneumaticcraft:one_probe_crafting' });
     event.remove({ id: 'pneumaticcraft:speed_upgrade_from_glycerol' });
     event.remove({ output: Item.of('patchouli:guide_book', '{"patchouli:book":"pneumaticcraft:book"}') });
-    event.printTypes();
 });

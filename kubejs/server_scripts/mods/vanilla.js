@@ -9,7 +9,8 @@ onEvent('recipes', event => {
     event.remove({ id: 'immersiveengineering:crafting/paper_from_sawdust' });
 
     addShaped(event, [
-        ['minecraft:flint_and_steel',   [[flt, tPs]]],
+        ['minecraft:crafting_table',    [[log, log], [log, log]]],
+        ['minecraft:flint_and_steel',   [[flt, tPi]]],
 
         ['minecraft:redstone_torch',    [[_I4], [stk]]],
         ['minecraft:lever',             [[stk], [_I2]]],
@@ -19,10 +20,10 @@ onEvent('recipes', event => {
         ['minecraft:iron_bars',         [[tRi, tRi, tRi], [tRi, tRi, tRi]]],
         ['minecraft:minecart',          [[tPi, air, tPi], [_I2, tPi, _I2]]],
 
-        ['6x minecraft:activator_rail', [[_I6, air, _I6], [_I6, 'moreminecarts:wooden_rail', _I6], [_I6, _K2, _I6]]],
-        ['6x minecraft:detector_rail',  [[_I6, Msp, _I6], [_I6, 'moreminecarts:wooden_rail', _I6], [_I6, _K2, _I6]]],
-        ['6x minecraft:powered_rail',   [[_I6, air, _I6], [tRe, 'moreminecarts:wooden_rail', tRe], [_I6, _K2, _I6]]],
-        ['16x minecraft:rail',          [[_I6, air, _I6], [_I6, 'moreminecarts:wooden_rail', _I6], [_I6, air, _I6]]],
+        ['6x minecraft:activator_rail', [[tRi, air, tRi], [tRi, 'moreminecarts:wooden_rail', tRi], [tRi, _K2, tRi]]],
+        ['6x minecraft:detector_rail',  [[tRi, Msp, tRi], [tRi, 'moreminecarts:wooden_rail', tRi], [tRi, _K2, tRi]]],
+        ['6x minecraft:powered_rail',   [[tRi, air, tRi], [tRe, 'moreminecarts:wooden_rail', tRe], [tRi, _K2, tRi]]],
+        ['16x minecraft:rail',          [[tRi, air, tRi], [tRi, 'moreminecarts:wooden_rail', tRi], [tRi, air, tRi]]],
 
         ['minecraft:saddle',            [[Mlt, Mlt, Mlt], [Mlt, _rp, Mlt], [_rp, air, _rp]]],
 

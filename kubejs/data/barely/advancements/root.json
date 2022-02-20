@@ -2,15 +2,14 @@
     "display": {
         "icon": { "item": "minecraft:book" },
         "title": "A Barely Packed Experience",
-        "description": "It has been a long time, but I should still try sending an SOS via Amadron before more monters appear and I fall into a continuous cycle of death again. Out of this whole cursed experience, having this monolith protect the tools we left close to it has been my only ray of hope. If only I could go back and not be so picky about them. I so miss everyone. ",
+        "description": "",
         "background": "minecraft:textures/block/purple_terracotta.png"
     },
     "criteria": {
         "c_01": {
             "trigger": "minecraft:inventory_changed",
             "conditions": { "items": [{
-                "item": "minecraft:written_book",
-                "nbt": "{pages:['{\"text\":\"      *SOS SIGNAL*\\\\n      *SOS SIGNAL*\\\\n      *SOS SIGNAL*\"}'],title:\"SOS\",author:\"SOS\",resolved:1b}"
+                "item": "minecraft:written_book"
             }]}
         }
     }

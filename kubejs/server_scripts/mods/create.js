@@ -19,6 +19,7 @@ onEvent('recipes', event => {
     const Cet = 'create:electron_tube';
 
     addShaped(event, [
+        ['create:andesite_casing',      [[Caa, Caa, Caa], [Caa, log, Caa], [Caa, Caa, Caa]]],
         ['create:andesite_alloy',       [['#create:crushed_ores/iron', tTb], [tTb, '#create:crushed_ores/iron']]],
 
         ['create:cogwheel',             [[plk, plk, plk], [plk, Csh, plk], [plk, plk, plk]]],

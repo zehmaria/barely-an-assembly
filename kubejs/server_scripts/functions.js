@@ -40,16 +40,49 @@ function bpIE(event, X, Y, Z) {
     var _y = []; Y.forEach(yy => _y.push(bI(yy)));
     event.custom({ type: 'immersiveengineering:blueprint', category: Z, result: Item.of(X), inputs: _y });
 }
+function arc(event, Z) {
+    Z.forEach(zz => {
+        if (zz[0] instanceof Array) event.remove({ output: zz[0][0] }); else event.remove({ output: zz[0] });
+        var _ad = [];
+        zz[3].forEach(it => _ad.push(bI(it)));
+        event.custom({
+            type: 'immersiveengineering:arc_furnace', time: zz[1]/512, energy: zz[1],
+            results: [bI(zz[0])], input: bI(zz[2]), additives: _ad
+        });
+    });
+}
 
 // CREATE
-// Z = [A, B, C, D=[M, N, O, ...]]
+// Z = [A, B, C, D=[M, N, O, ...], E=[[F,N], [G, M], ...]
 function csAssembly(event, Z) {
     Z.forEach(zz => {
-        event.remove({ output: zz[0] }); var sq = [];
-        zz[3].forEach(it => sq.push({ type: 'create:deploying', ingredients: [{ item: zz[1] }, Ingredient.of(it)], results: [{ item: zz[1] }] },));
+        event.remove({ output: zz[0] });
+        var sq = [{
+            type: 'create:cutting',
+            ingredients: [{ item: zz[1] }],
+            results: [{ item: zz[1] }],
+            processingTime: 200
+        }];
+
+        zz[3].forEach(it => sq.push({
+            type: 'create:deploying',
+            ingredients: [{ item: zz[1] }, Ingredient.of(it)],
+            results: [{ item: zz[1] }]
+        }));
+
+        zz[4].forEach(it => sq.push({
+            type: 'create:filling',
+            ingredients: [{ item: zz[1] }, { fluid: it[0], nbt: {}, amount: it[1] }],
+            results: [{ item: zz[1] }]
+        }));
+
+        sq.push({ type: 'create:pressing', ingredients: [{ item: zz[1] }], results: [{ item: zz[1] }] });
+
         event.custom({
-            type: 'create:sequenced_assembly', loops: 1,
-            results: [{ item: zz[0] }], transitionalItem: { item: zz[1] }, ingredient: Ingredient.of(zz[2]), sequence: sq
+            type: 'create:sequenced_assembly',
+            ingredient: Ingredient.of(zz[2]), transitionalItem: { item: zz[1] }, results: [{ item: zz[0] }],
+            sequence: sq,
+            loops: zz[5]
         });
     });
 }

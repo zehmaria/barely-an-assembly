@@ -3,17 +3,260 @@
 	group: ""
 	order_index: 6
 	filename: "some_goo"
-	title: "Some goo"
+	title: "Corruption"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: -0.5d
-		id: "7982C0345C7F4ED5"
-		tasks: [{
-			id: "4CB2B8AC52C9664F"
-			type: "item"
-			item: "diregoo:gooresidue"
-		}]
-	}]
+	quests: [
+		{
+			x: 1.0d
+			y: -0.5d
+			id: "7982C0345C7F4ED5"
+			tasks: [{
+				id: "4CB2B8AC52C9664F"
+				type: "item"
+				item: "diregoo:gooresidue"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["7982C0345C7F4ED5"]
+			id: "6BE0AE1191373562"
+			tasks: [{
+				id: "38705A1BC4ECC56A"
+				type: "item"
+				item: "diregoo:goonadefreeze"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["7982C0345C7F4ED5"]
+			id: "457F0B861B186E79"
+			tasks: [{
+				id: "312CB9D8568F7DD2"
+				type: "item"
+				item: "diregoo:antigoodust"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "1AB1463034CD9823"
+			tasks: [{
+				id: "4E3EEC58C8AABB22"
+				type: "item"
+				item: "diregoo:gooremover"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "129D5AC24E4EBABC"
+			tasks: [{
+				id: "35A245F86E5A3AE1"
+				type: "item"
+				item: "diregoo:turretblock"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "04162110BCBA8E1E"
+			tasks: [{
+				id: "5D05C28BBDEDF014"
+				type: "item"
+				item: "diregoo:gntblockt1"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["04162110BCBA8E1E"]
+			id: "4F669813F49523A1"
+			tasks: [{
+				id: "66B1BD03E81A698B"
+				type: "item"
+				item: "diregoo:gntblockt2"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["4F669813F49523A1"]
+			id: "2C28E0F270674EFF"
+			tasks: [{
+				id: "64E9958AD62CDD1C"
+				type: "item"
+				item: "diregoo:gntblockt3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["2C28E0F270674EFF"]
+			id: "14D333F895B27DDA"
+			tasks: [{
+				id: "2DC28927AA6E1E20"
+				type: "item"
+				item: "diregoo:gntblockt4"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["129D5AC24E4EBABC"]
+			id: "40CA391F8A69D1F6"
+			tasks: [{
+				id: "218F135C0C4B50CB"
+				type: "item"
+				item: "diregoo:antigoofieldgen"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["40CA391F8A69D1F6"]
+			hide: true
+			size: 2.0d
+			id: "1562724A86B5782F"
+			tasks: [{
+				id: "62898D47677DF75F"
+				type: "item"
+				item: "diregoo:gooliminationfieldgen"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["1AB1463034CD9823"]
+			id: "0D1785CC1E1FFAAE"
+			tasks: [{
+				id: "4759FB7FEF8A5FBE"
+				type: "item"
+				item: "diregoo:goozapper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "3E70D2D2C5F5FDA9"
+			tasks: [
+				{
+					id: "36F1884EBAC93D24"
+					type: "item"
+					item: "diregoo:corefreeze"
+				}
+				{
+					id: "2DEA33D423EBC47B"
+					type: "item"
+					item: "diregoo:coremelt"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "5564E810BD52911B"
+			tasks: [{
+				id: "3E9EF4064DF651F9"
+				type: "item"
+				item: "diregoo:goodetector"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "17036FDAEAF7E82D"
+			tasks: [{
+				id: "30CBA9082FCAC7F1"
+				type: "item"
+				item: "diregoo:powerampt1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["457F0B861B186E79"]
+			id: "422A7886A10C5325"
+			tasks: [{
+				id: "5561F002419A2D32"
+				type: "item"
+				item: "diregoo:focust1"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["17036FDAEAF7E82D"]
+			id: "0ABFE3D28BC00755"
+			tasks: [{
+				id: "18D662ED716F3791"
+				type: "item"
+				item: "diregoo:powerampt2"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["0ABFE3D28BC00755"]
+			id: "7D7602B32050E496"
+			tasks: [{
+				id: "11A527716262FAEE"
+				type: "item"
+				item: "diregoo:powerampt3"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["7D7602B32050E496"]
+			id: "3F503FC779BB1A42"
+			tasks: [{
+				id: "30B5DB4DFF116786"
+				type: "item"
+				item: "diregoo:powerampt4"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["422A7886A10C5325"]
+			id: "7D5A70756F234906"
+			tasks: [{
+				id: "45BF081E566B1FE2"
+				type: "item"
+				item: "diregoo:focust2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["7D5A70756F234906"]
+			id: "4AF5157CC9E3464F"
+			tasks: [{
+				id: "43CED9A2745711E2"
+				type: "item"
+				item: "diregoo:focust3"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["4AF5157CC9E3464F"]
+			id: "36243B54D3F1BA4F"
+			tasks: [{
+				id: "2DF1C08FE18FEB30"
+				type: "item"
+				item: "diregoo:focust4"
+			}]
+		}
+	]
 }

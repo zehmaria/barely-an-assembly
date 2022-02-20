@@ -10,8 +10,8 @@ onEvent('recipes', event => {
     const __f = 'create:andesite_funnel';
 
     addShaped(event, [
-        ['moreminecarts:chunk_loader',               [[Khd, Keo, Khd], [Keo, 'immersiveengineering:coil_mv', Keo], [Khd, Keo, Khd]]],
-        ['moreminecarts:coupler',                    [[tPs, ltx, tPs]]],
+        ['moreminecarts:chunk_loader',               [[Khd, Keo, Khd], [Keo, 'immersiveengineering:coil_mv', Keo], [Khd, Plc, Khd]]],
+        ['moreminecarts:coupler',                    [[tPi, ltx, tPi]]],
 
         ['4x moreminecarts:wooden_rail',             [[Its, air, Its], [Its, Its, Its], [Its, air, Its]]],
         ['8x moreminecarts:maglev_rail',             [[_hr, _lp, _hr], [_hr, __R, _hr], [_hr, _lp, _hr]]],
@@ -19,15 +19,16 @@ onEvent('recipes', event => {
         ['8x moreminecarts:lightspeed_rail',         [[__g, Apf, __g], [cld, _mR, cld], [__g, HOP, __g]]],
         ['8x moreminecarts:lightspeed_powered_rail', [[__g, Apf, __g], [cld, _mP, cld], [__g, HOP, __g]]],
 
-        ['8x moreminecarts:locking_rail',            [[_I3], ['create:controller_rail']]],
-        ['8x moreminecarts:powered_locking_rail',    [[_I3], [__P]]],
+        ['8x moreminecarts:locking_rail',            [[_I3], [__R]]],
+        ['8x moreminecarts:powered_locking_rail',    [[_I3], ['create:controller_rail']]],
 
-        ['moreminecarts:minecart_loader',            [[tPs, __f, tPs], [tPs, Mcw, tPs], [tPs, _K1, tPs]]],
-        ['moreminecarts:minecart_unloader',          [[tPs, _K1, tPs], [tPs, Mcw, tPs], [tPs, __f, tPs]]],
-        ['moreminecarts:transport_battery',          [[tPs, tPs, tPs], [tPs, Ic1, tPs], [tPs, tPs, tPs]]],
-        ['moreminecarts:transport_tank',             [[tPs, tPs, tPs], [tPs, Cft, tPs], [tPs, tPs, tPs]]],
+        ['moreminecarts:minecart_loader',            [[Caa, __f, Caa], [Plc, Cc3, Plc], [Caa, _K2, Caa]]],
+        ['moreminecarts:minecart_unloader',          [[Caa, _K2, Caa], [Plc, Cc3, Plc], [Caa, __f, Caa]]],
+        ['moreminecarts:transport_battery',          [[tPs, tPs, tPs], [tPs, Ic1, tPs], [tPs, Plc, tPs]]],
+        ['moreminecarts:transport_tank',             [[tPs, tPs, tPs], [tPs, Cft, tPs], [tPs, Plc, tPs]]],
     ]);
-    colors.forEach(X => addShaped(event, [['moreminecarts:color_detector_rail_' + X, [['#forge:dyes/' + X], [Cpm], [Rdr]]]]));
+
+    colors.forEach(X => addShaped(event, [['moreminecarts:color_detector_rail_' + X, [['#forge:dyes/' + X], [Plc], [Rdr]]]]));
 
     event.remove({ output: _lp });
     event.custom({

@@ -5,6 +5,8 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('factoriores:uranium_ore', '§3Mining requires liquid Hydrofluoric Acid or Sulfuric Acid.');
     tooltip.add('create:crushed_uranium_ore', '§3Mining requires liquid Hydrofluoric Acid or Sulfuric Acid.');
 
+    tooltip.add('create:chute', '§3Can be placed on top of Little Logistics Docks for automation.');
+
     ['mekanism:basic_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer'].forEach(X => tooltip.add(X, '§3Some machines can be upgraded by [shift + right click]ing this onto them. Tiers can not be skipped and must be installed in sequence.'));
 
     ['create:schematicannon', 'create:schematic_table'].forEach(X => tooltip.add(X, '§3Basic Schematics Available.'));

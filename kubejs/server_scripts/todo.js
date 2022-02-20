@@ -1,26 +1,9 @@
 /*
-  - Cancel event for reinforced crate [comment for easier access]
   - Disabled OTG dev mode [reloading makes it easier]
-
-  Circuit
-  - 1: copper wire and iron plate
-  - 2: plastic bar (hdpe?)
-  - 3: sulfuric acid
-
-  - MAKE ADVANCEMENTS INTO TIPS
-  - QUEST LINE D:
-
-  - Include direction on Ultimate blocks
-
-  - Change creative item to after qio
-  - makes spawn structure make air above
-
-
-  Quests:
-  - CASING LINE
-
   - Remove compact storage
 
+  - processing quest tree - then recheck recipe balance due to it
+  - how long would it take? the numbers still need actually full testing, rather than small ones individualized.
 */
 
 

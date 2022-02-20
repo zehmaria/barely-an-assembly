@@ -26,9 +26,9 @@ onEvent('recipes', event => {
     const __l = 'mekanism:crystal_lead';
 
     addShaped(event, [
-        ['2x mekanismgenerators:turbine_casing',           [[air, Khd, air], [tPs, Ktt, tPs], [air, HOP, air]]],
-        ['2x mekanismgenerators:fission_reactor_casing',   [[air, Khd, air], [tPl, Kfc, tPl], [air, HOP, air]]],
-        ['2x mekanismgenerators:fusion_reactor_frame',     [[mm3, Kpp, mm3], [Kpp, Kff, Kpp], [mm3, Kpp, mm3]]],
+        //['2x mekanismgenerators:turbine_casing',           [[air, Khd, air], [tPs, Ktt, tPs], [air, HOP, air]]],
+        //['2x mekanismgenerators:fission_reactor_casing',   [[air, Khd, air], [tPl, Kfc, tPl], [air, HOP, air]]],
+        //['2x mekanismgenerators:fusion_reactor_frame',     [[mm3, Kpp, mm3], [Kpp, Kff, Kpp], [mm3, Kpp, mm3]]],
 
         ['mekanismgenerators:solar_panel',           [[Apq, Apq, Apq], [_K1, mm1, Cpm], [tPe, tPe, tPe]]],
         ['mekanismgenerators:laser_focus_matrix',    [[air, _rg, air], [_rg, Df4, _rg], [air, _rg, air]]],
@@ -44,7 +44,7 @@ onEvent('recipes', event => {
 
         ['mekanism:chemical_washer',                 [[_x1, Kdt, _x1], [_K3, Kca, _K3], [_x1, Kct, _x1]]],
         ['mekanism:rotary_condensentrator',          [[gla, _K1, gla], [Kct, Ktb, Kdt], [gla, _K1, gla]]],
-        ['mekanism:thermal_evaporation_controller',  [[Khd, _K2, Khd], [Kte, Cft, Kte], [Kte, Kte, Kte]]],
+        ['mekanism:thermal_evaporation_controller',  [[Apq, _K2, Apq], [Kte, Cft, Kte], [Kte, Kte, Kte]]],
         ['mekanism:crusher',                         [[rst, _K1, rst], [__m, Kca, tPe], [rst, _K1, rst]]],
         ['mekanism:chargepad',                       [[tPs, tPe, tPs], [Khd, Ktb, Khd]]],
 
@@ -117,17 +117,16 @@ onEvent('recipes', event => {
     });
 
     // CIRCUITS
-    const osm2 = '#forge:dusts/copper';
-    const osm3 = 'mekanism:clump_copper';
-    const osm4 = 'mekanism:shard_copper';
     function circuit(X, Y) {
         event.remove({ output: X });
         event.custom({
             type: 'immersiveengineering:blueprint', category: 'components',
-            result: Item.of(X), inputs: [Item.of(Y[0]), bI(Y[1]), bI(Y[2]), Item.of(Y[3])]
+            result: Item.of(X), inputs: [bI(Y[0]), bI(Y[1]), bI(Y[2]), bI(Y[3])]
         });
     }
-    circuit('mekanism:advanced_control_circuit', [mm1, [_K1, 2], [_x1, 3], osm2]);
-    circuit('mekanism:elite_control_circuit',    [mm2, [_K2, 2], [_x2, 3], osm3]);
-    circuit('mekanism:ultimate_control_circuit', [mm3, [_K3, 2], [_x3, 3], osm4]);
+    circuit('mekanism:advanced_control_circuit', [[mm1, 3], [_K1, 2], [tPe, 3], [tDg, 3]]);
+    //circuit('mekanism:elite_control_circuit',    [mm2, [_K2, 2], [_x2, 3], osm3]);
+    //circuit('mekanism:ultimate_control_circuit', [mm3, [_K3, 2], [_x3, 3], osm4]);
+    csAssembly(event, [[_K3, 'appliedenergistics2:printed_engineering_processor', _K2, [mm2, Khd, KCg, ltx], [['mekanism:sulfuric_acid', 100]], 3]]);
+    arc(event, [[_K4, 512 * 20 * 20, _K3, [mm3, [HOP, 2], [KSg, 3], ltx]]]);
 });
