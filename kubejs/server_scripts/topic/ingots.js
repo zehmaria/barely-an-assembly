@@ -108,6 +108,9 @@ onEvent('recipes', event => {
             mek(B, A);
         });
     });
+
+    press('mekanism:hdpe_sheet', 'mekanism:hdpe_rod', 'immersiveengineering:mold_rod');
+
     ['electrum', 'steel'].forEach(A => {
         dust('#forge:ingots/' + A, '#forge:dusts/' + A);
         press('#forge:ingots/' + A, '#forge:plates/' + A, 'immersiveengineering:mold_plate');

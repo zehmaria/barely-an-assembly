@@ -24,12 +24,14 @@ onEvent('recipes', event => {
 
         ['create:cogwheel',             [[plk, plk, plk], [plk, Csh, plk], [plk, plk, plk]]],
         ['create:large_cogwheel',       [[plk, log, plk], [log, Csh, log], [plk, log, plk]]],
-        ['create:millstone',            [[air, log, air], [Caa, Csh, Caa], [tTb, tTb, tTb]]],
+        ['create:millstone',            [[air, log, air], [Caa, Caa, Caa], [tTb, tTb, tTb]]],
 
         ['create:controller_rail',      [[tRg, air, tRg], [tRg, stk, tRg], [tRg, Cet, tRg]]],
 
-        ['create:mechanical_press',     [[air, Csh, air], [Csh, Cc1, tIi], [Caa, Caa, Caa]]],
-        ['create:hand_crank',           [[air, Csh, air], [log, log, log], [air, air, Caa]]],
+        ['create:mechanical_press',     [[tIi, Cpe, tIi], [Caa, Cc1, Caa], [Caa, Cpe, Caa]]],
+        ['create:mechanical_saw',       [[air, tPi, air], [tPi, Caa, tPi], [air, Cc1, air]]],
+
+        ['create:hand_crank',           [[air, Caa, air], [log, log, log], [air, air, Caa]]],
 
         //['createchunkloading:chunk_loader', [[Khd, tPu, Khd], [tPu, 'immersiveengineering:coil_mv', tPu], [Khd, tPu, Khd]]],
 
@@ -39,7 +41,7 @@ onEvent('recipes', event => {
         ['steampowered:cast_iron_flywheel',      [[tPi, Cc1, tPi], [tRi, Ccw, tRi], [tPi, Cc1, tPi]]],
     ]);
 
-    //CREATE ADDITION
+    // CREATE ADDITION
     function addCMC(X, Y, Z) {event.remove({output:X});event.custom({type:'create:mechanical_crafting',result:{item:X},pattern:Y,key:Z});}
 
     event.remove({ id: 'createaddition:mechanical_crafting/overcharged_hammer' });
@@ -106,16 +108,7 @@ onEvent('recipes', event => {
                 results: [{ item: 'create:incomplete_precision_mechanism' }]
             }
         ],
-        results: [
-            { item: 'create:precision_mechanism', chance: 120.0 },
-            { item: 'create:andesite_alloy', chance: 8.0 },
-            { item: 'create:cogwheel', chance: 5.0 },
-            { item: 'create:shaft', chance: 2.0 },
-            { item: 'create:crushed_gold_ore', chance: 2.0 },
-            { item: 'minecraft:gold_nugget', chance: 2.0 },
-            { item: 'minecraft:iron_ingot' },
-            { item: 'minecraft:clock' }
-        ],
+        results: [{ item: 'create:precision_mechanism' }],
         'loops': 5
     });
 
@@ -129,4 +122,5 @@ onEvent('recipes', event => {
     event.remove({ input: 'create:dough' });
     event.remove({ id: '/create:smelting/glass/'});
     event.remove({ id: 'create:crafting/kinetics/copper_valve_handle_from_others'});
+    event.remove({ id: 'create:crafting/kinetics/shaft'});
 });

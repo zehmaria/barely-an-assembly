@@ -3,7 +3,7 @@ onEvent('item.tooltip', tooltip => {
 
     ['immersiveengineering:chemthrower', 'mekanism:flamethrower', 'immersiveengineering:railgun', 'immersiveengineering:revolver', 'diregoo:gooremover', 'diregoo:goozapper', 'create:potato_cannon'].forEach(X => tooltip.add(X, '§3Weapons.'));
 
-    ['minecraft:campfire', 'pneumaticcraft:kerosene_lamp', 'immersiveengineering:electric_lantern', 'immersiveengineering:floodlight', 'appliedenergistics2:semi_dark_monitor'].forEach(X => tooltip.add(X, '§3Light Source [No basic torch].'));
+    ['minecraft:campfire', 'pneumaticcraft:kerosene_lamp', 'immersiveengineering:electric_lantern', 'immersiveengineering:floodlight', 'appliedenergistics2:semi_dark_monitor'].forEach(X => tooltip.add(X, '§3Light Source.'));
 
     tooltip.add('immersiveengineering:turret_gun', '§3Range: 15.');
     tooltip.add('immersiveengineering:turret_chem', '§3Range: 7.');

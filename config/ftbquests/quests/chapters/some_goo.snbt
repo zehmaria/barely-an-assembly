@@ -1,7 +1,7 @@
 {
 	id: "5299F22566871E20"
 	group: ""
-	order_index: 6
+	order_index: 7
 	filename: "some_goo"
 	title: "Corruption"
 	default_quest_shape: ""
@@ -21,6 +21,7 @@
 			x: 0.0d
 			y: -0.5d
 			dependencies: ["7982C0345C7F4ED5"]
+			hide: true
 			id: "6BE0AE1191373562"
 			tasks: [{
 				id: "38705A1BC4ECC56A"
@@ -32,6 +33,7 @@
 			x: 2.0d
 			y: -0.5d
 			dependencies: ["7982C0345C7F4ED5"]
+			hide: true
 			id: "457F0B861B186E79"
 			tasks: [{
 				id: "312CB9D8568F7DD2"
@@ -117,6 +119,7 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 5.5d
 			y: -0.5d
 			shape: "gear"

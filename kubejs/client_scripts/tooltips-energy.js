@@ -14,13 +14,15 @@ onEvent('item.tooltip', tooltip => {
     ['steampowered:bronze_steam_engine', 'steampowered:cast_iron_steam_engine', 'steampowered:steel_steam_engine'].forEach(X => tooltip.add(X, '§3Requires Flywheel of the same material.'));
 
     // MULTIBLOCK TIP
-    ['mekanismgenerators:fusion_reactor_frame', 'mekanismgenerators:fusion_reactor_port', 'mekanismgenerators:fusion_reactor_logic_adapter', 'mekanismgenerators:fusion_reactor_controller', 'mekanismgenerators:reactor_glass', 'mekanismgenerators:laser_focus_matrix'].forEach(X => tooltip.add(X, '§3Fusion Reactor Piece.'));
+    ['mekanismgenerators:fusion_reactor_frame', 'mekanismgenerators:fusion_reactor_port', 'mekanismgenerators:fusion_reactor_logic_adapter', 'mekanismgenerators:fusion_reactor_controller', 'mekanismgenerators:reactor_glass', 'mekanismgenerators:laser_focus_matrix', 'mekanism:laser', 'mekanism:laser_amplifier'].forEach(X => tooltip.add(X, '§3Fusion Reactor Piece.'));
 
     ['mekanismgenerators:reactor_glass', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:fission_reactor_port', 'mekanismgenerators:fission_reactor_logic_adapter', 'mekanismgenerators:fission_fuel_assembly', 'mekanismgenerators:control_rod_assembly'].forEach(X => tooltip.add(X, '§3FissionReactor Piece.'));
 
     ['mekanismgenerators:turbine_blade', 'mekanismgenerators:turbine_rotor', 'mekanismgenerators:turbine_vent', 'mekanismgenerators:turbine_valve', 'mekanism:pressure_disperser', 'mekanismgenerators:saturating_condenser', 'mekanismgenerators:rotational_complex', 'mekanismgenerators:electromagnetic_coil', 'mekanismgenerators:turbine_casing', 'mekanism:structural_glass'].forEach(X => tooltip.add(X, '§3Industrial Turbine Piece.'));
 
     ['mekanism:dynamic_tank', 'mekanism:structural_glass', 'mekanism:dynamic_valve'].forEach(X => tooltip.add(X, '§3Dynamic Tank Piece.'));
+
+    ['mekanism:sps_casing', 'mekanism:sps_port', 'mekanism:supercharged_coil', 'mekanismgenerators:reactor_glass'].forEach(X => tooltip.add(X, '§3Supercritical Phase Shifter Piece.'));
 
     // STORAGE
     ['immersiveengineering:capacitor_lv', 'immersiveengineering:capacitor_mv', 'immersiveengineering:capacitor_hv', 'mekanism:energy_tablet', 'immersiveengineering:powerpack', 'mekanism:basic_induction_cell', 'mekanism:advanced_induction_cell', 'mekanism:elite_induction_cell', 'mekanism:ultimate_induction_cell'].forEach(X => tooltip.add(X, '§3Energy storage.'));

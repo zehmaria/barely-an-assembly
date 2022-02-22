@@ -9,19 +9,20 @@ onEvent('recipes', event => {
     csAssembly(event, [
         ['mekanism:formulaic_assemblicator', _cu, Mct, [mm1, _K1, _I4, Mcw, ltx], [], 1],
         [tGd, 'immersiveengineering:slab_coke', Icc, [Icc, Icc, Icc, Icc, Icc], [], 10],
-        [Pig, _cu, 'immersiveengineering:mold_gear', [tPi, tPi, tPi, tPi, tPi], [], 10],
+        [Pig, _cu, 'immersiveengineering:component_iron', [tPi, tPi, tPi, tPi, tPi], [], 10],
         ['backpacked:backpack', _cu, 'minecraft:leather_chestplate', [Mlt, tST, Mlt, ltx], [['minecraft:water', 100]], 3],
+        ['pneumaticcraft:logistics_core', 'appliedenergistics2:printed_silicon', tPl, [_I2, Cca, Cpm, _K2, Apq], [], 1],
 
         // CASE LINE
         [Cc3, _cu, Iab, [tPe, mm1, tRe, Itf], [['steampowered:steam', 100]], 1],
         [Icb, _cu, Cc3, [Caa, ltx, cls, tDi], [['steampowered:steam', 100]], 1],
         [Ibb, _cu, Icb, [tPl, tDo, Icc, _I2], [['immersiveengineering:creosote', 100]], 1],
-        [Ire, _cu, Ibb, [_K1, Cca, Amc, _I4], [['immersiveengineering:creosote', 100]], 1],
+        [Ire, _cu, Ibb, [_K1, Cca, Amc, _I4], [['mekanism:brine', 100]], 1],
         [Kca, _cu, Ire, [tPs, Apq, tRs, _I3], [['mekanism:brine', 100]], 1],
-        [Ile, _cu, Kca, [_K2, mm2, Khd, Keg], [['mekanism:sulfuric_acid', 100]], 1],
-        [Ihe, _cu, Ile, [_K3, mm3, Pig, Kec], [['mekanism:lithium', 100]], 1],
+        [Ile, _cu, Kca, [_K2, mm2, Khd, Keg], [['mekanism:lithium', 100]], 1],
+        [Ihe, _cu, Ile, [_K3, mm3, Pig, Kec], [['immersiveengineering:concrete', 100]], 1],
 
-        [Kfi, _cu, Ihe, [_K4, tGf, pet, Ker], [['immersiveengineering:concrete', 100]], 1],
+        [Kfi, _cu, Ihe, [_K4, tGf, pet, Ker], [['mekanism:sulfuric_acid', 100]], 1],
         [Ktu, _cu, Kfi, [_K4, Kpp, KSi, Ked], [['immersivepetroleum:lubricant', 100]], 1],
         [Kfu, _cu, Ktu, [_K4, Kpl, KKi, Keo], [['mekanism:hydrofluoric_acid', 100]], 1],
 
@@ -35,9 +36,6 @@ onEvent('recipes', event => {
         ['mekanism:upgrade_filter',   _cu, Aac, [tPs, tDi, mm1, _bd], [['mekanism:brine', 50]], 3],
         ['mekanism:upgrade_gas',      _cu, Aac, [tPs, tDu, mm1, _bd], [['mekanism:brine', 50]], 3],
         ['mekanism:upgrade_anchor',   _cu, Aac, [tPs, tDf, mm1, _bd], [['mekanism:brine', 50]], 3],
-
-        //CREATE
-        //_qtR('create:fluid_pipe', tRc, 64, 25000, tPc, 3);
 
         //IMMERSIVE ENGINEERING
         ['immersiveengineering:razor_wire',   _cu, 'immersiveengineering:treated_fence', [tRi, tRi, tRi, tRi, tRi], [], 1],

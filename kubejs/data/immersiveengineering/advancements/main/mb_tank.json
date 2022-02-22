@@ -1,0 +1,20 @@
+{
+	"parent":"immersiveengineering:main/craft_hammer",
+	"display":{
+		"icon":{"item":"immersiveengineering:tank"},
+		"title": "Tank",
+		"description": "",
+		"frame":"challenge",
+		"show_toast":true,"announce_to_chat":true,"hidden":false
+	},
+	"criteria":{
+		"c1":{
+			"trigger":"immersiveengineering:multiblock_formed",
+			"conditions":{
+				"multiblock":"immersiveengineering:multiblocks/tank",
+				"item":{"item":"immersiveengineering:hammer" }
+			}
+		}
+	},
+	"requirements": [["c1"]]
+}

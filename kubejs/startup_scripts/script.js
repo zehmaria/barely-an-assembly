@@ -7,7 +7,6 @@ onEvent('item.registry', event => {
 });
 
 onEvent('block.registry', event => {
-    //event.create('ashes').material('earth').displayName('Campfire Ashes').model('kubejs:machine/ashes').defaultCutout().box(0, 0, 0, 16, 1, 16, true);
     event.create('conveyor_basic_mimic').material('stone').displayName('Conveyor Belt').defaultCutout().box(0, 0, 0, 16, 3, 16, true);
     event.create('monolith_node').material('glass').displayName('Monolith Node').model('kubejs:machine/monolith').lightLevel(10);
 });
@@ -25,6 +24,7 @@ onEvent('fluid.registry', event => {
 const cIT = ['create:shadow_steel_casing', 'appliedenergistics2:dense_energy_cell', 'appliedenergistics2:creative_energy_cell', 'kubejs:monolith_node', 'appliedenergistics2:controller', 'createaddition:creative_energy', 'extendedcrafting:the_ultimate_block'];
 const hIT = ['diregoo:gooblockterrain', 'diregoo:gooblock'];
 const eIT = ['factoriores:coal_ore', 'factoriores:iron_ore', 'factoriores:gold_ore', 'factoriores:copper_ore', 'factoriores:lead_ore', 'factoriores:uranium_ore', 'extendedcrafting:compressor', 'create:schematic_table'];
+
 onEvent('block.modification', event => {
     cIT.forEach(X => event.modify(X, block => { block.destroySpeed = 1000000; block.explosionResistance = 1000000; }));
     hIT.forEach(X => event.modify(X, block => { block.destroySpeed = 1000000; block.explosionResistance = 15; }));

@@ -8,10 +8,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -5.0d
-			y: -2.0d
+			x: -4.0d
+			y: -4.0d
 			description: ["By the riverbank begins a revolution"]
-			dependencies: ["2540498BF732FFF6"]
+			dependencies: ["27BEB31C630AE852"]
 			id: "548A3764F9D9012B"
 			tasks: [
 				{
@@ -34,6 +34,31 @@
 					type: "item"
 					item: "create:large_cogwheel"
 				}
+				{
+					id: "349A95FBE597F88F"
+					type: "item"
+					item: "create:gearshift"
+				}
+				{
+					id: "2BE31AA73910706C"
+					type: "item"
+					item: "create:encased_chain_drive"
+				}
+				{
+					id: "0B642664F3EAF86D"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "3A471154E70C623F"
+					type: "item"
+					item: "create:stressometer"
+				}
+				{
+					id: "6B6445943772CDA7"
+					type: "item"
+					item: "create:goggles"
+				}
 			]
 			rewards: [{
 				id: "7E0DC0014A4106C9"
@@ -42,7 +67,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: -4.0d
 			description: ["Power hungry"]
 			dependencies: ["27BEB31C630AE852"]
@@ -73,7 +98,7 @@
 		}
 		{
 			x: -5.0d
-			y: -4.0d
+			y: -2.0d
 			description: ["Handy"]
 			dependencies: ["2540498BF732FFF6"]
 			id: "60BE4A7C0201924F"
@@ -89,8 +114,11 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -5.0d
 			y: -3.0d
+			dependencies: ["7E1EB2A3E9A1678A"]
+			hide: true
 			id: "2540498BF732FFF6"
 			tasks: [{
 				id: "1C25548E0056AB11"
@@ -106,9 +134,14 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -3.5d
 			y: -3.0d
-			dependencies: ["2540498BF732FFF6"]
+			dependencies: [
+				"2540498BF732FFF6"
+				"39B6B48084D9D404"
+			]
+			hide: true
 			id: "27BEB31C630AE852"
 			tasks: [{
 				id: "1D36EBC92B99ACD5"
@@ -117,9 +150,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
-			dependencies: ["27BEB31C630AE852"]
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["2336D6EF98B0639A"]
 			id: "25EE3AEACB47B2A0"
 			tasks: [
 				{
@@ -179,9 +212,14 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: -2.0d
 			y: -3.0d
-			dependencies: ["27BEB31C630AE852"]
+			dependencies: [
+				"27BEB31C630AE852"
+				"56E548CE380158E6"
+			]
+			hide: true
 			id: "2DA898B2F5708366"
 			tasks: [{
 				id: "515B82CC56E4A782"
@@ -213,26 +251,19 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
-			dependencies: ["2DA898B2F5708366"]
-			id: "2ACF5F7DAD65CB3A"
-			tasks: [{
-				id: "2D418230ABDC7B47"
-				type: "item"
-				item: "immersiveengineering:capacitor_lv"
-			}]
-		}
-		{
+			disable_toast: true
 			x: -1.0d
 			y: -3.0d
-			dependencies: ["2DA898B2F5708366"]
+			dependencies: [
+				"2DA898B2F5708366"
+				"782F6E299A78BCC4"
+			]
+			hide: true
 			id: "63227F64717F894C"
 			tasks: [{
 				id: "64FDE269A62C158B"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
-				count: 8L
 			}]
 		}
 		{
@@ -272,12 +303,22 @@
 					type: "item"
 					item: "immersiveengineering:wirecoil_electrum"
 				}
+				{
+					id: "734B809F49F51322"
+					type: "item"
+					item: "immersiveengineering:capacitor_lv"
+				}
 			]
 		}
 		{
+			disable_toast: true
 			x: 0.0d
 			y: -3.0d
-			dependencies: ["63227F64717F894C"]
+			dependencies: [
+				"63227F64717F894C"
+				"487DA82DD9C70DA1"
+			]
+			hide: true
 			id: "31764CFD7E0D8260"
 			tasks: [{
 				id: "0780156AA9D9DF24"
@@ -315,15 +356,19 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 1.0d
 			y: -3.0d
-			dependencies: ["31764CFD7E0D8260"]
+			dependencies: [
+				"31764CFD7E0D8260"
+				"77F0316DB70F0D6D"
+			]
+			hide: true
 			id: "11BE02FBEE386D37"
 			tasks: [{
 				id: "68614D4E2F2C693D"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
-				count: 27L
 			}]
 		}
 		{
@@ -335,7 +380,7 @@
 				{
 					id: "22BF4F29A7A23179"
 					type: "item"
-					item: "steampowered:cast_iron_steam_engine"
+					item: "steampowered:steel_steam_engine"
 				}
 				{
 					id: "14C3C3303A7F7519"
@@ -356,9 +401,14 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 2.0d
 			y: -3.0d
-			dependencies: ["11BE02FBEE386D37"]
+			dependencies: [
+				"11BE02FBEE386D37"
+				"7441D95046A770F4"
+			]
+			hide: true
 			id: "53CAE74C90A72A94"
 			tasks: [{
 				id: "159166552C42C351"
@@ -378,9 +428,14 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 3.5d
 			y: -3.0d
-			dependencies: ["53CAE74C90A72A94"]
+			dependencies: [
+				"53CAE74C90A72A94"
+				"41B6801E2813E159"
+			]
+			hide: true
 			id: "64EBBEFC0F6EE7CE"
 			tasks: [{
 				id: "5730376334DBDD40"
@@ -439,6 +494,7 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: 5.0d
 			y: -3.0d
 			dependencies: ["64EBBEFC0F6EE7CE"]
@@ -450,6 +506,7 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 6.0d
 			y: -3.0d
 			dependencies: ["67B290AAE83BF9BF"]
@@ -461,6 +518,7 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 7.0d
 			y: -3.0d
 			dependencies: ["67B290AAE83BF9BF"]
@@ -474,7 +532,11 @@
 		{
 			x: 4.0d
 			y: -2.0d
-			dependencies: ["64EBBEFC0F6EE7CE"]
+			dependencies: [
+				"64EBBEFC0F6EE7CE"
+				"64049741B48A97D2"
+			]
+			hide: true
 			id: "2CE6C3186FC207EE"
 			tasks: [{
 				id: "0B029B1DE07E79E4"
@@ -492,6 +554,35 @@
 				id: "4E3B792803E0CABF"
 				type: "item"
 				item: "createaddition:electric_motor"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["7120D6F2080342A9"]
+			id: "628AFB5046EE72B1"
+			tasks: [
+				{
+					id: "7FA213ABFF0BBFA0"
+					type: "item"
+					item: "mekanism:laser"
+				}
+				{
+					id: "70FEE6F1E4430F72"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["63227F64717F894C"]
+			id: "680F5416AD371612"
+			tasks: [{
+				id: "36FB85AA6E0C5E60"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
 			}]
 		}
 	]

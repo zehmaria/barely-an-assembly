@@ -2,7 +2,6 @@
   - Disabled OTG dev mode [reloading makes it easier]
   - Remove compact storage
 
-  - processing quest tree - then recheck recipe balance due to it
   - how long would it take? the numbers still need actually full testing, rather than small ones individualized.
 */
 

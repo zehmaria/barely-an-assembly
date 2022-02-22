@@ -1,7 +1,6 @@
 // priority: -1000
 
 onEvent('item.tags', event => {
-    //global.hiding.forEach(X => event.removeAllTagsFrom(X));
     global.hiding.forEach(X => event.add('barely:removed', X));
 });
 

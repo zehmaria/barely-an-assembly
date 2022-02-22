@@ -8,8 +8,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			disable_toast: true
 			x: -0.5d
 			y: 0.0d
+			dependencies: ["7E1EB2A3E9A1678A"]
+			hide: true
 			id: "6280763BD577DC56"
 			tasks: [{
 				id: "0682B372DF98E3E7"
@@ -25,9 +28,14 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 0.5d
 			y: 0.0d
-			dependencies: ["6280763BD577DC56"]
+			dependencies: [
+				"6280763BD577DC56"
+				"39B6B48084D9D404"
+			]
+			hide: true
 			id: "799CF4A7DDF2D3D1"
 			tasks: [{
 				id: "2ACECE6B41695FBD"
@@ -65,31 +73,14 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
-			dependencies: ["1E98817399CED2BC"]
-			id: "6B3B9D19B634054F"
-			tasks: [{
-				id: "10BFD214303A5B92"
-				type: "item"
-				item: "myrtrees:latex"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 4.0d
-			dependencies: ["6B3B9D19B634054F"]
-			id: "392079692AEACEB1"
-			tasks: [{
-				id: "66893CC287AD4FE2"
-				type: "item"
-				item: "create:deployer"
-			}]
-		}
-		{
+			disable_toast: true
 			x: 1.5d
 			y: 0.0d
-			dependencies: ["799CF4A7DDF2D3D1"]
+			dependencies: [
+				"799CF4A7DDF2D3D1"
+				"56E548CE380158E6"
+			]
+			hide: true
 			id: "26B53DC1D7E549DD"
 			tasks: [{
 				id: "342337FDBE0B343A"
@@ -98,21 +89,30 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 2.5d
 			y: 0.0d
-			dependencies: ["26B53DC1D7E549DD"]
+			dependencies: [
+				"26B53DC1D7E549DD"
+				"782F6E299A78BCC4"
+			]
+			hide: true
 			id: "74509D9C5452ECB2"
 			tasks: [{
 				id: "2EF3884CA28D0D51"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
-				count: 8L
 			}]
 		}
 		{
+			disable_toast: true
 			x: 3.5d
 			y: 0.0d
-			dependencies: ["74509D9C5452ECB2"]
+			dependencies: [
+				"74509D9C5452ECB2"
+				"487DA82DD9C70DA1"
+			]
+			hide: true
 			id: "1F4534FF4828783A"
 			tasks: [{
 				id: "70826C42B36E8951"
@@ -121,33 +121,46 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 4.5d
 			y: 0.0d
-			dependencies: ["1F4534FF4828783A"]
+			dependencies: [
+				"1F4534FF4828783A"
+				"48C5B2FF1EFCA153"
+			]
+			hide: true
 			id: "191829065B29575D"
 			tasks: [{
 				id: "3EA78DE2934BF85F"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
-				count: 27L
 			}]
 		}
 		{
+			disable_toast: true
 			x: 5.5d
 			y: 0.0d
-			dependencies: ["191829065B29575D"]
+			dependencies: [
+				"191829065B29575D"
+				"77F0316DB70F0D6D"
+			]
+			hide: true
 			id: "3EA8FF6A3B4ED2B0"
 			tasks: [{
 				id: "10A81FDE87D87C1D"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
-				count: 27L
 			}]
 		}
 		{
+			disable_toast: true
 			x: 6.5d
 			y: 0.0d
-			dependencies: ["3EA8FF6A3B4ED2B0"]
+			dependencies: [
+				"3EA8FF6A3B4ED2B0"
+				"44774B818002EDBE"
+			]
+			hide: true
 			id: "38F0CD6149FEB7A2"
 			tasks: [{
 				id: "3CB5ADD95660B399"
@@ -156,9 +169,14 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 7.5d
 			y: 0.0d
-			dependencies: ["38F0CD6149FEB7A2"]
+			dependencies: [
+				"38F0CD6149FEB7A2"
+				"7441D95046A770F4"
+			]
+			hide: true
 			id: "53176BADF13576D5"
 			tasks: [{
 				id: "560F4943FF2F91C7"
@@ -167,9 +185,14 @@
 			}]
 		}
 		{
-			x: 8.5d
+			disable_toast: true
+			x: 9.0d
 			y: 0.0d
-			dependencies: ["53176BADF13576D5"]
+			dependencies: [
+				"53176BADF13576D5"
+				"5FEB3B5CCC3BC746"
+			]
+			hide: true
 			id: "5D23022F215BB9D0"
 			tasks: [{
 				id: "24D4DF4266C5E687"
@@ -178,9 +201,14 @@
 			}]
 		}
 		{
-			x: 9.5d
+			disable_toast: true
+			x: 11.0d
 			y: 0.0d
-			dependencies: ["5D23022F215BB9D0"]
+			dependencies: [
+				"5D23022F215BB9D0"
+				"41B6801E2813E159"
+			]
+			hide: true
 			id: "5CA9FFD068CE3C67"
 			tasks: [{
 				id: "51DFE466B749340C"
@@ -189,36 +217,19 @@
 			}]
 		}
 		{
-			x: 10.5d
+			disable_toast: true
+			x: 12.5d
 			y: 0.0d
-			dependencies: ["5CA9FFD068CE3C67"]
+			dependencies: [
+				"5CA9FFD068CE3C67"
+				"0FF102333D39972F"
+			]
+			hide: true
 			id: "74EDE0E1DC1D77C8"
 			tasks: [{
 				id: "2C3BE8D12AA7A6D6"
 				type: "item"
 				item: "mekanismgenerators:fission_reactor_casing"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 0.0d
-			dependencies: ["74EDE0E1DC1D77C8"]
-			id: "3DE208B25EB44ED4"
-			tasks: [{
-				id: "4CE80DBAB416CA27"
-				type: "item"
-				item: "mekanismgenerators:turbine_casing"
-			}]
-		}
-		{
-			x: 12.5d
-			y: 0.0d
-			dependencies: ["3DE208B25EB44ED4"]
-			id: "5BBF03A59867A84A"
-			tasks: [{
-				id: "7A08A98D671FA575"
-				type: "item"
-				item: "mekanismgenerators:fusion_reactor_frame"
 			}]
 		}
 		{
@@ -239,6 +250,7 @@
 				"5147BA8209ACE673"
 				"78338A147559A207"
 			]
+			hide: true
 			id: "4A6B68B1CF8374A2"
 			tasks: [{
 				id: "4F2848309059613D"
@@ -259,6 +271,546 @@
 				type: "item"
 				item: "create:millstone"
 			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["086C241978D636B5"]
+			id: "5F9DCFA7A749BA42"
+			tasks: [{
+				id: "1706B61463CD12A5"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["799CF4A7DDF2D3D1"]
+			id: "1D4FBCE66C4E1F67"
+			tasks: [{
+				id: "4241D18D69EBBB9D"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["12F177B85BB5469A"]
+			id: "086C241978D636B5"
+			tasks: [{
+				id: "0A92A84BE62C93E6"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["1D4FBCE66C4E1F67"]
+			id: "12F177B85BB5469A"
+			tasks: [{
+				id: "347BF3BDA438553A"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["086C241978D636B5"]
+			id: "50784743B6373465"
+			tasks: [{
+				id: "4C7C8DD78D78ED69"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["50784743B6373465"]
+			id: "6AC05820179B9DB7"
+			tasks: [{
+				id: "1903A2A7E92BE12B"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["26B53DC1D7E549DD"]
+			id: "4B0996A98DF69D11"
+			tasks: [{
+				id: "3AD49A78DA864548"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["09854EC032600B12"]
+			id: "5871454E5DB54F9B"
+			tasks: [{
+				id: "234E87E60A98FD9C"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["5871454E5DB54F9B"]
+			id: "5F7854243919A9D5"
+			tasks: [{
+				id: "4B71757AEFEF011B"
+				type: "item"
+				item: "mekanism:formulaic_assemblicator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["09854EC032600B12"]
+			id: "7A4C587EFD5552E7"
+			tasks: [
+				{
+					id: "7EE071E08C8B91C3"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "660DA8E730D18A22"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+				}
+				{
+					id: "7EC799F8E99B0B2D"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["1F4534FF4828783A"]
+			id: "45588073A2CE4A6C"
+			tasks: [{
+				id: "629465EDC4BE3F5F"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["45588073A2CE4A6C"]
+			id: "6A7865C233AD4803"
+			tasks: [{
+				id: "38236B77038D5C08"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["1F4534FF4828783A"]
+			id: "3049EED0D19F0F57"
+			tasks: [{
+				id: "66FDE06D298F0D86"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_workbench"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			dependencies: ["3EA8FF6A3B4ED2B0"]
+			id: "7D2DC9832F1A3769"
+			tasks: [{
+				id: "65AACC0C0BC026B8"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["7D2DC9832F1A3769"]
+			id: "1D50D868577472E1"
+			tasks: [{
+				id: "615C1C7880E398BA"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_improvedblastfurnace"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["191829065B29575D"]
+			id: "65012EC9EADD8621"
+			tasks: [{
+				id: "11C16C3BBE8CD116"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["38F0CD6149FEB7A2"]
+			id: "45449641E6F1D8BC"
+			tasks: [{
+				id: "13C4FAC321412700"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_assembler"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			dependencies: ["5D23022F215BB9D0"]
+			id: "1F0FBB9947960733"
+			tasks: [{
+				id: "335CA41DFD258C74"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_mixer"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["74509D9C5452ECB2"]
+			id: "09854EC032600B12"
+			tasks: [{
+				id: "75D7F015B03E1F23"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_kiln"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["5CA9FFD068CE3C67"]
+			id: "0D961F4581EC6EDC"
+			tasks: [{
+				id: "6688E5964364A487"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_arcfurnace"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			dependencies: [
+				"6F39CA1AB901C3E6"
+				"5CA9FFD068CE3C67"
+			]
+			id: "64049741B48A97D2"
+			tasks: [{
+				id: "27BDE130CDAD5118"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_distillation_tower"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["64049741B48A97D2"]
+			id: "17B86EC056D8F347"
+			tasks: [{
+				id: "5BC06877B59C0CC5"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_sulfur_rec_unit"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.0d
+			dependencies: ["64049741B48A97D2"]
+			id: "2F407D9C5EA1E717"
+			tasks: [{
+				id: "23D34A7EB03F60E1"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_coker"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["5D23022F215BB9D0"]
+			id: "45F1ED9358D81583"
+			tasks: [{
+				id: "484D83647F63F911"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_crusher"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["5CA9FFD068CE3C67"]
+			id: "070C989F741CC0E0"
+			tasks: [{
+				id: "0F4DBF47E5B4E7DB"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_metalpress"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["5CA9FFD068CE3C67"]
+			id: "38D21434743D457C"
+			tasks: [{
+				id: "4D063253EBC6CB1F"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_sawmill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["5D23022F215BB9D0"]
+			id: "46BC9E60C08BCEB4"
+			tasks: [{
+				id: "1EF89F4CEDF0F796"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_squeezer"
+				criterion: ""
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			dependencies: [
+				"74EDE0E1DC1D77C8"
+				"66EB9AB9A9D3334A"
+			]
+			hide: true
+			id: "6461F862F3F175EF"
+			tasks: [
+				{
+					id: "5B3EBB6774F2FD2B"
+					type: "item"
+					item: "mekanism:sps_casing"
+				}
+				{
+					id: "400BD34C19AE182D"
+					type: "item"
+					item: "mekanism:sps_port"
+				}
+				{
+					id: "1BED229D2B877A20"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["3EA8FF6A3B4ED2B0"]
+			id: "730E3BF7381C3581"
+			tasks: [{
+				id: "6544791F27AD53FF"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["53176BADF13576D5"]
+			id: "66702F312919EDA8"
+			tasks: [{
+				id: "443C48C070B7EDA0"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["66702F312919EDA8"]
+			id: "68F065EA4184E3B8"
+			tasks: [{
+				id: "1CE70D54A923669C"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["68F065EA4184E3B8"]
+			id: "35B6A753EA7AE3D4"
+			tasks: [{
+				id: "6351BA13C617B07B"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			dependencies: ["46BC9E60C08BCEB4"]
+			id: "4598A6A85D8A4D07"
+			tasks: [{
+				id: "697AE1F783C8D7FE"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["4598A6A85D8A4D07"]
+			id: "72E510793F70F689"
+			tasks: [{
+				id: "33A23D495EFB0C60"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["0D961F4581EC6EDC"]
+			id: "6DA81940374DC13A"
+			tasks: [
+				{
+					id: "3104C6967495B2F8"
+					type: "item"
+					item: "mekanism:chemical_oxidizer"
+				}
+				{
+					id: "46ACDA6C10F60ABE"
+					type: "item"
+					item: "mekanism:chemical_infuser"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			dependencies: [
+				"0D961F4581EC6EDC"
+				"6DA81940374DC13A"
+			]
+			id: "275482AAC1C95E30"
+			tasks: [{
+				id: "21C3F2E610C2C5CB"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.0d
+			dependencies: ["275482AAC1C95E30"]
+			id: "257875DBF08221A5"
+			tasks: [
+				{
+					id: "1C88593B2FC1DADA"
+					type: "item"
+					item: "mekanism:chemical_washer"
+				}
+				{
+					id: "6EF8965B924B8EEC"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["275482AAC1C95E30"]
+			id: "358E63CBA9EE39B9"
+			tasks: [{
+				id: "3C159DAF79987445"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			dependencies: [
+				"74EDE0E1DC1D77C8"
+				"358E63CBA9EE39B9"
+				"257875DBF08221A5"
+			]
+			hide: true
+			id: "66EB9AB9A9D3334A"
+			tasks: [{
+				id: "7962BBFA7910D75B"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["53176BADF13576D5"]
+			id: "38BFD57E384308C9"
+			tasks: [{
+				id: "16CBBBF5CAA727CF"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["53176BADF13576D5"]
+			id: "6FF3F045EF35CB42"
+			tasks: [
+				{
+					id: "5B4F2A32823444D0"
+					type: "item"
+					item: "mekanism:nutritional_liquifier"
+				}
+				{
+					id: "11B44B4E3D1BA1F4"
+					type: "item"
+					item: {
+						id: "mekanism:canteen"
+						Count: 1b
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanism:nutritional_paste"
+										amount: 20000L
+									}
+								}]
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }

@@ -56,6 +56,7 @@ const tPl = '#forge:plates/lead';
 const tIl = '#forge:ingots/lead';
 const tDl = '#forge:dusts/lead';
 const tWl = '#forge:wires/lead';
+const tRl = '#forge:rods/lead';
 
 const tRs = '#forge:rods/steel';
 const tPs = '#forge:plates/steel';
@@ -133,6 +134,7 @@ const Cc2 = 'create:copper_casing';
 const Cc3 = 'create:brass_casing';
 const Crc = 'compressedcreativity:rotational_compressor';
 const Cem = 'createaddition:electric_motor';
+const Cpe = 'create:piston_extension_pole';
 
 const KCg = 'mekanism:clump_gold';
 const KCi = 'mekanism:clump_iron';
@@ -151,7 +153,6 @@ const KKl = 'mekanism:crystal_lead';
 const KKu = 'mekanism:crystal_uranium';
 
 const Krh = 'mekanism:resistive_heater';
-const Ktt = 'mekanismgenerators:turbine_casing';
 const Kfc = 'mekanismgenerators:fission_reactor_casing';
 const Kff = 'mekanismgenerators:fusion_reactor_frame';
 const Kpp = 'mekanism:pellet_polonium';

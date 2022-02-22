@@ -9,10 +9,12 @@ onEvent('recipes', event => {
     const __i = 'immersiveengineering:sheetmetal_iron';
     const _ts = 'immersiveengineering:treated_scaffold';
     const _wg = 'immersiveengineering:wooden_grip';
+    const __s = 'myrtrees:rubberwood_slab';
 
     addShaped(event, [
-        ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPs, tPs]]],
+        ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPi, tPi]]],
 
+        ['immersiveengineering:workbench',              [[Caa, __s, __s], [Mct, air, 'immersiveposts:fence_copper']]],
         ['immersiveengineering:electric_lantern',       [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
 
         ['immersiveengineering:gunpart_hammer',         [[tPi, air, air], [tPi, tPi, air], [air, tPi, tPi]]],
@@ -22,10 +24,9 @@ onEvent('recipes', event => {
         ['4x immersiveengineering:casull',              [[Iec, Iec, Iec], [Iec, tDl, tPi]]],
         ['immersiveengineering:railgun',                [[air, Ic2, _wg], [tPs, Icm, _K2], [Icm, tPs, air]]],
 
-        //['4x immersiveengineering:wirecoil_steel',      [[air, _ws, air], [_wl, stk, _wl], [air, _ws, air]]],
-        //['4x immersiveengineering:wirecoil_redstone',   [[air, _wl, air], [rst, stk, rst], [air, _wl, air]]],
         ['immersiveengineering:survey_tools',           [[Mbk, _gd, Ihm], [Ihf, Ihf, Ihf]]],
 
+        ['immersiveengineering:buzzsaw',                [[air, air, _wg], [tRs, Ihe, _wg], [tRs, air, air]]],
         ['immersiveengineering:drillhead_iron',         [[tPi, Ccw, tPi], [tPi, tPi, tPi], [air, tPi, air]]],
         ['immersiveengineering:drillhead_steel',        [[tPs, Ccw, tPs], [tPs, tPs, tPs], [air, tPs, air]]],
         ['immersiveengineering:shield',                 [[tPs, Itw, tPs], [tPs, tPs, tPs], [tPs, Itw, tPs]]],
@@ -41,7 +42,7 @@ onEvent('recipes', event => {
         ['16x immersiveengineering:empty_casing',       [[tPc, air, tPc], [tPc, air, tPc], [air, tPc, air]]],
 
         [Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),        [[Mpp, Mpp], [Iec, Iec]]],
-        [Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'), [[Mpp, Mpp], [Ic3, Ic3]]],
+        [Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'), [[Mpp, Mpp], [Irm, Irm]]],
         ['immersiveengineering:steel_scaffolding_wooden_top',                      [[tPs, _ts, tPs], [air, tRs, air], [tRs, air, tRs]]],
         ['immersiveengineering:toolupgrade_revolver_magazine',                     [[air, tPc, mm1], [tPc, Caa, tPc], [_I2, tPc, air]]]
     ]);
@@ -73,7 +74,7 @@ onEvent('recipes', event => {
         energy: 3200
     });
 
-    event.remove({ id: 'immersiveengineering:crafting/treated_wood_horizontal' });
+    event.remove({ output: 'immersiveengineering:treated_wood_horizontal' });
     event.custom({
         type: 'create:filling',
         ingredients: [
@@ -92,35 +93,3 @@ onEvent('recipes', event => {
     // REMOVE BY ID
     ['cokebrick', 'blastbrick_reinforced', 'hempcrete', 'croncrete_leaded', 'insulating_glass'].forEach(X => event.remove({ id: 'immersiveengineering:crafting/' + X + '_from_slab' }));
 });
-
-/*
-  onEvent('recipes', event => {
-    const hvB = 'immersiveengineering:capacitor_hv';
-    const lvC = 'immersiveengineering:coil_lv';
-    const lvL = 'immersiveengineering:connector_lv';
-    const Krg = 'mekanism:ingot_refined_glowstone';
-    const Dgl = 'druidcraft:growth_lamp';
-    const Idy = 'immersiveengineering:dynamo';
-
-    addShaped(event, [
-        ['immersiveengineering:furnace_heater',    [[_y1, tPc, _y1], [_P1, lvC, _B1], [_y1, _K2, _y1]]],
-        ['immersiveengineering:cloche',            [[Bmg, _I4, Bmg], [Bmg, Dgl, Bmg], [Itw, _K4, Itw]]],
-        ['immersiveengineering:tesla_coil',        [[_P1, _B4, _B1], [air, lvC, air], [hvB, _K4, hvB]]],
-        ['immersiveengineering:charging_station',  [[_P1, lvL, _B1], [Bmg, Bmg, Bmg], [Itw, _K4, Itw]]],
-        ['immersiveengineering:turntable',         [[_P1, Itw, _B1], [_K2, lvC, _K2]]],
-        ['immersiveengineering:item_batcher',      [[Itw, _K2, Itw], [_P1, _I2, _B1], [Itw, _I5, Itw]]],
-        ['immersiveengineering:radiator',          [[_y2, _P1, _y2], [tPc, Mhs, tPc], [_y2, _P1, _y2]]],
-        ['immersiveengineering:generator',         [[_y2, _P1, _y2], [tPe, Idy, tPe], [_y2, _P1, _y2]]],
-        ['immersiveengineering:dynamo',            [[_K2, lvC, _K2], [_y2, _P1, _y2]]],
-
-        ['immersiveengineering:capacitor_lv',      [[_y1, _y1, _y1], [Krg, tBl, _E3], [Itw, _K2, Itw]]],
-        ['immersiveengineering:capacitor_mv',      [[_y2, _y2, _y2], [Krg, tBl, _E3], [Itw, _K3, Itw]]],
-        ['immersiveengineering:capacitor_hv',      [[_y3, _y3, _y3], [Krg, tBl, _E3], [Itw, _K4, Itw]]],
-
-        ['immersiveengineering:rs_engineering',    [[_y1, _K1, _y1], [_K1, tPc, _K1], [_y1, _K1, _y1]]],
-        ['immersiveengineering:light_engineering', [[_y1, _I2, _y1], [tPc, _K2, _P1], [_y1, _I2, _y1]]],
-        ['immersiveengineering:heavy_engineering', [[_y2, _I3, _y2], [tPe, _K3, _P1], [_y2, _I3, _y2]]]
-        ]);
-
-});
-*/

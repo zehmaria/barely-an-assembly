@@ -10,6 +10,7 @@ onEvent('recipes', event => {
     const __f = 'create:andesite_funnel';
 
     addShaped(event, [
+        ['moreminecarts:high_speed_upgrade',         [[Khd, _lp, _lp], [_lp, _lp, tPu]]],
         ['moreminecarts:chunk_loader',               [[Khd, Keo, Khd], [Keo, 'immersiveengineering:coil_mv', Keo], [Khd, Plc, Khd]]],
         ['moreminecarts:coupler',                    [[tPi, ltx, tPi]]],
 

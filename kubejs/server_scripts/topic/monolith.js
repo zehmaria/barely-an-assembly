@@ -22,10 +22,10 @@ onEvent('recipes', event => {
     const rtime = { type: 'custommachinery:time', times: [">=16000", "<=20000"] };
 
     event.remove({ output: 'immersiveengineering:wirecoil_steel' });
-    ct(100, [ // HV WIRES
-        rstc([['m'], [' '], ['c'], ['c'], ['c']], { c: __c }),
-        drop('input', 'consume', 4, true, ['immersiveengineering:wirecoil_electrum'], null, 64, 1),
-        drop('output', 'produce', 4, true, null, 'immersiveengineering:wirecoil_steel', 64, 1)
+    ct(3, [ // HV WIRES
+        rstc([['m'], [' '], ['c']], { c: __c }),
+        drop('input', 'consume', 4, true, ['immersiveengineering:wirecoil_electrum'], null, 1, 1),
+        drop('output', 'produce', 4, true, null, 'immersiveengineering:wirecoil_steel', 1, 1)
     ]);
     event.remove({ output: 'diregoo:antigoodust' });
     ct(3, [ // ANTIGOO DUST
@@ -37,7 +37,7 @@ onEvent('recipes', event => {
     function _m (A, B) {
         event.remove({ output: A });
         ct(50, [
-            rstc([['m'], [' '], ['c'], ['c'], ['c']], { c: __c }),
+            rstc([['m'], [' '], ['c'], ['c'], ['c']], { c: _co }),
             rblo('input',  'replace_destroy', [-1,  3,  0, -1,  3,  0], true, [B], _mn, 1),
             rblo('input',  'replace_destroy', [ 1,  3,  0,  1,  3,  0], true, [B], _mn, 1),
             rblo('input',  'replace_destroy', [ 0,  3, -1,  0,  3, -1], true, [B], _mn, 1),
@@ -58,14 +58,14 @@ onEvent('recipes', event => {
     }
     function _sf (A, B) {
         sd(50, [
-            rstc([[' ', 'm'], [' ', ' '], ['c', ' '], ['c', ' '], ['c', ' '], ['c', ' ']], { c: __c }),
+            rstc([[' ', 'm'], [' ', ' '], ['c', ' '], ['c', ' '], ['c', ' '], ['c', ' ']], { c: _co }),
             rblo('input', 'replace_destroy',  [0, 3, 0, 0, 3, 0], true, [B], _mn, 1),
             rblo('output', 'replace_destroy', [0, 3, 0, 0, 3, 0], false, [], A, 1)
         ]);
     }
     function _cf (A, B) {
         ct(100, [
-            rstc([['m'], [' '], ['c'], ['c'], ['c'], ['c']], { c: __c }),
+            rstc([['m'], [' '], ['c'], ['c'], ['c'], ['c']], { c: _co }),
             rblo('input', 'replace_destroy', [0, 6, 0, 0, 6, 0], true, [B], _mn, 1),
             rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], false, [], A, 1)
         ]);
@@ -80,6 +80,7 @@ onEvent('recipes', event => {
 
     s1D('immersiveengineering:connector_hv', 'immersiveengineering:connector_mv');
     s1D('immersiveengineering:connector_hv_relay', 'immersiveengineering:connector_mv_relay');
+    s1('create:haunted_bell', 'create:peculiar_bell');
     s1(Dt2, Dt1);
     sf1('immersiveengineering:coil_hv', 'immersiveengineering:coil_mv');
     sf1('immersiveengineering:capacitor_hv', 'immersiveengineering:capacitor_mv');
@@ -98,15 +99,9 @@ onEvent('recipes', event => {
     for (var i = 0; i < _KFL.length; i++) { s1A('mekanism:basic_' + _KFL[i] + '_factory', _KOL[i]); }
     _KFL.forEach(X => { cf1A('mekanism:ultimate_' + X + '_factory', 'mekanism:advanced_' + X + '_factory'); });
 
-    // CREATIVE ITEMS
-    //cf1('immersiveengineering:capacitor_creative', 'immersiveengineering:capacitor_hv');
-    //cf1('pneumaticcraft:creative_compressed_iron_block', Krh);
-    //cf1('pneumaticcraft:creative_compressor', Crc);
-    //cf1('create:creative_motor', Cem);
-
     // END GOAL
     ct(1, [
-        rstc([['m'], [' '], ['c'], ['c'], ['c'], ['c'], ['c']],                { c: __c }),
+        rstc([['m'], [' '], ['c'], ['c'], ['c'], ['c'], ['c']],                { c: _co }),
         rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], true, [__c], 'mekanism:qio_drive_array', 1),
         rblo('input', 'check', [ 0,  11,  0,  0, 11,  0], true, ['mekanismgenerators:fusion_reactor_controller{cache:{burning:true}}'], _mn, 1),
         rblo('output', 'destroy', [-2, 7, -2, 2, 11, 2], false, [], _mn, 125)

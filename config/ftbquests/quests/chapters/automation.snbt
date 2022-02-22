@@ -1,0 +1,340 @@
+{
+	id: "48D1925008CD3C0A"
+	group: ""
+	order_index: 4
+	filename: "automation"
+	title: "Automation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["39B6B48084D9D404"]
+			hide: true
+			id: "2C137A92E47BD84F"
+			tasks: [{
+				id: "48FEA4FD31CEDD7E"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["2C137A92E47BD84F"]
+			id: "79034AB880784A2C"
+			tasks: [{
+				id: "3DFE72D9BD02F31A"
+				type: "item"
+				item: "factoriores:burner_miner"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["2C137A92E47BD84F"]
+			id: "5FD1EDE6F659903F"
+			tasks: [
+				{
+					id: "2AE2B2D508A71BC1"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "05E1CD8D2BF19169"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "278505EF8F72D5C2"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "1C3A2C4AE40DD7C1"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["5FD1EDE6F659903F"]
+			id: "40654A11F5C77583"
+			tasks: [{
+				id: "3A6DD13BBD1FD832"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["5FD1EDE6F659903F"]
+			id: "6144C4270643B7EA"
+			tasks: [{
+				id: "55DDBF855FFC8D78"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["5FD1EDE6F659903F"]
+			id: "0C445A372AA5C5A9"
+			tasks: [{
+				id: "5278D70C812CD026"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["5FD1EDE6F659903F"]
+			id: "3099525CE3360F93"
+			tasks: [{
+				id: "3F94BB0382005C8D"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: -2.5d
+			dependencies: [
+				"2C137A92E47BD84F"
+				"782F6E299A78BCC4"
+			]
+			hide: true
+			id: "25BE59ED7BBC3778"
+			tasks: [{
+				id: "772D000C63AEFD39"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["25BE59ED7BBC3778"]
+			id: "5F7DC5C4279D655F"
+			tasks: [{
+				id: "61D9B3ED8AEB83F7"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -0.5d
+			y: -2.5d
+			dependencies: [
+				"25BE59ED7BBC3778"
+				"487DA82DD9C70DA1"
+			]
+			hide: true
+			id: "0DAEED33EA49BEB2"
+			tasks: [{
+				id: "6EB2FD5CB0245D5A"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["0DAEED33EA49BEB2"]
+			id: "4A7C0A5885CCF022"
+			tasks: [{
+				id: "6DC2E6598A7AD89E"
+				type: "item"
+				item: "factoriores:mechanical_miner"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.5d
+			y: -2.5d
+			dependencies: [
+				"716C8849D05F15C7"
+				"7441D95046A770F4"
+			]
+			hide: true
+			id: "60CD3B7154319312"
+			tasks: [{
+				id: "7DF6A70592C220DE"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["60CD3B7154319312"]
+			id: "40B7DD119A2E7AF6"
+			tasks: [{
+				id: "3C3CA46CBB142F13"
+				type: "item"
+				item: "factoriores:electrical_miner"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["60CD3B7154319312"]
+			id: "0FD44ABC51F6F998"
+			tasks: [{
+				id: "746131C5057CF296"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["0DAEED33EA49BEB2"]
+			id: "0EE20F9C0EB85BC8"
+			tasks: [{
+				id: "790033CF30D9A317"
+				type: "item"
+				item: "create:clockwork_bearing"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.5d
+			y: -2.5d
+			dependencies: [
+				"0DAEED33EA49BEB2"
+				"77F0316DB70F0D6D"
+			]
+			hide: true
+			id: "716C8849D05F15C7"
+			tasks: [{
+				id: "5573BFC68BA78682"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["716C8849D05F15C7"]
+			id: "526E79AE7B410294"
+			tasks: [
+				{
+					id: "75853A2E97EFCA22"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "29789438C6F84EE9"
+					type: "item"
+					item: "create:schematic_table"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: -2.5d
+			dependencies: [
+				"669C1DAD4176C6A8"
+				"41B6801E2813E159"
+			]
+			hide: true
+			id: "01E06E539166959F"
+			tasks: [{
+				id: "00A451CBFF9C0733"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: [
+				"01E06E539166959F"
+				"433BF4B21C4ADAD0"
+			]
+			hide: true
+			id: "7B0439BC2167B5DD"
+			tasks: [{
+				id: "46544EE0B4D03E6C"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_excavator"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["716C8849D05F15C7"]
+			id: "03024750DCEEA07E"
+			tasks: [{
+				id: "6553A46091275BC8"
+				type: "item"
+				item: "littlelogistics:fishing_barge"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: -2.5d
+			dependencies: [
+				"60CD3B7154319312"
+				"5FEB3B5CCC3BC746"
+			]
+			hide: true
+			id: "669C1DAD4176C6A8"
+			tasks: [{
+				id: "6FDC1BA18D847FB3"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["669C1DAD4176C6A8"]
+			id: "433BF4B21C4ADAD0"
+			tasks: [
+				{
+					id: "4116EF85303CE4C2"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+				{
+					id: "151329453319B1EB"
+					type: "item"
+					item: {
+						id: "immersiveengineering:survey_tools"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["01E06E539166959F"]
+			id: "6F39CA1AB901C3E6"
+			tasks: [{
+				id: "3E8C9483326973D2"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_pumpack"
+				criterion: ""
+			}]
+		}
+	]
+}

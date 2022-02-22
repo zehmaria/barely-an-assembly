@@ -24,6 +24,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2B6C989931FF82E2"
+				type: "item"
+				item: "ftbquests:book"
+			}]
 		}
 		{
 			x: -6.0d
@@ -34,7 +39,6 @@
 				id: "5BE15EDC2129620F"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
-				count: 27L
 			}]
 		}
 		{
@@ -47,7 +51,6 @@
 				id: "67DDD473CEC514A5"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
-				count: 27L
 			}]
 		}
 		{
@@ -81,7 +84,6 @@
 				id: "57DCBE3BC91CFD68"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
-				count: 8L
 			}]
 		}
 		{
@@ -189,6 +191,7 @@
 			y: -3.5d
 			description: ["As I watch the goo eventually recede, I can only wonder why so much had to be lost."]
 			dependencies: ["60DD51BF156EAD76"]
+			hide_text_until_complete: true
 			id: "646F91C256FC0100"
 			tasks: [{
 				id: "2404B0F4286DA548"

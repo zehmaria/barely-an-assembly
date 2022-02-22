@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -116,16 +116,12 @@ key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_Strip World:key.keyboard.delete
-key_Dress World:key.keyboard.unknown
-key_Open Config:key.keyboard.unknown
-key_Add Block:key.keyboard.unknown
-key_Remove Block:key.keyboard.unknown
-key_Cycle Profile:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_Piston Pushcart Up:key.keyboard.space
+key_Piston Pushcart Down:key.keyboard.left.control
 key_key.mekanism.mode:key.keyboard.unknown
 key_key.mekanism.head_mode:key.keyboard.unknown
 key_key.mekanism.chest_mode:key.keyboard.unknown
@@ -136,19 +132,17 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.unknown
-key_Piston Pushcart Up:key.keyboard.space
-key_Piston Pushcart Down:key.keyboard.left.control
 key_key.stepup.desc:key.keyboard.h
-key_pneumaticcraft.armor.options:key.keyboard.u
 key_key.toastcontrol.clear:key.keyboard.minus
+key_pneumaticcraft.armor.options:key.keyboard.u
 key_pneumaticcraft.helmet.hack:key.keyboard.h
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
 key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space
+key_key.toggle_focus.desc:key.keyboard.tab
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_key.toggle_focus.desc:key.keyboard.tab
 key_key.backpack:key.keyboard.z
 key_key.ftbquests.quests:key.keyboard.keypad.0
 key_key.observable.profile:key.keyboard.r

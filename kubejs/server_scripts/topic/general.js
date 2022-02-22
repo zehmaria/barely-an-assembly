@@ -23,7 +23,7 @@ onEvent('block.right_click', event => {
 });
 
 onEvent('player.logged_in', event => {
-    event.player.tell('Warning: This modpack is still under heavy testing.');
+    event.player.tell('Warning: This modpack is still under testing.');
 });
 
 onEvent('block.right_click', event => {
@@ -37,7 +37,7 @@ onEvent('block.right_click', event => {
     }
 });
 
-//CHANGING
+// CHANGING
 onEvent('block.right_click', event => {
     if (event.block.equals('mekanism:qio_drive_array')) {
         if (event.item.equals('appliedenergistics2:crafting_terminal')) {

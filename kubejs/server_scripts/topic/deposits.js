@@ -13,7 +13,7 @@ onEvent('recipes', event => {
     const __d = 'immersiveengineering:drillhead_iron';
     const _sd = 'immersiveengineering:drillhead_steel';
     addShaped(event, [
-        ['factoriores:burner_miner',     [[tPi, Cc1, tPi], [tPi, __f, tPi], [air, __d, air]]],
+        ['factoriores:burner_miner',     [[tPc, Cc1, tPc], [tRc, __f, tRc], [tRc, __d, tRc]]],
         ['factoriores:mechanical_miner', [[tPc, Cc3, tPc], [tPc, __m, tPc], [air, __d, air]]],
         ['factoriores:electrical_miner', [[tPs, Kca, tPs], [tPs, Ic2, tPs], [air, _sd, air]]]
     ]);

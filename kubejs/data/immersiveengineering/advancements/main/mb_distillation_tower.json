@@ -1,0 +1,20 @@
+{
+	"parent":"immersiveengineering:main/make_steel",
+	"display":{
+		"icon":{"item":"immersivepetroleum:distillationtower"},
+		"title": "Distillation Tower",
+		"description": "",
+		"frame":"challenge",
+		"show_toast":true,"announce_to_chat":true,"hidden":false
+	},
+	"criteria":{
+		"c1":{
+			"trigger":"immersiveengineering:multiblock_formed",
+			"conditions":{
+				"multiblock":"immersivepetroleum:multiblocks/distillationtower",
+				"item":{"item":"immersiveengineering:hammer" }
+			}
+		}
+	},
+	"requirements": [["c1"]]
+}

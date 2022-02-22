@@ -1,7 +1,7 @@
 {
 	id: "2F6DE9D550071EA0"
 	group: ""
-	order_index: 4
+	order_index: 5
 	filename: "monolith"
 	title: "Logistics"
 	default_quest_shape: ""
@@ -11,6 +11,7 @@
 			x: -4.5d
 			y: -4.5d
 			dependencies: ["57B6581E987E9F80"]
+			hide: true
 			id: "23704C25EAA5A23F"
 			tasks: [{
 				id: "64D601E6A03BCCBA"
@@ -25,6 +26,7 @@
 				"23704C25EAA5A23F"
 				"3922EB0459C1BFC6"
 			]
+			hide: true
 			id: "026EAB30C11A0392"
 			tasks: [{
 				id: "71F4938ABA942BEE"
@@ -164,10 +166,7 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			dependencies: [
-				"39B6B48084D9D404"
-				"1F54585B8D5519EB"
-			]
+			dependencies: ["1F54585B8D5519EB"]
 			id: "5176BB79BB08F83F"
 			tasks: [{
 				id: "7D5A7D0EF0883A4C"
@@ -407,6 +406,7 @@
 				"30F352575DD85E7D"
 				"0C537153C7FD5ABA"
 			]
+			hide: true
 			id: "3893373669085890"
 			tasks: [
 				{
@@ -425,6 +425,7 @@
 			x: -10.0d
 			y: -4.5d
 			dependencies: ["247478773D5A56C8"]
+			hide: true
 			id: "30F352575DD85E7D"
 			tasks: [{
 				id: "5D885481B06C569F"
@@ -444,9 +445,14 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -13.5d
 			y: -2.5d
-			dependencies: ["7E578F4B69BBDFA5"]
+			dependencies: [
+				"7E578F4B69BBDFA5"
+				"39B6B48084D9D404"
+			]
+			hide: true
 			id: "54448B46E2D0F6D8"
 			tasks: [{
 				id: "5E394332448E021F"
@@ -455,32 +461,43 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -11.0d
 			y: -2.5d
-			dependencies: ["65ACCE5587B30F69"]
+			dependencies: [
+				"65ACCE5587B30F69"
+				"782F6E299A78BCC4"
+			]
+			hide: true
 			id: "7DFE1B5D46D6EE7B"
 			tasks: [{
 				id: "7ECD116A32B9B208"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
-				count: 8L
 			}]
 		}
 		{
+			disable_toast: true
 			x: -6.5d
 			y: -2.5d
-			dependencies: ["06DBD9EE856BC2A2"]
+			dependencies: [
+				"06DBD9EE856BC2A2"
+				"77F0316DB70F0D6D"
+			]
+			hide: true
 			id: "1F54585B8D5519EB"
 			tasks: [{
 				id: "6B533097C89A4BF8"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
-				count: 27L
 			}]
 		}
 		{
+			disable_toast: true
 			x: -14.5d
 			y: -2.5d
+			dependencies: ["7E1EB2A3E9A1678A"]
+			hide: true
 			id: "7E578F4B69BBDFA5"
 			tasks: [{
 				id: "72FE37CE1F0EC306"
@@ -501,16 +518,6 @@
 			dependencies: ["7E578F4B69BBDFA5"]
 			id: "5BBBEDD006E8C18B"
 			tasks: [
-				{
-					id: "32A5A9C82D7CB85F"
-					type: "item"
-					item: "create:shaft"
-				}
-				{
-					id: "5AB0411E60E902C8"
-					type: "item"
-					item: "create:belt_connector"
-				}
 				{
 					id: "433039998A33DC1D"
 					type: "item"
@@ -564,12 +571,27 @@
 					type: "item"
 					item: "create:vertical_gearbox"
 				}
+				{
+					id: "0C575972B4E0132F"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "1B34FF6327E1F669"
+					type: "item"
+					item: "create:belt_connector"
+				}
 			]
 		}
 		{
+			disable_toast: true
 			x: -12.0d
 			y: -2.5d
-			dependencies: ["54448B46E2D0F6D8"]
+			dependencies: [
+				"54448B46E2D0F6D8"
+				"56E548CE380158E6"
+			]
+			hide: true
 			id: "65ACCE5587B30F69"
 			tasks: [{
 				id: "578529C90C6155DC"
@@ -584,6 +606,7 @@
 				"65ACCE5587B30F69"
 				"11ACD026D8D3A298"
 			]
+			hide: true
 			id: "1838A0274CF758C9"
 			tasks: [
 				{
@@ -605,6 +628,7 @@
 				"1838A0274CF758C9"
 				"11ACD026D8D3A298"
 			]
+			hide: true
 			id: "624050E329E41803"
 			tasks: [
 				{
@@ -625,15 +649,19 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: -8.5d
 			y: -2.5d
-			dependencies: ["0C537153C7FD5ABA"]
+			dependencies: [
+				"0C537153C7FD5ABA"
+				"48C5B2FF1EFCA153"
+			]
+			hide: true
 			id: "06DBD9EE856BC2A2"
 			tasks: [{
 				id: "788A94071AC59286"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
-				count: 27L
 			}]
 		}
 		{
@@ -679,19 +707,16 @@
 					id: "3243092840597C8A"
 					type: "item"
 					item: "mekanism:dynamic_tank"
-					count: 22L
 				}
 				{
 					id: "32C415D0C6BEDABE"
 					type: "item"
 					item: "mekanism:dynamic_valve"
-					count: 2L
 				}
 				{
 					id: "443D3223AAA872D7"
 					type: "item"
 					item: "mekanism:structural_glass"
-					count: 2L
 				}
 			]
 		}
@@ -703,23 +728,28 @@
 			id: "6528C8D8BC8E18FA"
 			tasks: [
 				{
-					id: "29D015869FDB7103"
-					type: "item"
-					item: "immersiveengineering:treated_fence"
-					count: 8L
+					id: "698FD05E1D1ECA10"
+					type: "advancement"
+					advancement: "immersiveengineering:main/mb_silo"
+					criterion: ""
 				}
 				{
-					id: "67B2E2835FE33003"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 84L
+					id: "676BFC01F01EC141"
+					type: "advancement"
+					advancement: "immersiveengineering:main/mb_tank"
+					criterion: ""
 				}
 			]
 		}
 		{
+			disable_toast: true
 			x: -4.5d
 			y: -2.5d
-			dependencies: ["1F54585B8D5519EB"]
+			dependencies: [
+				"1F54585B8D5519EB"
+				"7441D95046A770F4"
+			]
+			hide: true
 			id: "3922EB0459C1BFC6"
 			tasks: [{
 				id: "3CAFEE2E45C687FF"
@@ -757,9 +787,14 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: -3.5d
 			y: -2.5d
-			dependencies: ["3922EB0459C1BFC6"]
+			dependencies: [
+				"3922EB0459C1BFC6"
+				"41B6801E2813E159"
+			]
+			hide: true
 			id: "1A76EB2CD687AD8E"
 			tasks: [{
 				id: "0E93C8A393F61DA1"
@@ -791,9 +826,14 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: -9.5d
 			y: -2.5d
-			dependencies: ["7DFE1B5D46D6EE7B"]
+			dependencies: [
+				"7DFE1B5D46D6EE7B"
+				"487DA82DD9C70DA1"
+			]
+			hide: true
 			id: "0C537153C7FD5ABA"
 			tasks: [{
 				id: "0AB001849C047655"
@@ -856,12 +896,15 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: -2.5d
 			y: -2.5d
 			dependencies: [
 				"21C55F3CDE5DE98E"
 				"1A76EB2CD687AD8E"
+				"60DD51BF156EAD76"
 			]
+			hide: true
 			id: "20D59327E43D24C9"
 			tasks: [{
 				id: "7487A54187730A63"
@@ -1132,11 +1175,6 @@
 					id: "5297DFA2D0ACF5F6"
 					type: "item"
 					item: "littlelogistics:barge"
-				}
-				{
-					id: "7B42E406644C6ACB"
-					type: "item"
-					item: "littlelogistics:fishing_barge"
 				}
 				{
 					id: "397C8225F8184F8E"

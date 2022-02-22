@@ -32,15 +32,23 @@
 	#Increase difficulty with time
 	#Here untill its back as a gamerule
 	"Difficulty toggle" = true
+	#How the difficulty at a position is calculated. Supported values are: 
+	#GLOBAL: Serverwide difficulty value
+	#PLAYERMAX: Maximum difficulty of players in a 128 radius around the position
+	#PLAYERMEAN: Average difficulty of players in a 128 radius around the position
+	#Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN
+	"Difficulty type" = "GLOBAL"
 
 #Black/Whitelist for various stuff
 [list]
-	#By default the mod only modifies EntityMobs. Add other entities here if you want to apply modifications to them. Usage:
-	#<entity registry name> followed by any of:
-	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,REVERSE].
-	#Leave empty to apply them all and REVERSE to reverse all flags. Some flags do nothing for certain mobs!
-	#example: minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification (since default is a blacklist)
-	#or minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes
+	#Entities added here will be blacklisted from their assigned flags. Usage:
+	#<entity registry name> or <namespace> followed by any of:
+	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,NEUTRALAGGRO,REVERSE].
+	#Having no flags is equal to ALL. Use REVERSE to reverse all flags. Some flags do nothing for certain mobs!
+	#Examples:
+	#minecraft:sheep is equal to minecraft:sheep|ALL and excludes sheeps from all modifications
+	#minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification only
+	#minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes
 	"More Entities" = ["minecraft:cod", "pneumaticcraft:drone", "pneumaticcraft:collector_drone", "pneumaticcraft:programmable_controller", "minecraft:donkey", "minecraft:squid", "minecraft:mule", "minecraft:skeleton_horse", "minecraft:hoglin", "minecraft:strider", "minecraft:trader_llama", "minecraft:parrot", "minecraft:cow", "minecraft:zombie_horse", "minecraft:horse", "minecraft:bee", "pneumaticcraft:harvesting_drone", "minecraft:polar_bear", "minecraft:cat", "minecraft:pufferfish", "minecraft:bat", "minecraft:wandering_trader", "pneumaticcraft:logistics_drone", "minecraft:salmon", "minecraft:fox", "minecraft:llama", "minecraft:pig", "minecraft:iron_golem", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:sheep", "pneumaticcraft:guard_drone", "minecraft:ender_dragon", "minecraft:snow_golem", "minecraft:mooshroom", "minecraft:villager", "mekanism:robit", "minecraft:ocelot", "pneumaticcraft:amadrone", "minecraft:dolphin", "minecraft:chicken", "minecraft:wolf", "dummmmmmy:target_dummy", "minecraft:panda", "minecraft:rabbit"]
 	#Put the above flags here to completly disable them.
 	"Flag Blacklist" = []
@@ -64,6 +72,8 @@
 	"Parrot Whitelist" = false
 	#Treat TARGETVILLAGER flags as whitelist
 	"Villager Whitelist" = false
+	#Treat NEUTRALAGGRO flags as whitelist
+	"Neutral Aggro Whitelist" = false
 
 #Debugging
 [debug]
@@ -77,8 +87,9 @@
 
 #Settings regarding custom ai for mobs
 [ai]
-	#Whitelist for blocks, which can be actively broken. Usage: <registry name;classname;tag> put "!" infront to exclude blocks
-	#If you includery common blocks (like grass blocks) the pathfinding will be a bit strange
+	#Whitelist for blocks, which can be actively broken. 
+	#Usage: <registry name;classname;tag;namespace> put "!" infront to exclude blocks
+	#Note: If you include common blocks (like grass blocks) the pathfinding will be a bit strange
 	"Block Whitelist" = ["minecraft:dirt", "minecraft:grass_block", "minecraft:sand", "minecraft:podzol", "minecraft:stone", "minecraft:obsidian", "minecraft:sandstone", "extendedcrafting:the_ultimate_block", "appliedenergistics2:smooth_sky_stone_chest", "create:shadow_steel_casing", "appliedenergistics2:controller", "kubejs:monolith_node"]
 	#Treat Block Whitelist as Blocklist
 	"Block as Blacklist" = true
