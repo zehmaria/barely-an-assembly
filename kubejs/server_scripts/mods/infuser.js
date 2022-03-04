@@ -6,8 +6,8 @@ onEvent('recipes', event => {
         });
     }
 
-    minf('#forge:plates/iron', 'mekanism:redstone', 20, '#forge:circuits/basic');
-    minf('#forge:plates/iron', 'mekanism:gold', 20, '#forge:alloys/advanced');
+    minf('3x #forge:plates/iron', 'mekanism:redstone', 20, '#forge:circuits/basic');
+    minf('3x #forge:plates/iron', 'mekanism:gold', 20, '#forge:alloys/advanced');
     minf('minecraft:ender_pearl', 'mekanism:gold', 20, 'minecraft:ender_eye');
 
     minf('create:andesite_casing', 'mekanism:redstone', 800, 'create:copper_casing');

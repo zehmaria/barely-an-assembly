@@ -2,7 +2,7 @@
 #With default value every difficulty perk maxes out at difficulty 250
 [general]
 	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
-	"Enable difficulty scaling" = false
+	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
 	"Difficulty Delay" = 0
 	#Handles increase in difficulty regarding current difficulty.
@@ -10,7 +10,7 @@
 	#Example ["0-0.01","10-0.1","30-0"]
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
-	"Difficulty Increase" = ["0-0.1"]
+	"Difficulty Increase" = ["0-0.05", "30-0.2", "128-0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = false
 	#Mobs to include for the new light spawning rules.

@@ -46,12 +46,12 @@
 	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:cow 0.04", "minecraft:rabbit 0.02", "minecraft:strider 0.02", "minecraft:squid 1.0", "minecraft:cod 0.02", "minecraft:salmon 0.04" ]
 	#    Range for Values: 0.0 ~ 1.0
 	animals.aggressive_entities.whitelist = [
-		"minecraft:cow 0.04",
-		"minecraft:rabbit 0.02",
-		"minecraft:strider 0.02",
+		"minecraft:cow 0.0",
+		"minecraft:rabbit 0.0",
+		"minecraft:strider 0.0",
 		"minecraft:squid 1.0",
-		"minecraft:cod 0.02",
-		"minecraft:salmon 0.04"
+		"minecraft:cod 0.0",
+		"minecraft:salmon 0.0"
 	]
 	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: []
 	animals.aggressive_entities.blacklist = []
@@ -117,31 +117,11 @@
 
 	# List of mobs that can be ridden on by normal-sized riders (not all entities can be controlled by their rider).
 	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: [ "minecraft:spider", "minecraft:slime", "minecraft:skeleton_horse", "minecraft:zombie_horse", "minecraft:pig", "minecraft:sheep", "minecraft:cow", "minecraft:polar_bear", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "~minecraft:llama", "minecraft:strider", "minecraft:hoglin", "minecraft:zoglin" ]
-	jockeys.mount_entities.whitelist = [
-		"minecraft:spider",
-		"minecraft:slime",
-		"minecraft:skeleton_horse",
-		"minecraft:zombie_horse",
-		"minecraft:pig",
-		"minecraft:sheep",
-		"minecraft:cow",
-		"minecraft:polar_bear",
-		"minecraft:horse",
-		"minecraft:donkey",
-		"minecraft:mule",
-		"~minecraft:llama",
-		"minecraft:strider",
-		"minecraft:hoglin",
-		"minecraft:zoglin"
-	]
+	jockeys.mount_entities.whitelist = []
 	# List of mobs that can be ridden on by small riders or normal-sized riders that are babies
 	# (not all entities can be controlled by their rider).
 	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: [ "minecraft:chicken", "minecraft:rabbit", "minecraft:cave_spider" ]
-	jockeys.mount_entities.small_list = [
-		"minecraft:chicken",
-		"minecraft:rabbit",
-		"minecraft:cave_spider"
-	]
+	jockeys.mount_entities.small_list = []
 	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: []
 	jockeys.mount_entities.blacklist = []
 
@@ -149,16 +129,7 @@
 	# Note that the entity must have task-based AI enabled.
 	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:skeleton 0.1", "minecraft:stray 0.1", "minecraft:wither_skeleton 0.1", "minecraft:zombie 0.05", "minecraft:creeper 0.05", "minecraft:witch 0.05", "minecraft:piglin 0.1", "minecraft:piglin_brute 0.1" ]
 	#    Range for Values: 0.0 ~ 1.0
-	jockeys.rider_entities.whitelist = [
-		"minecraft:skeleton 0.1",
-		"minecraft:stray 0.1",
-		"minecraft:wither_skeleton 0.1",
-		"minecraft:zombie 0.05",
-		"minecraft:creeper 0.05",
-		"minecraft:witch 0.05",
-		"minecraft:piglin 0.1",
-		"minecraft:piglin_brute 0.1"
-	]
+	jockeys.rider_entities.whitelist = []
 	# List of mobs that can only ride small mounts or normal-sized mounts that are babies and the
 	# chance for them to gain the rider AI. Note that the entity must have task-based AI enabled.
 	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: []

@@ -97,8 +97,8 @@ onEvent('recipes', event => {
         Object.keys(_pp[A]).forEach(B => {
             event.remove({ output: '#forge:ores/' + B });
             crush('#create:crushed_ores/' + B, '#forge:dusts/' + B);
+            crush('#mekanism:clumps/' + B, '#forge:dusts/' + B);
             smelt('#forge:dusts/' + B, _pp[A][B]);
-            dust('#mekanism:clumps/' + B, '#forge:dusts/' + B);
             dust('#forge:ingots/' + B, '#forge:dusts/' + B);
 
             press(_pp[A][B], '#forge:plates/' + B, 'immersiveengineering:mold_plate');
@@ -110,6 +110,8 @@ onEvent('recipes', event => {
     });
 
     press('mekanism:hdpe_sheet', 'mekanism:hdpe_rod', 'immersiveengineering:mold_rod');
+    smelt('boss_tools:moon_desh_ore', 'boss_tools:desh_ingot');
+    smelt('boss_tools:mars_silicon_ore', 'boss_tools:silicon_ingot');
 
     ['electrum', 'steel'].forEach(A => {
         dust('#forge:ingots/' + A, '#forge:dusts/' + A);
@@ -130,26 +132,26 @@ onEvent('recipes', event => {
 
     event.remove({ output: '#forge:ingots/electrum' });
     event.custom({
-        type:'immersiveengineering:alloy', time: 200,
-        result: { count: 2, base_ingredient: { tag: 'forge:ingots/electrum' } },
+        type:'immersiveengineering:alloy', time: 1200,
+        result: { count: 1, base_ingredient: { tag: 'forge:ingots/electrum' } },
         input0: { base_ingredient: { tag: 'forge:ingots/gold' }, count: 2 },
-        input1: { base_ingredient: { tag: 'forge:ingots/copper' }, count: 2 }
+        input1: { base_ingredient: { tag: 'forge:ingots/copper' }, count: 3 }
     });
     event.custom({
-        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 200, energy: 102400,
+        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 300, energy: 153600,
         input: { base_ingredient: { tag: 'forge:ingots/gold' }, count: 2 },
-        additives:[{ base_ingredient: { tag: 'forge:ingots/copper' }, count: 2 }],
-        results: [{ count: 2, base_ingredient: { tag: 'forge:ingots/electrum' } }]
+        additives:[{ base_ingredient: { tag: 'forge:ingots/copper' }, count: 3 }],
+        results: [{ count: 1, base_ingredient: { tag: 'forge:ingots/electrum' } }]
     });
 
     event.remove({ output: '#forge:ingots/steel' });
     event.custom({
-        type: 'immersiveengineering:blast_furnace', slag: { tag: 'forge:slag'}, time: 1200,
-        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 4 }, result: { tag: 'forge:ingots/steel' }
+        type: 'immersiveengineering:blast_furnace', slag: { tag: 'forge:slag'}, time: 2400,
+        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 6 }, result: { tag: 'forge:ingots/steel' }
     });
     event.custom({
-        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 400, energy:204800,
-        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 4 },
+        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 600, energy:307200,
+        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 6 },
         additives: [{ base_ingredient: { tag: 'forge:dusts/coal_coke' }, count: 2 }],
         results: [{ tag: 'forge:ingots/steel' }]
     });

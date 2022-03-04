@@ -51,7 +51,9 @@ onEvent('recipes', event => {
     rm2(event, 'immersiveengineering:component_', ['iron', 'steel'], ['minecraft:crafting_shaped']);
 
     bpIE(event, 'create:electron_tube',
-         ['#forge:glass', '#forge:plates/electrum', ['#forge:wires/copper', 2], 'minecraft:redstone'], 'components');
+         ['#forge:glass', ['#forge:plates/electrum', 3], ['#forge:wires/copper', 3], ['minecraft:redstone', 3]], 'components');
+    bpIE(event, 'createaddition:capacitor',
+         ['create:electron_tube', ['#forge:plates/gold', 2], ['#forge:plates/iron', 2], ['#forge:plates/copper', 2]], 'components');
 
     bpIE(event, '8x immersiveengineering:casull', [[Iec, 8], tDl, tPi], 'bullet');
     bpIE(event, '8x immersiveengineering:armor_piercing', [[Iec, 8], Mgp, tPs, tPl], 'bullet');

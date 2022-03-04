@@ -1,1 +1,1 @@
-{"type":"immersiveengineering:mineral_mix","ores":[{"chance":1.0,"output":{"tag":"create:crushed_ores/iron"}}],"dimensions":["minecraft:overworld"],"weight":20,"fail_chance":0.05}
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":1.0,"output":{"tag":"create:crushed_ores/iron"}}],"dimensions":["minecraft:overworld"],"weight":30,"fail_chance":0.05}

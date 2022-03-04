@@ -1,6 +1,12 @@
 onEvent('item.tooltip', tooltip => {
     // ACTUALLY TIPS
-    tooltip.add('mekanismgenerators:hohlraum', '§3Heavy Water can be extracted using Immersive Engineering Pumpjack.');
+    tooltip.add('mekanismgenerators:hohlraum', '§3Heavy Water can be extracted using Immersive Engineering Pumpjack on the Moon or Mars.');
+    tooltip.add('boss_tools:moon_desh_ore', '§3Mined via Immersive Engineering Excavator on the Moon or Mars.');
+    tooltip.add('boss_tools:mars_silicon_ore', '§3Mined via Immersive Engineering Excavator on the Moon or Mars.');
+
+    tooltip.add('levelhearts:heart_container', '§3Honey can be extracted from Bee Nest/Hives using a Mechanical Pump.');
+    tooltip.add('levelhearts:heart_container', '§3Unlocks extra health.');
+    tooltip.add('trophyslots:trophy', '§3Unlocks extra inventory.');
     tooltip.add('mekanism:fluorite_gem', '§3Mined via Immersive Engineering Excavator.');
     tooltip.add('factoriores:uranium_ore', '§3Mining requires liquid Hydrofluoric Acid or Sulfuric Acid.');
     tooltip.add('create:crushed_uranium_ore', '§3Mining requires liquid Hydrofluoric Acid or Sulfuric Acid.');
@@ -8,6 +14,11 @@ onEvent('item.tooltip', tooltip => {
 
     tooltip.add('create:chute', '§3Can be placed on top of Little Logistics Docks for automation.');
     tooltip.add('mekanism:qio_drive_array', '§3Has a natural attraction to some items.');
+
+    ['boss_tools:rocket_t1', 'boss_tools:rocket_t2', 'boss_tools:rocket_t3'].forEach(X => tooltip.add(X, '§3Deployed as a logistical structure after landing [right-click the lander], not reusable.'));
+    ['mekanism:portable_teleporter', 'mekanism:quantum_entangloporter', 'mekanism:teleporter', 'kubejs:elevator_cable'].forEach(X => tooltip.add(X, '§3Part of the deployed structure from rockets. Unbreakable and unmovable.'));
+
+    ['create:andesite_casing', 'create:copper_casing', 'immersiveengineering:alloybrick', 'create:brass_casing', 'immersiveengineering:cokebrick', 'immersiveengineering:blastbrick', 'immersiveengineering:rs_engineering', 'mekanism:steel_casing', 'immersiveengineering:light_engineering', 'immersiveengineering:heavy_engineering', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:fusion_reactor_frame'].forEach(X => tooltip.add(X, '§3Research Line.'));
 
     ['mekanism:basic_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer'].forEach(X => tooltip.add(X, '§3Some machines can be upgraded by [shift + right click]ing this onto them. Tiers can not be skipped and must be installed in sequence.'));
 

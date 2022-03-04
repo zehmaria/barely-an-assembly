@@ -22,12 +22,12 @@
 
 [InsulatorItems]
 	#Defines the items that can be used for insulating armor in the Sewing Table
-	#Format: [[item-id-1], [item-id-2], ...etc]
+	#Format: [["item-id-1"], ["item-id-2"], ...etc]
 	"Sewing Table" = ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
 
 [InsulatingArmor]
 	#Defines the items that provide insulation when worn
-	#Format: [[item-id-1, amount-1], [item-id-2, amount-2], ...etc]
+	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
 	"Insulating Armor Items" = [["minecraft:leather_helmet", 12], ["minecraft:leather_chestplate", 21], ["minecraft:leather_leggings", 15], ["minecraft:leather_boots", 12], ["immersiveengineering:armor_steel_head", 24], ["immersiveengineering:armor_steel_chest", 42], ["immersiveengineering:armor_steel_legs", 30], ["immersiveengineering:armor_steel_feet", 24], ["pneumaticcraft:pneumatic_helmet", 36], ["pneumaticcraft:pneumatic_chestplate", 63], ["pneumaticcraft:pneumatic_leggings", 45], ["pneumaticcraft:pneumatic_boots", 36]]
 
 [TemperatureFoods]

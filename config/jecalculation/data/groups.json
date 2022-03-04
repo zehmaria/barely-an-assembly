@@ -1,0 +1,413 @@
+{"Default": [
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanismgenerators:fusion_reactor_frame"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanismgenerators:turbine_casing"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:enriched_refined_obsidian"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:crystal_iron"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:pellet_plutonium"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:ultimate_control_circuit"
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 100L,
+                    "fluid": "mekanism:hydrofluoric_acid"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 1000L,
+                "name": "Gas - Hydrofluoric Acid"
+            }
+        }],
+        "input": [
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 100L,
+                    "name": "Gas - Sulfuric Acid"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:fluorite_gem"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 1L,
+                "name": "Gas - Sulfuric Acid"
+            }
+        }],
+        "input": [
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Water Vapor"
+                }
+            },
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Sulfur Trioxide"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 1L,
+                "name": "Gas - Water Vapor"
+            }
+        }],
+        "input": [{
+            "type": "fluidStack",
+            "content": {
+                "amount": 1L,
+                "fluid": "minecraft:flowing_water"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 2L,
+                "name": "Gas - Sulfur Trioxide"
+            }
+        }],
+        "input": [
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Oxygen"
+                }
+            },
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 2L,
+                    "name": "Gas - Sulfur Dioxide"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Oxygen"
+                }
+            },
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 2L,
+                    "name": "Gas - Hydrogen"
+                }
+            }
+        ],
+        "input": [{
+            "type": "fluidStack",
+            "content": {
+                "amount": 2L,
+                "fluid": "minecraft:flowing_water"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "fluidStack",
+            "content": {
+                "amount": 1L,
+                "fluid": "mekanism:hydrofluoric_acid"
+            }
+        }],
+        "input": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 1L,
+                "name": "Gas - Hydrofluoric Acid"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 100L,
+                "name": "Gas - Sulfur Dioxide"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:dust_sulfur"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:ultimate_control_circuit"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:alloy_atomic"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:elite_control_circuit"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "immersiveengineering:ingot_hop_graphite"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "mekanism:shard_gold"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "immersiveengineering:dust_sulfur"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:ingot_hop_graphite"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:dust_hop_graphite"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:dust_hop_graphite"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 8L,
+                "item": "immersiveengineering:dust_coke"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:dust_coke"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:coal_coke"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "immersiveengineering:coal_coke"
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 500L,
+                    "fluid": "immersiveengineering:creosote"
+                }
+            }
+        ],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:coal"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:shard_gold"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "create:crushed_gold_ore"
+                }
+            },
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 200L,
+                    "name": "Gas - Hydrogen Chloride"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "placeholder",
+            "content": {
+                "amount": 1L,
+                "name": "Gas - Hydrogen Chloride"
+            }
+        }],
+        "input": [
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Hydrogen"
+                }
+            },
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Chlorine"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Chlorine"
+                }
+            },
+            {
+                "type": "placeholder",
+                "content": {
+                    "amount": 1L,
+                    "name": "Gas - Sodium"
+                }
+            }
+        ],
+        "input": [{
+            "type": "fluidStack",
+            "content": {
+                "amount": 10L,
+                "fluid": "mekanism:flowing_brine"
+            }
+        }],
+        "catalyst": []
+    }
+]}

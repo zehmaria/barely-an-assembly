@@ -1,0 +1,20 @@
+{
+	"type": "immersiveengineering:mineral_mix",
+	"ores": [
+		{
+			"chance": 0.8,
+			"output":  { "item": "boss_tools:mars_silicon_ore" }
+		}, 
+		{
+			"chance": 0.15,
+			"output": { "tag": "create:crushed_ores/iron" }
+		}, 
+		{
+			"chance": 0.05,
+			"output": { "item": "minecraft:diamond" }
+		}
+	],
+	"dimensions": ["boss_tools:mars"],
+	"weight": 100,
+	"fail_chance": 0.05
+}

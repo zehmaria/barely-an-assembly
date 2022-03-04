@@ -10,24 +10,23 @@ onEvent('recipes', event => {
         ['mekanism:formulaic_assemblicator', _cu, Mct, [mm1, _K1, _I4, Mcw, ltx], [], 1],
         [tGd, 'immersiveengineering:slab_coke', Icc, [Icc, Icc, Icc, Icc, Icc], [], 10],
         [Pig, _cu, 'immersiveengineering:component_iron', [tPi, tPi, tPi, tPi, tPi], [], 10],
-        ['backpacked:backpack', _cu, 'minecraft:leather_chestplate', [Mlt, tST, Mlt, ltx], [['minecraft:water', 100]], 3],
         ['pneumaticcraft:logistics_core', 'appliedenergistics2:printed_silicon', tPl, [_I2, Cca, Cpm, _K2, Apq], [], 1],
 
         // CASE LINE
-        [Cc3, _cu, Iab, [tPe, mm1, tRe, Itf], [['steampowered:steam', 100]], 1],
+        [Cc3, _cu, Iab, [tPe, mm1, tRe, Itf], [['minecraft:water', 100]], 1],
         [Icb, _cu, Cc3, [Caa, ltx, cls, tDi], [['steampowered:steam', 100]], 1],
         [Ibb, _cu, Icb, [tPl, tDo, Icc, _I2], [['immersiveengineering:creosote', 100]], 1],
-        [Ire, _cu, Ibb, [_K1, Cca, Amc, _I4], [['mekanism:brine', 100]], 1],
-        [Kca, _cu, Ire, [tPs, Apq, tRs, _I3], [['mekanism:brine', 100]], 1],
+        [Ire, _cu, Ibb, [_K1, Cca, Cpm, _I4], [['mekanism:brine', 100]], 1],
+        [Kca, _cu, Ire, [tPs, Apq, tRs, _I3], [['minecraft:lava', 100]], 1],
         [Ile, _cu, Kca, [_K2, mm2, Khd, Keg], [['mekanism:lithium', 100]], 1],
-        [Ihe, _cu, Ile, [_K3, mm3, Pig, Kec], [['immersiveengineering:concrete', 100]], 1],
+        [Ihe, _cu, Ile, [_K3, mm3, Pig, SC1], [['immersiveengineering:concrete', 100]], 1],
 
-        [Kfi, _cu, Ihe, [_K4, tGf, pet, Ker], [['mekanism:sulfuric_acid', 100]], 1],
-        [Ktu, _cu, Kfi, [_K4, Kpp, KSi, Ked], [['immersivepetroleum:lubricant', 100]], 1],
-        [Kfu, _cu, Ktu, [_K4, Kpl, KKi, Keo], [['mekanism:hydrofluoric_acid', 100]], 1],
+        [Kfi, _cu, Ihe, [_K4, tGf, pet, SC2], [['mekanism:sulfuric_acid', 100]], 1],
+        [Ktu, _cu, Kfi, [_K4, Kpp, KSi, SC2], [['immersivepetroleum:lubricant', 100]], 1],
+        [Kfu, _cu, Ktu, [_K4, Kpl, KKi, SC3], [['mekanism:hydrofluoric_acid', 100]], 1],
 
         // MEKANISM
-        ['mekanism:jetpack_armored', _cu, 'mekanism:jetpack', [tPs, tPs, tPs, tPs], [['steampowered:steam', 100]], 10],
+        ['mekanism:jetpack_armored', _cu, 'mekanism:jetpack', [tPs, tPs, tPs, tPs], [['minecraft:lava', 100]], 10],
         ['mekanism:advanced_tier_installer', _cu, _K2, [Apf, tGd, _I4, Pig], [['mekanism:lithium', 100]], 1],
 
         ['mekanism:upgrade_speed',    _cu, Abc, [tPs, tDc, mm1, _bd], [['mekanism:brine', 50]], 3],
@@ -37,7 +36,7 @@ onEvent('recipes', event => {
         ['mekanism:upgrade_gas',      _cu, Aac, [tPs, tDu, mm1, _bd], [['mekanism:brine', 50]], 3],
         ['mekanism:upgrade_anchor',   _cu, Aac, [tPs, tDf, mm1, _bd], [['mekanism:brine', 50]], 3],
 
-        //IMMERSIVE ENGINEERING
+        // IMMERSIVE ENGINEERING
         ['immersiveengineering:razor_wire',   _cu, 'immersiveengineering:treated_fence', [tRi, tRi, tRi, tRi, tRi], [], 1],
         ['immersiveengineering:turret_gun',   _cu, 'immersiveengineering:revolver',      [Irm, Irm, Icl, Ik1], [], 1],
         ['immersiveengineering:tesla_coil',   _cu, 'immersiveengineering:railgun',       [Icm, Icm, mm2, Ik2], [['mekanism:brine', 100]], 1],
@@ -48,31 +47,42 @@ onEvent('recipes', event => {
         [Ic1, _cu, Cc2, [Icl, Icl, _K1, Ik1], [], 1],
         [Ic2, _cu, Ic1, [Icm, Icm, _K2, Ik2], [], 1],
 
-        //DIREGOO
+        // DIREGOO
         [Dt1, _cu, 'minecraft:tnt',                                     [Dad, Dad, Dad, Dad], [['minecraft:water', 250]], 3],
         ['diregoo:turretblock', _cu, 'immersiveengineering:turret_gun', [Dad, Dad, Apf, _K1], [['minecraft:water', 250]], 3],
-        ['diregoo:gooremover',  _cu, 'immersiveengineering:revolver',   [Dad, Apf, _K1, FTB], [['minecraft:water', 250]], 3],
-        [Dt4, _cu, Dt3,                                                 [Kam, Kam], [['mekanism:hydrofluoric_acid', 250]], 1],
+        ['diregoo:gooremover',  _cu, 'immersiveengineering:revolver',   [Dad, Apf, _K1, FTB], [['minecraft:lava', 250]], 3],
+        [Dt4, _cu, Dt3,                                                 [Kam, Kam],           [['mekanism:hydrofluoric_acid', 250]], 1],
         ['diregoo:antigoofieldgen', _cu, 'diregoo:turretblock',         [Kam, Kam, Kam, _K4], [['mekanism:hydrofluoric_acid', 250]], 1],
         ['diregoo:goozapper', _cu, 'diregoo:gooremover',                [mm3, mm3, mm3, mm3], [['mekanism:sulfuric_acid', 1000]], 1],
         ['diregoo:goonadefreeze', _cu, 'diregoo:gooresidue',            [cld, cld, cld, cld, cld], [], 1],
 
-        //TOOLS
-        ['immersiveengineering:pickaxe_steel', _cu, 'minecraft:wooden_pickaxe', _a5, [['immersiveengineering:creosote', 1000]], 5],
-        ['immersiveengineering:axe_steel',     _cu, 'minecraft:wooden_axe',     _a5, [['immersiveengineering:creosote', 1000]], 5],
-        ['immersiveengineering:hoe_steel',     _cu, 'minecraft:wooden_hoe',     _a5, [['immersiveengineering:creosote', 1000]], 5],
-        ['immersiveengineering:shovel_steel',  _cu, 'minecraft:wooden_shovel',  _a5, [['immersiveengineering:creosote', 1000]], 5],
+        // TOOLS
+        ['boss_tools:steel_pickaxe', _cu, 'minecraft:wooden_pickaxe', _a5, [['immersiveengineering:creosote', 1000]], 5],
+        ['boss_tools:steel_axe',     _cu, 'minecraft:wooden_axe',     _a5, [['immersiveengineering:creosote', 1000]], 5],
+        ['boss_tools:steel_hoe',     _cu, 'minecraft:wooden_hoe',     _a5, [['immersiveengineering:creosote', 1000]], 5],
+        ['boss_tools:steel_shovel',  _cu, 'minecraft:wooden_shovel',  _a5, [['immersiveengineering:creosote', 1000]], 5],
 
         [_a1, _cu, 'minecraft:leather_helmet',     _a5, [['immersiveengineering:creosote', 1000]], 5],
         [_a2, _cu, 'minecraft:leather_chestplate', _a5, [['immersiveengineering:creosote', 1000]], 5],
         [_a3, _cu, 'minecraft:leather_leggings',   _a5, [['immersiveengineering:creosote', 1000]], 5],
         [_a4, _cu, 'minecraft:leather_boots',      _a5, [['immersiveengineering:creosote', 1000]], 5],
 
+        ['boss_tools:oxygen_mask', _cu, _a1, ['mekanism:hazmat_mask', Mww, tPi, _K3],  [['minecraft:lava', 1000]], 1],
+        ['boss_tools:space_suit',  _cu, _a2, [Kct, Mww, tPi, _K3],                     [['minecraft:lava', 1000]], 1],
+        ['boss_tools:space_pants', _cu, _a3, ['mekanism:hazmat_pants', Mww, tPi, _K3], [['minecraft:lava', 1000]], 1],
+        ['boss_tools:space_boots', _cu, _a4, ['mekanism:hazmat_boots', Mww, tPi, _K3], [['minecraft:lava', 1000]], 1],
+
         ['pneumaticcraft:pneumatic_helmet',     _cu, _a1, [Pac, Pac, mm2, _K2], [['mekanism:lithium', 100]], 10],
         ['pneumaticcraft:pneumatic_chestplate', _cu, _a2, [Pac, Pac, mm2, _K2], [['mekanism:lithium', 100]], 10],
         ['pneumaticcraft:pneumatic_leggings',   _cu, _a3, [Pac, Pac, mm2, _K2], [['mekanism:lithium', 100]], 10],
         ['pneumaticcraft:pneumatic_boots',      _cu, _a4, [Pac, Pac, mm2, _K2], [['mekanism:lithium', 100]], 10],
 
+        // OTHERS
+        ['levelhearts:heart_container', 'levelhearts:heart_piece', 'minecraft:bread', ['minecraft:carrot', 'minecraft:baked_potato', 'minecraft:beetroot_soup',  '#minecraft:fishes'], [['create:honey', 50]], 3],
+        ['trophyslots:trophy', _cu, tIg, [Mcw, 'create:super_glue', 'minecraft:paper', 'levelhearts:heart_piece'], [['minecraft:lava', 100]], 3],
+        ['backpacked:backpack', _cu, 'minecraft:leather_chestplate', [Mlt, tST, ltx, 'trophyslots:trophy'], [['minecraft:water', 100]], 9],
+
         //[, _cu, , [], [['', 100]], 1],
     ]);
+    event.remove({ output: 'levelhearts:heart_piece' });
 });

@@ -49,7 +49,7 @@ onEvent('recipes', event => {
     });
 
     event.remove({ output: 'minecraft:bread' });
-    event.smelting('minecraft:bread', 'create:wheat_flour');
+    event.smelting('minecraft:bread', 'create:dough');
 
     event.remove({ output: 'minecraft:dirt' });
     event.remove({ output: 'minecraft:sand' });

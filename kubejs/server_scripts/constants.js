@@ -58,6 +58,7 @@ const tDl = '#forge:dusts/lead';
 const tWl = '#forge:wires/lead';
 const tRl = '#forge:rods/lead';
 
+const tIs = '#forge:ingots/steel';
 const tRs = '#forge:rods/steel';
 const tPs = '#forge:plates/steel';
 const tDs = '#forge:dusts/steel';
@@ -254,6 +255,12 @@ const Pgt = 'pneumaticcraft:gps_tool';
 const Plc = 'pneumaticcraft:logistics_core';
 const Ppt = 'pneumaticcraft:pressure_tube';
 const Pac = 'pneumaticcraft:air_canister';
+
+const Si2 = 'boss_tools:desh_ingot';
+const Si3 = 'boss_tools:silicon_ingot';
+const SC1 = 'boss_tools:compressed_steel';
+const SC2 = 'boss_tools:compressed_desh';
+const SC3 = 'boss_tools:compressed_silicon';
 
 // TIERS
 

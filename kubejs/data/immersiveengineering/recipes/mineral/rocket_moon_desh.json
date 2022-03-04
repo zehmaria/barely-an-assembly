@@ -1,0 +1,16 @@
+{
+	"type": "immersiveengineering:mineral_mix",
+	"ores": [
+		{
+			"chance": 0.85,
+			"output":  { "item": "boss_tools:moon_desh_ore" }
+		}, 
+		{
+			"chance": 0.15,
+			"output": { "tag": "create:crushed_ores/iron" }
+		}
+	],
+	"dimensions": ["boss_tools:moon"],
+	"weight": 100,
+	"fail_chance": 0.05
+}

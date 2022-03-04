@@ -86,3 +86,12 @@ function csAssembly(event, Z) {
         });
     });
 }
+
+function cFilling(event, Z) {
+    Z.forEach(zz => {
+        event.remove({ output: Item.of(zz[0]) });
+        event.custom({
+            type: 'create:filling', ingredients: [Ingredient.of(zz[1]), { fluid: zz[2], nbt: {}, amount: zz[3] }], results: [Item.of(zz[0])]
+        });
+    });
+}

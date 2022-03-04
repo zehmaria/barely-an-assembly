@@ -4,12 +4,10 @@
   "fluidminimum": 5000000,
   "fluidcapacity": 10000000,
   "fluidtrace": 6,
-  "weight": 30,
+  "weight": 100,
   "dimension": {
-    "whitelist": [],
-    "blacklist": [
-      "minecraft:the_end"
-    ]
+    "whitelist": ["boss_tools:moon", "boss_tools:mars"],
+    "blacklist": []
   },
   "biome": {
     "whitelist": [],

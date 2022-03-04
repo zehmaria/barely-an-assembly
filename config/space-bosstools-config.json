@@ -1,0 +1,13 @@
+{
+  "Alien Spawn": false,
+  "Star Crawler Spawn": true,
+  "Alien Zombie Spawn": true,
+  "Alien Village Structure": false,
+  "Meteor Structure": false,
+  "Venus Bullet Structure": false,
+  "Venus Tower Structure": false,
+  "Oil Well Structure": false,
+  "Crimson Village Structure": false,
+  "Player Oxygen System": true,
+  "Entity Oxygen System": true
+}

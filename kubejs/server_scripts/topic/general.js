@@ -23,7 +23,7 @@ onEvent('block.right_click', event => {
 });
 
 onEvent('player.logged_in', event => {
-    event.player.tell('Warning: This modpack is still under testing.');
+    event.player.tell('Warning: This modpack is still under testing and fine-tuning.');
 });
 
 onEvent('block.right_click', event => {
@@ -38,22 +38,63 @@ onEvent('block.right_click', event => {
 });
 
 // CHANGING
+const BS = 'immersiveengineering:storage_steel';
+onEvent('item.entity_interact', event => {
+    console.log(event.getTarget().getType());
+    if ((event.getTarget().getType() === 'boss_tools:rocket_t1' ||
+         event.getTarget().getType() === 'boss_tools:rocket_t2' ||
+         event.getTarget().getType() === 'boss_tools:rocket_t3')
+        && event.entity.isCrouching()) { event.cancel(); }
+    if (event.getTarget().getType() === 'boss_tools:lander') {
+        for (var i = event.getTarget().getBlock().getUp().getUp().getUp().getY(); i <= 256; i++) {
+            event.getWorld().getBlock(event.getTarget().getBlock().getX(), i, event.getTarget().getBlock().getZ()).set('kubejs:elevator_cable');
+        }
+        event.getTarget().getBlock().getUp().getUp().set('mekanism:teleporter');
+        event.getTarget().getBlock().getUp().set('mekanism:quantum_entangloporter');
+        event.getTarget().getBlock().set(BS);
+        event.getTarget().getBlock().getDown().set(BS);
+        event.getTarget().getBlock().getDown().getWest().set(BS);
+        event.getTarget().getBlock().getDown().getEast().set(BS);
+        event.getTarget().getBlock().getDown().getNorth().set(BS);
+        event.getTarget().getBlock().getDown().getNorth().getWest().set(BS);
+        event.getTarget().getBlock().getDown().getNorth().getEast().set(BS);
+        event.getTarget().getBlock().getDown().getSouth().set(BS);
+        event.getTarget().getBlock().getDown().getSouth().getWest().set(BS);
+        event.getTarget().getBlock().getDown().getSouth().getEast().set(BS);
+        event.getTarget().mergeFullNBT({InventoryCustom:{Size:2,Items:[{Slot:1,id:"minecraft:air",Count:true}]}});
+        event.getTarget().kill();
+        event.server.runCommandSilent(`execute as ${event.player.name} in ${event.player.world.dimension} run summon firework_rocket ${event.getTarget().x} ${event.getTarget().y + 0.5} ${event.getTarget().z} {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:200,Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;8073150,6719955],FadeColors:[I;14602026,11250603]}]}}}}`);
+        event.player.tell('Successfully deplayed!');
+    }
+});
+
+onEvent('entity.spawned', event => {
+    if (event.getEntity().getName() === 'Lander') {
+        event.getEntity().setCustomName("<< Right-click to deploy >>");
+    }
+});
+
 onEvent('block.right_click', event => {
     if (event.block.equals('mekanism:qio_drive_array')) {
         if (event.item.equals('appliedenergistics2:crafting_terminal')) {
             event.item.setCount(0); event.player.give('mekanism:qio_dashboard'); event.player.sendInventoryUpdate();
+            event.player.tell('A mysterious reaction occurs!');
         }
         if (event.item.equals('appliedenergistics2:import_bus')) {
             event.item.setCount(0); event.player.give('mekanism:qio_importer'); event.player.sendInventoryUpdate();
+            event.player.tell('A mysterious reaction occurs!');
         }
         if (event.item.equals('appliedenergistics2:export_bus')) {
             event.item.setCount(0); event.player.give('mekanism:qio_exporter'); event.player.sendInventoryUpdate();
+            event.player.tell('A mysterious reaction occurs!');
         }
         if (event.item.equals('appliedenergistics2:level_emitter')) {
             event.item.setCount(0); event.player.give('mekanism:qio_redstone_adapter'); event.player.sendInventoryUpdate();
+            event.player.tell('A mysterious reaction occurs!');
         }
         if (event.item.equals('appliedenergistics2:64k_storage_cell')) {
             event.item.setCount(0); event.player.give('mekanism:qio_drive_base'); event.player.sendInventoryUpdate();
+            event.player.tell('A mysterious reaction occurs!');
         }
         if (event.item.equals('diregoo:antigoofieldgen')) {
             if (event.block.getUp().equals('minecraft:air')){

@@ -195,12 +195,14 @@ AdditionsTickChance: 0.0
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Ore(factoriores:iron_ore,50,2,15.0,60,120,minecraft:sand)
-Ore(factoriores:copper_ore,40,2,15.0,60,120,minecraft:sand)
-Ore(factoriores:lead_ore,30,2,5.0,60,120,minecraft:sand)
+Ore(factoriores:iron_ore,60,2,15.0,60,120,minecraft:sand)
+Ore(factoriores:copper_ore,60,2,15.0,60,120,minecraft:sand)
+Ore(factoriores:lead_ore,40,2,5.0,60,120,minecraft:sand)
 Ore(minecraft:gravel,33,8,100.0,0,255,minecraft:stone)
 Liquid(minecraft:water,20,100.0,8,128,minecraft:stone)
 Liquid(minecraft:lava,10,100.0,8,128,minecraft:stone)
+SmallLake(minecraft:lava,4,8.0,50,119)
+SmallLake(minecraft:lava,2,8.0,6,50)
 Well(minecraft:sandstone,minecraft:sandstone_slab,minecraft:water,1,0.1,2,128,minecraft:sand)
 UnderWaterOre(minecraft:sand,7,3,100.0,minecraft:dirt,minecraft:grass_block)
 UnderWaterOre(minecraft:clay,4,1,100.0,minecraft:dirt,minecraft:clay)

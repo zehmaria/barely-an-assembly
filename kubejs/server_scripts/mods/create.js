@@ -4,7 +4,7 @@ onEvent('item.tags', event => {
 });
 
 onEvent('block.tags', event => {
-    event.add('create:non_movable', ['minecraft:dirt', 'minecraft:grass_block', 'minecraft:sand', 'minecraft:podzol', 'minecraft:stone', 'minecraft:obsidian', 'minecraft:sandstone']);
+    event.add('create:non_movable', ['minecraft:dirt', 'minecraft:grass_block', 'minecraft:sand', 'minecraft:podzol', 'minecraft:stone', 'minecraft:obsidian', 'minecraft:sandstone', 'kubejs:elevator_cable', 'immersiveengineering:storage_steel', 'mekanism:teleporter', 'mekanism:quantum_entangloporter']);
 });
 
 onEvent('recipes', event => {
@@ -111,6 +111,16 @@ onEvent('recipes', event => {
         results: [{ item: 'create:precision_mechanism' }],
         'loops': 5
     });
+
+    // FILLING
+    /*
+      event.remove({ output: 'create:dough' });
+      event.custom({
+      type: 'create:filling',
+      ingredients: [{ tag: 'create:wheat_flour' }, { fluid: 'minecraft:water', nbt: {}, amount: 100 }],
+      results: [{ item: 'create:dough' }]
+      });*/
+    cFilling(event, [['create:dough', 'create:wheat_flour', 'minecraft:water', 100]]);
 
     // REMOVE BY ID
     ['create:compacting/honey', 'create:compacting/andesite_from_flint', 'createaddition:compacting/seed_oil'].forEach(A => {

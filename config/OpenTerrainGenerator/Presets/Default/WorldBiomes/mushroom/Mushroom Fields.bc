@@ -195,8 +195,8 @@ AdditionsTickChance: 0.0
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Ore(factoriores:copper_ore,50,2,30.0,60,120,minecraft:mycelium,minecraft:dirt)
-Ore(factoriores:iron_ore,50,2,30.0,60,120,minecraft:mycelium,minecraft:dirt)
+Ore(factoriores:copper_ore,60,2,30.0,60,120,minecraft:mycelium,minecraft:dirt)
+Ore(factoriores:iron_ore,60,2,30.0,60,120,minecraft:mycelium,minecraft:dirt)
 Ore(minecraft:gravel,33,8,100.0,0,255,minecraft:stone)
 Liquid(minecraft:water,20,100.0,8,128,minecraft:stone)
 Liquid(minecraft:lava,10,100.0,8,128,minecraft:stone)

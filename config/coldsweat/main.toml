@@ -17,9 +17,9 @@ ShowConfigButton = true
 
 ["Item settings"]
 	#Fire Resistance blocks all hot temperatures
-	"Fire Resistance Immunity" = true
+	"Fire Resistance Immunity" = false
 	#Ice Resistance blocks all cold temperatures
-	"Ice Resistance Immunity" = true
+	"Ice Resistance Immunity" = false
 	#Thermometer item is required to see ambient temperature
 	"Require Thermometer" = true
 
@@ -37,13 +37,13 @@ ShowConfigButton = true
 ["Block Effects"]
 	#Allows for adding simple BlockEffects without the use of Java mods
 	#Format (All temperatures are in Minecraft units):
-	#["block ids (separated by ",")", <temperature>, <range (<= 7)>, <*true/false: weaken over distance>, <*max effect (temperature)>, <*min effect (temperature)>]
+	#["block ids (separated by ",")", <temperature>, <range (max 7)>, <*true/false: weaken over distance>, <*max effect (temperature)>, <*min effect (temperature)>]
 	#(* = optional) (1 °MC = 42 °F/ 23.33 °C)
 	#(the effect of the example below (torch) is so low that it does barely anything. It's purely for demonstration)
-	BlockEffects = [["diregoo:gooblock,diregoo:gooblockterrain", -1, 1, true]]
+	BlockEffects = [["diregoo:gooblock,diregoo:gooblockterrain", -1, 2, true]]
 
 ["Hearth Strength"]
-	#How strong the hearth is (default: 1.0)
+	#How strong the hearth is (default: 0.5)
 	#Range: 0.0 ~ 1.0
-	"Hearth Effect" = 0.5
+	"Hearth Strength" = 0.5
 

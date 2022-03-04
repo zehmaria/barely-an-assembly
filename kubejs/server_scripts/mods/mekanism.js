@@ -11,14 +11,6 @@ onEvent('recipes', event => {
     const ti3 = 'mekanism:elite_tier_installer';
     const ti4 = 'mekanism:ultimate_tier_installer';
 
-    const ic1 = 'mekanism:basic_induction_cell';
-    const ic2 = 'mekanism:advanced_induction_cell';
-    const ic3 = 'mekanism:elite_induction_cell';
-
-    const ip1 = 'mekanism:basic_induction_provider';
-    const ip2 = 'mekanism:advanced_induction_provider';
-    const ip3 = 'mekanism:elite_induction_provider';
-
     const _rg = 'mekanismgenerators:reactor_glass';
     const __c = 'diregoo:focust4';
     const __p = 'diregoo:powerampt4';
@@ -55,8 +47,8 @@ onEvent('recipes', event => {
         ['mekanism:configurator',                       [[air, Cpm, air], [mm1, Ktb, mm1], [Mlt, stk, Mlt]]],
         ['mekanism:energy_tablet',                      [[Iw1, Ic1, Iw1], [mm1, Ir1, mm1]]],
 
-        ['mekanism:basic_induction_cell',               [[KDl, mm3, KDl], [KDl, Ic3, KDl], [KDl, mm3, KDl]]],
-        ['mekanism:basic_induction_provider',           [[KDl, mm3, KDl], [KDl, Ik3, KDl], [KDl, mm3, KDl]]],
+        ['mekanism:basic_induction_cell',               [[KDl, mm3, KDl], [KDl, Ic2, KDl], [KDl, mm3, KDl]]],
+        ['mekanism:basic_induction_provider',           [[KDl, mm3, KDl], [KDl, Ik2, KDl], [KDl, mm3, KDl]]],
 
         ['mekanism:thermal_evaporation_controller',     [[Apq, _K2, Apq], [Kte, Cft, Kte], [Kte, Kte, Kte]]],
         ['mekanism:chargepad',                          [[tPs, tPe, tPs], [Khd, Ktb, Khd]]],
@@ -140,7 +132,7 @@ onEvent('recipes', event => {
             result: Item.of(X), inputs: [bI(Y[0]), bI(Y[1]), bI(Y[2]), bI(Y[3])]
         });
     }
-    circuit('mekanism:advanced_control_circuit', [[mm1, 3], [_K1, 2], [_I4, 3], [tDg, 3]]);
-    csAssembly(event, [[_K3, 'appliedenergistics2:printed_engineering_processor', _K2, [mm2, Khd, KCg, ltx], [['mekanism:lithium', 100]], 3]]);
-    arc(event, [[_K4, 512 * 20 * 20, _K3, [mm3, [HOP, 3], [KSg, 3], ['#forge:dusts/sulfur', 3]]]]);
+    circuit('mekanism:advanced_control_circuit', [[mm1, 3], [_K1, 2], [_I4, 3], [tDl, 3]]);
+    csAssembly(event, [[_K3, 'appliedenergistics2:printed_engineering_processor', _K2, [mm2, Khd, KCc, ltx], [['mekanism:lithium', 100]], 3]]);
+    arc(event, [[_K4, 512 * 20 * 20, _K3, [[mm3, 3], [HOP, 3], [KSg, 3], ['#forge:dusts/sulfur', 3]]]]);
 });
