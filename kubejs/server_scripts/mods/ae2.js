@@ -1,5 +1,4 @@
 onEvent('recipes', event => {
-    const _hv = 'immersiveengineering:coil_hv';
     const Apq = 'appliedenergistics2:purified_certus_quartz_crystal';
     const Apf = 'appliedenergistics2:purified_fluix_crystal';
     const Aqg = 'appliedenergistics2:quartz_glass';
@@ -25,7 +24,7 @@ onEvent('recipes', event => {
         ['3x appliedenergistics2:quartz_glass',            [[Apq, Khd, Apq], [Khd, Apq, Khd], [Apq, Khd, Apq]]],
         ['appliedenergistics2:annihilation_core',          [[air, _K1, air], [Apf, 'diregoo:gooresidue', Apf], [air, Cpm, air]]],
         ['appliedenergistics2:formation_core',             [[air, _K1, air], [Apf, Ked, Apf], [air, Cpm, air]]],
-        ['appliedenergistics2:quartz_growth_accelerator',  [[tPi, tPe, tPi], [Aqg, _hv, Aqg], [tPi, tPe, tPi]]],
+        ['appliedenergistics2:quartz_growth_accelerator',  [[tPi, tPe, tPi], [Aqg, Icm, Aqg], [tPi, tPe, tPi]]],
         ['appliedenergistics2:semi_dark_monitor',          [[Aqg, tPe, air], [Aqg, _K1, tPs], [Aqg, tPe, air]]],
 
         ['4x appliedenergistics2:fluix_smart_cable',          [[air, Apf, air], [Khd, Cfp, Khd], [air, _I4, air]]],

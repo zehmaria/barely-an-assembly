@@ -14,7 +14,7 @@
 [Health]
 	#The amount of health a user will have in a new game or after death.
 	#Range: 1 ~ 200
-	"Default Health" = 10
+	"Default Health" = 2
 	#The minimum amount of health LevelHearts will allow a user to be punished to.
 	#Range: 2 ~ 20
 	"Minimum Health" = 2
@@ -27,10 +27,10 @@
 	"Play Sound on Heart Gain" = true
 	#How many hearts (not health) to take away from the user each time they die. -1 to disable.
 	#Range: -1 ~ 10
-	"Punish Health" = -1
+	"Punish Health" = 1
 	#How many hearts (not health) to heal a player to each time they use a heart container. -1 for full health.
 	#Range: -1 ~ 200
-	"Heal Amount" = -1
+	"Heal Amount" = 10
 	#When disabled, the player will not be healed when they reach the next level on the level ramp.
 	"Heal on Level Up" = true
 	#When enabled, the player will lose some experience when they reach the next level on the level ramp.
@@ -45,7 +45,7 @@
 
 [Gui]
 	#When disabled, LevelHearts will not modify the hud at all. Only use if you're having conflicts with other mods.
-	"LevelHearts HUD" = true
+	"LevelHearts HUD" = false
 	#When enabled, the health will display in only one row with a number to the left indicating the row you're on.
 	"LevelHearts Minimal HUD" = true
 	#When enabled, health will not be displayed at all. Works well in combination with one-hit knockout.

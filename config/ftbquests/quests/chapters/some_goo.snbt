@@ -1,7 +1,7 @@
 {
 	id: "5299F22566871E20"
 	group: ""
-	order_index: 7
+	order_index: 8
 	filename: "some_goo"
 	title: "Corruption"
 	default_quest_shape: ""
@@ -10,11 +10,17 @@
 		{
 			x: 1.0d
 			y: -0.5d
+			subtitle: "While quite resistant against it, the goo is not immune to TNT."
 			id: "7982C0345C7F4ED5"
 			tasks: [{
 				id: "4CB2B8AC52C9664F"
 				type: "item"
 				item: "diregoo:gooresidue"
+			}]
+			rewards: [{
+				id: "6D17BA69EE097DCC"
+				type: "item"
+				item: "minecraft:tnt"
 			}]
 		}
 		{
@@ -25,6 +31,11 @@
 			id: "6BE0AE1191373562"
 			tasks: [{
 				id: "38705A1BC4ECC56A"
+				type: "item"
+				item: "diregoo:goonadefreeze"
+			}]
+			rewards: [{
+				id: "258638F167F9E3A6"
 				type: "item"
 				item: "diregoo:goonadefreeze"
 			}]
@@ -39,6 +50,13 @@
 				id: "312CB9D8568F7DD2"
 				type: "item"
 				item: "diregoo:antigoodust"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0C22F8591C29732D"
+				type: "item"
+				item: "diregoo:antigoodust"
+				count: 4
 			}]
 		}
 		{
@@ -62,6 +80,11 @@
 				type: "item"
 				item: "diregoo:turretblock"
 			}]
+			rewards: [{
+				id: "55E2DE8C1F5AB82B"
+				type: "item"
+				item: "diregoo:turretblock"
+			}]
 		}
 		{
 			x: 3.0d
@@ -70,6 +93,11 @@
 			id: "04162110BCBA8E1E"
 			tasks: [{
 				id: "5D05C28BBDEDF014"
+				type: "item"
+				item: "diregoo:gntblockt1"
+			}]
+			rewards: [{
+				id: "3BFB05E59B6DBA29"
 				type: "item"
 				item: "diregoo:gntblockt1"
 			}]
@@ -84,6 +112,11 @@
 				type: "item"
 				item: "diregoo:gntblockt2"
 			}]
+			rewards: [{
+				id: "64A3DAA9D10BD8CD"
+				type: "item"
+				item: "diregoo:gntblockt2"
+			}]
 		}
 		{
 			x: 3.0d
@@ -92,6 +125,11 @@
 			id: "2C28E0F270674EFF"
 			tasks: [{
 				id: "64E9958AD62CDD1C"
+				type: "item"
+				item: "diregoo:gntblockt3"
+			}]
+			rewards: [{
+				id: "17C5B5B272BC2673"
 				type: "item"
 				item: "diregoo:gntblockt3"
 			}]
@@ -106,6 +144,11 @@
 				type: "item"
 				item: "diregoo:gntblockt4"
 			}]
+			rewards: [{
+				id: "5AB9727ECEA96EC9"
+				type: "item"
+				item: "diregoo:gntblockt4"
+			}]
 		}
 		{
 			x: 4.0d
@@ -114,6 +157,11 @@
 			id: "40CA391F8A69D1F6"
 			tasks: [{
 				id: "218F135C0C4B50CB"
+				type: "item"
+				item: "diregoo:antigoofieldgen"
+			}]
+			rewards: [{
+				id: "4B6345D863A1A667"
 				type: "item"
 				item: "diregoo:antigoofieldgen"
 			}]

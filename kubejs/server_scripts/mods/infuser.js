@@ -10,6 +10,6 @@ onEvent('recipes', event => {
     minf('3x #forge:plates/iron', 'mekanism:gold', 20, '#forge:alloys/advanced');
     minf('minecraft:ender_pearl', 'mekanism:gold', 20, 'minecraft:ender_eye');
 
-    minf('create:andesite_casing', 'mekanism:redstone', 800, 'create:copper_casing');
-    minf('create:copper_casing', 'mekanism:gold', 1600, 'immersiveengineering:alloybrick');
+    minf('create:andesite_casing', 'mekanism:redstone', 160, 'create:copper_casing');
+    minf('create:copper_casing', 'mekanism:gold', 320, 'immersiveengineering:alloybrick');
 });

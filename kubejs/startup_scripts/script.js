@@ -30,13 +30,13 @@ onEvent('fluid.registry', event => {
 
 const cIT = ['create:shadow_steel_casing', 'appliedenergistics2:dense_energy_cell', 'appliedenergistics2:creative_energy_cell', 'kubejs:monolith_node', 'appliedenergistics2:controller', 'createaddition:creative_energy', 'mekanism:quantum_entangloporter', 'immersiveengineering:storage_steel', 'mekanism:teleporter', 'kubejs:elevator_cable'];
 const hIT = ['diregoo:gooblockterrain', 'diregoo:gooblock'];
-const eIT = ['factoriores:coal_ore', 'factoriores:iron_ore', 'factoriores:gold_ore', 'factoriores:copper_ore', 'factoriores:lead_ore', 'factoriores:uranium_ore', 'create:schematic_table'];
+const eIT = ['factoriores:coal_ore', 'factoriores:iron_ore', 'factoriores:gold_ore', 'factoriores:copper_ore', 'factoriores:lead_ore', 'factoriores:uranium_ore'];
 
 onEvent('block.modification', event => {
     cIT.forEach(X => event.modify(X, block => { block.destroySpeed = 1000000; block.explosionResistance = 1000000; }));
     hIT.forEach(X => event.modify(X, block => { block.destroySpeed = 1000000; block.explosionResistance = 15; }));
-    eIT.forEach(X => event.modify(X, block => { block.explosionResistance = 1000000; }));
+    eIT.forEach(X => event.modify(X, block => { block.explosionResistance = 1000000; block.destroySpeed = 3; }));
 
-    ['minecraft:sandstone', 'minecraft:stone'].forEach(X => event.modify(X, block => { block.destroySpeed = 15; }));
+    ['minecraft:sandstone', 'minecraft:stone'].forEach(X => event.modify(X, block => { block.destroySpeed = 2; }));
     event.modify('appliedenergistics2:controller', block => { block.lightEmission = 20; });
 });

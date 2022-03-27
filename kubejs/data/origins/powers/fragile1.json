@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Fragile health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": 2.0,
+    "operation": "addition"
+  },
+	"name": "Super Fragile",
+	"description": "Starts with 2 hearts."
+}

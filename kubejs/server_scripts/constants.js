@@ -28,6 +28,7 @@ const log = '#minecraft:logs';
 const pns = '#forge:glass_panes';
 const gla = '#forge:glass';
 const cld = 'minecraft:packed_ice';
+const rod = '#forge:rods/all_metal';
 
 const tIi = '#forge:ingots/iron';
 const tDi = '#forge:dusts/iron';
@@ -103,6 +104,7 @@ const Mcr = 'minecraft:carrot';
 const Mbr = 'minecraft:beetroot';
 const Mcp = 'minecraft:compass';
 const Mcw = '#forge:chests/wooden';
+const Mfe = '#forge:fences';
 const Mfu = 'minecraft:furnace';
 const Mct = 'minecraft:crafting_table';
 const Mcf = 'minecraft:campfire';
@@ -226,6 +228,7 @@ const Icc = 'immersiveengineering:coal_coke';
 const HOP = 'immersiveengineering:ingot_hop_graphite';
 const btm = 'immersivepetroleum:bitumen';
 const pet = 'immersivepetroleum:petcoke';
+const rev = 'immersiveengineering:revolver';
 
 const Cpr = 'create:propeller';
 const Cft = 'create:fluid_tank';

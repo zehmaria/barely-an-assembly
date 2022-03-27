@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  },
+	"name": "Hammerfull",
+	"description": "Your hands are too occupied to hold a shield."
+}

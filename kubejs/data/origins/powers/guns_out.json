@@ -1,0 +1,47 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+    			"type": "origins:give",
+    			"stack": {
+     				"item": "immersiveengineering:revolver",
+     	 			"amount": 1
+    			}
+			},
+			{
+    			"type": "origins:play_sound",
+    			"sound": "minecraft:block.metal.break"
+			}
+        ]
+    },
+    "cooldown": 24000,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_ingot"
+            }
+        }
+    },
+	"name": "Guns out!",
+	"description": "Can easily build guns out of iron, once a day."
+}

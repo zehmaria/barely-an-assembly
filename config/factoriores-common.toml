@@ -70,7 +70,7 @@ sulfurEnabled = false
 [ores]
 	#The hardness value of ore deposit blocks, which determines how fast it is to mine by hand. 0 = instant, 50 = obsidian, -1 = bedrock
 	#Range: -1.0 ~ 100.0
-	oreHardness = 20.0
+	oreHardness = 10.0
 	#The minimum amount that an ore deposit block will generate with. Set to -1 for infinite.
 	#Range: > -1
 	oreAmountMin = 100

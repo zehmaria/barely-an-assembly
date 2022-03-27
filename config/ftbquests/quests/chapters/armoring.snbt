@@ -1,14 +1,14 @@
 {
 	id: "4E791B2ECAF7422D"
 	group: ""
-	order_index: 6
+	order_index: 7
 	filename: "armoring"
 	title: "Utility"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -5.5d
+			x: -6.5d
 			y: -3.5d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "4FBF1772F6CA4C40"
@@ -295,7 +295,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: -3.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "44C27C0614BE440E"
@@ -348,7 +348,7 @@
 		}
 		{
 			disable_toast: true
-			x: -4.0d
+			x: -4.5d
 			y: -4.5d
 			dependencies: [
 				"25A7E19D6A11D39F"
@@ -380,7 +380,7 @@
 		}
 		{
 			disable_toast: true
-			x: 7.0d
+			x: 6.5d
 			y: -4.5d
 			dependencies: [
 				"1C600A3D53FB38D3"
@@ -395,7 +395,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: -5.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "344E5E52EC35D19C"
@@ -413,21 +413,49 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2057A5CAA35B3EC7"
+				type: "item"
+				item: "immersiveengineering:casull"
+				count: 16
+			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: -5.5d
 			dependencies: [
 				"344E5E52EC35D19C"
 				"70D2E9D105DA6E0A"
+				"4A322AA4891E94A3"
 			]
 			hide: true
 			id: "1668512EC5A9715D"
-			tasks: [{
-				id: "4F543A26BDDB6A8C"
-				type: "item"
-				item: "immersiveengineering:turret_gun"
-			}]
+			tasks: [
+				{
+					id: "4F543A26BDDB6A8C"
+					type: "item"
+					item: "immersiveengineering:turret_gun"
+				}
+				{
+					id: "417797FBAF5F9BEE"
+					type: "item"
+					item: "immersiveengineering:tesla_coil"
+				}
+			]
+			rewards: [
+				{
+					id: "37C6A70805AD2742"
+					type: "item"
+					item: "immersiveengineering:turret_gun"
+					count: 2
+				}
+				{
+					id: "7F14358E1FF8CAEC"
+					type: "item"
+					item: "immersiveengineering:tesla_coil"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -448,20 +476,14 @@
 					}
 				}
 			}]
-		}
-		{
-			x: 3.0d
-			y: -7.5d
-			dependencies: ["66E470000F1D97FE"]
-			id: "4E5085E1064731A0"
-			tasks: [{
-				id: "09FFC2927B8A67C2"
+			rewards: [{
+				id: "3ADD8CBF96281839"
 				type: "item"
-				item: "immersiveengineering:tesla_coil"
+				item: "immersiveengineering:stick_steel"
 			}]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -7.5d
 			dependencies: ["66E470000F1D97FE"]
 			id: "2B64A42CE5DEA389"
@@ -479,7 +501,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -5.0d
 			y: -6.5d
 			dependencies: ["344E5E52EC35D19C"]
 			id: "03B1B4289A934269"
@@ -509,6 +531,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "25421B7CF6749647"
+				type: "item"
+				item: "immersiveengineering:armor_piercing"
+				count: 32
+			}]
 		}
 		{
 			x: -0.5d
@@ -579,6 +607,11 @@
 				type: "item"
 				item: "immersiveengineering:turret_chem"
 			}]
+			rewards: [{
+				id: "6365A1FF14AF4218"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -605,7 +638,7 @@
 		}
 		{
 			x: 7.5d
-			y: -3.5d
+			y: -4.0d
 			dependencies: ["21C55F3CDE5DE98E"]
 			id: "73D2607FC73EA389"
 			tasks: [{
@@ -624,8 +657,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -2.5d
+			x: 8.5d
+			y: -4.0d
 			dependencies: ["73D2607FC73EA389"]
 			id: "1FA20C05893897C4"
 			tasks: [
@@ -657,8 +690,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -3.5d
+			x: 7.5d
+			y: -5.0d
 			dependencies: ["21C55F3CDE5DE98E"]
 			id: "44FC1AEACA0A5D55"
 			tasks: [{
@@ -677,8 +710,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.5d
+			x: 8.5d
+			y: -5.0d
 			dependencies: ["44FC1AEACA0A5D55"]
 			id: "588B76E5D0B53528"
 			tasks: [
@@ -717,7 +750,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -6.5d
 			dependencies: ["344E5E52EC35D19C"]
 			id: "4A322AA4891E94A3"
@@ -728,7 +761,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -7.5d
 			dependencies: ["4A322AA4891E94A3"]
 			id: "7615CE601AB8E7A9"
@@ -751,7 +784,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -8.5d
 			dependencies: ["7615CE601AB8E7A9"]
 			id: "45ED570C77C8821A"
@@ -774,7 +807,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -6.5d
 			y: -5.5d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "6069CB3CE11EA2F0"
@@ -878,7 +911,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -5.5d
 			y: -5.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "4B8E1A669B427F29"
@@ -897,11 +930,11 @@
 		}
 		{
 			disable_toast: true
-			x: -2.0d
+			x: -2.5d
 			y: -4.5d
 			dependencies: [
-				"3745B4F6AE56DE83"
 				"782F6E299A78BCC4"
+				"3745B4F6AE56DE83"
 			]
 			hide: true
 			id: "70D2E9D105DA6E0A"
@@ -986,7 +1019,7 @@
 		}
 		{
 			disable_toast: true
-			x: -5.5d
+			x: -6.5d
 			y: -4.5d
 			dependencies: ["7E1EB2A3E9A1678A"]
 			hide: true
@@ -1027,7 +1060,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.5d
 			y: -4.0d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "10E8C3A105C19994"
@@ -1044,7 +1077,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.5d
 			y: -5.5d
 			dependencies: ["70D2E9D105DA6E0A"]
 			id: "1ACF484FAD9FFD0C"
@@ -1055,7 +1088,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.5d
 			y: -3.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "431BBED1E899FF4F"
@@ -1111,6 +1144,13 @@
 				id: "178DEFE24F62504F"
 				type: "item"
 				item: "appliedenergistics2:semi_dark_monitor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "097521E7FB231E9A"
+				type: "item"
+				item: "appliedenergistics2:semi_dark_monitor"
+				count: 4
 			}]
 		}
 		{
@@ -1122,29 +1162,32 @@
 				id: "18E4EA3B7467A74A"
 				type: "item"
 				item: "immersiveengineering:electric_lantern"
+				count: 4L
+			}]
+			rewards: [{
+				id: "46BAD5BF4BA80437"
+				type: "item"
+				item: "immersiveengineering:electric_lantern"
+				count: 4
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.5d
 			y: -5.0d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "56E24A9F3632C0F0"
-			tasks: [{
-				id: "03FC6ED1770DB736"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
-		}
-		{
-			x: 7.5d
-			y: -5.5d
-			dependencies: ["21C55F3CDE5DE98E"]
-			id: "57AE4FF0EECBB813"
-			tasks: [{
-				id: "45D3E8EE836399D5"
-				type: "item"
-				item: "pneumaticcraft:kerosene_lamp"
-			}]
+			tasks: [
+				{
+					id: "03FC6ED1770DB736"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "7418A76C33CC2ED7"
+					type: "item"
+					item: "pneumaticcraft:kerosene_lamp"
+				}
+			]
 		}
 		{
 			disable_toast: true
@@ -1160,6 +1203,180 @@
 				id: "1F976F52757B4EE5"
 				type: "item"
 				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["70D2E9D105DA6E0A"]
+			id: "070F3F25216DA189"
+			tasks: [{
+				id: "33B4E23CC011D9B0"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
+			rewards: [{
+				id: "03B8809180160B53"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["070F3F25216DA189"]
+			id: "7F7FC87692D9B2E5"
+			tasks: [{
+				id: "6511A27AE4A698A4"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "253F9FF179AD651C"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["3745B4F6AE56DE83"]
+			id: "415835336CA7470F"
+			tasks: [{
+				id: "03631031F569CE1C"
+				type: "item"
+				item: "jecalculation:item_calculator_craft"
+			}]
+			rewards: [{
+				id: "4AB643F92C181DD4"
+				type: "item"
+				item: "jecalculation:item_calculator_math"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["1C600A3D53FB38D3"]
+			id: "2FF42EF6C37F084F"
+			tasks: [
+				{
+					id: "000A72C6133267E8"
+					type: "item"
+					item: {
+						id: "boss_tools:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63CBDC2C0DA6A1BC"
+					type: "item"
+					item: {
+						id: "boss_tools:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "006ED0D03348823B"
+					type: "item"
+					item: {
+						id: "boss_tools:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4356DD46F73BB019"
+					type: "item"
+					item: {
+						id: "boss_tools:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["2FF42EF6C37F084F"]
+			id: "7DA2DB438E3ECCF5"
+			tasks: [{
+				id: "05DA92A007B40947"
+				type: "item"
+				item: "boss_tools:oxygen_bubble_distributor"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: [
+				"21C55F3CDE5DE98E"
+				"7DA2DB438E3ECCF5"
+			]
+			id: "5FDB0F224A8E7516"
+			tasks: [{
+				id: "2A8F4F8652B37F02"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "3EED4A675FD1A125"
+				type: "item"
+				item: "boss_tools:rocket_launch_pad"
+				count: 9
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["5FDB0F224A8E7516"]
+			id: "16711D3E649A4CDE"
+			tasks: [{
+				id: "12AE80251901868A"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: ["16711D3E649A4CDE"]
+			id: "150D6624FB59C800"
+			tasks: [{
+				id: "5093659ABCC62623"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"origins:sturdy_rock",
+
+		"origins:climbing",
+		"origins:fall_immunity",
+
+		"origins:natural_armor2",
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed",
+
+		"origins:machine_heal",
+		"origins:machine_heal_2",
+		"origins:machine_heal_3",
+		"origins:machine_heal_4",
+		"origins:water_vulnerability2"
+	],
+	"icon": {
+		"item": "mekanism:alloy_atomic"
+	},
+	"order": 1,
+	"impact": 3,
+    "name": "Cyborg",
+    "description": "Be a sturdy rock in this dangerous world!"
+}

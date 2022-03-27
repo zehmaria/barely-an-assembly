@@ -1,11 +1,12 @@
 onEvent('block.tags', event => {
     event.add("barely:idle_griefing", [
-        "minecraft:cauldron", "minecraft:campfire", "myrtrees:wooden_bucket",
-        "compressedcreativity:rotational_compressor", "pneumaticcraft:charging_station", "pneumaticcraft:kerosene_lamp",
+        "minecraft:campfire", "compressedcreativity:rotational_compressor", "pneumaticcraft:charging_station", "pneumaticcraft:kerosene_lamp",
+
         "mekanism:formulaic_assemblicator",
+
         "factoriores:mechanical_miner", "factoriores:electrical_miner", "factoriores:burner_miner",
 
-        "diregoo:goodetector", "diregoo:antigoofieldgen", "diregoo:zapperturretblock", "diregoo:turretblock", "diregoo:gntblockt4", "diregoo:gntblockt3", "diregoo:gntblockt2", "diregoo:gntblockt1",
+        "diregoo:antigoofieldgen", "diregoo:turretblock",
 
         "mekanism:elite_chemical_tank", "mekanism:ultimate_chemical_tank", "mekanismgenerators:solar_generator", "mekanismgenerators:advanced_solar_generator", "mekanismgenerators:fusion_reactor_frame", "mekanismgenerators:fission_reactor_casing", "mekanismgenerators:turbine_casing", "mekanismgenerators:reactor_glass", "mekanismgenerators:laser_focus_matrix", "mekanismgenerators:fusion_reactor_port", "mekanismgenerators:fission_reactor_port", "mekanismgenerators:turbine_valve", "mekanism:rotary_condensentrator", "mekanism:chemical_oxidizer", "mekanism:chemical_infuser", "mekanism:chemical_injection_chamber", "mekanism:electrolytic_separator", "mekanism:precision_sawmill", "mekanism:chemical_dissolution_chamber", "mekanism:chemical_washer", "mekanism:chemical_crystallizer", "mekanism:pressurized_reaction_chamber", "mekanism:isotopic_centrifuge", "mekanism:nutritional_liquifier", "mekanism:laser", "mekanism:solar_neutron_activator", "mekanism:laser_amplifier", "mekanism:fuelwood_heater", "mekanism:resistive_heater", "mekanism:pigment_extractor", "mekanism:pigment_mixer", "mekanism:painting_machine", "mekanism:sps_casing", "mekanism:basic_chemical_tank", "mekanism:advanced_chemical_tank", "mekanism:boiler_casing", "mekanism:enrichment_chamber", "mekanism:combiner", "mekanism:crusher", "mekanism:metallurgic_infuser", "mekanism:chargepad", "mekanism:teleporter", "mekanism:energized_smelter", "mekanism:purification_chamber", "mekanism:dynamic_tank", "mekanism:structural_glass", "mekanism:thermal_evaporation_block", "mekanism:thermal_evaporation_controller", "mekanism:induction_casing", "mekanism:basic_induction_cell", "mekanism:advanced_induction_cell", "mekanism:elite_induction_cell", "mekanism:ultimate_induction_cell", "mekanism:superheating_element", "mekanism:sps_port", "mekanism:induction_port", "mekanism:thermal_evaporation_valve", "mekanism:dynamic_valve",
 
@@ -19,8 +20,29 @@ onEvent('block.tags', event => {
         "immersiveengineering:alloy_smelter", "immersiveengineering:arc_furnace", "immersiveengineering:assembler", "immersiveengineering:auto_workbench", "immersiveengineering:coke_oven", "immersiveengineering:blast_furnace", "immersiveengineering:crusher", "immersiveengineering:diesel_generator",  "immersiveengineering:excavator", "immersiveengineering:advanced_blast_furnace", "immersiveengineering:lightning_rod", "immersiveengineering:metal_press", "immersiveengineering:mixer", "immersiveengineering:sawmill", "immersiveengineering:silo", "immersiveengineering:squeezer",  "immersiveengineering:tank",
         "immersivepetroleum:pumpjack", "immersivepetroleum:hydrotreater", "immersivepetroleum:distillationtower", "immersivepetroleum:cokerunit",
 
-        "appliedenergistics2:quantum_ring", "appliedenergistics2:controller", "appliedenergistics2:drive", "appliedenergistics2:chest", "appliedenergistics2:condenser", "appliedenergistics2:quartz_growth_accelerator", "appliedenergistics2:crafting_unit", "appliedenergistics2:crafting_accelerator", "appliedenergistics2:1k_crafting_storage", "appliedenergistics2:4k_crafting_storage", "appliedenergistics2:16k_crafting_storage", "appliedenergistics2:64k_crafting_storage",
+        "appliedenergistics2:controller", "appliedenergistics2:drive", "appliedenergistics2:chest", "appliedenergistics2:condenser", "appliedenergistics2:quartz_growth_accelerator", "appliedenergistics2:crafting_unit", "appliedenergistics2:crafting_accelerator", "appliedenergistics2:1k_crafting_storage", "appliedenergistics2:4k_crafting_storage", "appliedenergistics2:16k_crafting_storage", "appliedenergistics2:64k_crafting_storage",
 
-        "createaddition:rolling_mill", "createaddition:alternator", "createaddition:electric_motor", "steampowered:cast_iron_burner", "steampowered:steel_flywheel", "steampowered:cast_iron_flywheel", "steampowered:bronze_flywheel", "steampowered:steel_steam_engine", "steampowered:cast_iron_steam_engine", "steampowered:bronze_steam_engine", "steampowered:cast_iron_boiler","create:hand_crank", "create:millstone", "create:sticky_mechanical_piston", "create:gantry_shaft", "create:rope_pulley", "create:spout", "create:hose_pulley", "create:fluid_tank", "create:mechanical_pump", "create:mechanical_press", "create:crushing_wheel", "create:copper_valve_handle", "create:mechanical_arm", "create:mechanical_crafter", "create:rotation_speed_controller", "create:mechanical_piston", "create:mechanical_bearing", "create:clockwork_bearing", "create:cart_assembler", "create:encased_fan", "create:schematicannon"
+        "createaddition:rolling_mill", "createaddition:alternator", "createaddition:electric_motor", "steampowered:cast_iron_burner", "steampowered:steel_flywheel", "steampowered:cast_iron_flywheel", "steampowered:bronze_flywheel", "steampowered:steel_steam_engine", "steampowered:cast_iron_steam_engine", "steampowered:bronze_steam_engine", "steampowered:cast_iron_boiler", "create:millstone", "create:sticky_mechanical_piston", "create:gantry_shaft", "create:rope_pulley", "create:spout", "create:hose_pulley", "create:fluid_tank", "create:mechanical_press", "create:crushing_wheel", "create:mechanical_arm", "create:mechanical_crafter", "create:rotation_speed_controller", "create:mechanical_piston", "create:mechanical_bearing", "create:clockwork_bearing", "create:cart_assembler", "create:encased_fan", "create:schematicannon"
+    ]);
+
+
+
+    event.add('barely:pollution_passable', [
+        '#barely:idle_griefing',
+
+        '#minecraft:doors', '#minecraft:rails', '#minecraft:wooden_pressure_plates', '#minecraft:carpets', '#minecraft:trapdoors',
+
+        //'adpother:carbon', 'adpother:sulfur',
+
+        'factoriores:burner_miner', 'factoriores:electrical_miner', 'factoriores:mechanical_miner',
+
+        'immersiveengineering:turret_chem', 'immersiveengineering:turret_chem', 'immersiveengineering:tesla_coil', 'immersiveengineering:cloche',
+
+        'appliedenergistics2:quartz_growth_accelerator', 'mekanism:formulaic_assemblicator', 'minecraft:furnace', 'minecraft:crafting_table', 'minecraft:composter', 'minecraft:daylight_detector', 'minecraft:stone_pressure_plate', 'minecraft:cauldron', 'minecraft:observer', 'minecraft:slime_block', 'minecraft:scaffolding', 'minecraft:campfire', 'minecraft:grindstone', 'minecraft:smoker', 'create:schematicannon', 'create:schematic_table', 'create:mechanical_pump',  'create:gantry_carriage']);
+
+
+
+    event.add('barely:monolith',[
+        'kubejs:monolith_node', 'create:shadow_steel_casing', 'appliedenergistics2:controller'
     ]);
 });

@@ -1,0 +1,15 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "immersiveengineering:revolver"
+        },
+        {
+            "item": "immersiveengineering:armor_piercing",
+            "amount": 32
+        }
+    ],
+	"name": "Self defense",
+	"description": "Starts with a revolver."
+}
+

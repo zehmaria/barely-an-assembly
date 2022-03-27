@@ -109,9 +109,10 @@ onEvent('recipes', event => {
 
     // RESET/PROTECT
     const _ML = [
-        'minecraft:zombie', 'minecraft:skeleton', 'minecraft:husk', 'minecraft:drowned', 'minecraft:wither', 'minecraft:creeper', 'minecraft:stray', 'minecraft:spider', 'minecraft:pillager', 'minecraft:piglin_brute', 'minecraft:vindicator', 'minecraft:ghast', 'minecraft:ravager',
+        'minecraft:zombie', 'minecraft:skeleton', 'minecraft:husk', 'minecraft:drowned', 'minecraft:wither_skeleton', 'minecraft:creeper', 'minecraft:stray', 'minecraft:spider', 'minecraft:pillager', 'minecraft:piglin_brute', 'minecraft:vindicator', 'minecraft:ghast', 'minecraft:ravager',
         'minecraft:cave_spider', 'minecraft:blaze', 'minecraft:enderman', 'minecraft:endermite', 'minecraft:evoker', 'minecraft:magma_cube', 'minecraft:phantom', 'minecraft:piglin', 'minecraft:silverfish', 'minecraft:slime', 'minecraft:vex', 'minecraft:witch', 'minecraft:zombie_villager',
-        'hordes:zombie_player', 'hordes:drowned_player'
+        'hordes:zombie_player', 'hordes:drowned_player',
+        'minecraft:illusioner', 'majruszs_difficulty:giant', 'majruszs_difficulty:pillager_wolf', 'majruszs_difficulty:elite_skeleton', 'majruszs_difficulty:sky_keeper', 'majruszs_difficulty:creeperling'
     ];
 
     sd(1, [

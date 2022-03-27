@@ -1,0 +1,34 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Extra Reach block reach",
+      "attribute": {
+        "name": "reach-entity-attributes:reach",
+        "platform": "fabric"
+      },
+      "value": 1.5,
+      "operation": "addition"
+    },
+    {
+      "name": "Extra Reach entity reach",
+      "attribute": {
+        "name": "reach-entity-attributes:attack_range",
+        "platform": "fabric"
+      },
+      "value": 1.5,
+      "operation": "addition"
+    },
+    {
+      "name": "Extra Reach forge",
+      "attribute": {
+        "name": "forge:reach_distance",
+        "platform": "forge"
+      },
+      "value": 2.5,
+      "operation": "addition"
+    }
+  ],
+	"name": "Logistic Arms",
+	"description": "Your experience allows you to reach further."
+}

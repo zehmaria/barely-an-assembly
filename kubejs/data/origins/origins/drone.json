@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"origins:fragile1",
+		"origins:shulker_inventory",
+
+		"origins:launch_into_air2",
+		"origins:elytra",
+		
+		"origins:claustrophobia2",
+
+		"origins:no_food",
+		"origins:machine_heal",
+		"origins:machine_heal_2",
+		"origins:machine_heal_3",
+		"origins:machine_heal_4",
+		"origins:water_vulnerability2"
+	],
+	"icon": {
+		"item": "pneumaticcraft:drone"
+	},
+	"order": 1,
+	"impact": 3,
+    "name": "Logistic drone",
+    "description": "Be a wild drone aiming to build all the paper clips!"
+}

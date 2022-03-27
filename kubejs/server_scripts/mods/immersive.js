@@ -14,8 +14,10 @@ onEvent('recipes', event => {
     addShaped(event, [
         ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPi, tPi]]],
 
+        ['immersiveengineering:razor_wire',             [[Mfe, rod, Mfe]]],
+
         ['immersiveengineering:workbench',              [[Caa, __s, __s], [Mct, air, 'immersiveposts:fence_copper']]],
-        ['immersiveengineering:electric_lantern',       [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
+        ['4x immersiveengineering:electric_lantern',    [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
 
         ['immersiveengineering:gunpart_hammer',         [[tPi, air, air], [tPi, tPi, air], [air, tPi, tPi]]],
         ['immersiveengineering:gunpart_drum',           [[air, tPi, air], [tPi, _I2, tPi], [air, tPi, air]]],

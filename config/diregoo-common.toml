@@ -35,13 +35,13 @@
 		canSpreadGoo = true
 		#The chance that goo will spread when it randomly ticks. The lower this is, the slower goo spreads.
 		#Range: 1 ~ 100
-		spreadChanceGoo = 50
+		spreadChanceGoo = 25
 
 	#Terrain Goo Specific Settings
 	[goo_spread.terrain_goo]
 		#The chance that terrain goo will spread when it randomly ticks. The lower this is, the slower goo spreads.
 		#Range: 1 ~ 100
-		spreadChanceTerrain = 100
+		spreadChanceTerrain = 75
 		#Can the terrain goo spread. Set the false to disable only terrain goo spreading.
 		canSpreadTerrain = true
 

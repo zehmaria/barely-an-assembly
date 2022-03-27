@@ -50,9 +50,9 @@ onEvent('recipes', event => {
 
     [['nickel', 'lead'], ['bronze', 'electrum'], ['zinc', 'gold'], ['brass', 'electrum'], ['constantan', 'copper'],
      ['osmium', 'copper'], ['tin', 'iron'], ['silver', 'gold'], ['aluminum', 'gold']].forEach(A => {
-        ['plates', 'ingots', 'nuggets', 'storage_blocks', 'rods', 'dusts'].forEach(B => {
-            event.replaceInput({}, '#forge:' + B + '/' + A[0], '#forge:' + B + '/' + A[1]);
-        });
+         ['plates', 'ingots', 'nuggets', 'storage_blocks', 'rods', 'dusts'].forEach(B => {
+             event.replaceInput({}, '#forge:' + B + '/' + A[0], '#forge:' + B + '/' + A[1]);
+         });
      });
 
     // NUGGET->INGOT ; INGOT->PLATE ; PLATE->GEAR

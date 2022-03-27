@@ -1,7 +1,7 @@
 {
 	id: "2F6DE9D550071EA0"
 	group: ""
-	order_index: 5
+	order_index: 6
 	filename: "monolith"
 	title: "Logistics"
 	default_quest_shape: ""
@@ -519,11 +519,6 @@
 			id: "5BBBEDD006E8C18B"
 			tasks: [
 				{
-					id: "433039998A33DC1D"
-					type: "item"
-					item: "minecraft:chest"
-				}
-				{
 					id: "6258948913B76E61"
 					type: "item"
 					item: "create:andesite_funnel"
@@ -534,6 +529,12 @@
 					item: "create:andesite_tunnel"
 				}
 			]
+			rewards: [{
+				id: "7A080FF81DA792D4"
+				type: "item"
+				item: "minecraft:chest"
+				count: 2
+			}]
 		}
 		{
 			x: -14.5d
@@ -580,6 +581,25 @@
 					id: "1B34FF6327E1F669"
 					type: "item"
 					item: "create:belt_connector"
+				}
+				{
+					id: "7BB484F01F372A25"
+					type: "item"
+					item: "minecraft:chest"
+				}
+			]
+			rewards: [
+				{
+					id: "5B1504B16F6F1316"
+					type: "item"
+					item: "create:belt_connector"
+					count: 32
+				}
+				{
+					id: "049F93B64D0E4002"
+					type: "item"
+					item: "create:shaft"
+					count: 32
 				}
 			]
 		}
@@ -922,6 +942,11 @@
 				type: "item"
 				item: "mekanism:qio_drive_base"
 			}]
+			rewards: [{
+				id: "4B2D0F25180B537D"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
 		}
 		{
 			x: -2.0d
@@ -930,6 +955,11 @@
 			id: "31A665C33A5F376F"
 			tasks: [{
 				id: "2DD8A53CE5464051"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [{
+				id: "10E911D86CCAFC35"
 				type: "item"
 				item: "mekanism:qio_drive_hyper_dense"
 			}]
@@ -944,6 +974,11 @@
 				type: "item"
 				item: "mekanism:qio_drive_time_dilating"
 			}]
+			rewards: [{
+				id: "21EA1209D3DF2731"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
 		}
 		{
 			x: -2.0d
@@ -955,24 +990,27 @@
 				type: "item"
 				item: "mekanism:qio_drive_supermassive"
 			}]
+			rewards: [{
+				id: "041A16FE9FD6202D"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -2.5d
 			dependencies: ["20D59327E43D24C9"]
 			id: "285E52EBE49CEACB"
-			tasks: [
-				{
-					id: "179EF39802C2E403"
-					type: "item"
-					item: "mekanism:qio_dashboard"
-				}
-				{
-					id: "0C9150D669A93FD6"
-					type: "item"
-					item: "mekanism:portable_qio_dashboard"
-				}
-			]
+			tasks: [{
+				id: "179EF39802C2E403"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "5A234E05A69AC6CA"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
 		}
 		{
 			x: -2.0d

@@ -1,7 +1,7 @@
 {
 	id: "7249A463856700DB"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "resources"
 	title: "Resources"
 	default_quest_shape: ""
@@ -43,6 +43,13 @@
 				id: "42EBE1E7D8D906E7"
 				type: "item"
 				item: "minecraft:iron_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6B0299BDBFCA6611"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -86,6 +93,13 @@
 				id: "00325A0BB6BA4019"
 				type: "item"
 				item: "immersiveengineering:plate_iron"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2EA7776FFB879759"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+				count: 4
 			}]
 		}
 		{
@@ -97,6 +111,13 @@
 				id: "30725D34EE664B5A"
 				type: "item"
 				item: "immersiveengineering:stick_iron"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4C071830D5B727FA"
+				type: "item"
+				item: "immersiveengineering:stick_iron"
+				count: 4
 			}]
 		}
 		{
@@ -109,6 +130,13 @@
 				id: "088F66E4E25CC594"
 				type: "item"
 				item: "create:crushed_iron_ore"
+				count: 24L
+			}]
+			rewards: [{
+				id: "5FF8CB58A01041FB"
+				type: "item"
+				item: "create:crushed_iron_ore"
+				count: 24
 			}]
 		}
 		{
@@ -122,6 +150,13 @@
 				id: "6C7203CA69AA65EE"
 				type: "item"
 				item: "create:crushed_lead_ore"
+				count: 24L
+			}]
+			rewards: [{
+				id: "156AA93F137477EE"
+				type: "item"
+				item: "create:crushed_lead_ore"
+				count: 24
 			}]
 		}
 		{
@@ -134,6 +169,13 @@
 				id: "49801DFCBC120B8A"
 				type: "item"
 				item: "create:crushed_gold_ore"
+				count: 24L
+			}]
+			rewards: [{
+				id: "3922F50EC3E2C4DF"
+				type: "item"
+				item: "create:crushed_gold_ore"
+				count: 24
 			}]
 		}
 		{
@@ -149,6 +191,13 @@
 				id: "1E3697A82067C35A"
 				type: "item"
 				item: "create:crushed_uranium_ore"
+				count: 24L
+			}]
+			rewards: [{
+				id: "3075DB0F199501D2"
+				type: "item"
+				item: "create:crushed_uranium_ore"
+				count: 24
 			}]
 		}
 		{
@@ -161,6 +210,13 @@
 				id: "57A11B31D5D560D6"
 				type: "item"
 				item: "create:crushed_copper_ore"
+				count: 24L
+			}]
+			rewards: [{
+				id: "66ECF65BF2D14994"
+				type: "item"
+				item: "create:crushed_copper_ore"
+				count: 24
 			}]
 		}
 		{
@@ -394,6 +450,13 @@
 				id: "2B1E90FFA72D251C"
 				type: "item"
 				item: "minecraft:gold_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "28ED87B33088A044"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -405,6 +468,13 @@
 				id: "559FB6A387582DA8"
 				type: "item"
 				item: "immersiveengineering:ingot_copper"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4E46F4DAAE473E9F"
+				type: "item"
+				item: "immersiveengineering:ingot_copper"
+				count: 4
 			}]
 		}
 		{
@@ -416,6 +486,13 @@
 				id: "0F3A12242C93D7E4"
 				type: "item"
 				item: "immersiveengineering:ingot_lead"
+				count: 4L
+			}]
+			rewards: [{
+				id: "588888840FC0A9B6"
+				type: "item"
+				item: "immersiveengineering:ingot_lead"
+				count: 4
 			}]
 		}
 		{
@@ -427,6 +504,13 @@
 				id: "3E738C0D1A66059C"
 				type: "item"
 				item: "immersiveengineering:ingot_uranium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4D5F3DC86105FC94"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+				count: 4
 			}]
 		}
 		{
@@ -486,6 +570,13 @@
 				id: "6FE1630F73679F6D"
 				type: "item"
 				item: "immersiveengineering:plate_gold"
+				count: 4L
+			}]
+			rewards: [{
+				id: "78623CD2C040F535"
+				type: "item"
+				item: "immersiveengineering:plate_gold"
+				count: 4
 			}]
 		}
 		{
@@ -497,6 +588,13 @@
 				id: "5209666807B4E4CD"
 				type: "item"
 				item: "immersiveengineering:plate_lead"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7852EF92FA4B4B74"
+				type: "item"
+				item: "immersiveengineering:plate_lead"
+				count: 4
 			}]
 		}
 		{
@@ -508,6 +606,13 @@
 				id: "4D600E457033D29D"
 				type: "item"
 				item: "immersiveengineering:plate_copper"
+				count: 4L
+			}]
+			rewards: [{
+				id: "287108FA84A25818"
+				type: "item"
+				item: "immersiveengineering:plate_copper"
+				count: 4
 			}]
 		}
 		{
@@ -519,6 +624,13 @@
 				id: "69500368A1C5FFE6"
 				type: "item"
 				item: "immersiveengineering:plate_uranium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4C8EBA2D882DEA42"
+				type: "item"
+				item: "immersiveengineering:plate_uranium"
+				count: 4
 			}]
 		}
 		{
@@ -533,6 +645,13 @@
 				id: "59A02CEADBE47238"
 				type: "item"
 				item: "create:andesite_alloy"
+				count: 8L
+			}]
+			rewards: [{
+				id: "33D886E78B5394C2"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 8
 			}]
 		}
 		{
@@ -544,6 +663,13 @@
 				id: "313B1B1733C0F8BA"
 				type: "item"
 				item: "immersiveposts:stick_copper"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7CD8D6D5FAA41626"
+				type: "item"
+				item: "immersiveposts:stick_copper"
+				count: 4
 			}]
 		}
 		{
@@ -555,6 +681,13 @@
 				id: "62B8436DDA465B7E"
 				type: "item"
 				item: "immersiveposts:stick_lead"
+				count: 4L
+			}]
+			rewards: [{
+				id: "58F8CB910A624196"
+				type: "item"
+				item: "immersiveposts:stick_lead"
+				count: 4
 			}]
 		}
 		{
@@ -566,6 +699,13 @@
 				id: "24CA3E402DE50DDA"
 				type: "item"
 				item: "immersiveposts:stick_uranium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "14E8D507950AA334"
+				type: "item"
+				item: "immersiveposts:stick_uranium"
+				count: 4
 			}]
 		}
 		{
@@ -577,6 +717,13 @@
 				id: "39A2526904E27893"
 				type: "item"
 				item: "immersiveposts:stick_gold"
+				count: 4L
+			}]
+			rewards: [{
+				id: "32CD32561DDB263A"
+				type: "item"
+				item: "immersiveposts:stick_gold"
+				count: 4
 			}]
 		}
 	]

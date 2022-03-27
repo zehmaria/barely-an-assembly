@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "origins:cyborg",
+    "origins:engineer",
+    "origins:drone",
+    "origins:monolith_attuned"
+  ],
+  "allow_random": true,
+  "allow_random_unchoosable": false
+}

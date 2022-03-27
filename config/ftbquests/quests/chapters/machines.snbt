@@ -1,7 +1,7 @@
 {
 	id: "413F3FFEC83FE6F5"
 	group: ""
-	order_index: 3
+	order_index: 4
 	filename: "machines"
 	title: "Processing"
 	default_quest_shape: ""
@@ -53,6 +53,12 @@
 				type: "item"
 				item: "myrtrees:rubberwood_sapling"
 			}]
+			rewards: [{
+				id: "54A108557A4FACBC"
+				type: "item"
+				item: "myrtrees:rubberwood_sapling"
+				count: 4
+			}]
 		}
 		{
 			x: -0.5d
@@ -67,6 +73,18 @@
 				}
 				{
 					id: "75E2A12824EAC6ED"
+					type: "item"
+					item: "myrtrees:wooden_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "104C841FD946E4C5"
+					type: "item"
+					item: "myrtrees:tree_tap"
+				}
+				{
+					id: "6EC6D52EB70FEF18"
 					type: "item"
 					item: "myrtrees:wooden_bucket"
 				}
@@ -359,6 +377,11 @@
 				type: "item"
 				item: "create:deployer"
 			}]
+			rewards: [{
+				id: "06D7B67448BC7372"
+				type: "item"
+				item: "create:deployer"
+			}]
 		}
 		{
 			x: 2.5d
@@ -370,6 +393,18 @@
 				type: "item"
 				item: "mekanism:formulaic_assemblicator"
 			}]
+			rewards: [
+				{
+					id: "277F3567D2DC9F22"
+					type: "item"
+					item: "mekanism:formulaic_assemblicator"
+				}
+				{
+					id: "4030706F559C4AA7"
+					type: "item"
+					item: "mekanism:crafting_formula"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -393,6 +428,12 @@
 					item: "mekanism:thermal_evaporation_block"
 				}
 			]
+			rewards: [{
+				id: "1CA1B4D388345E54"
+				type: "item"
+				item: "mekanism:thermal_evaporation_block"
+				count: 8
+			}]
 		}
 		{
 			x: 3.5d
@@ -412,6 +453,11 @@
 			id: "6A7865C233AD4803"
 			tasks: [{
 				id: "38236B77038D5C08"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "254F1BD0EDF9F3EF"
 				type: "item"
 				item: "create:crushing_wheel"
 			}]
@@ -785,32 +831,16 @@
 			y: 1.0d
 			dependencies: ["53176BADF13576D5"]
 			id: "6FF3F045EF35CB42"
-			tasks: [
-				{
-					id: "5B4F2A32823444D0"
-					type: "item"
-					item: "mekanism:nutritional_liquifier"
-				}
-				{
-					id: "11B44B4E3D1BA1F4"
-					type: "item"
-					item: {
-						id: "mekanism:canteen"
-						Count: 1b
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										gasName: "mekanism:nutritional_paste"
-										amount: 20000L
-									}
-								}]
-							}
-						}
-					}
-				}
-			]
+			tasks: [{
+				id: "5B4F2A32823444D0"
+				type: "item"
+				item: "mekanism:nutritional_liquifier"
+			}]
+			rewards: [{
+				id: "5CE408470DCA1E2A"
+				type: "item"
+				item: "mekanism:canteen"
+			}]
 		}
 	]
 }

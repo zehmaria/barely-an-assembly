@@ -1,0 +1,259 @@
+{
+	id: "6D32F60AE364E517"
+	group: ""
+	order_index: 1
+	filename: "milestone"
+	title: "Milestones"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "2B5D107F786C8871"
+			tasks: [{
+				id: "7D4F19906799434C"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["2B5D107F786C8871"]
+			id: "7F73F2CD1531E8B9"
+			tasks: [
+				{
+					id: "323536F40AEA500A"
+					type: "item"
+					item: "minecraft:smooth_stone"
+				}
+				{
+					id: "6FB23D0E3BBBEBA9"
+					type: "item"
+					item: "minecraft:coal"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["7F73F2CD1531E8B9"]
+			id: "2BAC6F4D94E7D1CE"
+			tasks: [
+				{
+					id: "609DB08178795BF2"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "40860B716F530823"
+					type: "item"
+					item: "myrtrees:latex"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["2BAC6F4D94E7D1CE"]
+			id: "4ABF8701702A17C1"
+			tasks: [
+				{
+					id: "5B7C679E6B382460"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "6D950E41CB3ABA22"
+					type: "item"
+					item: "immersiveengineering:component_iron"
+				}
+				{
+					id: "34688FFC236CA25C"
+					type: "item"
+					item: "mekanism:alloy_infused"
+				}
+				{
+					id: "4EF3F73AE40419D2"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["4ABF8701702A17C1"]
+			id: "1AAB096BC8D09C6C"
+			tasks: [
+				{
+					id: "743997369D219E81"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+				{
+					id: "681520DFA32B34FC"
+					type: "item"
+					item: "create:electron_tube"
+				}
+				{
+					id: "169B1215FB6EB4F5"
+					type: "item"
+					item: "appliedenergistics2:purified_certus_quartz_crystal"
+				}
+				{
+					id: "022B5002D419BB01"
+					type: "item"
+					item: "pneumaticcraft:compressed_iron_gear"
+				}
+				{
+					id: "09AB71EC5F06FE35"
+					type: "item"
+					item: "createaddition:capacitor"
+				}
+				{
+					id: "6777B1D86806F9EA"
+					type: "item"
+					item: "mekanism:advanced_control_circuit"
+				}
+				{
+					id: "4F85A4BD554B0102"
+					type: "item"
+					item: "pneumaticcraft:logistics_core"
+				}
+				{
+					id: "519C1A96B39E85D1"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+				}
+				{
+					id: "2EBE7A9BEC6A440F"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["1AAB096BC8D09C6C"]
+			id: "06827F215E774FF5"
+			tasks: [
+				{
+					id: "0FA22464DDE05F83"
+					type: "item"
+					item: "immersiveengineering:component_steel"
+				}
+				{
+					id: "5BCAE3448B5B303C"
+					type: "item"
+					item: "boss_tools:compressed_steel"
+				}
+				{
+					id: "0648B458D91935D3"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "5A58C1C9C20D4AC7"
+					type: "item"
+					item: "mekanism:elite_control_circuit"
+				}
+				{
+					id: "5F4C94BA5420ADB6"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+				}
+				{
+					id: "4216D4A8A6F89463"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+				}
+				{
+					id: "7AE439D42FE1B126"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+				}
+				{
+					id: "148C37B106104165"
+					type: "item"
+					item: "immersiveengineering:ingot_hop_graphite"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["06827F215E774FF5"]
+			id: "1EB682B135A85805"
+			tasks: [
+				{
+					id: "0CB23B5453F1F195"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+				}
+				{
+					id: "4F02FE3CFC1EAF15"
+					type: "item"
+					item: "mekanism:fluorite_gem"
+				}
+				{
+					id: "49F1E6AB454B17E1"
+					type: "item"
+					item: "immersivepetroleum:petcoke"
+				}
+				{
+					id: "7EC203D4C256572E"
+					type: "item"
+					item: "boss_tools:compressed_desh"
+				}
+				{
+					id: "1FC2D0F17BAABE45"
+					type: "item"
+					item: "mekanism:dust_lithium"
+				}
+				{
+					id: "371CB9C6DBC04706"
+					type: "item"
+					item: "immersiveengineering:dust_sulfur"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["1EB682B135A85805"]
+			id: "53A4AC3A606532EA"
+			tasks: [
+				{
+					id: "43E65E774C2CB161"
+					type: "item"
+					item: "mekanism:pellet_plutonium"
+				}
+				{
+					id: "0D526199CE7196BF"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+				{
+					id: "144E7E860BA28D4B"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+				}
+				{
+					id: "623AF71DFF260E09"
+					type: "item"
+					item: "boss_tools:compressed_silicon"
+				}
+			]
+		}
+	]
+}

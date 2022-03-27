@@ -1,7 +1,7 @@
 {
 	id: "2C8F3995E79CE54D"
 	group: ""
-	order_index: 2
+	order_index: 3
 	filename: "power_generation"
 	title: "Energy"
 	default_quest_shape: ""
@@ -108,9 +108,9 @@
 				item: "create:hand_crank"
 			}]
 			rewards: [{
-				id: "6A38EA8C759223AC"
+				id: "0999521CA3CD3381"
 				type: "item"
-				item: "create:copper_valve_handle"
+				item: "create:hand_crank"
 			}]
 		}
 		{
@@ -176,6 +176,18 @@
 					item: "steampowered:cast_iron_burner"
 				}
 			]
+			rewards: [
+				{
+					id: "48177F3A2BD7395D"
+					type: "item"
+					item: "steampowered:cast_iron_flywheel"
+				}
+				{
+					id: "1D843F7230E8F585"
+					type: "item"
+					item: "steampowered:cast_iron_steam_engine"
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -184,6 +196,11 @@
 			id: "516BDABFFE7355AC"
 			tasks: [{
 				id: "3F14BED3D7DA3FAA"
+				type: "item"
+				item: "create:copper_valve_handle"
+			}]
+			rewards: [{
+				id: "12870DF838CEA45B"
 				type: "item"
 				item: "create:copper_valve_handle"
 			}]
@@ -249,6 +266,12 @@
 					item: "create:fluid_pipe"
 				}
 			]
+			rewards: [{
+				id: "4986100BCFCECC90"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 4
+			}]
 		}
 		{
 			disable_toast: true
@@ -273,6 +296,11 @@
 			id: "08BDF759C7FB851B"
 			tasks: [{
 				id: "25F77EFE3EC2ABC2"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [{
+				id: "2D2F2DD7E846C4D4"
 				type: "item"
 				item: "mekanismgenerators:solar_generator"
 			}]
@@ -309,6 +337,18 @@
 					item: "immersiveengineering:capacitor_lv"
 				}
 			]
+			rewards: [
+				{
+					id: "3018A92B82524623"
+					type: "item"
+					item: "immersiveengineering:transformer"
+				}
+				{
+					id: "39C7FD313AD5D464"
+					type: "item"
+					item: "immersiveengineering:transformer_hv"
+				}
+			]
 		}
 		{
 			disable_toast: true
@@ -341,6 +381,18 @@
 					id: "482F609AB722CD9E"
 					type: "item"
 					item: "steampowered:bronze_flywheel"
+				}
+			]
+			rewards: [
+				{
+					id: "7A7D446D375F93BD"
+					type: "item"
+					item: "steampowered:cast_iron_boiler"
+				}
+				{
+					id: "5F74D81F4CD37373"
+					type: "item"
+					item: "steampowered:cast_iron_burner"
 				}
 			]
 		}
@@ -423,6 +475,11 @@
 			id: "581FB85DFB412EFC"
 			tasks: [{
 				id: "089A7E2A5D963DE8"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [{
+				id: "6205F331CA43C2A1"
 				type: "item"
 				item: "mekanismgenerators:advanced_solar_generator"
 			}]

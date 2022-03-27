@@ -44,7 +44,9 @@ onEvent('item.tooltip', tooltip => {
 
         'pneumaticcraft:compressed_iron_gear', 'moreminecarts:levitation_powder', 'immersiveengineering:treated_wood_horizontal',
 
-        'immersiveengineering:plate_copper', 'immersiveengineering:plate_lead', 'immersiveengineering:plate_uranium', 'immersiveengineering:plate_electrum', 'immersiveengineering:plate_steel', 'immersiveengineering:plate_iron', 'immersiveengineering:plate_gold'
+        'immersiveengineering:plate_copper', 'immersiveengineering:plate_lead', 'immersiveengineering:plate_uranium', 'immersiveengineering:plate_electrum', 'immersiveengineering:plate_steel', 'immersiveengineering:plate_iron', 'immersiveengineering:plate_gold',
+
+        'boss_tools:compressed_silicon', 'boss_tools:compressed_desh', 'boss_tools:compressed_steel'
     ].forEach(X => tooltip.add(X, '§3Common crafting material.'));
 
     ['create:crushed_lead_ore', 'create:crushed_uranium_ore', 'create:crushed_copper_ore', 'create:crushed_gold_ore', 'create:crushed_iron_ore',

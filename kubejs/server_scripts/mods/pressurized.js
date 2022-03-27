@@ -13,7 +13,7 @@ onEvent('recipes', event => {
         ['pneumaticcraft:transfer_gadget',        [[_K1], ['create:andesite_funnel'], [_I3]]],
         ['pneumaticcraft:advanced_pressure_tube', [[air, Apf, air], [Cgl, Ppt, Cgl], [air, Apf, air]]],
         ['pneumaticcraft:charging_station',       [[Ppt], ['immersiveengineering:charging_station'], ['pneumaticcraft:logistics_core']]],
-        ['pneumaticcraft:kerosene_lamp',          [[air, tPs, air], [tPs, gla, tPs]]],
+        ['pneumaticcraft:kerosene_lamp',          [[air, tIi, air], [tIi, gla, tIi]]],
         ['pneumaticcraft:tag_workbench',          [['minecraft:writable_book'], ['create:schematic_table']]],
         ['pneumaticcraft:pneumatic_wrench',       [[tPs, '#forge:dyes/orange', tPs], [Pac, air, air], [tPs, _I3, tPs]]],
         ['pneumaticcraft:logistics_configurator', [[tPs, '#forge:dyes/red', tPs], [Pac, air, air], [tPs, _I3, tPs]]],

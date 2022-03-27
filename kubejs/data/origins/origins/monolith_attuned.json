@@ -1,0 +1,26 @@
+{
+	"powers": [
+ 		"origins:fragile2",
+		"origins:monolith_heal",
+		"origins:go_home",
+		
+		"origins:throw_ender_pearl",
+
+		"origins:fire_immunity",
+		"origins:fall_immunity",
+		"origins:like_water",
+		
+		"origins:tailwind",
+		"origins:sprint_jump",
+		"origins:swim_speed",
+		
+		"origins:no_food"
+	],
+	"icon": {
+		"item": "kubejs:monolith_node"
+	},
+	"order": 1,
+	"impact": 3,
+    "name": "Attuned",
+    "description": "Be one with the monolith!"
+}

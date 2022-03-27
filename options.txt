@@ -23,16 +23,16 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:6
+renderDistance:8
 entityDistanceScaling:1.0
 guiScale:3
-particles:1
+particles:0
 maxFps:30
 difficulty:2
 graphicsMode:1
 ao:2
 biomeBlendRadius:2
-renderClouds:fast
+renderClouds:true
 resourcePacks:["mod_resources","vanilla"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -106,6 +106,9 @@ key_key.narrator:key.keyboard.b:CONTROL
 key_key.pause:key.keyboard.escape
 key_key.gui:key.keyboard.f1
 key_key.debugInfo:key.keyboard.f3
+key_key.origins.primary_active:key.keyboard.g
+key_key.origins.secondary_active:key.keyboard.v
+key_key.origins.view_origin:key.keyboard.o
 key_key.ftbchunks.map:key.keyboard.x
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
@@ -128,10 +131,10 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.unknown
-key_jecalculation.key.gui_craft:key.keyboard.unknown
-key_jecalculation.key.gui_math:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
+key_jecalculation.key.gui_craft:key.keyboard.unknown
+key_jecalculation.key.gui_math:key.keyboard.unknown
 key_Piston Pushcart Up:key.keyboard.space
 key_Piston Pushcart Down:key.keyboard.left.control
 key_pneumaticcraft.armor.options:key.keyboard.u
@@ -140,13 +143,13 @@ key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
 key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space
-key_key.boss_tools.rocket_start:key.keyboard.space
 key_nimble.keybind.frontView:key.keyboard.f4
 key_key.stepup.desc:key.keyboard.h
 key_key.toastcontrol.clear:key.keyboard.minus
 key_key.toggle_focus.desc:key.keyboard.tab
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
+key_key.boss_tools.rocket_start:key.keyboard.space
 key_key.backpack:key.keyboard.z
 key_key.ftbquests.quests:key.keyboard.keypad.0
 key_key.observable.profile:key.keyboard.r

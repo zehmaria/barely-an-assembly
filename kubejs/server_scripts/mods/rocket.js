@@ -1,4 +1,7 @@
 onEvent('recipes', event => {
+    addShaped(event, [
+        ['boss_tools:oxygen_bubble_distributor', [['create:encased_fan'], [Ile], ['pneumaticcraft:charging_station']]]
+    ]);
     csAssembly(event, [
         ['boss_tools:rocket_launch_pad', _cu, Ihe, [SC1, SC1, SC1, SC1], [['immersiveengineering:concrete', 100]], 1],
 

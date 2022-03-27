@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"origins:fragile2",
+		"origins:guns_out",
+		"origins:gun_out",
+		
+		"origins:phantomize2",
+		"origins:phasing2",
+		
+		"origins:master_of_webs",
+		
+		"origins:speedy_eng",
+		
+		"origins:extra_reach2",
+		"origins:aqua_affinity2",
+
+		"origins:no_shield2"
+	],
+	"icon": {
+		"item": "immersiveengineering:hammer"
+	},
+	"order": 1,
+	"impact": 3,
+    "name": "Engineer",
+    "description": "Be one with the machines!"
+}

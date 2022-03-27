@@ -1,7 +1,7 @@
 {
 	id: "48D1925008CD3C0A"
 	group: ""
-	order_index: 4
+	order_index: 5
 	filename: "automation"
 	title: "Automation"
 	default_quest_shape: ""
@@ -27,6 +27,11 @@
 			id: "79034AB880784A2C"
 			tasks: [{
 				id: "3DFE72D9BD02F31A"
+				type: "item"
+				item: "factoriores:burner_miner"
+			}]
+			rewards: [{
+				id: "40B6E56401D91194"
 				type: "item"
 				item: "factoriores:burner_miner"
 			}]
@@ -148,12 +153,17 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.5d
 			y: -3.5d
-			dependencies: ["0DAEED33EA49BEB2"]
+			dependencies: ["25BE59ED7BBC3778"]
 			id: "4A7C0A5885CCF022"
 			tasks: [{
 				id: "6DC2E6598A7AD89E"
+				type: "item"
+				item: "factoriores:mechanical_miner"
+			}]
+			rewards: [{
+				id: "46E39FDB2D097117"
 				type: "item"
 				item: "factoriores:mechanical_miner"
 			}]
@@ -184,6 +194,11 @@
 				type: "item"
 				item: "factoriores:electrical_miner"
 			}]
+			rewards: [{
+				id: "42F3F86191C7FB5C"
+				type: "item"
+				item: "factoriores:electrical_miner"
+			}]
 		}
 		{
 			x: 1.5d
@@ -192,6 +207,11 @@
 			id: "0FD44ABC51F6F998"
 			tasks: [{
 				id: "746131C5057CF296"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "18C3FFF503523DE3"
 				type: "item"
 				item: "immersiveengineering:cloche"
 			}]
@@ -238,6 +258,19 @@
 					id: "29789438C6F84EE9"
 					type: "item"
 					item: "create:schematic_table"
+				}
+			]
+			rewards: [
+				{
+					id: "14B5C21539AA3024"
+					type: "item"
+					item: "create:empty_schematic"
+					count: 3
+				}
+				{
+					id: "010C38724EA8D9B6"
+					type: "item"
+					item: "create:schematic_and_quill"
 				}
 			]
 		}
@@ -305,24 +338,22 @@
 			y: -1.5d
 			dependencies: ["669C1DAD4176C6A8"]
 			id: "433BF4B21C4ADAD0"
-			tasks: [
-				{
-					id: "4116EF85303CE4C2"
-					type: "item"
-					item: "immersiveengineering:sample_drill"
-				}
-				{
-					id: "151329453319B1EB"
-					type: "item"
-					item: {
-						id: "immersiveengineering:survey_tools"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4116EF85303CE4C2"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [{
+				id: "49F52018A13FEFB3"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 3.5d

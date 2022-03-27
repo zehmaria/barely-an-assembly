@@ -80,7 +80,7 @@ function csAssembly(event, Z) {
 
         event.custom({
             type: 'create:sequenced_assembly',
-            ingredient: Ingredient.of(zz[2]), transitionalItem: { item: zz[1] }, results: [{ item: zz[0] }],
+            ingredient: Ingredient.of(zz[2]), transitionalItem: { item: zz[1] }, results: [Item.of(zz[0])],
             sequence: sq,
             loops: zz[5]
         });
