@@ -5,7 +5,9 @@
     	"ingredient": {
         	"item": "levelhearts:heart_container"
     	}
-	}
+	},
+    "name": "As always",
+    "description": "Unable to easily gain more health"
 }
 
 

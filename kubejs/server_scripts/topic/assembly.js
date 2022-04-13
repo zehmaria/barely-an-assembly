@@ -7,7 +7,7 @@ onEvent('recipes', event => {
     const _a5 = [tPs, tPs, tPs, tPs];
 
     csAssembly(event, [
-        ['mekanism:formulaic_assemblicator', _cu, Mct, [mm1, _K1, _I4, Mcw, ltx], [], 1],
+        ['mekanism:formulaic_assemblicator', _cu, Mct, [mm1, _K1, _I4, ltx], [], 1],
         [tGd, 'immersiveengineering:slab_coke', Icc, [Icc, Icc, Icc, Icc, Icc], [], 10],
         [Pig, _cu, 'immersiveengineering:component_iron', [tPi, tPi, tPi, tPi, tPi], [], 10],
         ['pneumaticcraft:logistics_core', 'appliedenergistics2:printed_silicon', tPl, [_I2, Cca, Cpm, _K2, Apq], [], 1],
@@ -48,6 +48,8 @@ onEvent('recipes', event => {
         [Ic2, _cu, Ic1, [Icm, Icm, _K2, Ik2], [], 1],
 
         // DIREGOO
+        ['minecraft:tnt', _cu, snd,                                     [rst, Mgp, Kro], [['immersiveengineering:creosote', 250]], 1],
+
         [Dt1, _cu, 'minecraft:tnt',                                     [Dad, Dad, Dad], [['minecraft:water', 250]], 1],
         ['diregoo:turretblock', _cu, 'immersiveengineering:turret_gun', [Dad, Apf, _K1], [['minecraft:water', 250]], 1],
         ['diregoo:gooremover',  _cu, 'immersiveengineering:revolver',   [Dad, Apf, _K1, FTB], [['minecraft:lava', 250]], 3],
@@ -56,12 +58,7 @@ onEvent('recipes', event => {
         ['diregoo:goozapper', _cu, 'diregoo:gooremover',                [mm3, mm3, mm3, mm3], [['mekanism:sulfuric_acid', 1000]], 3],
         ['4x diregoo:goonadefreeze', _cu, 'diregoo:gooresidue',         [cld, cld, cld, cld], [], 1],
 
-        // TOOLS
-        ['boss_tools:steel_pickaxe', _cu, 'minecraft:wooden_pickaxe', _a5, [['immersiveengineering:creosote', 1000]], 5],
-        ['boss_tools:steel_axe',     _cu, 'minecraft:wooden_axe',     _a5, [['immersiveengineering:creosote', 1000]], 5],
-        ['boss_tools:steel_hoe',     _cu, 'minecraft:wooden_hoe',     _a5, [['immersiveengineering:creosote', 1000]], 5],
-        ['boss_tools:steel_shovel',  _cu, 'minecraft:wooden_shovel',  _a5, [['immersiveengineering:creosote', 1000]], 5],
-
+        // ARMOR
         [_a1, _cu, 'minecraft:leather_helmet',     _a5, [['immersiveengineering:creosote', 1000]], 5],
         [_a2, _cu, 'minecraft:leather_chestplate', _a5, [['immersiveengineering:creosote', 1000]], 5],
         [_a3, _cu, 'minecraft:leather_leggings',   _a5, [['immersiveengineering:creosote', 1000]], 5],
@@ -81,6 +78,15 @@ onEvent('recipes', event => {
         ['levelhearts:heart_container', 'levelhearts:heart_piece', 'minecraft:bread', ['minecraft:carrot', 'minecraft:baked_potato', 'minecraft:beetroot_soup',  '#minecraft:fishes'], [['create:honey', 50]], 3],
         ['trophyslots:trophy', _cu, tIg, [Mcw, 'create:super_glue', 'minecraft:paper', 'levelhearts:heart_piece'], [['minecraft:lava', 100]], 3],
         ['backpacked:backpack', _cu, 'minecraft:leather_chestplate', [Mlt, tST, ltx, 'trophyslots:trophy'], [['minecraft:water', 100]], 9],
+
+        ['minecraft:farmland', _cu, 'minecraft:coarse_dirt', [Mbm, Mbm, Mbm, Mbm], [['minecraft:water', 100]], 1],
+
+        // PARTIAL AUTO CRAFTING
+        ['appliedenergistics2:1k_crafting_storage',  _cu, Ire, [_K1, _K1, Apf, Plc], [['mekanism:lithium', 100]], 1],
+        ['appliedenergistics2:4k_crafting_storage',  _cu, Ac1, [_K2, _K2, Apf, Plc], [['mekanism:lithium', 100]], 1],
+        ['appliedenergistics2:16k_crafting_storage', _cu, Ac2, [_K3, _K3, Apf, Plc], [['mekanism:lithium', 100]], 1],
+        ['appliedenergistics2:64k_crafting_storage', _cu, Ac3, [_K4, _K4, Apf, Plc], [['mekanism:lithium', 100]], 1],
+        ['appliedenergistics2:crafting_accelerator', _cu, Ire, [mm3, Cpm, Apf, Plc], [['mekanism:lithium', 100]], 1],
 
         //[, _cu, , [], [['', 100]], 1],
     ]);

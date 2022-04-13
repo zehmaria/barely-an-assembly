@@ -12,4 +12,5 @@ onEvent('recipes', event => {
 
     minf('create:andesite_casing', 'mekanism:redstone', 160, 'create:copper_casing');
     minf('create:copper_casing', 'mekanism:gold', 320, 'immersiveengineering:alloybrick');
+    minf('pickletweaks:iron_paxel', 'mekanism:diamond', 640, 'pickletweaks:diamond_paxel');
 });

@@ -25,6 +25,16 @@
           ],
           "name": "minecraft:rotten_flesh"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.15,
+          "looting_multiplier": 0.1
+        }
       ]
     },
     {

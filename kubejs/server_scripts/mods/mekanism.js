@@ -21,6 +21,8 @@ onEvent('recipes', event => {
     const __s = 'mekanismgenerators:solar_generator';
 
     addShaped(event, [
+        ['mekanism:formulaic_assemblicator',            [[mm1, mm1, mm1], [ltx, Cc2, ltx], [_K1, Mct, _K1]]],
+
         ['mekanism:metallurgic_infuser',                [[tPi, Mfu, tPi], [rst, tRc, rst], [tPi, Mfu, tPi]]],
         ['mekanism:rotary_condensentrator',             [[gla, Kct, gla], [_K1, Ktb, _K1], [gla, Kdt, gla]]],
 

@@ -1,5 +1,7 @@
 onEvent('recipes', event => {
     const _rp = 'immersiveengineering:wirecoil_structure_rope';
+    const _rl = 'myrtrees:latex';
+
     addShapeless(event, [
         ['minecraft:redstone',           ['#forge:dusts/copper', '#forge:dyes/red']],
         ['minecraft:shears',             [tPi, Mlt, tPi]]
@@ -9,6 +11,9 @@ onEvent('recipes', event => {
     event.remove({ id: 'immersiveengineering:crafting/paper_from_sawdust' });
 
     addShaped(event, [
+        ['4x minecraft:slime_ball',     [[_rl, 'minecraft:green_dye'], ['mekanism:sawdust', _AA]]],
+        ['8x minecraft:slime_ball',     [[_rl, 'minecraft:green_dye'], ['mekanism:bio_fuel', _AA]]],
+        ['16x minecraft:slime_ball',    [[_rl, 'minecraft:green_dye'], ['immersivepetroleum:bitumen', _AA]]],
         ['minecraft:crafting_table',    [[log, log], [log, log]]],
         ['minecraft:flint_and_steel',   [[flt, tPi]]],
 

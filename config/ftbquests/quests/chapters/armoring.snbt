@@ -1,15 +1,15 @@
 {
 	id: "4E791B2ECAF7422D"
 	group: ""
-	order_index: 7
+	order_index: 4
 	filename: "armoring"
 	title: "Utility"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -6.5d
-			y: -3.5d
+			x: -9.0d
+			y: -5.5d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "4FBF1772F6CA4C40"
 			tasks: [
@@ -60,9 +60,9 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -2.5d
-			dependencies: ["6A802490DBF9C1AD"]
+			x: -9.0d
+			y: -6.5d
+			dependencies: ["4FBF1772F6CA4C40"]
 			id: "5BFF5C46B95F70F2"
 			tasks: [
 				{
@@ -112,8 +112,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: -9.0d
+			y: -7.5d
 			dependencies: ["5BFF5C46B95F70F2"]
 			id: "589890A8FDC9CE40"
 			tasks: [
@@ -164,8 +164,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -3.0d
+			x: 1.5d
+			y: -3.5d
 			hide_dependency_lines: false
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "4697A8B1E6A93723"
@@ -188,8 +188,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 			dependencies: ["4697A8B1E6A93723"]
 			id: "705E6A060412060D"
 			tasks: [
@@ -211,8 +211,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: 0.5d
+			y: -3.5d
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "0D07201CF21742D6"
 			tasks: [
@@ -239,8 +239,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: 0.5d
+			y: -2.5d
 			dependencies: ["0D07201CF21742D6"]
 			id: "637C4DA0D5FC68BB"
 			tasks: [{
@@ -254,7 +254,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -4.5d
 			y: -3.5d
 			dependencies: ["70D2E9D105DA6E0A"]
 			id: "62F8B297AC8E6DC1"
@@ -295,7 +295,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -6.5d
 			y: -3.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "44C27C0614BE440E"
@@ -348,7 +348,7 @@
 		}
 		{
 			disable_toast: true
-			x: -4.5d
+			x: -7.0d
 			y: -4.5d
 			dependencies: [
 				"25A7E19D6A11D39F"
@@ -364,7 +364,7 @@
 		}
 		{
 			disable_toast: true
-			x: 2.5d
+			x: 1.0d
 			y: -4.5d
 			dependencies: [
 				"77F0316DB70F0D6D"
@@ -380,7 +380,7 @@
 		}
 		{
 			disable_toast: true
-			x: 6.5d
+			x: 5.5d
 			y: -4.5d
 			dependencies: [
 				"1C600A3D53FB38D3"
@@ -395,7 +395,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -6.5d
 			y: -5.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "344E5E52EC35D19C"
@@ -421,11 +421,11 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: -5.5d
 			dependencies: [
-				"344E5E52EC35D19C"
 				"70D2E9D105DA6E0A"
+				"03B1B4289A934269"
 				"4A322AA4891E94A3"
 			]
 			hide: true
@@ -458,8 +458,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -6.5d
+			x: 1.5d
+			y: -5.5d
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "66E470000F1D97FE"
 			tasks: [{
@@ -483,8 +483,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -7.5d
+			x: 1.5d
+			y: -6.5d
 			dependencies: ["66E470000F1D97FE"]
 			id: "2B64A42CE5DEA389"
 			tasks: [
@@ -501,8 +501,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -6.5d
+			x: -5.5d
+			y: -5.5d
 			dependencies: ["344E5E52EC35D19C"]
 			id: "03B1B4289A934269"
 			tasks: [
@@ -510,11 +510,6 @@
 					id: "426EE9A1A5B232B9"
 					type: "item"
 					item: "immersiveengineering:toolupgrade_revolver_magazine"
-				}
-				{
-					id: "5935EAD1DAA3A094"
-					type: "item"
-					item: "immersiveengineering:toolupgrade_revolver_electro"
 				}
 				{
 					id: "5C9328656D1637B0"
@@ -539,7 +534,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -2.0d
 			y: -5.5d
 			dependencies: ["41FF117C3DB2E9DD"]
 			id: "554742CD3C1DEDAE"
@@ -556,8 +551,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
+			x: 0.5d
+			y: -5.5d
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "3B56145E4A91A5C1"
 			tasks: [{
@@ -567,8 +562,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -6.0d
+			x: 2.5d
+			y: -5.5d
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "49C0F240F25238D4"
 			tasks: [{
@@ -578,7 +573,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.5d
 			y: -5.5d
 			dependencies: ["21C55F3CDE5DE98E"]
 			id: "0007F6DE551D72A5"
@@ -598,7 +593,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: -6.5d
 			dependencies: ["0007F6DE551D72A5"]
 			id: "46C0D151FB184250"
@@ -614,7 +609,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.0d
 			y: -6.5d
 			dependencies: ["0007F6DE551D72A5"]
 			id: "0B2FD5DD3E5F3777"
@@ -637,7 +632,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 6.5d
 			y: -4.0d
 			dependencies: ["21C55F3CDE5DE98E"]
 			id: "73D2607FC73EA389"
@@ -657,7 +652,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: -4.0d
 			dependencies: ["73D2607FC73EA389"]
 			id: "1FA20C05893897C4"
@@ -690,7 +685,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 6.5d
 			y: -5.0d
 			dependencies: ["21C55F3CDE5DE98E"]
 			id: "44FC1AEACA0A5D55"
@@ -710,7 +705,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: -5.0d
 			dependencies: ["44FC1AEACA0A5D55"]
 			id: "588B76E5D0B53528"
@@ -750,7 +745,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.5d
 			y: -6.5d
 			dependencies: ["344E5E52EC35D19C"]
 			id: "4A322AA4891E94A3"
@@ -761,7 +756,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -5.5d
 			y: -7.5d
 			dependencies: ["4A322AA4891E94A3"]
 			id: "7615CE601AB8E7A9"
@@ -784,7 +779,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.5d
 			y: -8.5d
 			dependencies: ["7615CE601AB8E7A9"]
 			id: "45ED570C77C8821A"
@@ -807,130 +802,25 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -10.0d
 			y: -5.5d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "6069CB3CE11EA2F0"
-			tasks: [
-				{
-					id: "78338A147559A207"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "186E6F34CD562E09"
+				type: "item"
+				item: {
+					id: "pickletweaks:wooden_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "1CAA1406D34D82FD"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "12846A553C8F1010"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "23AE00EF6756DEC3"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 4.5d
-			y: -3.5d
-			dependencies: ["6A802490DBF9C1AD"]
-			id: "2390F72B8A7644ED"
-			tasks: [
-				{
-					id: "5EC06F48DF41237F"
-					type: "item"
-					item: {
-						id: "immersiveengineering:pickaxe_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0FEB447286C342B2"
-					type: "item"
-					item: {
-						id: "immersiveengineering:axe_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2D0ABF222A198850"
-					type: "item"
-					item: {
-						id: "immersiveengineering:shovel_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "33B543CACBDEA665"
-					type: "item"
-					item: {
-						id: "immersiveengineering:hoe_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: -5.5d
-			dependencies: ["3745B4F6AE56DE83"]
-			id: "4B8E1A669B427F29"
-			tasks: [
-				{
-					id: "7BA26AD1C5503C83"
-					type: "item"
-					item: "minecraft:minecart"
-				}
-				{
-					id: "652E08CDCE0384E8"
-					type: "item"
-					item: "minecraft:rail"
-				}
-			]
+			}]
 		}
 		{
 			disable_toast: true
-			x: -2.5d
+			x: -4.0d
 			y: -4.5d
 			dependencies: [
 				"782F6E299A78BCC4"
@@ -945,7 +835,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -2.0d
 			y: -3.5d
 			dependencies: ["41FF117C3DB2E9DD"]
 			id: "5683BA9F414DFADF"
@@ -962,7 +852,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: -3.5d
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "7388122451786029"
@@ -983,7 +873,7 @@
 		}
 		{
 			disable_toast: true
-			x: 5.5d
+			x: 4.0d
 			y: -4.5d
 			dependencies: [
 				"6A802490DBF9C1AD"
@@ -998,8 +888,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -5.5d
+			x: 4.0d
+			y: -3.5d
 			dependencies: ["1C600A3D53FB38D3"]
 			id: "5B9BF12D4A49C047"
 			tasks: [{
@@ -1019,7 +909,7 @@
 		}
 		{
 			disable_toast: true
-			x: -6.5d
+			x: -10.0d
 			y: -4.5d
 			dependencies: ["7E1EB2A3E9A1678A"]
 			hide: true
@@ -1038,8 +928,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -5.5d
+			x: 2.5d
+			y: -3.5d
 			dependencies: ["6A802490DBF9C1AD"]
 			id: "26A4CCA5E5C87C68"
 			tasks: [{
@@ -1049,19 +939,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -5.5d
-			dependencies: ["6A802490DBF9C1AD"]
-			id: "31D736D693E14603"
-			tasks: [{
-				id: "02704C384B5BA704"
-				type: "item"
-				item: "mekanism:canteen"
-			}]
-		}
-		{
-			x: -7.5d
-			y: -4.0d
+			x: -10.0d
+			y: -3.5d
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "10E8C3A105C19994"
 			tasks: [{
@@ -1077,7 +956,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: -5.5d
 			dependencies: ["70D2E9D105DA6E0A"]
 			id: "1ACF484FAD9FFD0C"
@@ -1088,7 +967,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -7.5d
 			y: -3.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "431BBED1E899FF4F"
@@ -1099,46 +978,12 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.5d
-			dependencies: ["70D2E9D105DA6E0A"]
-			id: "57B6581E987E9F80"
-			tasks: [{
-				id: "0078339F58E8AED4"
-				type: "item"
-				item: "appliedenergistics2:purified_certus_quartz_crystal"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -2.5d
-			dependencies: ["57B6581E987E9F80"]
-			id: "2917CD53DF8D0F90"
-			tasks: [{
-				id: "56C67F09D8E8B42B"
-				type: "item"
-				item: "appliedenergistics2:quartz_glass"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -1.5d
-			dependencies: ["2917CD53DF8D0F90"]
-			id: "16C250AA5964F467"
-			tasks: [{
-				id: "7EAE7C2518E4D02D"
-				type: "item"
-				item: "appliedenergistics2:quartz_growth_accelerator"
-			}]
-		}
-		{
-			x: -2.5d
-			y: -1.5d
+			x: -11.0d
+			y: -7.5d
 			dependencies: [
-				"2917CD53DF8D0F90"
 				"026EAB30C11A0392"
+				"22D10BDF728F79EA"
 			]
-			hide: true
 			id: "315DA43271721C21"
 			tasks: [{
 				id: "178DEFE24F62504F"
@@ -1154,9 +999,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
-			dependencies: ["57B6581E987E9F80"]
+			x: -11.0d
+			y: -6.5d
+			dependencies: ["56E24A9F3632C0F0"]
 			id: "22D10BDF728F79EA"
 			tasks: [{
 				id: "18E4EA3B7467A74A"
@@ -1172,26 +1017,20 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -5.0d
+			x: -11.0d
+			y: -5.5d
+			description: ["Look for \"Light Source\" in JEI. "]
 			dependencies: ["25A7E19D6A11D39F"]
 			id: "56E24A9F3632C0F0"
-			tasks: [
-				{
-					id: "03FC6ED1770DB736"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-				{
-					id: "7418A76C33CC2ED7"
-					type: "item"
-					item: "pneumaticcraft:kerosene_lamp"
-				}
-			]
+			tasks: [{
+				id: "03FC6ED1770DB736"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
 		}
 		{
 			disable_toast: true
-			x: -0.5d
+			x: -2.0d
 			y: -4.5d
 			dependencies: [
 				"487DA82DD9C70DA1"
@@ -1206,8 +1045,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
+			x: -3.5d
+			y: -3.5d
 			dependencies: ["70D2E9D105DA6E0A"]
 			id: "070F3F25216DA189"
 			tasks: [{
@@ -1222,8 +1061,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.5d
+			x: -3.5d
+			y: -2.5d
 			dependencies: ["070F3F25216DA189"]
 			id: "7F7FC87692D9B2E5"
 			tasks: [{
@@ -1246,8 +1085,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.5d
+			x: -7.5d
+			y: -5.5d
 			dependencies: ["3745B4F6AE56DE83"]
 			id: "415835336CA7470F"
 			tasks: [{
@@ -1262,121 +1101,48 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -3.5d
-			dependencies: ["1C600A3D53FB38D3"]
-			id: "2FF42EF6C37F084F"
-			tasks: [
-				{
-					id: "000A72C6133267E8"
-					type: "item"
-					item: {
-						id: "boss_tools:oxygen_mask"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "63CBDC2C0DA6A1BC"
-					type: "item"
-					item: {
-						id: "boss_tools:space_suit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "006ED0D03348823B"
-					type: "item"
-					item: {
-						id: "boss_tools:space_pants"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4356DD46F73BB019"
-					type: "item"
-					item: {
-						id: "boss_tools:space_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 5.5d
-			y: -2.5d
-			dependencies: ["2FF42EF6C37F084F"]
-			id: "7DA2DB438E3ECCF5"
+			x: -10.0d
+			y: -6.5d
+			dependencies: ["6069CB3CE11EA2F0"]
+			id: "43C0563873E1D354"
 			tasks: [{
-				id: "05DA92A007B40947"
-				type: "item"
-				item: "boss_tools:oxygen_bubble_distributor"
-			}]
-		}
-		{
-			x: 6.5d
-			y: -2.5d
-			dependencies: [
-				"21C55F3CDE5DE98E"
-				"7DA2DB438E3ECCF5"
-			]
-			id: "5FDB0F224A8E7516"
-			tasks: [{
-				id: "2A8F4F8652B37F02"
+				id: "5FA7914573EAB923"
 				type: "item"
 				item: {
-					id: "boss_tools:rocket_t1"
+					id: "pickletweaks:iron_paxel"
 					Count: 1b
-					tag: { }
-				}
-				count: 2L
-			}]
-			rewards: [{
-				id: "3EED4A675FD1A125"
-				type: "item"
-				item: "boss_tools:rocket_launch_pad"
-				count: 9
-			}]
-		}
-		{
-			x: 7.5d
-			y: -2.5d
-			dependencies: ["5FDB0F224A8E7516"]
-			id: "16711D3E649A4CDE"
-			tasks: [{
-				id: "12AE80251901868A"
-				type: "item"
-				item: {
-					id: "boss_tools:rocket_t2"
-					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 			}]
 		}
 		{
-			x: 8.5d
-			y: -2.5d
-			dependencies: ["16711D3E649A4CDE"]
-			id: "150D6624FB59C800"
+			x: -10.0d
+			y: -7.5d
+			dependencies: ["43C0563873E1D354"]
+			id: "630CFD404DCF7CC0"
 			tasks: [{
-				id: "5093659ABCC62623"
+				id: "5DF4B8ACA149D8E0"
 				type: "item"
 				item: {
-					id: "boss_tools:rocket_t3"
+					id: "pickletweaks:diamond_paxel"
 					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["6A802490DBF9C1AD"]
+			id: "77B3709E80305B27"
+			tasks: [{
+				id: "1A98704202A5D453"
+				type: "item"
+				item: "immersiveengineering:razor_wire"
 			}]
 		}
 	]

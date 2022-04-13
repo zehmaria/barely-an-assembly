@@ -3,13 +3,13 @@
 	group: ""
 	order_index: 0
 	filename: "begin"
-	title: "Research Line"
+	title: "Assembly Line"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -8.0d
-			y: -3.5d
+			x: -10.0d
+			y: -1.5d
 			description: ["To be fair, I don't really know how I'm still alive, or if this is just me losing my mind, but here I am locked into a ceaseless cycle of death. And neither do I know where everyone else is, or even if they are somewhere. I just remember that things didn't end well...  So much time failing at dealing with the goo took a toll on all of us. So much that we eventually snapped, but while the others are nowhere to be seen, the goo is still here. And so am I, doing the same old thing."]
 			id: "7E1EB2A3E9A1678A"
 			tasks: [{
@@ -24,15 +24,22 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2B6C989931FF82E2"
-				type: "item"
-				item: "ftbquests:book"
-			}]
+			rewards: [
+				{
+					id: "2B6C989931FF82E2"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "6D79090817279C52"
+					type: "item"
+					item: "levelhearts:heart_container"
+				}
+			]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
+			x: -9.0d
+			y: -3.5d
 			dependencies: ["487DA82DD9C70DA1"]
 			id: "48C5B2FF1EFCA153"
 			tasks: [{
@@ -40,10 +47,19 @@
 				type: "item"
 				item: "immersiveengineering:cokebrick"
 			}]
+			rewards: [{
+				id: "4350C8A1F30F0BD1"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			x: -5.0d
-			y: -2.0d
+			x: -9.0d
+			y: -2.5d
 			description: ["Maybe I should try scrapping the monolith with a steel tool."]
 			dependencies: ["48C5B2FF1EFCA153"]
 			id: "77F0316DB70F0D6D"
@@ -52,10 +68,15 @@
 				type: "item"
 				item: "immersiveengineering:blastbrick"
 			}]
+			rewards: [{
+				id: "02571BE477FC74CF"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
 		}
 		{
-			x: -7.0d
-			y: -3.0d
+			x: -10.0d
+			y: -2.5d
 			dependencies: ["7E1EB2A3E9A1678A"]
 			id: "39B6B48084D9D404"
 			tasks: [{
@@ -63,10 +84,19 @@
 				type: "item"
 				item: "create:andesite_casing"
 			}]
+			rewards: [{
+				id: "404CE6CD931F52A5"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
+			x: -9.0d
+			y: -4.5d
 			dependencies: ["782F6E299A78BCC4"]
 			id: "487DA82DD9C70DA1"
 			tasks: [{
@@ -74,9 +104,14 @@
 				type: "item"
 				item: "create:brass_casing"
 			}]
+			rewards: [{
+				id: "42B515A3A742D706"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
 		}
 		{
-			x: -6.0d
+			x: -10.0d
 			y: -4.5d
 			dependencies: ["56E548CE380158E6"]
 			id: "782F6E299A78BCC4"
@@ -85,10 +120,19 @@
 				type: "item"
 				item: "immersiveengineering:alloybrick"
 			}]
+			rewards: [{
+				id: "0F83F31FFFF70D42"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			x: -5.0d
-			y: -5.0d
+			x: -8.0d
+			y: -2.5d
 			dependencies: ["7441D95046A770F4"]
 			id: "5FEB3B5CCC3BC746"
 			tasks: [{
@@ -96,10 +140,19 @@
 				type: "item"
 				item: "immersiveengineering:light_engineering"
 			}]
+			rewards: [{
+				id: "218736AC98F704E8"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			x: -4.0d
-			y: -4.5d
+			x: -8.0d
+			y: -3.5d
 			dependencies: ["5FEB3B5CCC3BC746"]
 			id: "41B6801E2813E159"
 			tasks: [{
@@ -107,10 +160,15 @@
 				type: "item"
 				item: "immersiveengineering:heavy_engineering"
 			}]
+			rewards: [{
+				id: "7CA8EE8FDA274EA8"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
 		}
 		{
-			x: -5.0d
-			y: -3.0d
+			x: -9.0d
+			y: -1.5d
 			dependencies: ["77F0316DB70F0D6D"]
 			dependency_requirement: "one_completed"
 			id: "44774B818002EDBE"
@@ -119,10 +177,19 @@
 				type: "item"
 				item: "immersiveengineering:rs_engineering"
 			}]
+			rewards: [{
+				id: "790539617EBAF22A"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			x: -7.0d
-			y: -4.0d
+			x: -10.0d
+			y: -3.5d
 			dependencies: ["39B6B48084D9D404"]
 			id: "56E548CE380158E6"
 			tasks: [{
@@ -130,10 +197,15 @@
 				type: "item"
 				item: "create:copper_casing"
 			}]
+			rewards: [{
+				id: "2B35D014882C7BA0"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
 		}
 		{
-			x: -5.0d
-			y: -4.0d
+			x: -8.0d
+			y: -1.5d
 			dependencies: ["44774B818002EDBE"]
 			id: "7441D95046A770F4"
 			tasks: [{
@@ -141,10 +213,15 @@
 				type: "item"
 				item: "mekanism:steel_casing"
 			}]
+			rewards: [{
+				id: "219F0B73A66F6581"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
 		}
 		{
-			x: -4.0d
-			y: -3.5d
+			x: -8.0d
+			y: -4.5d
 			dependencies: ["41B6801E2813E159"]
 			id: "0FF102333D39972F"
 			tasks: [{
@@ -152,10 +229,19 @@
 				type: "item"
 				item: "mekanismgenerators:fission_reactor_casing"
 			}]
+			rewards: [{
+				id: "16F48E4EC4E935CF"
+				type: "item"
+				item: {
+					id: "trophyslots:trophy"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			x: -4.0d
-			y: -2.5d
+			x: -7.0d
+			y: -4.5d
 			dependencies: ["0FF102333D39972F"]
 			id: "235C6F085419ED3D"
 			tasks: [{
@@ -163,10 +249,15 @@
 				type: "item"
 				item: "mekanismgenerators:turbine_casing"
 			}]
+			rewards: [{
+				id: "78C4475B79AC4FCF"
+				type: "item"
+				item: "levelhearts:heart_container"
+			}]
 		}
 		{
-			x: -3.0d
-			y: -3.0d
+			x: -7.0d
+			y: -3.5d
 			dependencies: ["235C6F085419ED3D"]
 			id: "6117DA6A3053C6E8"
 			tasks: [{
@@ -174,10 +265,46 @@
 				type: "item"
 				item: "mekanismgenerators:fusion_reactor_frame"
 			}]
+			rewards: [
+				{
+					id: "71519E363D61DEA4"
+					type: "item"
+					item: {
+						id: "create:schematic"
+						Count: 1b
+						tag: {
+							Owner: "zeeeh"
+							Anchor: {
+								X: -51
+								Y: 70
+								Z: 108
+							}
+							Bounds: {
+								X: 5
+								Y: 9
+								Z: 5
+							}
+							Deployed: 1b
+							File: "end_goal.nbt"
+							Rotation: "NONE"
+							Mirror: "NONE"
+						}
+					}
+				}
+				{
+					id: "2AD58D59741C6FDB"
+					type: "item"
+					item: {
+						id: "trophyslots:trophy"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
+			x: -7.0d
+			y: -2.5d
 			dependencies: ["6117DA6A3053C6E8"]
 			id: "60DD51BF156EAD76"
 			tasks: [{
@@ -185,10 +312,16 @@
 				type: "item"
 				item: "mekanism:qio_drive_array"
 			}]
+			rewards: [{
+				id: "58C51D558F191182"
+				type: "item"
+				item: "levelhearts:heart_container"
+				count: 40
+			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -7.0d
+			y: -1.5d
 			description: ["As I watch the goo eventually recede, I can only wonder why so much had to be lost."]
 			dependencies: ["60DD51BF156EAD76"]
 			hide_text_until_complete: true
@@ -197,6 +330,15 @@
 				id: "2404B0F4286DA548"
 				type: "item"
 				item: "diregoo:gooliminationfieldgen"
+			}]
+			rewards: [{
+				id: "5CF29725CB5AD80D"
+				type: "item"
+				item: {
+					id: "trophyslots:master_trophy"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

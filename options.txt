@@ -23,7 +23,7 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:8
+renderDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
@@ -137,19 +137,19 @@ key_jecalculation.key.gui_craft:key.keyboard.unknown
 key_jecalculation.key.gui_math:key.keyboard.unknown
 key_Piston Pushcart Up:key.keyboard.space
 key_Piston Pushcart Down:key.keyboard.left.control
+key_nimble.keybind.frontView:key.keyboard.f4
+key_key.stepup.desc:key.keyboard.h
 key_pneumaticcraft.armor.options:key.keyboard.u
 key_pneumaticcraft.helmet.hack:key.keyboard.h
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
 key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space
-key_nimble.keybind.frontView:key.keyboard.f4
-key_key.stepup.desc:key.keyboard.h
 key_key.toastcontrol.clear:key.keyboard.minus
-key_key.toggle_focus.desc:key.keyboard.tab
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.boss_tools.rocket_start:key.keyboard.space
+key_key.toggle_focus.desc:key.keyboard.tab
 key_key.backpack:key.keyboard.z
 key_key.ftbquests.quests:key.keyboard.keypad.0
 key_key.observable.profile:key.keyboard.r

@@ -42,14 +42,10 @@ onEvent('recipes', event => {
         ['appliedenergistics2:export_bus',                 [[air, Afc, air], [tPi, _si, tPi]]],
         ['appliedenergistics2:storage_bus',                [[Aac, air, Afc], [tPi, _si, tPi]]],
         ['appliedenergistics2:level_emitter',              [[Mrt, _si], [_K2, air]]],
-        ['appliedenergistics2:crafting_terminal',                   [[Aac, _si], [_K1, Afc]]],
 
-        //['appliedenergistics2:1k_crafting_storage',        [[Acu, 'appliedenergistics2:1k_storage_cell']]],
-        //['appliedenergistics2:4k_crafting_storage',        [[Acu, 'appliedenergistics2:4k_storage_cell']]],
-        //['appliedenergistics2:16k_crafting_storage',       [[Acu, 'appliedenergistics2:16k_storage_cell']]],
-        //['appliedenergistics2:64k_crafting_storage',       [[Acu, 'appliedenergistics2:64k_storage_cell']]],
-        //['appliedenergistics2:blank_pattern',              [[Aqg, ltx, Aqg], [ltx, Apq, ltx], [tPi, tPi, tPi]]],
-        //['appliedenergistics2:interface_terminal',         [['appliedenergistics2:terminal', 'appliedenergistics2:cable_interface']]],
+        ['appliedenergistics2:blank_pattern',              [[Aqg, ltx, Aqg], [ltx, Apq, ltx], [tPi, tPi, tPi]]],
+        ['appliedenergistics2:crafting_monitor',           [[Ire, 'appliedenergistics2:semi_dark_monitor']]],
+        ['appliedenergistics2:pattern_terminal',           [['appliedenergistics2:terminal', 'appliedenergistics2:cable_interface']]],
     ]);
 
     event.remove({ id: 'mekanism:compat/appliedenergistics2/certus_crystal_purification' });

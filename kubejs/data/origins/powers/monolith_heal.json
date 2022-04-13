@@ -22,8 +22,8 @@
         "should_render": true
     },
     "key": {
-        "key": "key.attack",
-        "continuous": true
+        "key": "key.sneak",
+        "continuous": false
     },
     "condition": {
     	"type": "origins:block_in_radius",

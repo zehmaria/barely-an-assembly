@@ -18,7 +18,7 @@ onEvent('item.tooltip', tooltip => {
     ['boss_tools:rocket_t1', 'boss_tools:rocket_t2', 'boss_tools:rocket_t3'].forEach(X => tooltip.add(X, '§3Deployed as a logistical structure after landing [right-click the lander], not reusable.'));
     ['mekanism:portable_teleporter', 'mekanism:quantum_entangloporter', 'mekanism:teleporter', 'kubejs:elevator_cable'].forEach(X => tooltip.add(X, '§3Part of the deployed structure from rockets. Unbreakable and unmovable.'));
 
-    ['create:andesite_casing', 'create:copper_casing', 'immersiveengineering:alloybrick', 'create:brass_casing', 'immersiveengineering:cokebrick', 'immersiveengineering:blastbrick', 'immersiveengineering:rs_engineering', 'mekanism:steel_casing', 'immersiveengineering:light_engineering', 'immersiveengineering:heavy_engineering', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:fusion_reactor_frame'].forEach(X => tooltip.add(X, '§3Research Line.'));
+    ['create:andesite_casing', 'create:copper_casing', 'immersiveengineering:alloybrick', 'create:brass_casing', 'immersiveengineering:cokebrick', 'immersiveengineering:blastbrick', 'immersiveengineering:rs_engineering', 'mekanism:steel_casing', 'immersiveengineering:light_engineering', 'immersiveengineering:heavy_engineering', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:fusion_reactor_frame'].forEach(X => tooltip.add(X, '§3Assembly Line.'));
 
     ['mekanism:basic_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer'].forEach(X => tooltip.add(X, '§3Some machines can be upgraded by [shift + right click]ing this onto them. Tiers can not be skipped and must be installed in sequence.'));
 
@@ -60,5 +60,15 @@ onEvent('item.tooltip', tooltip => {
     // MANUALS
     ['immersiveengineering:manual', 'patchouli:guide_book'].forEach(Z => {
         tooltip.add(Z, '§4Note: Things listed here might have been removed.');
+    });
+
+    // REPAIR
+    ['boss_tools:space_boots', 'boss_tools:space_pants', 'boss_tools:space_suit', 'boss_tools:oxygen_mask', 'minecraft:leather_boots', 'minecraft:leather_leggings', 'minecraft:leather_chestplate', 'minecraft:leather_helmet', 'immersiveengineering:armor_steel_feet', 'immersiveengineering:armor_steel_legs', 'immersiveengineering:armor_steel_chest', 'immersiveengineering:armor_steel_head', 'pickletweaks:diamond_paxel', 'pickletweaks:iron_paxel', 'pickletweaks:wooden_paxel'].forEach(Z => {
+        tooltip.add(Z, '§3Can be repaired on a crafting grid.');
+    });
+
+    // NO HOES
+    ['minecraft:farmland', 'minecraft:grass_block', 'create:mechanical_plough'].forEach(Z => {
+        tooltip.add(Z, '§3Limited farmland.');
     });
 });

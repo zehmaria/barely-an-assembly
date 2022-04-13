@@ -4,8 +4,8 @@
     "name": "Fragile health reduction",
     "attribute": "minecraft:generic.max_health",
     "value": 8.0,
-    "operation": "addition",
+    "operation": "addition"
+  	},
 	"name": "Fragile",
 	"description": "Starts with 5 hearts."
-  }
 }

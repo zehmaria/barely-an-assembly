@@ -109,7 +109,11 @@ hide1(['moreminecarts:silica_steel_block', 'moreminecarts:corrugated_silica_stee
 
 // SPACE-BOSS-TOOLS
 hide2('boss_tools:', ['iron_plate', 'iron_stick', 'steel_ingot', 'steel_sword', 'solar_panel', 'blue_iron_plating_block', 'chesse', 'nasa_workbench', 'coal_torch', 'coal_lantern', 'netherite_oxygen_mask', 'netherite_space_suit', 'netherite_space_pants', 'netherite_space_boots', 'coal_generator', 'blast_furnace', 'compressor', 'fuel_refinery', 'oxygen_loader', 'water_pump', 'fuel_bucket', 'oil_bucket', 'hammer', 'steel_nugget', 'steel_block', 'iron_plating_block', 'rusted_iron_pillar_block', 'rusted_iron_plating_block', 'iron_mark_block', 'rover', 'oxygen_gear', 'oxygen_tank', 'wheel', 'engine_frame', 'engine_fan', 'iron_tank', 'golden_tank', 'diamond_tank', 'desh_plate', 'ice_shard', 'rocket_nose_cone', 'rocket_fin', 'desh_nugget', 'silicon_nugget', 'desh_block', 'silicon_block']);
-hide1(['#boss_tools:flags', 'boss_tools:moon_cheese_ore', 'boss_tools:moon_glowstone_ore', 'boss_tools:moon_iron_ore', 'boss_tools:mars_iron_ore', 'boss_tools:mercury_iron_ore', 'boss_tools:venus_gold_ore']);
+hide1(['#boss_tools:flags', 'boss_tools:moon_cheese_ore', 'boss_tools:moon_glowstone_ore', 'boss_tools:moon_iron_ore', 'boss_tools:mars_iron_ore', 'boss_tools:mercury_iron_ore', 'boss_tools:venus_gold_ore',
+       'boss_tools:steel_shovel', 'boss_tools:steel_pickaxe', 'boss_tools:steel_axe', 'boss_tools:steel_hoe']);
 
 // MJ DIFFICULTY
 hide1(['majruszs_difficulty:end_pickaxe', 'majruszs_difficulty:end_axe', 'majruszs_difficulty:end_hoe', 'majruszs_difficulty:end_helmet', 'majruszs_difficulty:end_chestplate', 'majruszs_difficulty:end_leggings', 'majruszs_difficulty:end_leggings', 'majruszs_difficulty:end_shard_locator', 'majruszs_difficulty:end_shovel', 'majruszs_difficulty:wither_sword', 'majruszs_difficulty:end_sword', 'majruszs_difficulty:end_ingot', 'majruszs_difficulty:end_shard', 'majruszs_difficulty:infested_end_stone', 'majruszs_difficulty:end_block', 'majruszs_difficulty:end_shard_ore', 'majruszs_difficulty:ocean_shield', 'majruszs_difficulty:recall_potion', 'majruszs_difficulty:undead_army_treasure_bag', 'majruszs_difficulty:elder_guardian_treasure_bag', 'majruszs_difficulty:wither_treasure_bag', 'majruszs_difficulty:ender_dragon_treasure_bag', 'majruszs_difficulty:fishing_treasure_bag', 'majruszs_difficulty:pillager_treasure_bag']);
+
+// PICKLE TWEAKS
+hide1(['pickletweaks:reinforced_watering_can', 'pickletweaks:stone_paxel', 'pickletweaks:golden_paxel', 'pickletweaks:netherite_paxel', 'pickletweaks:reinforced_watering_can']);

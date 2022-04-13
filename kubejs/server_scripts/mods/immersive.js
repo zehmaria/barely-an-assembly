@@ -10,14 +10,19 @@ onEvent('recipes', event => {
     const _ts = 'immersiveengineering:treated_scaffold';
     const _wg = 'immersiveengineering:wooden_grip';
     const __s = 'myrtrees:rubberwood_slab';
+    const __b = 'immersiveengineering:windmill_blade';
 
     addShaped(event, [
         ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPi, tPi]]],
 
         ['immersiveengineering:razor_wire',             [[Mfe, rod, Mfe]]],
+        ['immersiveengineering:hemp_fabric',            [[Itf, Itf, Itf], [Itf, Its, Itf], [Itf, Itf, Itf]]],
+        ['immersiveengineering:windmill',               [[__b, __b, __b], [__b, mm1, __b], [__b, __b, __b]]],
+        ['immersiveengineering:windmill_blade',         [[plk, plk, tST], [stk, ltx, plk], [stk, stk, air]]],
 
+        ['immersiveengineering:dynamo',             [[tPc, tPi, tPc], [tDg, tRi, tDl], [tPc, _K1, tPc]]],
         ['immersiveengineering:workbench',              [[Caa, __s, __s], [Mct, air, 'immersiveposts:fence_copper']]],
-        ['4x immersiveengineering:electric_lantern',    [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
+        ['12x immersiveengineering:electric_lantern',    [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
 
         ['immersiveengineering:gunpart_hammer',         [[tPi, air, air], [tPi, tPi, air], [air, tPi, tPi]]],
         ['immersiveengineering:gunpart_drum',           [[air, tPi, air], [tPi, _I2, tPi], [air, tPi, air]]],

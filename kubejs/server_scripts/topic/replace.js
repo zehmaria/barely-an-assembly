@@ -7,7 +7,7 @@ onEvent('recipes', event => {
     event.replaceInput({}, 'minecraft:water_bucket', 'create:fluid_tank');
     event.replaceInput({}, 'minecraft:hopper', 'create:chute');
     event.replaceInput({}, 'minecraft:dispenser', 'mekanism:pressure_disperser');
-    event.replaceInput({}, 'minecraft:dried_kelp', 'myrtrees:latex');
+    event.replaceInput({}, 'minecraft:dried_kelp', ltx);
 
     event.replaceInput({}, '#forge:ingots/refined_glowstone', '#forge:ingots/copper');
     event.replaceInput({}, '#forge:ingots/netherite', 'mekanism:pellet_polonium');

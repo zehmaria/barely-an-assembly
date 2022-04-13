@@ -30,7 +30,7 @@ hide3('minecraft:', ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak'], 
 hide3('minecraft:stripped_', ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak'], '_wood');
 
 hide4('minecraft:', ['golden', 'iron', 'diamond', 'chainmail', 'netherite'], '_', ['helmet', 'chestplate', 'leggings', 'boots']);
-hide4('minecraft:', ['golden', 'stone', 'iron', 'diamond', 'netherite'], '_', ['pickaxe', 'axe', 'shovel', 'hoe', 'sword']);
+hide4('minecraft:', ['wooden', 'golden', 'stone', 'iron', 'diamond', 'netherite'], '_', ['pickaxe', 'axe', 'shovel', 'hoe', 'sword']);
 hide2('minecraft:', ['quartz_slab', 'smooth_quartz', 'chiseled_quartz_block', 'quartz_bricks', 'quartz_pillar', 'quartz_stairs', 'smooth_quartz_stairs', 'smooth_quartz_slab', 'anvil', 'chipped_anvil', 'damaged_anvil']);
 
 hide1(['minecraft:prismarine_slab', 'minecraft:prismarine_brick_slab', 'minecraft:dark_prismarine_slab', 'minecraft:prismarine', 'minecraft:prismarine_bricks', 'minecraft:dark_prismarine', 'minecraft:prismarine_stairs', 'minecraft:prismarine_brick_stairs', 'minecraft:dark_prismarine_stairs', 'minecraft:prismarine_crystals', 'minecraft:prismarine_shard', 'minecraft:prismarine_wall']);

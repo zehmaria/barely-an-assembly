@@ -23,8 +23,8 @@ onEvent('recipes', event => {
         ['create:andesite_casing',      [[Caa, Caa, Caa], [Caa, log, Caa], [Caa, Caa, Caa]]],
         ['2x create:andesite_alloy',    [['#create:crushed_ores/iron', tTb], [tTb, '#create:crushed_ores/iron']]],
 
-        ['create:cogwheel',             [[plk, plk, plk], [plk, Csh, plk], [plk, plk, plk]]],
-        ['create:large_cogwheel',       [[plk, log, plk], [log, Csh, log], [plk, log, plk]]],
+        ['create:cogwheel',             [[air, plk, air], [plk, Csh, plk], [air, plk, air]]],
+        ['create:large_cogwheel',       [[air, log, air], [log, Csh, log], [air, log, air]]],
         ['create:millstone',            [[air, log, air], [Caa, Caa, Caa], [tTb, tTb, tTb]]],
 
         ['create:controller_rail',      [[tRg, air, tRg], [tRg, stk, tRg], [tRg, Cet, tRg]]],
@@ -33,8 +33,6 @@ onEvent('recipes', event => {
         ['create:mechanical_saw',       [[air, tPi, air], [tPi, Caa, tPi], [air, Cc1, air]]],
 
         ['create:hand_crank',           [[air, Caa, air], [log, log, log], [air, air, Caa]]],
-
-        //['createchunkloading:chunk_loader', [[Khd, tPu, Khd], [tPu, 'immersiveengineering:coil_mv', tPu], [Khd, tPu, Khd]]],
 
         ['create:peculiar_bell',        [[tPe], ['immersiveengineering:chute_copper'], [tRe]]],
 

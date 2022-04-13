@@ -122,7 +122,7 @@ const Mrt = 'minecraft:redstone_torch';
 const Mss = 'minecraft:smooth_stone';
 const Msl = '#forge:slimeballs';
 const rst = 'minecraft:redstone';
-
+const Mbm = 'minecraft:bone_meal';
 const Msc = 'minecraft:scute';
 const Mwr = 'minecraft:red_wool';
 const Mwb = 'minecraft:black_wool';
@@ -178,6 +178,7 @@ const Keg = '#mekanism:enriched/gold';
 const Ked = '#mekanism:enriched/diamond';
 const Keo = '#mekanism:enriched/obsidian';
 const tDo = 'mekanism:dust_obsidian';
+const Kro = 'mekanism:dust_refined_obsidian';
 const Ker = '#mekanism:enriched/redstone';
 const Ksm = 'mekanism:scuba_mask';
 const Kst = Item.of('mekanism:scuba_tank', {HideFlags:2,mekData:{GasTanks:[{Tank:0,stored:{gasName:'mekanism:oxygen',amount:24000}}]}});
@@ -250,6 +251,10 @@ const Amc = 'appliedenergistics2:memory_card';
 const Abc = 'appliedenergistics2:basic_card';
 const Aac = 'appliedenergistics2:advanced_card';
 const Aqg = 'appliedenergistics2:quartz_glass';
+const Ac1 = 'appliedenergistics2:1k_crafting_storage';
+const Ac2 = 'appliedenergistics2:4k_crafting_storage';
+const Ac3 = 'appliedenergistics2:16k_crafting_storage';
+const Ac4 = 'appliedenergistics2:64k_crafting_storage';
 
 const _cu = 'appliedenergistics2:crafting_unit';
 

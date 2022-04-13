@@ -1,4 +1,10 @@
-onEvent('item.tags', event => {});
+onEvent('item.tags', event => {
+    event.add('barely_tips:torch_lamp_lantern_glowstone', ['minecraft:campfire', 'pneumaticcraft:kerosene_lamp', 'immersiveengineering:electric_lantern', 'immersiveengineering:floodlight', 'appliedenergistics2:semi_dark_monitor']);
+
+    event.add('barely_tips:farming_hoes', ['minecraft:farmland', 'minecraft:grass_block', 'create:mechanical_plough']);
+
+    event.add('barely_tips:pickaxe_axe_shovel', ['pickletweaks:wooden_paxel', 'pickletweaks:iron_paxel', 'pickletweaks:diamond_paxel']);
+});
 
 onEvent('recipes', event => {
     //event.printTypes();
@@ -104,6 +110,7 @@ onEvent('block.right_click', event => {
             }
         }
     }
+
     if (event.block.equals('littlelogistics:tug_dock') || event.block.equals('littlelogistics:barge_dock')) {
         if (event.item.equals('create:chute')) {
             if (event.block.getUp().equals('minecraft:air')){
@@ -112,6 +119,16 @@ onEvent('block.right_click', event => {
                 event.cancel();
             }
         }
+    }
+
+    console.log(event.block);
+    console.log(event.item);
+    if (event.block.equals('myrtrees:filled_rubberwood_log') && event.item.equals('myrtrees:tree_tap')) {
+        if (event.block.getEntityData().latex == 10000) {
+            console.log(event.block.getEntityData());
+            event.block.mergeEntityData({ latex: 256000 });
+        }
+        console.log(event.block.getEntityData());
     }
 });
 
@@ -133,3 +150,4 @@ onEvent('block.left_click', event => {
         } else { event.player.tell('You are unable to scrap the surface.'); }
     }
 });
+//Item.of('myrtrees:rubberwood_log', '{BlockEntityTag:{id:"myrtrees:filled_rubberwood_log",latex:2000}}')
