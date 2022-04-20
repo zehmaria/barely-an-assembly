@@ -3,11 +3,6 @@
 
   - how long would it take? the numbers still need actually full testing, rather than small ones individualized.
 
-  - Readjust quest on ages?
-  - from nothing to something
-  - from something to steel
-  - from steel to fluorite
-  - from fluorite to antimatter
 */
 
 // NEED TO INSERT ON THE CONFIG

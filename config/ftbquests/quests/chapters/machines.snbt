@@ -339,12 +339,18 @@
 		{
 			x: -8.0d
 			y: -4.0d
+			description: ["Tip: Mekanism machines accept redstone as a power source [thuder icon/green border slot]."]
 			dependencies: ["086C241978D636B5"]
 			id: "50784743B6373465"
 			tasks: [{
 				id: "4C7C8DD78D78ED69"
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "449BAAE2CED0DB4A"
+				type: "item"
+				item: "minecraft:redstone"
 			}]
 		}
 		{
@@ -2101,6 +2107,18 @@
 				id: "23DFC022DB4F8505"
 				type: "item"
 				item: "appliedenergistics2:64k_crafting_storage"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["Maybe this will work against this spreading madness!"]
+			dependencies: ["5871454E5DB54F9B"]
+			id: "614C8B722368FCC3"
+			tasks: [{
+				id: "5A40F6A0BCD476D5"
+				type: "item"
+				item: "minecraft:tnt"
 			}]
 		}
 	]

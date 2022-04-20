@@ -15,6 +15,7 @@ onEvent('recipes', event => {
     addShaped(event, [
         ['kubejs:conveyor_basic_mimic',                 [[Mlt, Mlt], [tPi, tPi]]],
 
+        ['immersiveengineering:turret_gun',             [[ltx, rev, ltx], [Irm, Cc1, Irm], [_K1, Cc1, _K1]]],
         ['immersiveengineering:razor_wire',             [[Mfe, rod, Mfe]]],
         ['immersiveengineering:hemp_fabric',            [[Itf, Itf, Itf], [Itf, Its, Itf], [Itf, Itf, Itf]]],
         ['immersiveengineering:windmill',               [[__b, __b, __b], [__b, mm1, __b], [__b, __b, __b]]],
@@ -58,7 +59,7 @@ onEvent('recipes', event => {
     rm2(event, 'immersiveengineering:component_', ['iron', 'steel'], ['minecraft:crafting_shaped']);
 
     bpIE(event, 'create:electron_tube',
-         ['#forge:glass', ['#forge:plates/electrum', 3], ['#forge:wires/copper', 3], ['minecraft:redstone', 3]], 'components');
+         ['#forge:glass', ['#forge:plates/electrum', 2], ['#forge:wires/copper', 2], ['minecraft:redstone', 2]], 'components');
     bpIE(event, 'createaddition:capacitor',
          ['create:electron_tube', ['#forge:plates/gold', 2], ['#forge:plates/iron', 2], ['#forge:plates/copper', 2]], 'components');
 

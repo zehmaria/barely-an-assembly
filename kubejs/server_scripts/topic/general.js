@@ -29,7 +29,7 @@ onEvent('block.right_click', event => {
 });
 
 onEvent('player.logged_in', event => {
-    event.player.tell('Warning: This modpack is still under testing and fine-tuning.');
+    event.player.tell('Warning: This modpack is still under testing and fine-tuning. Feedback is highly appreciated.');
 });
 
 onEvent('block.right_click', event => {
@@ -138,8 +138,9 @@ onEvent('block.left_click', event => {
         if (event.item.equals('minecraft:wooden_pickaxe')) {
             event.player.tell('Not sharp enough, it breaks!');
             event.item.setCount(0);
-        } else if (event.item.equals('immersiveengineering:pickaxe_steel')) {
-            event.player.tell('Surface scrapped!');
+        } else if (event.item.equals('pickletweaks:iron_paxel')) {
+            event.player.tell('Surface scratched, but it breaks!');
+            event.item.setCount(0);
             if (event.block.getDown().getDown().getDown().equals('kubejs:monolith_node')) {
                 event.block.getDown().getDown().getDown().set('appliedenergistics2:controller');
             } else if (event.block.getDown().getDown().equals('kubejs:monolith_node')) {
@@ -147,7 +148,16 @@ onEvent('block.left_click', event => {
             } else if (event.block.getDown().equals('kubejs:monolith_node')) {
                 event.block.getDown().set('appliedenergistics2:controller');
             } else event.block.set('appliedenergistics2:controller');
-        } else { event.player.tell('You are unable to scrap the surface.'); }
+        } else if (event.item.equals('pickletweaks:diamond_paxel')) {
+            event.player.tell('Surface scratched!');
+            if (event.block.getDown().getDown().getDown().equals('kubejs:monolith_node')) {
+                event.block.getDown().getDown().getDown().set('appliedenergistics2:controller');
+            } else if (event.block.getDown().getDown().equals('kubejs:monolith_node')) {
+                event.block.getDown().getDown().set('appliedenergistics2:controller');
+            } else if (event.block.getDown().equals('kubejs:monolith_node')) {
+                event.block.getDown().set('appliedenergistics2:controller');
+            } else event.block.set('appliedenergistics2:controller');
+        } else { event.player.tell('You are unable to scratch the surface.'); }
     }
 });
 //Item.of('myrtrees:rubberwood_log', '{BlockEntityTag:{id:"myrtrees:filled_rubberwood_log",latex:2000}}')

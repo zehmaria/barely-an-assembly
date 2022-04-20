@@ -3,17 +3,17 @@
 	#Set to false to completely disable the horde event and anything relating to it.
 	enableHordeEvent = true
 	#Amount of mobs to spawn per wave.
-	spawnAmount = 25
+	spawnAmount = 10
 	#Multiplier by which the spawn amount increases by each time the event naturally spawns. (Set to 1 to disable scaling.)
-	hordeSpawnMultiplier = 1.1
+	hordeSpawnMultiplier = 1.2
 	#Time in ticks the event lasts for
-	hordeSpawnDuration = 6000
+	hordeSpawnDuration = 12000
 	#Time in ticks between spawns for the horde spawn event.
 	hordeSpawnInterval = 1000
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
-	hordeStartTime = 18000
+	hordeStartTime = 12000
 	#Amount of days between horde spawns
-	hordeSpawnDays = 10
+	hordeSpawnDays = 8
 	#Amount of days a horde event can be randomly extended by
 	hordeSpawnVariation = 0
 	#Max cap for the number of entities that can exist from the horde at once.
@@ -29,13 +29,13 @@
 	#Do the daylight cycle (and active horde events get paused while there are no players online.).
 	pauseEventServer = true
 	#A list of entities to spawn followed by the spawn weight then the day they first appear on then the last day. Higher weight is more common. Leave the last value to 0 to set no max day, entities can have nbt attached to them.(e.g. minecraft:zombie-20-0-0{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]})
-	spawnList = ["minecraft:zombie-40-0-0", "minecraft:skeleton-5-0-0", "minecraft:husk-5-25-0", "minecraft:drowned-5-25-0", "minecraft:wither_skeleton-5-0-0", "minecraft:creeper-5-0-0", "minecraft:stray-3-0-0", "minecraft:spider-5-0-0", "minecraft:pillager-10-0-0", "minecraft:vindicator-10-0-0", "minecraft:ghast-1-0-0", "minecraft:ravager-1-0-0"]
+	spawnList = ["minecraft:zombie-40-0-0", "minecraft:skeleton-5-0-0", "minecraft:husk-5-25-0", "minecraft:drowned-15-0-0", "minecraft:wither_skeleton-5-0-0", "minecraft:creeper-5-0-0", "minecraft:stray-3-0-0", "minecraft:spider-5-0-0", "minecraft:pillager-10-0-0", "minecraft:vindicator-10-0-0", "minecraft:ghast-1-15-0", "minecraft:ravager-1-0-0"]
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.
 	enableMobInfection = false
 	#Can villagers be infected.
-	infectVillagers = true
+	infectVillagers = false
 	#Chance out of 100 for a villager to get infected
 	villagerInfectChance = 85
 	#Can players be infected.
@@ -49,15 +49,15 @@
 	#How long do each of the 4 effect phases last for before the next phase is activated?
 	ticksForEffectStage = 6000
 	#Mobs which are based on entities in this list can cause the infection effect. (the default zombie covers zombies, husks, zombie villagers and drowned, as well ad the player zombie/drowned)
-	infectionEntities = ["minecraft:zombie"]
+	infectionEntities = []
 	#A list of items which can cure infection when 'consumed' or used on an entity can accept nbt tags. eg.minecraft:golden_apple, minecraft:potion{Potion: "minecraft:strong_regeneration"}
-	cureItemList = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"]
+	cureItemList = []
 
 [Misc]
 	#Whether to use zombie players as graves all the time. (Even if infection is disabled)
-	zombieGraves = true
+	zombieGraves = false
 	#Whether to always spawn a drowned if a player dies underwater. (Even if infection or zombieGraves are disabled)
-	drownedGraves = true
+	drownedGraves = false
 	#Whether to spawn drowned players when a player dies underwater instead of a zombie player. (Whether the zombie is spawned from infection or zombieGraves being true)
-	drownedPlayers = true
+	drownedPlayers = false
 

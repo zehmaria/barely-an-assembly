@@ -134,7 +134,7 @@ onEvent('recipes', event => {
             result: Item.of(X), inputs: [bI(Y[0]), bI(Y[1]), bI(Y[2]), bI(Y[3])]
         });
     }
-    circuit('mekanism:advanced_control_circuit', [[mm1, 3], [_K1, 2], [_I4, 3], [tDl, 3]]);
-    csAssembly(event, [[_K3, 'appliedenergistics2:printed_engineering_processor', _K2, [mm2, Khd, KCc, ltx], [['mekanism:lithium', 100]], 3]]);
-    arc(event, [[_K4, 512 * 20 * 20, _K3, [[mm3, 3], [HOP, 3], [KSg, 3], ['#forge:dusts/sulfur', 3]]]]);
+    circuit('mekanism:advanced_control_circuit', [[mm1, 2], [_K1, 1], [_I4, 2], [tDl, 2]]);
+    csAssembly(event, [[_K3, 'appliedenergistics2:printed_engineering_processor', _K2, [mm2, Khd, KCc, ltx], [['mekanism:lithium', 100]], 2]]);
+    arc(event, [[_K4, 512 * 20 * 20, _K3, [[mm3, 2], [HOP, 2], [KSg, 2], ['#forge:dusts/sulfur', 2]]]]);
 });

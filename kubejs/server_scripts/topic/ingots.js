@@ -132,28 +132,28 @@ onEvent('recipes', event => {
 
     event.remove({ output: '#forge:ingots/electrum' });
     event.custom({
-        type:'immersiveengineering:alloy', time: 1200,
-        result: { count: 1, base_ingredient: { tag: 'forge:ingots/electrum' } },
+        type:'immersiveengineering:alloy', time: 600,
         input0: { base_ingredient: { tag: 'forge:ingots/gold' }, count: 2 },
-        input1: { base_ingredient: { tag: 'forge:ingots/copper' }, count: 3 }
+        input1: { base_ingredient: { tag: 'forge:ingots/copper' }, count: 2 },
+        result: { count: 1, base_ingredient: { tag: 'forge:ingots/electrum' } }
     });
     event.custom({
-        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 300, energy: 153600,
+        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 150, energy: 153600,
         input: { base_ingredient: { tag: 'forge:ingots/gold' }, count: 2 },
-        additives:[{ base_ingredient: { tag: 'forge:ingots/copper' }, count: 3 }],
-        results: [{ count: 1, base_ingredient: { tag: 'forge:ingots/electrum' } }]
+        additives:[{ base_ingredient: { tag: 'forge:ingots/copper' }, count: 2 }],
+        results: [{ count: 2, base_ingredient: { tag: 'forge:ingots/electrum' } }]
     });
 
     event.remove({ output: '#forge:ingots/steel' });
     event.custom({
-        type: 'immersiveengineering:blast_furnace', slag: { tag: 'forge:slag'}, time: 2400,
-        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 6 }, result: { tag: 'forge:ingots/steel' }
+        type: 'immersiveengineering:blast_furnace', slag: { tag: 'forge:slag'}, time: 1200,
+        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 4 }, result: { tag: 'forge:ingots/steel' }
     });
     event.custom({
-        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 600, energy:307200,
-        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 6 },
+        type: 'immersiveengineering:arc_furnace', slag: { tag: 'forge:slag' }, time: 300, energy:307200,
+        input: { base_ingredient: { tag: 'forge:ingots/iron' }, count: 4 },
         additives: [{ base_ingredient: { tag: 'forge:dusts/coal_coke' }, count: 2 }],
-        results: [{ tag: 'forge:ingots/steel' }]
+        results: [{ count: 2, base_ingredient: { tag: 'forge:ingots/steel' } }]
     });
 
     // REMOVING EXCESS

@@ -1,0 +1,16 @@
+[
+  {
+    "seesky": true,
+    "hostile": true,
+    "result": "deny",
+	"mincount": {
+    	"amount": 1,
+      	"hostile": true,
+      	"perplayer": true
+    }
+  },
+  {
+    "seesky": false,
+    "result": "deny"
+  }
+]

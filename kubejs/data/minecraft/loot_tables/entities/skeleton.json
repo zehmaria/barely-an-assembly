@@ -25,13 +25,6 @@
           ],
           "name": "minecraft:bone"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.45,
-          "looting_multiplier": 0.1
-        }
       ]
     }
   ]

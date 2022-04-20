@@ -48,7 +48,7 @@ onEvent('recipes', event => {
         [Ic2, _cu, Ic1, [Icm, Icm, _K2, Ik2], [], 1],
 
         // DIREGOO
-        ['minecraft:tnt', _cu, snd,                                     [rst, Mgp, Kro], [['immersiveengineering:creosote', 250]], 1],
+        ['minecraft:tnt', _cu, snd,                                     [rst, Mgp, Mgp, tDl, ltx], [], 1],
 
         [Dt1, _cu, 'minecraft:tnt',                                     [Dad, Dad, Dad], [['minecraft:water', 250]], 1],
         ['diregoo:turretblock', _cu, 'immersiveengineering:turret_gun', [Dad, Apf, _K1], [['minecraft:water', 250]], 1],

@@ -2,7 +2,10 @@ onEvent('recipes', event => {
     function minf(X, Y, W, Z) {
         event.remove({ output: Z });
         event.custom({
-            type: 'mekanism:metallurgic_infusing', itemInput: { ingredient: Item.of(X) }, infusionInput: { amount: W, tag: Y }, output: Item.of(Z)
+            type: 'mekanism:metallurgic_infusing',
+            itemInput: { ingredient: Item.of(X) },
+            infusionInput: { amount: W, tag: Y },
+            output: Item.of(Z)
         });
     }
 

@@ -7,9 +7,8 @@ onEvent('item.tags', event => {
 
 onEvent('recipes', event => {
     const cuts = ['_log', '_wood'];
+
     addShaped(event, [
-        ['pickletweaks:wooden_paxel',  [[log, log, log], [air, stk, air], [air, stk, air]]],
-        ['pickletweaks:iron_paxel',    [[tPi, tPi, tPi], [air, 'pickletweaks:wooden_paxel', air]]],
     ]);
 
     event.remove({ type: 'mekanism:sawing' });

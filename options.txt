@@ -23,7 +23,7 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:12
+renderDistance:8
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
@@ -119,6 +119,9 @@ key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
+key_key.inventorysorter.itemin:key.mouse.100
+key_key.inventorysorter.itemout:key.mouse.102
+key_key.inventorysorter.sort:key.keyboard.t
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.mekanism.mode:key.keyboard.unknown
@@ -146,10 +149,10 @@ key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space
 key_key.toastcontrol.clear:key.keyboard.minus
+key_key.toggle_focus.desc:key.keyboard.tab
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.boss_tools.rocket_start:key.keyboard.space
-key_key.toggle_focus.desc:key.keyboard.tab
 key_key.backpack:key.keyboard.z
 key_key.ftbquests.quests:key.keyboard.keypad.0
 key_key.observable.profile:key.keyboard.r

@@ -15,7 +15,7 @@
 	campfireBreaksWhenUnlitByTime = true
 	#The time (ticks) a soul campfire burns until it goes out by itself. (2000 ticks default; 0 means it burns forever)
 	#Range: 0 ~ 10000
-	soulCampfireLitTime = 2000
+	soulCampfireLitTime = 10000
 	#The time (ticks) a soul campfire burns until it goes out during rain. (0: it goes out immediately; -1: it burns during rain [default]).
 	#Range: -1 ~ 10000
 	soulCampfireRainUnlitTime = -1

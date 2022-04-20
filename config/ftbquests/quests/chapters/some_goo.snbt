@@ -11,6 +11,8 @@
 			x: 1.0d
 			y: -0.5d
 			subtitle: "While quite resistant against it, the goo is not immune to TNT."
+			dependencies: ["614C8B722368FCC3"]
+			hide: true
 			id: "7982C0345C7F4ED5"
 			tasks: [{
 				id: "4CB2B8AC52C9664F"

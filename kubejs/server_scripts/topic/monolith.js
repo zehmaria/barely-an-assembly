@@ -115,20 +115,21 @@ onEvent('recipes', event => {
         'minecraft:illusioner', 'majruszs_difficulty:giant', 'majruszs_difficulty:pillager_wolf', 'majruszs_difficulty:elite_skeleton', 'majruszs_difficulty:sky_keeper', 'majruszs_difficulty:creeperling'
     ];
 
+    /*
     sd(1, [
         rstc([[' ', 'm'], [' ', ' '], [' ', ' '], ['u', ' '], ['u', ' '], ['u', ' '], ['u', ' ']], { u: _ub }),
-        { type: 'custommachinery:entity', mode: 'input', amount: 1, radius: 16, action: 'kill', filter: _ML, whitelist: true }
-    ]);
-    ct(1, [
+        { type: 'custommachinery:entity', mode: 'input', amount: 1, radius: 11, action: 'kill', filter: _ML, whitelist: true }
+    ]);*/
+    ct(20, [
         rstc([['m'], [' '], [' '], ['u'], ['u'], ['u'], ['u']], { u: _ub }),
-        { type: 'custommachinery:entity', mode: 'input', amount: 5, radius: 16, action: 'kill', filter: _ML, whitelist: true }
+        { type: 'custommachinery:entity', mode: 'input', amount: 1, radius: 11, action: 'kill', filter: _ML, whitelist: true }
     ]);
     ct(1, [
-        rstc([['m'], [' '], ['c'], ['c'], ['c'], ['c'], ['c']], { c: __c }),
+        rstc([['m'], [' '], ['c'], ['c']], { c: __c }),
         rblo('output', 'replace_destroy', [0, 3, 0, 0, 3, 0], true, [__c], _ub, 1),
-        rblo('output', 'replace_destroy', [0, 4, 0, 0, 4, 0], true, [__c], _ub, 1),
+        rblo('output', 'replace_destroy', [0, 4, 0, 0, 4, 0], false, [], _ub, 1),
         rblo('output', 'replace_destroy', [0, 5, 0, 0, 5, 0], false, [], _ub, 1),
         rblo('output', 'replace_destroy', [0, 6, 0, 0, 6, 0], false, [], _ub, 1),
-        { type: 'custommachinery:entity', mode: 'input', amount: 5, radius: 16, action: 'kill', filter: _ML, whitelist: true }
+        { type: 'custommachinery:entity', mode: 'input', amount: 1, radius: 11, action: 'kill', filter: _ML, whitelist: true }
     ]);
 });

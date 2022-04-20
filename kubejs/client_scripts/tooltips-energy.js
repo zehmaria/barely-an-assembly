@@ -1,6 +1,8 @@
 onEvent('item.tooltip', tooltip => {
     // GENERATION
-    ['createaddition:alternator', 'immersiveengineering:dynamo', 'immersivepetroleum:gas_generator', 'mekanismgenerators:advanced_solar_generator', 'mekanismgenerators:solar_generator', 'immersiveengineering:generator', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:fusion_reactor_frame'].forEach(X => tooltip.add(X, '§3Generates Forge Energy [RF, FE, FLUX].'));
+    ['minecraft:redstone', 'createaddition:alternator', 'immersiveengineering:dynamo', 'immersivepetroleum:gas_generator', 'mekanismgenerators:advanced_solar_generator', 'mekanismgenerators:solar_generator', 'immersiveengineering:generator', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:fusion_reactor_frame'].forEach(X => tooltip.add(X, '§3Generates Forge Energy [RF, FE, FLUX].'));
+
+    ["mekanism:metallurgic_infuser"].forEach(X => tooltip.add(X, '§3Tip: Mekanism machines accept Redstone Dust as energy [thurder icon/green border slot].'));
 
     ['immersiveengineering:generator', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:fission_reactor_casing', 'mekanismgenerators:fusion_reactor_frame'].forEach(X => tooltip.add(X, '§3Requires multiblock.'));
     tooltip.add('immersiveengineering:dynamo', '§3Requires windmill.');
