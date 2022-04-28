@@ -46,6 +46,7 @@ const tRe = '#forge:rods/electrum';
 const tDe = '#forge:dusts/electrum';
 const tPe = '#forge:plates/electrum';
 const tIe = '#forge:ingots/electrum';
+const tWe = '#forge:wires/electrum';
 
 const tPc = '#forge:plates/copper';
 const tDc = '#forge:dusts/copper';

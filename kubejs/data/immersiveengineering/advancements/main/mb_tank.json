@@ -11,7 +11,7 @@
 		"c1":{
 			"trigger":"immersiveengineering:multiblock_formed",
 			"conditions":{
-				"multiblock":"immersiveengineering:multiblocks/tank",
+				"multiblock":"immersiveengineering:multiblocks/sheetmetal_tank",
 				"item":{"item":"immersiveengineering:hammer" }
 			}
 		}

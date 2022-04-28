@@ -119,11 +119,12 @@ key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.itemout:key.mouse.102
 key_key.inventorysorter.sort:key.keyboard.t
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.mekanism.mode:key.keyboard.unknown
 key_key.mekanism.head_mode:key.keyboard.unknown
 key_key.mekanism.chest_mode:key.keyboard.unknown
@@ -134,7 +135,6 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.unknown
-key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_jecalculation.key.gui_craft:key.keyboard.unknown
 key_jecalculation.key.gui_math:key.keyboard.unknown

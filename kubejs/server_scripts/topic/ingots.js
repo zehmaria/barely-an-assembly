@@ -76,8 +76,8 @@ onEvent('recipes', event => {
     event.remove({ output: 'mekanism:fluorite_gem' });
     event.remove({ id: 'mekanism:enriching/charcoal' });
     const _pp2 = {
-        coal: 'minecraft:coal', charcoal: 'minecraft:charcoal', fluorite: 'mekanism:fluorite_gem',
-        coal_coke: 'immersiveengineering:coal_coke', coal_petcoke: 'immersivepetroleum:petcoke'
+        //coal: 'minecraft:coal', charcoal: 'minecraft:charcoal',
+        fluorite: 'mekanism:fluorite_gem', coal_coke: 'immersiveengineering:coal_coke', coal_petcoke: 'immersivepetroleum:petcoke'
     };
     Object.keys(_pp2).forEach(A => {
         rm1(event, [_pp2[A]], ral); dust(_pp2[A], '#forge:dusts/' + A);

@@ -304,26 +304,9 @@
 		}
 		{
 			x: -7.0d
-			y: -2.5d
-			dependencies: ["6117DA6A3053C6E8"]
-			id: "60DD51BF156EAD76"
-			tasks: [{
-				id: "4E5ED0DA97BACE21"
-				type: "item"
-				item: "mekanism:qio_drive_array"
-			}]
-			rewards: [{
-				id: "58C51D558F191182"
-				type: "item"
-				item: "levelhearts:heart_container"
-				count: 40
-			}]
-		}
-		{
-			x: -7.0d
 			y: -1.5d
 			description: ["As I watch the goo eventually recede, I can only wonder why so much had to be lost."]
-			dependencies: ["60DD51BF156EAD76"]
+			dependencies: ["44D57D804B25B4BB"]
 			hide_text_until_complete: true
 			id: "646F91C256FC0100"
 			tasks: [{
@@ -339,6 +322,23 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["6117DA6A3053C6E8"]
+			id: "44D57D804B25B4BB"
+			tasks: [{
+				id: "1A55BA186E6F68AE"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "26061D9FE69EDBB9"
+				type: "item"
+				item: "levelhearts:heart_container"
+				count: 40
 			}]
 		}
 	]

@@ -12,6 +12,7 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('create:crushed_uranium_ore', '§3Mining requires liquid Hydrofluoric Acid or Sulfuric Acid.');
     tooltip.add('mekanism:dust_obsidian', '§3Generates naturally deep underground in hot biomes.');
 
+    tooltip.add('origins:orb_of_origin', '§3Look for active power on the control list to know/change the keybinds!');
     tooltip.add('create:chute', '§3Can be placed on top of Little Logistics Docks for automation.');
     tooltip.add('mekanism:qio_drive_array', '§3Has a natural attraction to some items.');
 

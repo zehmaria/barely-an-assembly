@@ -593,6 +593,7 @@
 		{
 			x: 13.5d
 			y: -3.0d
+			description: ["Warning: I noticed the projector failling, some mixin conflict. But Create's schemes work, so use that instead."]
 			dependencies: ["64049741B48A97D2"]
 			id: "2F407D9C5EA1E717"
 			tasks: [{
@@ -1671,6 +1672,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
+			description: ["Maybe try rick-clinking the monolith with."]
 			dependencies: ["09854EC032600B12"]
 			id: "4E36846876CCBC86"
 			tasks: [{
@@ -1895,6 +1897,7 @@
 			x: 11.5d
 			y: 2.0d
 			dependencies: ["3CB72785C793B8C2"]
+			hide: true
 			id: "3C7B39238C165C02"
 			tasks: [
 				{
@@ -1961,6 +1964,7 @@
 				"12B3E35CCA705CCA"
 				"5CA9FFD068CE3C67"
 			]
+			hide: true
 			id: "405B8E02287025D9"
 			tasks: [{
 				id: "065B6E37281354CA"
@@ -1996,6 +2000,7 @@
 				"52AFB86779B7D7E6"
 				"74EDE0E1DC1D77C8"
 			]
+			hide: true
 			id: "7F656201102CDA34"
 			tasks: [{
 				id: "5EAC0B2A6F855A44"
@@ -2017,6 +2022,7 @@
 				"481D70D4771B51A3"
 				"271CC22D16943A00"
 			]
+			hide: true
 			id: "1403E9BD44955C8F"
 			tasks: [{
 				id: "697ED2326ACDD1B4"

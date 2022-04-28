@@ -5,11 +5,6 @@
     "minecraft:bedrock",
     "minecraft:crying_obsidian",
     "minecraft:obsidian",
-    "minecraft:grass_block",
-    "minecraft:dirt",
-    "minecraft:sand",
-    "minecraft:sandstone",
-    "minecraft:podzol",
      "diregoo:gooblock",
      "diregoo:gooblockterrain"
   ]

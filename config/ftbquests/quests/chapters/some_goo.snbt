@@ -45,6 +45,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
+			description: ["Maybe I should try throwing into the ground around the monolith."]
 			dependencies: ["7982C0345C7F4ED5"]
 			hide: true
 			id: "457F0B861B186E79"

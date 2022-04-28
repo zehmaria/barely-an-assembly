@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d
+			x: -2.0d
 			y: -4.5d
 			dependencies: ["7441D95046A770F4"]
 			hide: true
@@ -20,7 +20,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -2.0d
 			y: -3.5d
 			dependencies: [
 				"23704C25EAA5A23F"
@@ -35,7 +35,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -4.5d
 			dependencies: ["026EAB30C11A0392"]
 			id: "5E3A2E5E34E2114C"
@@ -53,7 +53,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -1.0d
 			y: -4.5d
 			dependencies: ["026EAB30C11A0392"]
 			id: "3EA8679A476D23CD"
@@ -86,7 +86,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -1.0d
 			y: -3.5d
 			dependencies: ["026EAB30C11A0392"]
 			dependency_requirement: "one_completed"
@@ -115,12 +115,12 @@
 				{
 					id: "41ADC87E4D073D5F"
 					type: "item"
-					item: "appliedenergistics2:crafting_terminal"
+					item: "appliedenergistics2:terminal"
 				}
 			]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: 1.5d
 			dependencies: ["5176BB79BB08F83F"]
 			id: "64920EE0E6806961"
@@ -153,7 +153,7 @@
 			]
 		}
 		{
-			x: -7.5d
+			x: -6.0d
 			y: 0.5d
 			dependencies: ["64920EE0E6806961"]
 			id: "507D770E74164805"
@@ -164,7 +164,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: 0.0d
 			dependencies: ["1F54585B8D5519EB"]
 			id: "5176BB79BB08F83F"
@@ -175,7 +175,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -4.0d
 			y: 0.5d
 			dependencies: ["64920EE0E6806961"]
 			id: "55E1702F888F8092"
@@ -186,7 +186,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -6.5d
 			y: 1.5d
 			dependencies: ["64920EE0E6806961"]
 			id: "2CC3D77E397E652F"
@@ -197,7 +197,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -3.5d
 			y: 1.5d
 			dependencies: ["64920EE0E6806961"]
 			id: "27C929FDBA52A652"
@@ -208,7 +208,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -6.0d
 			y: 2.5d
 			dependencies: ["64920EE0E6806961"]
 			dependency_requirement: "one_completed"
@@ -220,7 +220,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: 3.0d
 			dependencies: ["64920EE0E6806961"]
 			id: "36D0C8CF2ED7E258"
@@ -231,7 +231,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -4.0d
 			y: 2.5d
 			dependencies: ["64920EE0E6806961"]
 			id: "359717681537AC2B"
@@ -242,9 +242,9 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: -3.5d
-			dependencies: ["54448B46E2D0F6D8"]
+			x: -9.5d
+			y: -1.5d
+			dependencies: ["06DBD9EE856BC2A2"]
 			id: "5BF67B631AD6E5A4"
 			tasks: [{
 				id: "74EFF732B0571F4A"
@@ -253,8 +253,8 @@
 			}]
 		}
 		{
-			x: -18.5d
-			y: -3.5d
+			x: -9.0d
+			y: -0.5d
 			dependencies: [
 				"20F1A1B93282D4AB"
 				"5BF67B631AD6E5A4"
@@ -275,9 +275,12 @@
 			]
 		}
 		{
-			x: -14.0d
-			y: -1.5d
-			dependencies: ["7DFE1B5D46D6EE7B"]
+			x: -10.5d
+			y: 1.5d
+			dependencies: [
+				"6CBD2F4D6084FB7C"
+				"4D70B707330C4F0E"
+			]
 			id: "7151063609CDDC8A"
 			tasks: [{
 				id: "0AD7A803B3C4175A"
@@ -286,8 +289,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: -0.5d
+			x: -10.5d
+			y: 2.5d
 			dependencies: ["7151063609CDDC8A"]
 			id: "73DC68056229A1AE"
 			tasks: [
@@ -314,8 +317,8 @@
 			]
 		}
 		{
-			x: -17.5d
-			y: -4.5d
+			x: -10.0d
+			y: -0.5d
 			dependencies: ["5BF67B631AD6E5A4"]
 			id: "47BB87EDA58DC838"
 			tasks: [{
@@ -325,7 +328,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 0.0d
 			y: -1.5d
 			dependencies: ["1A76EB2CD687AD8E"]
 			id: "40D837938A52D6F9"
@@ -353,8 +356,8 @@
 			]
 		}
 		{
-			x: -16.5d
-			y: -4.5d
+			x: -9.0d
+			y: 0.5d
 			dependencies: ["47BB87EDA58DC838"]
 			id: "4F1B52368773B52C"
 			tasks: [
@@ -371,8 +374,8 @@
 			]
 		}
 		{
-			x: -17.5d
-			y: -5.5d
+			x: -10.0d
+			y: 0.5d
 			dependencies: ["47BB87EDA58DC838"]
 			id: "6CBD2F4D6084FB7C"
 			tasks: [
@@ -389,8 +392,8 @@
 			]
 		}
 		{
-			x: -18.5d
-			y: -4.5d
+			x: -11.0d
+			y: 0.5d
 			dependencies: ["47BB87EDA58DC838"]
 			id: "4D70B707330C4F0E"
 			tasks: [{
@@ -423,7 +426,7 @@
 		}
 		{
 			x: -12.5d
-			y: -4.5d
+			y: -4.0d
 			dependencies: ["247478773D5A56C8"]
 			hide: true
 			id: "30F352575DD85E7D"
@@ -478,7 +481,7 @@
 		}
 		{
 			disable_toast: true
-			x: -6.5d
+			x: -5.0d
 			y: -2.5d
 			dependencies: [
 				"06DBD9EE856BC2A2"
@@ -645,8 +648,8 @@
 			x: -16.0d
 			y: -0.5d
 			dependencies: [
-				"1838A0274CF758C9"
 				"11ACD026D8D3A298"
+				"1838A0274CF758C9"
 			]
 			hide: true
 			id: "624050E329E41803"
@@ -718,7 +721,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -6.0d
 			y: -0.5d
 			dependencies: ["1F54585B8D5519EB"]
 			id: "3CED0A53DBEBC422"
@@ -763,7 +766,7 @@
 		}
 		{
 			disable_toast: true
-			x: -3.5d
+			x: -2.0d
 			y: -2.5d
 			dependencies: [
 				"1F54585B8D5519EB"
@@ -778,7 +781,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -1.5d
 			y: -5.5d
 			dependencies: ["23704C25EAA5A23F"]
 			id: "122920CE9FCAE5EB"
@@ -789,7 +792,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -2.5d
 			y: -5.5d
 			dependencies: ["23704C25EAA5A23F"]
 			id: "1E203242589B56EC"
@@ -808,7 +811,7 @@
 		}
 		{
 			disable_toast: true
-			x: -1.5d
+			x: 0.0d
 			y: -2.5d
 			dependencies: [
 				"3922EB0459C1BFC6"
@@ -823,7 +826,7 @@
 			}]
 		}
 		{
-			x: -13.0d
+			x: -13.5d
 			y: -1.5d
 			dependencies: ["7DFE1B5D46D6EE7B"]
 			id: "5943AF95FDFD02BB"
@@ -898,7 +901,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -4.0d
 			y: -0.5d
 			dependencies: ["1F54585B8D5519EB"]
 			id: "6231568E38CBD9E0"
@@ -917,12 +920,11 @@
 		}
 		{
 			disable_toast: true
-			x: 0.5d
+			x: 2.0d
 			y: -2.5d
 			dependencies: [
 				"21C55F3CDE5DE98E"
 				"1A76EB2CD687AD8E"
-				"60DD51BF156EAD76"
 			]
 			hide: true
 			id: "20D59327E43D24C9"
@@ -933,7 +935,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.5d
 			y: -3.5d
 			dependencies: ["20D59327E43D24C9"]
 			id: "1BD9108368305CC9"
@@ -949,7 +951,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.5d
 			y: -4.5d
 			dependencies: ["1BD9108368305CC9"]
 			id: "31A665C33A5F376F"
@@ -965,7 +967,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.5d
 			y: -5.5d
 			dependencies: ["31A665C33A5F376F"]
 			id: "6CF008020A0609C4"
@@ -981,7 +983,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.5d
 			y: -6.5d
 			dependencies: ["6CF008020A0609C4"]
 			id: "595BDC48D6333B9B"
@@ -997,7 +999,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: -2.5d
 			dependencies: ["20D59327E43D24C9"]
 			id: "285E52EBE49CEACB"
@@ -1013,7 +1015,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.5d
 			y: -1.5d
 			dependencies: ["20D59327E43D24C9"]
 			id: "099C3E648E850E72"
@@ -1069,7 +1071,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -3.5d
 			y: -1.5d
 			dependencies: ["1F54585B8D5519EB"]
 			id: "5E93E707B43C900C"
@@ -1080,7 +1082,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -0.5d
 			dependencies: ["5E93E707B43C900C"]
 			id: "7E34671B6AE6618F"
@@ -1091,7 +1093,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -2.5d
 			y: 0.5d
 			dependencies: ["7E34671B6AE6618F"]
 			id: "37754A969C978DB6"
@@ -1102,7 +1104,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -6.5d
 			y: -1.5d
 			dependencies: ["1F54585B8D5519EB"]
 			id: "522176B52EA01354"
@@ -1113,7 +1115,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -7.0d
 			y: -0.5d
 			dependencies: ["522176B52EA01354"]
 			id: "4467694131FFDE27"
@@ -1124,7 +1126,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -7.5d
 			y: 0.5d
 			dependencies: ["4467694131FFDE27"]
 			id: "0231AD5C70FDEC49"
@@ -1135,7 +1137,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: -3.5d
 			dependencies: ["1F54585B8D5519EB"]
 			id: "4238D2995E2D743A"
@@ -1163,9 +1165,9 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
-			dependencies: ["1A76EB2CD687AD8E"]
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["6547622570CB0F47"]
 			id: "6779F137A319F542"
 			tasks: [
 				{
@@ -1181,7 +1183,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -3.5d
 			dependencies: ["3922EB0459C1BFC6"]
 			id: "455116A07E6A2E68"
@@ -1199,7 +1201,7 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: -4.5d
 			dependencies: ["4238D2995E2D743A"]
 			id: "74D7468202917137"
@@ -1241,7 +1243,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: -5.5d
 			dependencies: ["74D7468202917137"]
 			id: "6547622570CB0F47"

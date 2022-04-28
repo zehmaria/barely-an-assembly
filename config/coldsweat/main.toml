@@ -20,7 +20,7 @@ ShowConfigButton = true
 	"Fire Resistance Immunity" = false
 	#Ice Resistance blocks all cold temperatures
 	"Ice Resistance Immunity" = false
-	#Thermometer item is required to see ambient temperature
+	#Thermometer item is required to see world temperature
 	"Require Thermometer" = true
 
 ["Misc things that are affected by temperature"]
@@ -39,7 +39,6 @@ ShowConfigButton = true
 	#Format (All temperatures are in Minecraft units):
 	#["block ids (separated by ",")", <temperature>, <range (max 7)>, <*true/false: weaken over distance>, <*max effect (temperature)>, <*min effect (temperature)>]
 	#(* = optional) (1 °MC = 42 °F/ 23.33 °C)
-	#(the effect of the example below (torch) is so low that it does barely anything. It's purely for demonstration)
 	BlockEffects = [["diregoo:gooblockterrain", 2, 2, true], ["diregoo:gooblock", -1, 2, true]]
 
 ["Hearth Strength"]

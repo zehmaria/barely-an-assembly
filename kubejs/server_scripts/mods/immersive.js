@@ -17,15 +17,17 @@ onEvent('recipes', event => {
 
         ['immersiveengineering:turret_gun',             [[ltx, rev, ltx], [Irm, Cc1, Irm], [_K1, Cc1, _K1]]],
         ['immersiveengineering:razor_wire',             [[Mfe, rod, Mfe]]],
-        ['immersiveengineering:hemp_fabric',            [[Itf, Itf, Itf], [Itf, Its, Itf], [Itf, Itf, Itf]]],
+        ['immersiveengineering:hemp_fabric',            [[_I1, _I1, _I1], [_I1, stk, _I1], [_I1, _I1, _I1]]],
         ['immersiveengineering:windmill',               [[__b, __b, __b], [__b, mm1, __b], [__b, __b, __b]]],
         ['immersiveengineering:windmill_blade',         [[plk, plk, tST], [stk, ltx, plk], [stk, stk, air]]],
+        ['immersiveengineering:windmill_sail',          [[tWe, Ihf, Ihf], [Ihf, Ihf, Ihf], [Its, Ihf, tWe]]],
 
         ['immersiveengineering:dynamo',             [[tPc, tPi, tPc], [tDg, tRi, tDl], [tPc, _K1, tPc]]],
         ['immersiveengineering:workbench',              [[Caa, __s, __s], [Mct, air, 'immersiveposts:fence_copper']]],
         ['12x immersiveengineering:electric_lantern',    [[Apq, mm1], [Cc2, 'createaddition:capacitor']]],
 
         ['immersiveengineering:gunpart_hammer',         [[tPi, air, air], [tPi, tPi, air], [air, tPi, tPi]]],
+        ['immersiveengineering:speedloader',            [[air, air, tPi], [tPi, tPi, tPe], [air, air, tPi]]],
         ['immersiveengineering:gunpart_drum',           [[air, tPi, air], [tPi, _I2, tPi], [air, tPi, air]]],
         ['immersiveengineering:gunpart_barrel',         [[tRi, tRi]]],
         ['immersiveengineering:wooden_grip',            [[stk, stk], [tIc, stk], [stk, stk]]],
